@@ -198,3 +198,7 @@ h3 { margin: 0; }
 /* home: book-only hero and featured panel */
 .fan.solo .fan-card.tall { left: 28%; width: 40%; top: 4%; }
 .featured.solo { grid-template-columns: minmax(0, 1fr); }
+.fan.solo .fan-stage { transform: none; animation: floaty 7s ease-in-out infinite alternate; }
+.fan.solo .fan-card.tall { transform: none; left: 50%; width: auto; height: 92%; top: 4%; translate: -50% 0; border-radius: 6px 10px 10px 6px; }
+@keyframes floaty { from { transform: translateY(6px); } to { transform: translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .fan.solo .fan-stage { animation: none; } }
