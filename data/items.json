@@ -108,7 +108,7 @@
   ],
   "projects": [],
   "links": [
-    { "id": "x", "icon": "x", "label": "X", "handle": "@dylan_asdale", "href": "https://x.com/dylan_asdale" },
+    { "id": "x", "icon": "x", "label": "X", "handle": "@DylanAsdaleAI", "href": "https://x.com/DylanAsdaleAI" },
     { "id": "threads", "icon": "threads", "label": "Threads", "handle": "@dylanasdale", "href": "https://www.threads.com/@dylanasdale" },
     { "id": "bluesky", "icon": "bluesky", "label": "Bluesky", "handle": "@dylan-asdale.bsky.social", "href": "https://bsky.app/profile/dylan-asdale.bsky.social" },
     { "id": "amazon", "icon": "book", "label": "Amazon", "handle": "The Massive AI Manual", "href": "https://www.amazon.com/dp/B0HMBQH1KX" },
