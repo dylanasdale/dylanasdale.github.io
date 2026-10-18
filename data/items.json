@@ -1,0 +1,118 @@
+{
+  "_readme": "Everything on the shelves comes from this file. Add an object to a list and push; no build step. See README.md for every field.",
+  "books": [
+    {
+      "id": "massive-ai-manual",
+      "tag": "Book",
+      "title": "The Massive AI Manual",
+      "subtitle": "The Friendly, Step-by-Step Guide to ChatGPT, Claude, Gemini, Copilot and Beyond",
+      "meta": "Kindle · Paperback · Hardcover",
+      "image": "/assets/img/books/massive-ai-manual-480.webp",
+      "imageAlt": "Cover of The Massive AI Manual by Dylan Asdale",
+      "imageWidth": 480,
+      "imageHeight": 768,
+      "links": [
+        { "label": "Get the Kindle ebook", "href": "https://www.amazon.com/dp/B0HMBQH1KX", "primary": true },
+        { "label": "Companion site & free sample", "href": "https://themassiveaimanual.github.io/" }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "guides-for-everything",
+      "tag": "Free library",
+      "free": true,
+      "title": "Guides for Everything AI",
+      "subtitle": "A free library of 21 print-ready manuals on Claude Code, GitHub, MCP, n8n, Notion, local AI and more.",
+      "meta": "21 volumes · Free PDFs",
+      "image": "/assets/img/guides/claude-code.webp",
+      "imageAlt": "Cover of the Claude Code manual from Guides for Everything AI",
+      "imageWidth": 400,
+      "imageHeight": 518,
+      "links": [
+        { "label": "Browse the library", "href": "https://guidesforeverythingai.github.io/", "primary": true }
+      ]
+    },
+    {
+      "id": "guide-claude-code",
+      "tag": "Free guide",
+      "free": true,
+      "title": "Claude Code",
+      "subtitle": "Your first AI coding partner, from installation to every slash command, shortcut, and everyday project.",
+      "meta": "Vol. 01 · PDF",
+      "image": "/assets/img/guides/claude-code.webp",
+      "imageAlt": "Cover of Claude Code",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/claude-code.pdf" }]
+    },
+    {
+      "id": "guide-vibe-coding",
+      "tag": "Free guide",
+      "free": true,
+      "title": "Vibe Coding",
+      "subtitle": "Build real apps, websites, extensions and tools by describing them in plain English.",
+      "meta": "Vol. 03 · PDF",
+      "image": "/assets/img/guides/vibe-coding.webp",
+      "imageAlt": "Cover of Vibe Coding",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/vibe-coding.pdf" }]
+    },
+    {
+      "id": "guide-mcp",
+      "tag": "Free guide",
+      "free": true,
+      "title": "MCP",
+      "subtitle": "The Model Context Protocol, the universal way to plug AI into your apps, files, and tools.",
+      "meta": "Vol. 05 · PDF",
+      "image": "/assets/img/guides/mcp.webp",
+      "imageAlt": "Cover of MCP",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/mcp.pdf" }]
+    },
+    {
+      "id": "guide-maximum-autonomy",
+      "tag": "Free guide",
+      "free": true,
+      "title": "Maximum Autonomy",
+      "subtitle": "Every setting, flag, config file, and token choice for hands-off AI agents, tool by tool.",
+      "meta": "Vol. 08 · PDF",
+      "image": "/assets/img/guides/maximum-autonomy.webp",
+      "imageAlt": "Cover of Maximum Autonomy",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/maximum-autonomy.pdf" }]
+    },
+    {
+      "id": "guide-local-ai",
+      "tag": "Free guide",
+      "free": true,
+      "title": "Running AI Locally",
+      "subtitle": "Ollama, LM Studio, Jan and llama.cpp on your own PC, with honest GPU and memory tuning for beginners.",
+      "meta": "Vol. 11 · PDF",
+      "image": "/assets/img/guides/local-ai.webp",
+      "imageAlt": "Cover of Running AI Locally",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/local-ai.pdf" }]
+    },
+    {
+      "id": "guide-ai-agents",
+      "tag": "Free guide",
+      "free": true,
+      "title": "AI Agents & Multi-Agent Workflows",
+      "subtitle": "Hand off real work to AI agents, and fan one question out to several AIs at once.",
+      "meta": "Vol. 13 · PDF",
+      "image": "/assets/img/guides/ai-agents.webp",
+      "imageAlt": "Cover of AI Agents & Multi-Agent Workflows",
+      "imageWidth": 400, "imageHeight": 518,
+      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/ai-agents.pdf" }]
+    }
+  ],
+  "projects": [],
+  "links": [
+    { "id": "x", "icon": "x", "label": "X", "handle": "@dylan_asdale", "href": "https://x.com/dylan_asdale" },
+    { "id": "threads", "icon": "threads", "label": "Threads", "handle": "@dylanasdale", "href": "https://www.threads.com/@dylanasdale" },
+    { "id": "bluesky", "icon": "bluesky", "label": "Bluesky", "handle": "@dylan-asdale.bsky.social", "href": "https://bsky.app/profile/dylan-asdale.bsky.social" },
+    { "id": "amazon", "icon": "book", "label": "Amazon", "handle": "The Massive AI Manual", "href": "https://www.amazon.com/dp/B0HMBQH1KX" },
+    { "id": "companion", "icon": "globe", "label": "Companion site", "handle": "themassiveaimanual.github.io", "href": "https://themassiveaimanual.github.io/" },
+    { "id": "guides", "icon": "globe", "label": "Free manuals", "handle": "guidesforeverythingai.github.io", "href": "https://guidesforeverythingai.github.io/" }
+  ]
+}
