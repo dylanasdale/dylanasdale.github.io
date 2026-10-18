@@ -194,3 +194,7 @@ h3 { margin: 0; }
   *, *::before, *::after { transition-duration: .01ms !important; }
   .cover:hover { transform: none; }
 }
+
+/* home: book-only hero and featured panel */
+.fan.solo .fan-card.tall { left: 28%; width: 40%; top: 4%; }
+.featured.solo { grid-template-columns: minmax(0, 1fr); }
