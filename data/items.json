@@ -10,7 +10,7 @@
       "image": "/assets/img/books/massive-ai-manual-480.webp",
       "imageAlt": "Cover of The Massive AI Manual by Dylan Asdale",
       "imageWidth": 480,
-      "imageHeight": 768,
+      "imageHeight": 600,
       "links": [
         { "label": "Get the Kindle ebook", "href": "https://www.amazon.com/dp/B0HMBQH1KX", "primary": true },
         { "label": "Companion site & free sample", "href": "https://themassiveaimanual.github.io/" }
