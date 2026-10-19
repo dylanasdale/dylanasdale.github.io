@@ -122,6 +122,59 @@
     </div>
   </section>
 
+  <section class="section" aria-labelledby="signup-title">
+    <div class="signup">
+      <div class="signup-copy">
+        <p class="tag">Free sample</p>
+        <h2 id="signup-title">Get the free sample <em>chapter.</em></h2>
+        <p class="shelf-note">Read the opening chapter of <i>The Massive AI Manual</i> free, right in your browser. Pop in your email and the link is yours.</p>
+      </div>
+      <!-- Massive AI Manual: free sample chapter signup -->
+      <form id="tmam-signup" class="signup-form" data-source="hub-home">
+        <label for="tmam-email" class="signup-label">Your email</label>
+        <div class="signup-row">
+          <input id="tmam-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+          <button type="submit" class="btn primary">Send it <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 3.5 13.5 8 9 12.5"/></svg></button>
+        </div>
+        <!-- honeypot: humans never see or fill this -->
+        <div aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">
+          <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <p class="signup-fine">Get the free sample chapter. I'll occasionally email AI tips and book news; unsubscribe anytime.</p>
+        <p id="tmam-msg" class="signup-msg" role="status"></p>
+      </form>
+    </div>
+  </section>
+<script>
+(function () {
+  var f = document.getElementById('tmam-signup');
+  if (!f) return;
+  var msg = document.getElementById('tmam-msg');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = f.querySelector('button'); btn.disabled = true; msg.textContent = 'Sending…';
+    fetch('https://dvrgbfaa6uh56f4c2bbknmb4uq0bcgmi.lambda-url.us-east-2.on.aws/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: f.email.value,
+        website: f.website.value,
+        source: f.getAttribute('data-source') || location.hostname
+      })
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      if (d.ok) {
+        msg.innerHTML = 'Thanks! <a href="' + d.download_url + '">Read the free sample chapter →</a>';
+        f.email.value = '';
+      } else {
+        msg.textContent = d.error === 'invalid_email' ? 'Please enter a valid email address.' : 'Something went wrong. Please try again.';
+      }
+    }).catch(function () {
+      msg.textContent = 'Network error. Please try again.';
+    }).finally(function () { btn.disabled = false; });
+  });
+})();
+</script>
+
   <section class="section panel" aria-labelledby="projects-title">
     <div class="section-head"><div><h2 id="projects-title">Projects</h2><p class="shelf-note">Room for whatever comes next: new books, tools and experiments.</p></div><a class="more" href="/projects/">Projects page →</a></div>
     <ul class="shelf" data-list="projects"></ul>
