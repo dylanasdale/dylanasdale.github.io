@@ -1,0 +1,222 @@
+{
+  "title": "Every AWS Service on the Free Plan",
+  "source": "https://docs.aws.amazon.com/accounts/latest/reference/supported-services-sign-up-new.html",
+  "checked": "2026-10-18",
+  "categories": [
+    {
+      "name": "Compute",
+      "blurb": "Run code, from full virtual servers to functions that only exist while a request is running.",
+      "services": [
+        { "name": "Amazon EC2", "desc": "Virtual servers in the cloud. Pick the CPU, memory, operating system and storage, then start and stop machines on demand.", "note": "Capacity Block purchases aren't available." },
+        { "name": "AWS Lambda", "desc": "Runs your code in response to events, like an HTTP request or a file upload, without any servers to manage. You pay per request and per millisecond.", "note": "Lambda@Edge isn't available." },
+        { "name": "Amazon Lightsail", "desc": "The simplest way to launch a server, website or database, with bundled storage and networking at a fixed monthly price." },
+        { "name": "AWS Elastic Beanstalk", "desc": "Upload your web app and it handles the servers, load balancing, scaling and health monitoring for you." },
+        { "name": "AWS Batch", "desc": "Queues and runs large numbers of batch jobs, picking the right amount of compute and scaling it up and down." },
+        { "name": "EC2 Image Builder", "desc": "Automates building, testing and patching the machine images and container images your servers start from." },
+        { "name": "Application Auto Scaling", "desc": "Adds or removes capacity for services like ECS, DynamoDB and Aurora automatically as demand changes." },
+        { "name": "Elastic Load Balancing", "desc": "Spreads incoming traffic across servers, containers or functions, and stops sending it to anything unhealthy." },
+        { "name": "AWS Serverless Application Repository", "desc": "A catalog of ready-made serverless apps you can deploy to your account in a few clicks." },
+        { "name": "AWS Launch Wizard", "desc": "Guided setup for complex software such as Microsoft SQL Server and SAP, sizing and deploying the AWS resources for you." }
+      ]
+    },
+    {
+      "name": "Containers",
+      "blurb": "Package apps into containers and run them on managed clusters.",
+      "services": [
+        { "name": "Amazon Elastic Container Service (ECS)", "desc": "AWS's own container orchestrator. Run Docker containers on EC2 or on serverless Fargate capacity." },
+        { "name": "Amazon Elastic Kubernetes Service (EKS)", "desc": "Managed Kubernetes. AWS runs the control plane so you only manage your workloads." },
+        { "name": "Amazon EKS Anywhere", "desc": "Run the same EKS-style Kubernetes on your own hardware, in your data center or on VMware." },
+        { "name": "Amazon Elastic Container Registry (ECR)", "desc": "Private registry for storing, scanning and sharing your container images." },
+        { "name": "Amazon ECR Public", "desc": "Public registry for publishing container images that anyone can pull." },
+        { "name": "AWS App2Container", "desc": "Command-line tool that packages existing Java and .NET apps into containers, ready for ECS or EKS." }
+      ]
+    },
+    {
+      "name": "Storage and Backup",
+      "blurb": "Keep files, disks and backups safe and available.",
+      "services": [
+        { "name": "Amazon S3", "desc": "Object storage for any amount of data: files, images, backups, static websites and data lakes.", "note": "S3 Access Grants isn't available." },
+        { "name": "Amazon Elastic Block Store (EBS)", "desc": "Hard drives for EC2 servers. Block storage volumes with snapshots you can copy and restore." },
+        { "name": "Amazon Elastic File System (EFS)", "desc": "A shared file system that many servers and containers can mount at once, and that grows and shrinks automatically." },
+        { "name": "AWS Backup", "desc": "One place to schedule, manage and audit backups across EC2, EBS, RDS, DynamoDB, EFS, S3 and more." },
+        { "name": "AWS DataSync", "desc": "Moves large amounts of data between on-premises storage, other clouds and AWS storage, fast and on a schedule." },
+        { "name": "AWS Backint Agent", "desc": "SAP-certified agent that backs up SAP HANA databases on EC2 straight to Amazon S3." }
+      ]
+    },
+    {
+      "name": "Databases",
+      "blurb": "Managed relational, NoSQL, in-memory and time-series databases.",
+      "services": [
+        { "name": "Amazon RDS", "desc": "Managed relational databases: MySQL, PostgreSQL, MariaDB, SQL Server and Oracle. AWS handles patching, backups and failover." },
+        { "name": "Amazon Aurora", "desc": "AWS's high-performance MySQL- and PostgreSQL-compatible database, with a serverless option that scales automatically." },
+        { "name": "Amazon Aurora DSQL", "desc": "Serverless, distributed PostgreSQL-compatible database built for always-on apps, with no servers to size." },
+        { "name": "Amazon DynamoDB", "desc": "Serverless NoSQL key-value and document database with single-digit-millisecond responses at any scale." },
+        { "name": "Amazon ElastiCache", "desc": "Managed in-memory caching with Valkey, Redis OSS or Memcached, to make apps and databases faster." },
+        { "name": "Amazon Timestream", "desc": "Time-series database for metrics, IoT readings and other data that arrives as a stream of timestamped values." },
+        { "name": "AWS SQL Workbench", "desc": "Browser-based SQL editor with notebooks, charts and AI-assisted query writing, for exploring data in AWS databases such as Amazon Redshift." }
+      ]
+    },
+    {
+      "name": "Analytics and Data",
+      "blurb": "Query, move, clean, govern and visualize data.",
+      "services": [
+        { "name": "Amazon Athena", "desc": "Run SQL directly on files stored in S3. No servers or loading step, and you pay per query." },
+        { "name": "AWS Glue", "desc": "Serverless data integration: discover, catalog, clean and transform data with ETL jobs." },
+        { "name": "AWS Lake Formation", "desc": "Builds and secures a data lake on S3, with fine-grained permissions down to rows and columns." },
+        { "name": "Amazon DataZone", "desc": "A data catalog and portal for finding, sharing and governing data across teams." },
+        { "name": "Amazon OpenSearch Service", "desc": "Managed OpenSearch for full-text search, log analytics and vector search." },
+        { "name": "Amazon OpenSearch Serverless", "desc": "OpenSearch without clusters to manage. Capacity scales automatically with your search and analytics workload." },
+        { "name": "Amazon Managed Workflows for Apache Airflow", "desc": "Managed Apache Airflow for scheduling and running data pipelines." },
+        { "name": "AWS Data Pipeline", "desc": "An older service for moving and processing data between AWS compute and storage on a schedule." },
+        { "name": "AWS Entity Resolution", "desc": "Matches and links records about the same customer, product or business across different datasets." },
+        { "name": "Amazon AppFlow", "desc": "No-code data transfers between SaaS apps such as Salesforce, Slack and Zendesk and AWS services like S3." },
+        { "name": "Amazon Quick", "desc": "AI-powered workspace that combines business intelligence dashboards (Quick Sight), research and chat agents over your company's data.", "note": "Only the Quick Free and Quick Plus editions are available." }
+      ]
+    },
+    {
+      "name": "AI and Machine Learning",
+      "blurb": "Foundation models, agents, and ready-made AI for images, speech and language.",
+      "services": [
+        { "name": "Amazon Bedrock", "desc": "API access to foundation models from Anthropic, Amazon, Meta, Mistral and others, plus tools for knowledge bases, guardrails and agents." },
+        { "name": "Amazon Bedrock AgentCore", "desc": "Infrastructure to deploy and run AI agents securely at scale: runtime, memory, identity, tool gateway and observability, with any framework or model." },
+        { "name": "Amazon SageMaker", "desc": "AWS's unified platform for data, analytics and AI, bringing data processing, SQL analytics and model development together." },
+        { "name": "Amazon SageMaker AI", "desc": "Build, train, tune and deploy machine learning models with managed notebooks, training jobs and hosted endpoints." },
+        { "name": "Amazon SageMaker Unified Studio", "desc": "One development environment for working with data, analytics and AI models across SageMaker and Bedrock." },
+        { "name": "Amazon Augmented AI (A2I)", "desc": "Adds human review to machine learning predictions, sending low-confidence results to people to check." },
+        { "name": "Amazon Rekognition", "desc": "Image and video analysis: detect objects, text, faces and unsafe content with an API call." },
+        { "name": "Amazon Polly", "desc": "Turns text into lifelike speech in dozens of languages and voices." },
+        { "name": "Amazon Lex", "desc": "Builds chatbots and voice bots that understand natural language, using the same technology as Alexa." },
+        { "name": "Amazon CodeGuru Profiler", "desc": "Profiles running Java and Python apps to find the most expensive lines of code and suggest fixes." }
+      ]
+    },
+    {
+      "name": "Networking and Content Delivery",
+      "blurb": "Private networks, DNS, and getting content to users quickly.",
+      "services": [
+        { "name": "Amazon VPC", "desc": "Your own private, isolated network in AWS, with subnets, route tables, gateways and firewalls." },
+        { "name": "Amazon CloudFront", "desc": "Global content delivery network that caches your site, APIs and video close to users.", "note": "Lambda@Edge isn't available." },
+        { "name": "Amazon Route 53", "desc": "DNS and domain registration, with health checks and traffic routing." },
+        { "name": "Amazon Route 53 Application Recovery Controller (ARC)", "desc": "Readiness checks and routing controls for shifting traffic away from an impaired location during recovery." },
+        { "name": "Amazon API Gateway", "desc": "Create, publish and secure REST, HTTP and WebSocket APIs in front of Lambda functions or other back ends." },
+        { "name": "AWS PrivateLink", "desc": "Private connections from your VPC to AWS services and other VPCs, without traffic crossing the public internet." },
+        { "name": "AWS Cloud Map", "desc": "Service discovery: register your app's resources by name so other services can always find them." },
+        { "name": "AWS Network Manager", "desc": "A central view for monitoring and managing your global network across AWS and on-premises sites." },
+        { "name": "AWS Data Transfer", "desc": "Moving data into, out of and within AWS. It's billed per gigabyte rather than run as a service, and most inbound transfer is free." }
+      ]
+    },
+    {
+      "name": "App Integration",
+      "blurb": "Connect services together with queues, events, notifications and workflows.",
+      "services": [
+        { "name": "Amazon SQS", "desc": "Fully managed message queues that let parts of your app hand work to each other reliably." },
+        { "name": "Amazon SNS", "desc": "Publish-subscribe messaging that fans messages out to queues, functions, email, SMS and mobile push." },
+        { "name": "Amazon EventBridge", "desc": "Serverless event bus that routes events between AWS services, SaaS apps and your own code, plus a scheduler." },
+        { "name": "AWS Step Functions", "desc": "Visual workflows that coordinate Lambda functions and AWS services, with retries and error handling built in." },
+        { "name": "Amazon Simple Workflow Service (SWF)", "desc": "An older service for coordinating multi-step background jobs and tracking their state." },
+        { "name": "Amazon MQ", "desc": "Managed Apache ActiveMQ and RabbitMQ message brokers, for apps that already use those protocols." },
+        { "name": "AWS B2B Data Interchange", "desc": "Automates the exchange and transformation of EDI business documents such as orders and invoices with trading partners." }
+      ]
+    },
+    {
+      "name": "Web, Mobile and Messaging",
+      "blurb": "Build front ends, sign users in, and reach them by email and chat.",
+      "services": [
+        { "name": "AWS Amplify", "desc": "Build, deploy and host full-stack web and mobile apps, with Git-based CI/CD and managed back ends." },
+        { "name": "AWS AppSync", "desc": "Managed GraphQL and real-time APIs that connect apps to data sources like DynamoDB and Lambda." },
+        { "name": "Amazon Cognito", "desc": "User sign-up and sign-in for your apps, with social and enterprise logins and secure tokens." },
+        { "name": "Amazon Cognito Sync", "desc": "An older Cognito feature that syncs user profile data across a user's devices." },
+        { "name": "Amazon Location Service", "desc": "Maps, places search, routing and geofencing APIs for adding location features to apps." },
+        { "name": "Amazon Simple Email Service (SES)", "desc": "Send and receive email at scale, for transactional and marketing messages." },
+        { "name": "AWS End User Messaging Social", "desc": "Send and receive WhatsApp messages with customers from your AWS applications." }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "blurb": "Write, build, test, deploy and debug code.",
+      "services": [
+        { "name": "AWS CodeBuild", "desc": "Managed build service that compiles code, runs tests and produces deployable packages." },
+        { "name": "AWS CodePipeline", "desc": "Continuous delivery pipelines that automate the build, test and deploy steps of every release." },
+        { "name": "AWS CodeDeploy", "desc": "Automates code deployments to EC2, on-premises servers, Lambda and ECS, with rollbacks." },
+        { "name": "AWS CodeCommit", "desc": "Private Git repositories hosted on AWS." },
+        { "name": "AWS CodeArtifact", "desc": "Private package repository for npm, PyPI, Maven, NuGet and other package formats." },
+        { "name": "AWS Cloud9", "desc": "Browser-based IDE for writing, running and debugging code." },
+        { "name": "AWS CloudShell", "desc": "A browser-based terminal with the AWS CLI already installed and signed in as you." },
+        { "name": "AWS X-Ray", "desc": "Traces requests as they travel through your app, to find slow spots and errors." },
+        { "name": "AWS AppConfig", "desc": "Safely roll out feature flags and app configuration changes, with validation and automatic rollback." },
+        { "name": "AWS SDKs and Tools", "desc": "Official software development kits, the AWS CLI and IDE toolkits for working with AWS from your own code." }
+      ]
+    },
+    {
+      "name": "Management and Governance",
+      "blurb": "Provision, monitor, audit and operate everything in your account.",
+      "services": [
+        { "name": "AWS Management Console", "desc": "The web interface for using every AWS service." },
+        { "name": "AWS Console Mobile Application", "desc": "Check resources, alarms and billing from your phone." },
+        { "name": "AWS CloudFormation", "desc": "Infrastructure as code: describe your resources in a template and AWS creates, updates and deletes them together." },
+        { "name": "AWS Cloud Control API", "desc": "One consistent set of create, read, update, delete and list APIs for hundreds of AWS resource types." },
+        { "name": "Amazon CloudWatch", "desc": "Metrics, dashboards and alarms for your AWS resources and applications." },
+        { "name": "Amazon CloudWatch Logs", "desc": "Collect, store, search and analyze log files from your apps and AWS services." },
+        { "name": "Amazon Managed Service for Prometheus", "desc": "Managed, Prometheus-compatible monitoring for container and Kubernetes metrics." },
+        { "name": "AWS CloudTrail", "desc": "Records who did what in your account: every API call and console action, for auditing and troubleshooting." },
+        { "name": "AWS Config", "desc": "Tracks how your resources are configured over time and checks them against your rules." },
+        { "name": "AWS Systems Manager", "desc": "Operate servers at scale: patching, remote sessions, run commands, inventory and parameter storage." },
+        { "name": "AWS Systems Manager for SAP", "desc": "Automates operations such as backup and restore for SAP applications running on AWS." },
+        { "name": "AWS Health", "desc": "Personalized alerts about AWS events and scheduled maintenance that affect your resources." },
+        { "name": "AWS User Notifications", "desc": "A central place to see and route notifications from AWS services.", "note": "Creating your own notification configurations isn't available." },
+        { "name": "AWS Compute Optimizer", "desc": "Recommends better-fitting, often cheaper, sizes for EC2, Lambda, EBS and ECS based on actual usage." },
+        { "name": "AWS Well-Architected Tool", "desc": "Reviews your workloads against AWS best practices for security, reliability, cost and performance." },
+        { "name": "AWS License Manager", "desc": "Tracks and enforces software licenses (Microsoft, Oracle, SAP and others) across AWS and on-premises." },
+        { "name": "AWS Resource Explorer", "desc": "Search for any resource in your account by name, tag or type." },
+        { "name": "AWS Resource Groups", "desc": "Group resources by tag or stack so you can view and act on them together." },
+        { "name": "AWS Resource Access Manager (RAM)", "desc": "Share resources such as subnets and license configurations with other AWS accounts." },
+        { "name": "Service Quotas", "desc": "View the limits on each AWS service in your account and request increases." },
+        { "name": "AWS Support", "desc": "Help from AWS: documentation, forums, the Health Dashboard and support cases." },
+        { "name": "AWS Marketplace", "desc": "A catalog of third-party software, data and AI models you can subscribe to and run on AWS.", "note": "Only free listings and Bedrock model offers are available." }
+      ]
+    },
+    {
+      "name": "Security, Identity and Compliance",
+      "blurb": "Control who can do what, protect secrets and keys, and block attacks.",
+      "services": [
+        { "name": "AWS Identity and Access Management (IAM)", "desc": "Users, roles and policies that control exactly who can access which AWS resources." },
+        { "name": "AWS Security Token Service (STS)", "desc": "Issues temporary, limited-privilege credentials for users and applications." },
+        { "name": "Amazon Verified Permissions", "desc": "Fine-grained authorization for your own apps, written as policies in the Cedar language." },
+        { "name": "AWS Directory Service", "desc": "Managed Microsoft Active Directory in AWS, or a connector to your existing directory." },
+        { "name": "AWS Key Management Service (KMS)", "desc": "Create and control the encryption keys that protect your data across AWS services." },
+        { "name": "AWS Secrets Manager", "desc": "Store, rotate and retrieve database passwords, API keys and other secrets." },
+        { "name": "AWS Certificate Manager (ACM)", "desc": "Free public SSL/TLS certificates for your AWS-hosted sites, renewed automatically.", "note": "Exportable public certificates aren't available." },
+        { "name": "AWS Payment Cryptography", "desc": "Managed cryptographic operations for card payment processing, such as PIN and card-verification handling." },
+        { "name": "AWS Signer", "desc": "Code signing, so you can make sure only trusted, unaltered code runs in Lambda and containers." },
+        { "name": "AWS WAF", "desc": "Web application firewall that filters malicious traffic such as SQL injection and bots before it reaches your app.", "note": "AWS Shield isn't available." },
+        { "name": "AWS Artifact", "desc": "On-demand access to AWS compliance reports and agreements, such as SOC and ISO reports.", "note": "HIPAA Business Associate and SEC rule addendums aren't available." }
+      ]
+    },
+    {
+      "name": "Cost Management",
+      "blurb": "See, budget and control what you spend.",
+      "services": [
+        { "name": "AWS Billing and Cost Management", "desc": "Your bills, payments, credits and Free Tier usage, all in one console." },
+        { "name": "AWS Budgets", "desc": "Set spending or usage budgets and get alerts before you go over them." },
+        { "name": "AWS Cost Explorer", "desc": "Charts and reports that break down your costs and usage over time, with forecasts." }
+      ]
+    },
+    {
+      "name": "Internet of Things",
+      "blurb": "Connect, manage and secure devices, and model the physical world.",
+      "services": [
+        { "name": "AWS IoT Core", "desc": "Connects devices to the cloud securely and routes their messages to other AWS services.", "note": "AWS IoT Greengrass isn't available." },
+        { "name": "AWS IoT Device Management", "desc": "Register, organize, monitor and remotely update fleets of IoT devices." },
+        { "name": "AWS IoT Device Defender", "desc": "Audits IoT device security settings and detects unusual device behavior." },
+        { "name": "AWS IoT SiteWise", "desc": "Collects and organizes data from industrial equipment so you can monitor and analyze it." },
+        { "name": "AWS IoT TwinMaker", "desc": "Builds digital twins: live 3D models of buildings, factories and equipment linked to real data." }
+      ]
+    },
+    {
+      "name": "Migration",
+      "blurb": "Move existing servers and workloads to AWS.",
+      "services": [
+        { "name": "AWS Transform MGN", "desc": "Lift-and-shift migration of physical, virtual and cloud servers to AWS, with continuous replication and cutovers measured in minutes. Formerly AWS Application Migration Service." }
+      ]
+    }
+  ]
+}
