@@ -289,3 +289,15 @@ h3 { margin: 0; }
   .svc-cat summary { padding: var(--s4); }
   .svc-blurb { padding-inline: var(--s4); }
 }
+
+/* footer sitemap link and sitemap page */
+.foot .foot-sitemap { flex-basis: 100%; font-size: 12px; letter-spacing: .04em; }
+.foot .foot-sitemap a { color: var(--text-3); }
+.foot .foot-sitemap a:hover { color: var(--pink-soft); }
+.site-map h2 { margin-bottom: var(--s5); font-size: clamp(26px, 2.6vw, 34px); }
+.site-map-list { display: grid; margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.site-map-list li { display: grid; grid-template-columns: minmax(180px, 280px) minmax(0, 1fr); gap: var(--s2) var(--s6); padding: var(--s4) 0; border-bottom: 1px solid var(--line); }
+.site-map-list a { font-weight: 600; text-decoration: none; }
+.site-map-list a:hover { color: var(--pink-soft); text-decoration: underline; }
+.site-map-list span { color: var(--text-2); font-size: 15px; }
+@media (max-width: 640px) { .site-map-list li { grid-template-columns: minmax(0, 1fr); } }
