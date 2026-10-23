@@ -258,6 +258,51 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "kdp-profit-planner",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-profit-planner",
+      "subtitle": "Author-tool CLI that turns a word count into a KDP publishing plan.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-profit-planner",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-lab-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Lab",
+      "subtitle": "A friendly, local-first command-line tool for a versioned prompt library.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/prompt-lab-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-brain-sheet-maker",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Brain Sheet Maker",
+      "subtitle": "Open the generated HTML in any browser and print it.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/shift-brain-sheet-maker",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
