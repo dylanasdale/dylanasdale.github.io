@@ -303,6 +303,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "cashflow-simple-ledger",
+      "tag": "Free",
+      "free": true,
+      "title": "Cashflow — a local-first bookkeeping CLI",
+      "subtitle": "A tiny, friendly command-line bookkeeper for a sole-proprietor LLC, an indie author, or anyone who just wants their money tracked locally in plain CSV files.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/cashflow-simple-ledger",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
