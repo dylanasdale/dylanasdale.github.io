@@ -166,12 +166,15 @@ h3 { margin: 0; }
   .hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-top: var(--s5); }
   .fan { height: clamp(300px, 60vw, 420px); max-width: 560px; width: 100%; justify-self: center; }
   .notes { grid-template-columns: minmax(0, 1fr); }
+  /* With seven nav links, put the brand on its own row and let the links wrap cleanly below it. */
+  .topbar { flex-wrap: wrap; gap: var(--s3); }
+  .top-nav { gap: var(--s3) var(--s5); justify-content: flex-start; }
 }
 @media (max-width: 640px) {
   .wrap { padding-inline: max(18px, env(safe-area-inset-left, 0px)) max(18px, env(safe-area-inset-right, 0px)); }
   .topbar { padding-block: var(--s4); flex-wrap: wrap; gap: var(--s3); }
   .brand, .top-link { font-size: 11px; letter-spacing: .15em; }
-  .top-nav { gap: var(--s4); justify-content: flex-start; }
+  .top-nav { gap: var(--s2) var(--s4); justify-content: flex-start; }
   h1 { font-size: clamp(38px, 11vw, 48px); }
   .lede { font-size: 16.5px; }
   .fan { height: 290px; }

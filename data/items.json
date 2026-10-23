@@ -107,6 +107,159 @@
     }
   ],
   "projects": [],
+  "freebuilds": [
+    {
+      "id": "free-ai-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Genuinely Free AI Tools",
+      "subtitle": "An offline-friendly directory of AI tools that are actually free, with what each one does, what is really free, where the catch is and when it was last checked.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-ai-tools-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-ai-tools-directory"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools-field-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Beginner's Field Guide to AI Tools",
+      "subtitle": "A plain-English tour of everyday AI tools: chat assistants, image and voice tools, writing help, AI search and study help.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-tools-field-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-ai-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Local AI Handbook",
+      "subtitle": "A plain-English, step-by-step manual for running AI on your own computer, with honest trade-offs.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-ai-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "agents-and-mcp-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Agents & MCP: A Friendly Handbook",
+      "subtitle": "A plain-English manual about AI agents and the Model Context Protocol (MCP), as Markdown chapters plus a small site you can read on your own computer.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/agents-and-mcp-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "opencode-free-coding-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Coding with OpenCode",
+      "subtitle": "A beginner-friendly manual for coding with AI at zero cost using OpenCode, the open-source AI coding agent that runs in your terminal.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/opencode-free-coding-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "low-energy-chore-planner",
+      "tag": "Free",
+      "free": true,
+      "title": "Low-Energy Chore Planner",
+      "subtitle": "An ADHD-friendly, no-guilt chore planner sized to your energy. Pick your spoons, do one tiny thing, and let that count.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/low-energy-chore-planner/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/low-energy-chore-planner"
+        }
+      ]
+    },
+    {
+      "id": "mileage-and-receipts-logger",
+      "tag": "Free",
+      "free": true,
+      "title": "Mileage & Receipts Logger",
+      "subtitle": "A local-first mileage and receipt logger with monthly totals and CSV export. No account, and your data stays in your browser.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/mileage-and-receipts-logger/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/mileage-and-receipts-logger"
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-crafting-checklist",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Crafting Checklist",
+      "subtitle": "Paste a crafting materials list and get a tidy shopping and gathering plan, with the quantity math done and checkboxes that remember your progress.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-crafting-checklist/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-crafting-checklist"
+        }
+      ]
+    },
+    {
+      "id": "ebay-profit-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Reseller Profit Calculator",
+      "subtitle": "A command-line calculator for eBay, Amazon and Mercari listings that shows your profit and the lowest price you can sell at without losing money.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ebay-profit-calculator-cli",
+          "primary": true
+        }
+      ]
+    }
+  ],
   "links": [
     { "id": "x", "icon": "x", "label": "X", "handle": "@DylanAsdaleAI", "href": "https://x.com/DylanAsdaleAI" },
     { "id": "threads", "icon": "threads", "label": "Threads", "handle": "@dylanasdale", "href": "https://www.threads.com/@dylanasdale" },
