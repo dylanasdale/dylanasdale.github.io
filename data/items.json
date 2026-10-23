@@ -318,6 +318,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "notes-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Notes Vault MCP Server",
+      "subtitle": "A tiny, local-first MCP server that gives an AI assistant safe, friendly access to one folder of Markdown notes — no cloud, no API keys, no dependencies beyond Python itself.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/notes-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
