@@ -218,6 +218,21 @@
       ]
     },
     {
+      "id": "study-smarter-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Study Smarter with AI",
+      "subtitle": "A complete guide for students and lifelong learners who want AI as a study partner instead of a copy machine.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/study-smarter-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
