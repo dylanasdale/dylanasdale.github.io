@@ -203,6 +203,21 @@
       ]
     },
     {
+      "id": "spreadsheet-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Spreadsheet Comfort Guide",
+      "subtitle": "The test suite checks that every CSV parses, that all quoted numbers (budget totals of 1730.00 / 1782.07, inventory value 421.15 vs.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/spreadsheet-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
