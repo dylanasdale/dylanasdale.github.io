@@ -233,6 +233,21 @@
       ]
     },
     {
+      "id": "free-home-inventory-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Home Inventory Kit",
+      "subtitle": "Printable, paper-first sheets for documenting the belongings in your home — for insurance claims, estate peace of mind, and the general relief of knowing where things stand.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-home-inventory-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
