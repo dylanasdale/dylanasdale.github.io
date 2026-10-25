@@ -408,6 +408,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ai-model-picker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ai-model-picker",
+      "subtitle": "\"Which model should I actually run?\" - answered like a friend would.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-model-picker-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
