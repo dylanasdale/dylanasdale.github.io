@@ -739,6 +739,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "doc-proofreader-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "DocProof — a friendly manuscript proofreader",
+      "subtitle": "DocProof reads your manuscript or document, flags likely problems, and shows them in an inline diff report — all without changing a single byte of your original file.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/doc-proofreader-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
