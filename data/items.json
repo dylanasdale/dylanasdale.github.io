@@ -1198,6 +1198,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "character-name-riffle-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "CharRiffle",
+      "subtitle": "An offline, local-first ledger for herding a growing cast of characters.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/character-name-riffle-webapp",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
