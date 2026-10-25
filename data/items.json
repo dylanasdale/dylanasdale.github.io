@@ -248,6 +248,21 @@
       ]
     },
     {
+      "id": "kdp-interior-templates",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Interior Templates",
+      "subtitle": "Print-ready book interiors for Amazon KDP, without buying design software.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-interior-templates",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -420,6 +435,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-model-picker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-file-organizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "tidyfolder",
+      "subtitle": "tidyfolder sorts a cluttered folder into a clean archive/ structure using simple rules (file-name patterns, file extensions, or date patterns from file mtimes).",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-file-organizer-cli",
           "primary": true
         }
       ]
