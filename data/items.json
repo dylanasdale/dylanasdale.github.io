@@ -263,6 +263,21 @@
       ]
     },
     {
+      "id": "career-pivot-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Career Pivot Handbook",
+      "subtitle": "You need Python 3.8+ (standard library only).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/career-pivot-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
