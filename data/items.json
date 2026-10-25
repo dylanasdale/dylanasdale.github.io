@@ -631,6 +631,21 @@
       ]
     },
     {
+      "id": "ask-ai-better-questions-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Ask AI Better Questions",
+      "subtitle": "A free, beginner-friendly guide in the same plain-English, never-condescending voice as The Massive AI Manual.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ask-ai-better-questions-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -1136,6 +1151,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-sales-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "checklists-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "checklists-mcp-server",
+      "subtitle": "A tiny MCP server that puts reusable checklists under your AI agent's control: create list templates, check off items with notes, reset for the next run, and report what's left.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/checklists-mcp-server",
+          "primary": true
         }
       ]
     }
