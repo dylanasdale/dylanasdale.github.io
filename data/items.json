@@ -368,6 +368,21 @@
       ]
     },
     {
+      "id": "publishing-beyond-kdp-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Publishing Beyond KDP",
+      "subtitle": "A plain-English field guide to publishing wider than Amazon KDP — the copyright and ISBN decisions, the wide-print and library channels, the audiobook routes, direct sales, and the tax math — with decision worksheets…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/publishing-beyond-kdp-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
