@@ -577,6 +577,55 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-small-business-forms-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Small-Business Forms Pack",
+      "subtitle": "Six fill-in business forms as plain HTML/CSS, built into unbranded, print-ready PDFs by one local script.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-small-business-forms-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-server-scaffold",
+      "tag": "Free",
+      "free": true,
+      "title": "mcp-server-scaffold",
+      "subtitle": "A GitHub template repository for building your own MCP server in pure Python — no third-party packages, no API keys, no magic.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/mcp-server-scaffold",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nclex-style-quiz-trainer",
+      "tag": "Free",
+      "free": true,
+      "title": "NCLEX-Style Quiz Trainer",
+      "subtitle": "A friendly, education-only study trainer for nursing-style multiple-choice questions.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/nclex-style-quiz-trainer/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nclex-style-quiz-trainer"
+        }
+      ]
     }
   ],
   "links": [
