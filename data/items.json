@@ -462,6 +462,36 @@
       ]
     },
     {
+      "id": "family-history-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Family History with AI Guide",
+      "subtitle": "This project is a beginner-friendly manual for capturing your family's history with the help of AI tools: interviewing relatives with ready question banks, scanning and organizing photos, verifying every AI claim…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/family-history-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "old-laptop-revival-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Old Laptop Revival Guide",
+      "subtitle": "A calm, plain-English manual for turning a tired laptop into a useful AI machine — backing it up safely, wiping it without panic, picking a lightweight Linux that fits it, installing Ollama for modest models, and…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/old-laptop-revival-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -850,6 +880,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/write-sprint-timer-webapp"
+        }
+      ]
+    },
+    {
+      "id": "bookshelf-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "bookshelf-mcp-server",
+      "subtitle": "A small MCP server (stdio, Python standard library only) that exposes your personal reading list.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bookshelf-mcp-server",
+          "primary": true
         }
       ]
     }
