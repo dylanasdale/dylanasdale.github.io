@@ -582,6 +582,21 @@
       ]
     },
     {
+      "id": "wifi-and-networks-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Calm Home Network Handbook",
+      "subtitle": "A plain-English manual that demystifies home networks — why Wi-Fi is slow, router placement and channels, 2.4 vs 5 GHz, passwords and guest networks, what a VPN actually does, parental controls, fixing outages…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/wifi-and-networks-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
