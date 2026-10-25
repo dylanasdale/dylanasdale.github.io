@@ -532,6 +532,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "flashcards-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "flashcards-mcp-server",
+      "subtitle": "A small, local-first MCP (Model Context Protocol) server for agent-assisted studying.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/flashcards-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
