@@ -492,6 +492,21 @@
       ]
     },
     {
+      "id": "open-book-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Write your manual the Asdale way",
+      "subtitle": "Then open out/index.html in a browser.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/open-book-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
