@@ -278,6 +278,21 @@
       ]
     },
     {
+      "id": "gentle-productivity-manual",
+      "tag": "Free",
+      "free": true,
+      "title": "The Gentle Productivity Manual",
+      "subtitle": "An ADHD-friendly manual on working with low energy — a companion to our (open-source) chore planner app.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/gentle-productivity-manual",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
