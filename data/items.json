@@ -597,6 +597,21 @@
       ]
     },
     {
+      "id": "ai-scam-safety-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The AI Scam Safety Guide",
+      "subtitle": "Staying safe in the AI age — explained like a friend would.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-scam-safety-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
