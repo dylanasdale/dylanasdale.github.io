@@ -453,6 +453,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "resale-lot-builder",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Lot Builder",
+      "subtitle": "Turn a shoebox of inventory into sellable bundles — locally, in plain CSV, with numbers you control.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/resale-lot-builder",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
