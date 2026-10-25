@@ -522,6 +522,36 @@
       ]
     },
     {
+      "id": "caregiver-coordination-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Caregiver Coordination Guide",
+      "subtitle": "A plain-English manual for organizing the care of an aging or ill loved one — the companion to the Health Admin Kit (which covers your own paperwork; this one covers theirs).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/caregiver-coordination-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "digital-papers-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Digital Papers Handbook",
+      "subtitle": "Decide what to keep, scan the rest with your phone, name files so search finds them in five seconds, shred safely, and spend one hour a year keeping it that way.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/digital-papers-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -944,6 +974,40 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-gathering-route-planner"
+        }
+      ]
+    },
+    {
+      "id": "envelope-budget-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Envelope Budget",
+      "subtitle": "An offline household budget web app that uses envelope budgeting: fill monthly envelopes with money, log spending in two taps, and see exactly how much is left in each envelope at a glance.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/envelope-budget-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/envelope-budget-webapp"
+        }
+      ]
+    },
+    {
+      "id": "kind-email-crafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kind-email",
+      "subtitle": "A friendly Python CLI that turns your rough bullet points into kind, clear emails and letters.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kind-email-crafter-cli",
+          "primary": true
         }
       ]
     }
