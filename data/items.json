@@ -293,6 +293,36 @@
       ]
     },
     {
+      "id": "free-community-ai-class-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Community AI Class Kit",
+      "subtitle": "A free, print-ready kit for hosting a two-hour beginner AI class at a library, community center, senior center, school, or anywhere else people gather.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-community-ai-class-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-health-admin-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Health Admin Kit",
+      "subtitle": "Warm, printable paperwork helpers for taming appointments and insurance calls — the kind of life-admin chaos that sneaks up on everybody.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-health-admin-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
