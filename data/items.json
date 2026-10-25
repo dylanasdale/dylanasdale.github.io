@@ -502,6 +502,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-weekly-lockout-tracker"
         }
       ]
+    },
+    {
+      "id": "small-business-ai-playbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The One-Person LLC AI Playbook",
+      "subtitle": "Everything is markdown + a zero-dependency Python build script.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/small-business-ai-playbook",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
