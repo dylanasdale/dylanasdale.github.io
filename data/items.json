@@ -353,6 +353,21 @@
       ]
     },
     {
+      "id": "book-bible-audit-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "bookbible: Book Bible Audit CLI",
+      "subtitle": "A local-first author tool that audits a manuscript against your series bible and writes a plain Markdown continuity report.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/book-bible-audit-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
