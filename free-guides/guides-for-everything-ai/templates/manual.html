@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{title}} ({{edition_label}}) — {{series}}</title>
+<meta name="author" content="{{series}}">
+<meta name="description" content="{{subtitle}}">
+<link rel="stylesheet" href="/styles/fonts.css">
+<link rel="stylesheet" href="/styles/manual.css">
+<link rel="stylesheet" href="/styles/code.css">
+<style>
+  :root { --accent: {{accent}}; --accent-2: {{accent2}}; }
+</style>
+<script src="/templates/layout.js"></script>
+<script src="/node_modules/pagedjs/dist/paged.polyfill.js"></script>
+</head>
+<body class="{{chapter_break}} {{toc_class}}">
+
+<!-- ============================== COVER ============================== -->
+<section class="cover cover-{{cover_theme}}">
+  <div class="cover-top">
+    <span class="cover-series">{{series}}</span>
+    <span class="cover-volume">{{volume}}</span>
+  </div>
+  <div class="cover-art-wrap">{{cover_art}}</div>
+  <div class="cover-main">
+    <div class="cover-labels"><span class="cover-kicker">{{kicker}}</span><span class="cover-edition">{{edition_label}}</span></div>
+    <h1 class="cover-title">{{title_html}}</h1>
+    <p class="cover-subtitle">{{subtitle}}</p>
+  </div>
+  <div class="cover-bottom">
+    <span>{{audience}}</span>
+    <span class="cover-dot">•</span>
+    <span>{{edition}} edition</span>
+    <span class="cover-dot">•</span>
+    <span>{{edition_label}} · US Letter</span>
+  </div>
+</section>
+
+<!-- ======================= INSIDE COVER / ABOUT ====================== -->
+<section class="frontmatter about">
+  <div class="about-inner">
+    <p class="about-series">{{series}}</p>
+    <h2 class="about-title">{{title}}</h2>
+    <p class="about-sub">{{subtitle}}</p>
+    <p class="about-edition"><span class="about-edition-label">{{edition_label}}</span> {{edition_note}}</p>
+    <div class="about-blurb">{{blurb}}</div>
+    <div class="about-legend">
+      <p class="legend-head">How to read this manual</p>
+      <div class="legend-grid">
+        <div class="legend-item"><span class="legend-swatch sw-tip"></span><b>Tip</b> — a shortcut or good habit.</div>
+        <div class="legend-item"><span class="legend-swatch sw-note"></span><b>Note</b> — useful background.</div>
+        <div class="legend-item"><span class="legend-swatch sw-warning"></span><b>Warning</b> — easy to get wrong.</div>
+        <div class="legend-item"><span class="legend-swatch sw-caution"></span><b>Danger</b> — can lose data, money, or access.</div>
+        <div class="legend-item"><span class="legend-code">$ command</span> — text you type, exactly as shown.</div>
+        <div class="legend-item"><span class="menu"><span class="menu-item">Settings</span><span class="menu-sep">›</span><span class="menu-item">Privacy</span></span> — a menu path to click.</div>
+      </div>
+      <p class="legend-foot">New words appear in <b>bold</b> the first time and are collected in the Glossary at the back.</p>
+    </div>
+    <p class="about-disclaimer">{{disclaimer}}</p>
+  </div>
+</section>
+
+<!-- =============================== TOC =============================== -->
+<section class="frontmatter toc">
+  <span class="running-title">{{title}}</span>
+  <span class="running-series">{{series_line}}</span>
+  <h2 class="toc-heading">Contents</h2>
+  {{toc}}
+</section>
+
+<!-- =============================== BODY ============================== -->
+<main class="manual-body">
+  {{body}}
+</main>
+
+</body>
+</html>

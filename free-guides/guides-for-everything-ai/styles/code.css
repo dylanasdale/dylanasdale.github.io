@@ -1,0 +1,12 @@
+/* Print-friendly syntax colours for highlight.js (light, high-contrast). */
+.hljs-comment, .hljs-quote { color: #6e7481; font-style: italic; }
+.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-built_in, .hljs-type { color: #8a2bb9; }
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta .hljs-string { color: #1c7a43; }
+.hljs-number, .hljs-symbol, .hljs-bullet { color: #b4570a; }
+.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-property { color: #1d5fc4; }
+.hljs-title, .hljs-title.function_, .hljs-section, .hljs-name, .hljs-selector-id, .hljs-selector-class { color: #b0263a; }
+.hljs-meta, .hljs-meta .hljs-keyword { color: #5a6270; }
+.hljs-deletion { color: #b0263a; }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }
+.hljs-punctuation { color: #4a4f5c; }

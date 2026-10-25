@@ -304,3 +304,13 @@ h3 { margin: 0; }
 .site-map-list a:hover { color: var(--pink-soft); text-decoration: underline; }
 .site-map-list span { color: var(--text-2); font-size: 15px; }
 @media (max-width: 640px) { .site-map-list li { grid-template-columns: minmax(0, 1fr); } }
+
+/* Brand page: a drawn cover for the Pomelli brand book card */
+.brand-cover-art { position: relative; display: grid; align-content: space-between; aspect-ratio: 400/518; padding: 18px; overflow: hidden; border-radius: 3px 6px 6px 3px; background: radial-gradient(120% 80% at 80% 0%, rgb(255 63 164 / .55), transparent 60%), linear-gradient(160deg, #1d1220, #07060a 70%); color: #ffd3ea; box-shadow: 0 4px 8px rgb(0 0 0 / .5), 0 18px 34px -12px rgb(0 0 0 / .85); }
+.brand-cover-art svg { width: 28px; height: 28px; color: #ff3fa4; }
+.brand-cover-art b { font: 700 clamp(22px, 2.4vw, 32px)/1 var(--display); color: #fff; }
+.brand-cover-art i { position: absolute; right: 18px; width: 22px; height: 22px; border-radius: 50%; }
+.brand-cover-art i:nth-of-type(1) { bottom: 18px; background: #ff3fa4; }
+.brand-cover-art i:nth-of-type(2) { bottom: 46px; background: #ffd3ea; }
+.brand-cover-art i:nth-of-type(3) { bottom: 74px; background: #2a1d2c; border: 1px solid rgb(255 255 255 / .2); }
+@media (max-width: 640px) { .brand-cover-art { padding: 10px; } .brand-cover-art b { font-size: 16px; } .brand-cover-art svg { width: 18px; height: 18px; } .brand-cover-art i { right: 10px; width: 12px; height: 12px; } .brand-cover-art i:nth-of-type(1) { bottom: 10px; } .brand-cover-art i:nth-of-type(2) { bottom: 26px; } .brand-cover-art i:nth-of-type(3) { bottom: 42px; } }

@@ -1,0 +1,6 @@
+node_modules/
+.dev/
+output/*.html
+output/_*.pdf
+.DS_Store
+.tmp/

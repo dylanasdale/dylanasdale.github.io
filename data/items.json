@@ -30,7 +30,7 @@
       "imageWidth": 400,
       "imageHeight": 518,
       "links": [
-        { "label": "Browse the library", "href": "https://guidesforeverythingai.github.io/", "primary": true }
+        { "label": "Browse the library", "href": "/free-guides/guides-for-everything-ai/", "primary": true }
       ]
     },
     {
@@ -43,7 +43,7 @@
       "image": "/assets/img/guides/claude-code.webp",
       "imageAlt": "Cover of Claude Code",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/claude-code.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/claude-code.pdf" }]
     },
     {
       "id": "guide-vibe-coding",
@@ -55,7 +55,7 @@
       "image": "/assets/img/guides/vibe-coding.webp",
       "imageAlt": "Cover of Vibe Coding",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/vibe-coding.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/vibe-coding.pdf" }]
     },
     {
       "id": "guide-mcp",
@@ -67,7 +67,7 @@
       "image": "/assets/img/guides/mcp.webp",
       "imageAlt": "Cover of MCP",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/mcp.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/mcp.pdf" }]
     },
     {
       "id": "guide-maximum-autonomy",
@@ -79,7 +79,7 @@
       "image": "/assets/img/guides/maximum-autonomy.webp",
       "imageAlt": "Cover of Maximum Autonomy",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/maximum-autonomy.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/maximum-autonomy.pdf" }]
     },
     {
       "id": "guide-local-ai",
@@ -91,7 +91,7 @@
       "image": "/assets/img/guides/local-ai.webp",
       "imageAlt": "Cover of Running AI Locally",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/local-ai.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/local-ai.pdf" }]
     },
     {
       "id": "guide-ai-agents",
@@ -103,7 +103,7 @@
       "image": "/assets/img/guides/ai-agents.webp",
       "imageAlt": "Cover of AI Agents & Multi-Agent Workflows",
       "imageWidth": 400, "imageHeight": 518,
-      "links": [{ "label": "Read free", "href": "https://guidesforeverythingai.github.io/output/ai-agents.pdf" }]
+      "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/ai-agents.pdf" }]
     }
   ],
   "projects": [],
@@ -1219,8 +1219,9 @@
     { "id": "x", "icon": "x", "label": "X", "handle": "@DylanAsdaleAI", "href": "https://x.com/DylanAsdaleAI" },
     { "id": "threads", "icon": "threads", "label": "Threads", "handle": "@dylanasdale", "href": "https://www.threads.com/@dylanasdale" },
     { "id": "bluesky", "icon": "bluesky", "label": "Bluesky", "handle": "@dylan-asdale.bsky.social", "href": "https://bsky.app/profile/dylan-asdale.bsky.social" },
+    { "id": "tiktok", "icon": "tiktok", "label": "TikTok", "handle": "@dylanasdale", "href": "https://www.tiktok.com/@dylanasdale" },
     { "id": "amazon", "icon": "book", "label": "Amazon", "handle": "The Massive AI Manual", "href": "https://www.amazon.com/dp/B0HMBQH1KX" },
     { "id": "companion", "icon": "globe", "label": "Companion site", "handle": "themassiveaimanual.github.io", "href": "https://themassiveaimanual.github.io/" },
-    { "id": "guides", "icon": "globe", "label": "Free manuals", "handle": "guidesforeverythingai.github.io", "href": "https://guidesforeverythingai.github.io/" }
+    { "id": "guides", "icon": "globe", "label": "Free manuals", "handle": "Guides for Everything AI", "href": "/free-guides/guides-for-everything-ai/" }
   ]
 }

@@ -36,7 +36,7 @@ Every shelf on the site comes from **`data/items.json`**. To add a book, guide, 
 | `image`, `imageAlt`, `imageWidth`, `imageHeight` | no | Cover or thumbnail. Leave `image` out for a text-only card. Put files in `assets/img/` and keep them small (WebP, about 400–800 px wide). |
 | `links` | no | Buttons. The first one with `"primary": true` is pink, and the cover image links to it. |
 
-Lists: `books`, `guides`, `projects`, `freebuilds`, `links`. Entries in `links` use `label`, `handle`, `href` and `icon` (`x`, `threads`, `bluesky`, `book` or `globe`).
+Lists: `books`, `guides`, `projects`, `freebuilds`, `links`. Entries in `links` use `label`, `handle`, `href` and `icon` (`x`, `threads`, `bluesky`, `tiktok`, `book` or `globe`).
 
 When `projects` (or any list) is empty, the site shows a tasteful "More coming soon" panel automatically. Never add placeholder or made-up items.
 
@@ -46,7 +46,7 @@ Where each list shows:
 
 - Home (`index.html`): two hand-written featured cards (the book and the free library), then the first 3 guide highlights, projects, and the first 3 links.
 - Home also shows the first 3 `freebuilds` cards.
-- `books/`, `guides/`, `projects/`, `free-builds/`, `connect/`: the full lists.
+- `books/`, `free-guides/`, `projects/`, `free-builds/`, `brand/`, `connect/`: the full lists. `free-guides/guides-for-everything-ai/` is the full Guides for Everything AI library (its own build, see its README) and `free-guides/aws-guides/` holds the AWS guides.
 
 ### Free Builds (automatic)
 
@@ -60,7 +60,7 @@ Copy `projects/index.html` to `newpage/index.html`, change the title, descriptio
 
 ```
 index.html            home
-books/ guides/ projects/ free-builds/ connect/   section pages
+books/ free-guides/ projects/ free-builds/ brand/ connect/   section pages
 404.html              not-found page (GitHub Pages serves it automatically)
 data/items.json       all shelf content
 assets/site.css       the design system

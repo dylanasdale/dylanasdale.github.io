@@ -3,7 +3,7 @@
 Outputs:
   assets/pdf/aws-free-plan-services.pdf          print-ready US Letter PDF
   assets/img/aws-guides/free-plan-services.webp  cover thumbnail for the site
-  aws-guides/index.html                          service list between the aws-services markers
+  free-guides/aws-guides/index.html              service list between the aws-services markers
 
 Run from the repo root:  python tools/build_aws_guide.py
 Needs Google Chrome (or Edge) and Pillow.
@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "aws-free-plan-services.json"
 PDF_OUT = ROOT / "assets" / "pdf" / "aws-free-plan-services.pdf"
 COVER_OUT = ROOT / "assets" / "img" / "aws-guides" / "free-plan-services.webp"
-PAGE = ROOT / "aws-guides" / "index.html"
+PAGE = ROOT / "free-guides" / "aws-guides" / "index.html"
 FONT_DIR = (ROOT / "assets" / "fonts").as_uri()
 
 BROWSERS = [
@@ -181,7 +181,7 @@ def build_print_html(d):
   <p>The service list follows AWS's own documentation of the services included in the Free plan for new accounts, checked on {long_date(d['checked'])}: <a href="{e(d['source'])}">{e(d['source'])}</a></p>
   <p>AWS adds and changes Free plan services often, and AWS is still rolling out its new sign-up experience, so what you see in your own account can differ. Always check the AWS Free Tier page and your Billing console before you rely on something being free.</p>
   <p>Descriptions are written for this guide in plain English. AWS, Amazon Web Services and all service names are trademarks of Amazon.com, Inc. or its affiliates. This guide is independent and isn't endorsed by AWS.</p>
-  <p>More free guides at <a href="https://dylanasdale.github.io/aws-guides/">dylanasdale.github.io/aws-guides</a></p>
+  <p>More free guides at <a href="https://dylanasdale.github.io/free-guides/">dylanasdale.github.io/free-guides</a></p>
 </section>""")
     out.append("</body></html>")
     return "".join(out)
@@ -235,7 +235,7 @@ def main():
     page, n = re.subn(r"(<!-- aws-services:start -->).*?(<!-- aws-services:end -->)",
                       lambda m: m.group(1) + "\n" + build_web_list(d) + "\n" + m.group(2), page, flags=re.S)
     if n != 1:
-        sys.exit("aws-services markers not found in aws-guides/index.html")
+        sys.exit("aws-services markers not found in free-guides/aws-guides/index.html")
     page = re.sub(r'data-count="total">\d+<', f'data-count="total">{total}<', page)
     page = re.sub(r'data-count="cats">\d+<', f'data-count="cats">{len(d["categories"])}<', page)
     PAGE.write_text(page, encoding="utf-8", newline="\n")
