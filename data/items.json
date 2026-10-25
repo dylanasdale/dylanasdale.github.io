@@ -671,6 +671,59 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nclex-style-quiz-trainer"
         }
       ]
+    },
+    {
+      "id": "ffxiv-retainer-profit-tracker",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Retainer Profit Tracker",
+      "subtitle": "A static, offline, single-file web app for tracking Final Fantasy XIV retainer venture sales and marketboard reselling profit.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-retainer-profit-tracker/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-retainer-profit-tracker"
+        }
+      ]
+    },
+    {
+      "id": "meal-rotation-planner",
+      "tag": "Free",
+      "free": true,
+      "title": "Meal Rotation Kitchen 🍲",
+      "subtitle": "You keep a deck of meals in the order you actually feel like eating them.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/meal-rotation-planner/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/meal-rotation-planner"
+        }
+      ]
+    },
+    {
+      "id": "meeting-notes-summarizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "meeting-notes-summarizer",
+      "subtitle": "A local-first command-line tool that turns meeting transcripts into a clean report: short summary, decisions, action items with owners and dates, open questions, and a plain-English recap.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/meeting-notes-summarizer-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
