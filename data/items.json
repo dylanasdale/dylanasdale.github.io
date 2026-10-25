@@ -661,6 +661,21 @@
       ]
     },
     {
+      "id": "travel-ai-helper-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Travel Tips (Calmer Trips)",
+      "subtitle": "A plain-English manual for using AI to plan calmer trips: itinerary drafts you verify, translation in restaurants and train stations, honest hotel/flight research, packing-list generation, offline planning with local…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/travel-ai-helper-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
