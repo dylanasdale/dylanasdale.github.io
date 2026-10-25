@@ -383,6 +383,55 @@
       ]
     },
     {
+      "id": "email-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Email Calm Guide",
+      "subtitle": "A friend-style manual for taming email and inbox dread — written like a friend would explain it: plain English, step by step, for tired humans.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/email-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-large-print-tech-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Large-Print Tech Kit",
+      "subtitle": "Free, laminatable cheatsheets for helping a less techy relative.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-large-print-tech-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-learn-online-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Actually Free to Learn",
+      "subtitle": "A static, local-first directory of genuinely free learning resources — full courses, free certificates, open textbooks, recorded lecture archives, language apps, and gentle walks into coding.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-learn-online-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-learn-online-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
