@@ -612,6 +612,25 @@
       ]
     },
     {
+      "id": "free-download-organization-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Download Organization Kit",
+      "subtitle": "A friendly, local-first home for all the free stuff you download — fonts, printables, ebooks, audio packs — and a record of what each one's license actually lets you do with it.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-download-organization-kit/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-download-organization-kit"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
