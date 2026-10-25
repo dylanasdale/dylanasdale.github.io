@@ -552,6 +552,21 @@
       ]
     },
     {
+      "id": "backup-basics-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Backup Basics Handbook",
+      "subtitle": "This is a plain-English manual about backups: what actually needs backing up, how the 3-2-1 rule works without any jargon, simple external-drive routines, honest trade-offs between free cloud and local storage, phone…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/backup-basics-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
