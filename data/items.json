@@ -393,6 +393,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-resume-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Resume Pack",
+      "subtitle": "Clean, fill-in résumé, cover letter, and reference-sheet templates that build into polished, print-ready PDFs — right on your own computer.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-resume-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
