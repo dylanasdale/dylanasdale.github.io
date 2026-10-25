@@ -507,6 +507,21 @@
       ]
     },
     {
+      "id": "book-keyword-lab-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Keyword Lab (bkwl)",
+      "subtitle": "A local-first author CLI for choosing book keywords and categories for your KDP-style listing.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/book-keyword-lab-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
