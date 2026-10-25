@@ -646,6 +646,21 @@
       ]
     },
     {
+      "id": "free-hobby-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Hobby Starter Kit",
+      "subtitle": "Six print-at-home starter kits for hobbies that cost (almost) nothing to begin — no gear, no apps, no purchases.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-hobby-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
