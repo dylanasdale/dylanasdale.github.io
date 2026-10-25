@@ -483,6 +483,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ffxiv-weekly-lockout-tracker",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Weekly Lockout Tracker",
+      "subtitle": "A tiny, offline-friendly static web app for tracking Final Fantasy XIV weekly lockouts across your whole roster: raids, trials (including Custom Deliveries), turn-ins, and anything else you add yourself.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-weekly-lockout-tracker/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-weekly-lockout-tracker"
+        }
+      ]
     }
   ],
   "links": [
