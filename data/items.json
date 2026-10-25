@@ -323,6 +323,36 @@
       ]
     },
     {
+      "id": "patient-teaching-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Patient Teaching with AI: A Healthcare Worker's Manual",
+      "subtitle": "Or just read the Markdown in docs/ — it is the manual, complete on its own.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/patient-teaching-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "terminal-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Terminal Comfort Guide",
+      "subtitle": "A friend-style command-line manual for total beginners — the calm gateway to local AI.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/terminal-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
