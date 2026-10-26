@@ -860,6 +860,21 @@
       ]
     },
     {
+      "id": "household-budget-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Household Budget Basics",
+      "subtitle": "A never-judgy budget manual for real households — plain English, step by step, zero shame.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/household-budget-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
