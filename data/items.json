@@ -1446,6 +1446,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "arc-review-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "ARC Review Tracker",
+      "subtitle": "An offline, zero-dependency web app for authors managing advance reader copies (ARCs).",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/arc-review-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/arc-review-tracker-webapp"
+        }
+      ]
     }
   ],
   "links": [
