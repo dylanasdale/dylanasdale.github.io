@@ -1713,6 +1713,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "photo-dedupe-lite-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "photo-dedupe-lite-cli",
+      "subtitle": "A tiny, safe Python CLI that tightens a cluttered camera roll.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/photo-dedupe-lite-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
