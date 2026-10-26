@@ -800,6 +800,66 @@
       ]
     },
     {
+      "id": "audiobook-recording-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Audiobook Recording Handbook",
+      "subtitle": "A warm, plain-English handbook for recording your own audiobook at home — bedroom acoustics where blankets beat gear, a free Audacity setup, audiobook-store specs translated into plain numbers, reading tips for…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/audiobook-recording-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-book-club-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Book Club Kit",
+      "subtitle": "Printable PDFs for hosting a warm, low-stress book club in your living room, library room, or wherever enough chairs gather.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-book-club-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "printer-and-scanner-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Printer & Scanner Handbook",
+      "subtitle": "Beginner-friendly, warm, step-by-step guidance for the least loved machine in the house: why printers misbehave, how to choose one sensibly, Wi-Fi printing, scan-to-PDF, the real math of ink vs.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/printer-and-scanner-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "side-hustle-reseller-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Side-Hustle Reseller Handbook",
+      "subtitle": "A beginner manual for part-time reselling on eBay and Amazon — written the way a friend would explain it: clearly, kindly, and never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/side-hustle-reseller-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -1463,6 +1523,55 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/arc-review-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-glamour-log-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Glamour Log",
+      "subtitle": "A tiny, offline tracker for Final Fantasy XIV glamour plates.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-glamour-log-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-glamour-log-webapp"
+        }
+      ]
+    },
+    {
+      "id": "price-floor-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "pricefloor - what you must actually charge",
+      "subtitle": "A small-business CLI that answers the scariest question in freelance and LLC life: \"What's the real price floor for this job?\"",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/price-floor-calculator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shipping-cost-comparer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ShipCost — reseller shipping cost comparer",
+      "subtitle": "Compare your published carrier rate tables side by side, add insurance and handling time to the picture, fold the landed ship cost straight into your resale margin, and print a one-page cheat card your future self…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/shipping-cost-comparer-cli",
+          "primary": true
         }
       ]
     }
