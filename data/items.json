@@ -1894,6 +1894,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "listing-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "listing-drafter",
+      "subtitle": "Turn messy item notes into honest marketplace listing drafts.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/listing-drafter-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
