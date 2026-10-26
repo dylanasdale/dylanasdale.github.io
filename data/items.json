@@ -1698,6 +1698,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "open-webapp-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Offline Web App Starter Template",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/open-webapp-starter-template",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
