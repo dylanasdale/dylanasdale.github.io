@@ -1003,6 +1003,36 @@
       ]
     },
     {
+      "id": "medicare-decoded-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Medicare Decoded Guide",
+      "subtitle": "A warm, plain-English Medicare paperwork manual — education and admin help only: what Medicare is in one picture, enrollment windows without panic, Parts A–D translated, Advantage vs.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/medicare-decoded-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "pc-gaming-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "PC Gaming Comfort Guide",
+      "subtitle": "A friendly manual for grown-up PC gaming — with a Final Fantasy XIV flavor.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/pc-gaming-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
