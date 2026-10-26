@@ -676,6 +676,25 @@
       ]
     },
     {
+      "id": "free-reading-for-less-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Reading for Less directory",
+      "subtitle": "Plain, warm, honest — each card says what something is, what's truly free, what you need to sign up, and the limits we won't pretend away.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-reading-for-less-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-reading-for-less-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
