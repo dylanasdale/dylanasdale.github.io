@@ -909,6 +909,21 @@
       ]
     },
     {
+      "id": "free-garden-planner-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Garden Planner Kit",
+      "subtitle": "A free, printable pack of garden planning sheets for first-time gardeners.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-garden-planner-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
