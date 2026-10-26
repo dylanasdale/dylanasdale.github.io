@@ -875,6 +875,21 @@
       ]
     },
     {
+      "id": "moving-without-meltdown-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Moving Without Meltdown Guide",
+      "subtitle": "A friend-paced moving manual: an eight-week countdown, an address-change master list, utility transfer scripts written as actual phone scripts, mover quotes decoded in plain English, rental walk-through photo…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/moving-without-meltdown-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
