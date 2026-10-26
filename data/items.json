@@ -740,6 +740,21 @@
       ]
     },
     {
+      "id": "credit-and-debt-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Credit and Debt Calm Guide",
+      "subtitle": "A manual for steady credit repair without the fear: pull your own credit reports safely, dispute errors in plain letters, understand why a credit freeze beats paid monitoring, see how credit scores actually work in…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/credit-and-debt-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
