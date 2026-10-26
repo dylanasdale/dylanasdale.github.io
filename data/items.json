@@ -710,6 +710,36 @@
       ]
     },
     {
+      "id": "free-author-printables-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Book-Day Printables Pack",
+      "subtitle": "Seven free, unbranded printable sheets for a book launch.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-author-printables-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shopping-research-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The No-Regret Shopping Manual",
+      "subtitle": "A friendly, practical, local-first manual for buying laptops, phones, appliances, and mattresses without regret.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/shopping-research-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
