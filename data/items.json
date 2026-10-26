@@ -1619,6 +1619,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-car-care-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Car Care Pack",
+      "subtitle": "Everything is local-first: plain HTML + CSS sources, one tiny Python build script, no accounts, no tracking, no network calls, no secrets, no personal data in the repo.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-car-care-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
