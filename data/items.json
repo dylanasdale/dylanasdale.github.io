@@ -1589,6 +1589,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "chat-export-archiver-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chat-archiver",
+      "subtitle": "Drop in the JSON or Markdown exports you get from chat tools and local-model UIs, and get back:",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chat-export-archiver-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
