@@ -695,6 +695,21 @@
       ]
     },
     {
+      "id": "digital-legacy-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Digital Legacy Handbook",
+      "subtitle": "A calm, warm, plain-English manual for getting your digital life ready for an emergency — or the worst day.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/digital-legacy-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
