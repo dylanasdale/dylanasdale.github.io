@@ -770,6 +770,36 @@
       ]
     },
     {
+      "id": "medical-bills-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Medical Bills Comfort Guide",
+      "subtitle": "A warm, plain-English manual for reading your own medical paperwork without panic: bills and EOBs, deductible math with round numbers, common billing errors, dispute-letter templates, financial-assistance questions,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/medical-bills-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "new-nurse-first-year-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "New Nurse: The First-Year Survival Guide",
+      "subtitle": "An education-only manual for surviving — and actually enjoying — the first year of nursing.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/new-nurse-first-year-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -1384,6 +1414,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-free-company-event-tracker"
+        }
+      ]
+    },
+    {
+      "id": "free-gift-giving-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Calmer Gifting Printables",
+      "subtitle": "Free, warm, print-ready PDF helpers for calmer, kinder gift-giving.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-gift-giving-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-pet-care-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "build (or rebuild) every sheet into printables/",
+      "subtitle": "Free Pet Care Pack ==================",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-pet-care-pack",
+          "primary": true
         }
       ]
     }
