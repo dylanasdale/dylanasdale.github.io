@@ -1232,6 +1232,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "readability-scoring-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "readability-score",
+      "subtitle": "Everything runs locally with Python's standard library only.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/readability-scoring-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
