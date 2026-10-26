@@ -1728,6 +1728,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "daily-journal-lite-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Daily Journal Lite",
+      "subtitle": "An ADHD-friendly, offline, no-guilt journaling web app.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/daily-journal-lite-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/daily-journal-lite-webapp"
+        }
+      ]
     }
   ],
   "links": [
