@@ -1367,6 +1367,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ffxiv-free-company-event-tracker",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Company Event Tracker",
+      "subtitle": "A single-file, offline web app for running a Final Fantasy XIV Free Company's event nights: a calendar of raids, crafting nights, and GATE evenings; a signup grid with role slots and a waitlist; recurring-event…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-free-company-event-tracker/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-free-company-event-tracker"
+        }
+      ]
     }
   ],
   "links": [
