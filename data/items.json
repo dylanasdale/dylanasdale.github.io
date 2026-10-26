@@ -890,6 +890,25 @@
       ]
     },
     {
+      "id": "free-town-help-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free-Town Help Directory",
+      "subtitle": "A single-page, offline HTML template that catalogs the free help in your county: library services and gadget lending, food pantries and meal sites, senior centers, utility assistance, free tax-prep days, and hospital…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-town-help-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-town-help-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
