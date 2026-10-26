@@ -954,6 +954,36 @@
       ]
     },
     {
+      "id": "family-tech-support-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Family Tech Helper",
+      "subtitle": "You're the person your family calls when \"the printer is haunted,\" the Wi-Fi quits, or a scary text says their bank account is frozen.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/family-tech-support-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "hospital-stay-companion-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Hospital Stay Companion Guide",
+      "subtitle": "A warm, plain-English, education-only manual for planned and surprise hospital stays: what to pack and what to leave home, admission paperwork in plain words, how to be a genuinely useful bedside helper, teach-back…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/hospital-stay-companion-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
