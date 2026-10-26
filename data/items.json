@@ -924,6 +924,36 @@
       ]
     },
     {
+      "id": "author-newsletter-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Reader Newsletter Handbook",
+      "subtitle": "A $0-budget manual for starting a reader newsletter from zero -- with free tools only, catches stated plainly, and a build that works offline.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/author-newsletter-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "photo-library-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Photo Library Comfort Guide",
+      "subtitle": "A warm, plain-English manual for rescuing your camera roll — the monthly one-hour triage, exact duplicates versus near-dupes, albums you will actually keep, naming scans, cloud versus your own drive, sensitive photos…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/photo-library-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
