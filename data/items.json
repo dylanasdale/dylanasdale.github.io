@@ -1653,6 +1653,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "receipt-bucket-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "receipt-bucket — an MCP receipts server, friendly and local-first",
+      "subtitle": "A small MCP server (Python standard library only, runs over stdio) that works like a bucket for receipts: you or your agent drop in a purchase — amount, merchant, category, optional tags, a note, or just a photo…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/receipt-bucket-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "dates-to-remember-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "dates-to-remember-mcp-server",
+      "subtitle": "A tiny MCP server (stdio, Python stdlib only — no pip installs) for dates that sneak up on you.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/dates-to-remember-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
