@@ -1352,6 +1352,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "pantry-inventory-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "pantry-inventory-mcp-server",
+      "subtitle": "A small, offline-first Model Context Protocol (MCP) server that turns any MCP-capable AI assistant into a friendly helper for your pantry and freezer.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/pantry-inventory-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
