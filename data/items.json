@@ -984,6 +984,25 @@
       ]
     },
     {
+      "id": "free-official-help-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Official Free Help Directory",
+      "subtitle": "A plain-English, offline-friendly directory of services that are officially free and sell you nothing: SSA, Medicare.gov counselors (SHIP), 211, IRS Free File + VITA, the CFPB complaint tool, FTC fraud reporting, and…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-official-help-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-official-help-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -1843,6 +1862,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/clinical-rotation-log-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-gentle-fitness-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Gentle Fitness Pack",
+      "subtitle": "Free printable pages for moving gently at any size and any energy level.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-gentle-fitness-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "home-maintenance-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Home Maintenance MCP Server",
+      "subtitle": "A small, offline-first MCP (Model Context Protocol) server that keeps track of your home's maintenance history and rhythm — in plain JSON, on your own machine, with zero dependencies beyond Python's standard library.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/home-maintenance-mcp-server",
+          "primary": true
         }
       ]
     }
