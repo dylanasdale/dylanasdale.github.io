@@ -755,6 +755,21 @@
       ]
     },
     {
+      "id": "llc-first-year-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The First-Year LLC Handbook",
+      "subtitle": "Everything is markdown + a zero-dependency Python build script.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llc-first-year-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -1304,6 +1319,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/readability-scoring-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "csv-cleanup-companion-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "csvclean-companion",
+      "subtitle": "A friendly, local-first command-line tool that cleans ugly CSV files for people who would rather never open a spreadsheet.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/csv-cleanup-companion-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "jargon-simplifier-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "jargon-simplifier",
+      "subtitle": "Rewrite stiff prose into plain English from the command line.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/jargon-simplifier-cli",
           "primary": true
         }
       ]
