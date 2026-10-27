@@ -1112,6 +1112,21 @@
       ]
     },
     {
+      "id": "free-tax-paperwork-organizer-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Tax Paperwork Organizer Kit",
+      "subtitle": "Six free print-and-file sheets that hold tax season by the hand.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-tax-paperwork-organizer-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
