@@ -2232,6 +2232,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ceu-hours-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "CE Hours Tracker",
+      "subtitle": "A friendly, education-only web app for licensed nurses to track their own continuing-education hours.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ceu-hours-tracker-webapp",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
