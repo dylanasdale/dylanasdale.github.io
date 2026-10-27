@@ -2217,6 +2217,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-sitter-info-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Sitter Info Pack",
+      "subtitle": "Free, printable packets for the person who saves your week: the babysitter, the pet sitter, and the house sitter.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-sitter-info-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
