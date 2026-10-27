@@ -1082,6 +1082,21 @@
       ]
     },
     {
+      "id": "quarterly-taxes-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Quarterly Taxes Calm Guide",
+      "subtitle": "A calm, beginner-friendly paperwork manual for US self-employed people and single-member LLC owners (and the generally curious).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/quarterly-taxes-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2000,6 +2015,40 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/car-log-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-clock-trainer-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Clock Trainer",
+      "subtitle": "An offline, single-file web app for practicing chess clock skills — not chess.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/chess-clock-trainer-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-clock-trainer-webapp"
+        }
+      ]
+    },
+    {
+      "id": "safe-share-redactor-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "share-redactor",
+      "subtitle": "Privacy-first CLI that redacts a document before you share it with an AI, a stranger, or a support inbox.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/safe-share-redactor-cli",
           "primary": true
         }
       ]
