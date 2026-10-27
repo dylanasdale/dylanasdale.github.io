@@ -1202,6 +1202,55 @@
       ]
     },
     {
+      "id": "free-accessibility-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Accessibility Tools Directory",
+      "subtitle": "A permanent, plain-English directory of free accessibility software and built-in settings - screen readers, magnifiers, dictation, text-to-speech, captions, dyslexia-friendly fonts, keyboard-only helpers, and…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-accessibility-tools-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-accessibility-tools-directory"
+        }
+      ]
+    },
+    {
+      "id": "library-ebooks-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Library Ebooks Comfort Guide",
+      "subtitle": "A plain-English, step-by-step manual for borrowing free library ebooks, audiobooks, and magazines on any device — written the way a friend would explain it: no condescension, no affiliate links, honest about the…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/library-ebooks-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "passwords-and-two-step-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Passwords & Two-Step Guide",
+      "subtitle": "Accounts and sign-ins, explained like a friend would.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/passwords-and-two-step-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2289,6 +2338,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/insurance-paperwork-decoded-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "changelog-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "changelog-drafter-cli",
+      "subtitle": "Draft an honest CHANGELOG.md straight from your git history.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/changelog-drafter-cli",
           "primary": true
         }
       ]
