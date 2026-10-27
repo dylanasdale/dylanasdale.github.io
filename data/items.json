@@ -2052,6 +2052,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "voice-notes-transcriber-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "voice-notes-transcriber (vnt)",
+      "subtitle": "A local-first CLI that turns phone voice memos into tidy, dated, searchable Markdown notes.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/voice-notes-transcriber-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
