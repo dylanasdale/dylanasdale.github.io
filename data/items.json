@@ -1266,6 +1266,51 @@
       ]
     },
     {
+      "id": "ai-images-field-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Field Guide to Making Images with AI",
+      "subtitle": "A beginner-friendly manual on creating images with AI — written like a friend would explain it.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-images-field-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "craft-fair-seller-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Craft-Fair Seller Handbook",
+      "subtitle": "A beginner manual for selling in person at fairs, markets, and conventions — written the way a friend would explain it: clearly, kindly, and never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/craft-fair-seller-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "second-brain-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Second Brain Basics",
+      "subtitle": "A warm, tested manual for a personal knowledge base made of plain files — no fancy apps required.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/second-brain-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2383,6 +2428,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-chess-scoresheet-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-opening-journal-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Opening Journal",
+      "subtitle": "A command-line journal for getting better at chess openings — not puzzles, not clocks.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-opening-journal-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-holiday-cooking-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Feast Without Dread",
+      "subtitle": "Free, printable PDF pack for cooking a big family meal without the panic.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-holiday-cooking-pack",
           "primary": true
         }
       ]
