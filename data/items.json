@@ -1052,6 +1052,21 @@
       ]
     },
     {
+      "id": "night-shift-survival-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Night Shift Survival Guide",
+      "subtitle": "It covers the real mechanics of living around night shifts:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/night-shift-survival-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
