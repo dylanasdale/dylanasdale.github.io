@@ -2461,6 +2461,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "vocab-quiz-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "vocab-quiz-builder",
+      "subtitle": "Turn any word list or text file into a printable study quiz — right on your own computer, fully offline.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/vocab-quiz-builder-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
