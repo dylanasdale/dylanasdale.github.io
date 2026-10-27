@@ -1988,6 +1988,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "car-log-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "car-log-mcp-server",
+      "subtitle": "A small MCP (Model Context Protocol) server for your car(s), written with the Python standard library only — no dependencies, no accounts, no cloud.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/car-log-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
