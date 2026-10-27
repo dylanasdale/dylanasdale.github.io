@@ -1127,6 +1127,21 @@
       ]
     },
     {
+      "id": "bereavement-paperwork-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Bereavement Paperwork Guide",
+      "subtitle": "A warm, plain-English, education-only manual for the paperwork that follows a death: the first-week checklist, who to call and in what order, what to keep copies of for good, the accounts and subscriptions to close,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bereavement-paperwork-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
