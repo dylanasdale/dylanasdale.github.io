@@ -1157,6 +1157,21 @@
       ]
     },
     {
+      "id": "series-and-boxset-kdp-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Beyond One Book (KDP)",
+      "subtitle": "A plain-English author manual for the moment your publishing plan grows past a single title: setting up a KDP series page, building a boxset step by step, doing the trim-size math that decides whether a print bundle…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/series-and-boxset-kdp-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2154,6 +2169,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/alt-text-writer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "beta-feedback-collector-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "beta-feedback-collector-cli",
+      "subtitle": "Normalize, cluster, and act on beta-reader feedback for a manuscript draft.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/beta-feedback-collector-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "bookmark-tidy-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "bookmark-tidy",
+      "subtitle": "Your bookmarks folder leaked into a hundred files and four folders named \"New Folder (2)\".",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bookmark-tidy-cli",
           "primary": true
         }
       ]
