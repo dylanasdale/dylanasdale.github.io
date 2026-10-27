@@ -1172,6 +1172,21 @@
       ]
     },
     {
+      "id": "used-tech-buying-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Used Tech Buying Guide",
+      "subtitle": "Read it as plain text:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/used-tech-buying-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
