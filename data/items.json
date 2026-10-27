@@ -2082,6 +2082,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-daily-docket-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Daily Docket Pack",
+      "subtitle": "Free, printable, ADHD-friendly daily dockets: one-page paper planners that keep a day small enough to actually happen.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-daily-docket-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
