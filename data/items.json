@@ -1251,6 +1251,21 @@
       ]
     },
     {
+      "id": "book-draft-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "book-draft-mcp-server",
+      "subtitle": "A small, local-first MCP server (Python stdlib only) for pacing a book draft: chapters with status and target-vs-actual word counts, a session log of writing sprints, revision-note threads per chapter, deadline dates…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/book-draft-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2353,6 +2368,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/changelog-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-chess-scoresheet-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Chess Scoresheet Pack",
+      "subtitle": "A free, printable pack for keeping a chess paper trail.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-chess-scoresheet-pack",
           "primary": true
         }
       ]
