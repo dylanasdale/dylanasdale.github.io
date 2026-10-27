@@ -1033,6 +1033,25 @@
       ]
     },
     {
+      "id": "free-local-models-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Local AI Models Directory",
+      "subtitle": "A permanent, plain-English directory of notable free-to-run local AI models — Llama, Mistral, Qwen, Gemma, Phi, DeepSeek, SmolLM, and OLMo families — with honest per-model cards: rough download size, RAM needs,…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-local-models-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-local-models-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
