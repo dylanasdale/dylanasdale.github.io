@@ -1097,6 +1097,21 @@
       ]
     },
     {
+      "id": "photo-digitizing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Photo Digitizing Guide",
+      "subtitle": "A plain-English manual for rescuing your family's printed photos, slides, and film negatives into a safe, organized digital archive — phone or flatbed, your choice, no cloud accounts required.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/photo-digitizing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
