@@ -1067,6 +1067,21 @@
       ]
     },
     {
+      "id": "spot-fake-media-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Spot Fake Media Guide",
+      "subtitle": "Believe less, verify more — explained like a friend would.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/spot-fake-media-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
