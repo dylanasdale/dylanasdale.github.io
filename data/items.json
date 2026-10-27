@@ -2476,6 +2476,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "dnd-campaign-companion-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "D&D Campaign Companion",
+      "subtitle": "A local-first, single-file web app for tabletop roleplay campaigns: session recaps, NPC & party inventories, loot, a quest log, relationship hints between characters, and a session-zero worksheet — everything…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/dnd-campaign-companion-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/dnd-campaign-companion-webapp"
+        }
+      ]
     }
   ],
   "links": [
