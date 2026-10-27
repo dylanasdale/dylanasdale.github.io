@@ -1142,6 +1142,21 @@
       ]
     },
     {
+      "id": "ssa-paperwork-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "SSA Paperwork Calm Guide",
+      "subtitle": "A warm, plain-English Social Security paperwork manual — education and admin help only: what SSA is in one picture, which appointment you likely need (or can skip entirely), a document grab-list by claim type, the…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ssa-paperwork-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
