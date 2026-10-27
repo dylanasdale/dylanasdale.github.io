@@ -2142,6 +2142,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "alt-text-writer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "alt-text-writer",
+      "subtitle": "An accessibility CLI that scans your HTML and Markdown for images missing alt text, proposes concise descriptive alternatives, and applies edits only after you review a patch.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/alt-text-writer-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
