@@ -1187,6 +1187,21 @@
       ]
     },
     {
+      "id": "voice-assistants-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Voice Assistants Comfort Guide",
+      "subtitle": "Smart speakers (Alexa, Google, Siri) explained like a friend would — plain English, step by step, never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/voice-assistants-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2244,6 +2259,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ceu-hours-tracker-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-party-planner-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Party Planner Pack",
+      "subtitle": "Free, warm, print-ready PDF helpers for planning small, tender celebrations.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-party-planner-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "insurance-paperwork-decoded-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Insurance Paperwork, Decoded",
+      "subtitle": "Local-first: no network, no dependencies beyond Python 3.8+.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/insurance-paperwork-decoded-guide",
           "primary": true
         }
       ]
