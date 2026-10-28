@@ -2676,6 +2676,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "model-settings-decoded-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Model Settings, Decoded",
+      "subtitle": "\"Temperature?",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/model-settings-decoded-guide",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
