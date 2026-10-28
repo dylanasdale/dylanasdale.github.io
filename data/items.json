@@ -1386,6 +1386,21 @@
       ]
     },
     {
+      "id": "video-calls-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Video Calls Comfort Guide",
+      "subtitle": "Video Calls, Calm =================",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/video-calls-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
