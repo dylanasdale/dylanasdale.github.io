@@ -1371,6 +1371,21 @@
       ]
     },
     {
+      "id": "free-garage-sale-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Garage Sale Pack",
+      "subtitle": "A free, printable pack for a smooth garage or yard sale — pick a date, price your items, sort your tables, run the cash box, and keep a clean tally of what sold.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-garage-sale-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
