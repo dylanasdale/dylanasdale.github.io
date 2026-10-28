@@ -2721,6 +2721,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-thank-you-notes-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Gratitude Without Guilt — Free Thank-You Notes Printable Pack",
+      "subtitle": "Free printables for gratitude without guilt: warm, fill-in-the-blank thank-you cards for real life, plus envelope liners and a note-sender tracker page so every card you fill in actually gets mailed.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-thank-you-notes-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
