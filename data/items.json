@@ -1356,6 +1356,21 @@
       ]
     },
     {
+      "id": "talking-to-kids-about-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Talking to Kids About AI — A Parent Manual",
+      "subtitle": "A plain-English, kitchen-table guide for parents talking with kids and teens about AI: what AI actually is, homework honesty and school policies, chatbots-as-friend warnings, sharing rules (photos, names, feelings),…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/talking-to-kids-about-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2644,6 +2659,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-savage-prog-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "ollama-disk-doctor-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ollama-disk-doctor",
+      "subtitle": "Keep a tidy local-model machine.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ollama-disk-doctor-cli",
+          "primary": true
         }
       ]
     }
