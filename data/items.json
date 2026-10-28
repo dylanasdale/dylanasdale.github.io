@@ -1311,6 +1311,51 @@
       ]
     },
     {
+      "id": "reading-ai-code-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Reading AI-Written Code",
+      "subtitle": "A beginner-friendly, plain-English manual for getting code written by an AI — and using it safely even if you cannot write code yourself: what code actually does, how to read it like an informed editor, spotting the…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/reading-ai-code-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "when-ai-gets-it-wrong-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "When AI Gets It Wrong",
+      "subtitle": "Confident is not the same as correct — explained like a friend would.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/when-ai-gets-it-wrong-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ask-your-files-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Ask Your Files AI Guide",
+      "subtitle": "A free, beginner-friendly manual for asking AI questions about your own documents — fully local, on your own computer.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ask-your-files-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2493,6 +2538,112 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/dnd-campaign-companion-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-spring-cleaning-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Spring Cleaning Free Pack",
+      "subtitle": "A free printable pack for cheerful seasonal cleaning: warm getting-started notes, room-by-room walk-through lists, one-hour zone timers, a declutter decision card, a freecycle-and-donate drop log, deep-clean vs…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-spring-cleaning-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-fishing-log-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Fishing Log",
+      "subtitle": "A manual-entry fishing tracker for Final Fantasy XIV: log fish by spot with saltwater/freshwater tags, Eorzean window times, weather and bait notes, caught / still-needed statuses, a ranked rare-fish wish list, a…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-fishing-log-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-fishing-log-webapp"
+        }
+      ]
+    },
+    {
+      "id": "unit-swap-board-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Unit Swap Board",
+      "subtitle": "A warm, tiny, education-only web app that helps nurses organize shift swaps within their own squad — like a shared notebook that lives in your browser.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/unit-swap-board-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/unit-swap-board-webapp"
+        }
+      ]
+    },
+    {
+      "id": "warranty-renewal-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Warranty & Renewal Tracker",
+      "subtitle": "A friendly, offline web app for the warranties and renewals that love to sneak past you — appliance coverage, car/phone warranties, insurance renewals, memberships, and service plans — with a 12-month big-expense…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/warranty-renewal-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/warranty-renewal-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "plain-contract-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "plain-contract-checker-cli",
+      "subtitle": "Paste in a freelancer or vendor contract, get a plain-English read in seconds — fully offline, right in your terminal.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/plain-contract-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-savage-prog-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Savage Prog Tracker (FFXIV raid nights)",
+      "subtitle": "A storage-free, serverless web app for tracking your Final Fantasy XIV savage-progression nights: who's in the party, what you tried on each fight, how many wipes it cost, how close you got, and how far you moved…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-savage-prog-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-savage-prog-tracker-webapp"
         }
       ]
     }
