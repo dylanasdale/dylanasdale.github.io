@@ -2879,6 +2879,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "bookkeeping-basics-workbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Bookkeeping Basics — A First-Year Workbook for Solopreneurs",
+      "subtitle": "A friendly, plain-English workbook for your first year of small-business books: the six accounts you actually need, cash-basis accounting explained without jargon, a 30-minute monthly close ritual, shoebox-to-system…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bookkeeping-basics-workbook",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
