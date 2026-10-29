@@ -1566,6 +1566,21 @@
       ]
     },
     {
+      "id": "3d-printing-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The 3D Printing Comfort Guide",
+      "subtitle": "A calm, plain-English manual for a first 3D printer — choosing modestly instead of collecting, understanding bed leveling for what it really is, speaking slicer in six settings, living happily in PLA, printing…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/3d-printing-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
