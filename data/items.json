@@ -3037,6 +3037,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "meta-tag-forge-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Meta Tag Forge",
+      "subtitle": "An offline, single-page tool that forges the invisible tags a brand-new site needs — the tags nobody sees you type but every search engine and social network reads:",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/meta-tag-forge-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/meta-tag-forge-webapp"
+        }
+      ]
     }
   ],
   "links": [
