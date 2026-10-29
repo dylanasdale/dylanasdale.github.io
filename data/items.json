@@ -3022,6 +3022,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "llm-diff-explainer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "llm-diff-explainer",
+      "subtitle": "Compare two drafts, configs, or contract versions and see add/remove highlights, paragraph by paragraph, in your terminal and in a standalone HTML file.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-diff-explainer-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
