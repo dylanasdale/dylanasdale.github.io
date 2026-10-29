@@ -1446,6 +1446,21 @@
       ]
     },
     {
+      "id": "pdf-everyday-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "PDF, Every Day",
+      "subtitle": "A friendly handbook for living with PDFs — what a PDF really is, filling forms without paid software, shrinking files to meet upload limits, signing safely, building multi-document packets, pulling out text for local…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/pdf-everyday-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2831,6 +2846,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/back-matter-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-stay-over-welcome-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "The free stay-over welcome pack",
+      "subtitle": "Free printables for hosting guests kindly.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-stay-over-welcome-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ics-reminder-maker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ics-reminder-maker",
+      "subtitle": "A tiny, friendly command-line tool that turns a plain reminders.txt file into real, valid calendar files (.ics) — the kind every phone and desktop calendar can open.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ics-reminder-maker-cli",
           "primary": true
         }
       ]
