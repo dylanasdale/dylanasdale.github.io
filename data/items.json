@@ -1476,6 +1476,36 @@
       ]
     },
     {
+      "id": "free-flea-market-booth-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Flea-Market Booth Pack",
+      "subtitle": "Free, unbranded, print-at-home printables for running a tidy flea-market booth — the vendor kind, where you set up a blanket or table at a public market and sell to shoppers all day.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-flea-market-booth-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-sick-day-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Sick-Day Kit",
+      "subtitle": "Free printables for the sick-day scramble.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-sick-day-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -2926,6 +2956,55 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-collection-board-webapp"
+        }
+      ]
+    },
+    {
+      "id": "patient-handout-maker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Patient Handout Maker",
+      "subtitle": "A friendly command-line tool that helps nurse educators draft plain-language patient teaching handouts — quickly, locally, and for free.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/patient-handout-maker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "qr-label-maker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "QR Label Maker",
+      "subtitle": "Options you will actually use:",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/qr-label-maker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "sinking-fund-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Sinking Funds Tracker",
+      "subtitle": "An offline web app for savings with a purpose.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/sinking-fund-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/sinking-fund-tracker-webapp"
         }
       ]
     }
