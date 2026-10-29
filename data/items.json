@@ -1431,6 +1431,21 @@
       ]
     },
     {
+      "id": "free-pantry-label-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Pantry Label Kit",
+      "subtitle": "Free printables for a pantry that talks back: labels and cards that ask for refills, date their own freezer bags, and tell you exactly how long everything keeps.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-pantry-label-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
