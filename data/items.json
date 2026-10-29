@@ -1521,6 +1521,51 @@
       ]
     },
     {
+      "id": "free-family-tech-agreement-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Family Tech Agreement Kit",
+      "subtitle": "Free printables for calmer family screen rules.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-family-tech-agreement-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "home-buying-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "home-buying-calm-guide",
+      "subtitle": "A first-time home buyer's manual in plain English — what each document means, pre-approval without panic, touring with a checklist instead of vibes, inspection vs.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/home-buying-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "presentation-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Presentation Comfort Guide",
+      "subtitle": "Presenting, Calm ================",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/presentation-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3084,6 +3129,55 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/csv-flashcards-site-template",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "docs-anchor-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "docs-anchor-checker",
+      "subtitle": "Every finding comes with a plain-English suggested fix, and all suggestions are collected in a Suggested fixes section at the bottom of the report.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/docs-anchor-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "reseller-agent-skills-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "reseller-agent-skills-pack",
+      "subtitle": "Plain-English agent skills for reselling side hustles — the kind of help a friend would give you before you list that thrift-store lamp on eBay.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/reseller-agent-skills-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "weekly-triage-board-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Weekly Triage Board 🧺",
+      "subtitle": "An ADHD-friendly, offline weekly triage board for the Sunday reset.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/weekly-triage-board-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/weekly-triage-board-webapp"
         }
       ]
     }
