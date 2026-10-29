@@ -1401,6 +1401,21 @@
       ]
     },
     {
+      "id": "downloads-folder-taming-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Downloads & Desktop Taming Handbook",
+      "subtitle": "An ADHD-friendly manual for taming Downloads and Desktop: one ten-minute weekly reset, one-decision triage rules, names that survive years, a safe-delete-vs-archive policy for installers and duplicates, a rescue plan…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/downloads-folder-taming-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
