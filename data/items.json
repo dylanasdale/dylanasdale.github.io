@@ -1506,6 +1506,21 @@
       ]
     },
     {
+      "id": "freelance-first-client-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The First-Client Survival Kit",
+      "subtitle": "Chapters in docs/:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/freelance-first-client-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3054,6 +3069,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/meta-tag-forge-webapp"
+        }
+      ]
+    },
+    {
+      "id": "csv-flashcards-site-template",
+      "tag": "Free",
+      "free": true,
+      "title": "CSV Flashcards Site",
+      "subtitle": "A static template that turns any CSV of terms into a friendly study site: two-sided flip cards, shuffle and reverse modes, know / don't-know sorting, and a no-frills print sheet.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/csv-flashcards-site-template",
+          "primary": true
         }
       ]
     }
