@@ -1416,6 +1416,21 @@
       ]
     },
     {
+      "id": "plain-english-ip-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Plain-English IP Guide for Small Creators",
+      "subtitle": "A beginner-friendly guide to intellectual property for small creators, indie authors, and tiny LLCs — written the way a friend would explain it over coffee: plain English, step by step, never condescending, and no…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/plain-english-ip-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
