@@ -2774,6 +2774,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/custom-order-tracker-webapp"
         }
       ]
+    },
+    {
+      "id": "back-matter-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "back-matter-builder",
+      "subtitle": "Assemble print-ready book back matter from a single profile file — for Kindle Direct Publishing (KDP) paperbacks.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/back-matter-builder-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
