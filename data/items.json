@@ -3007,6 +3007,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/sinking-fund-tracker-webapp"
         }
       ]
+    },
+    {
+      "id": "llm-json-extractor-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "llm-json-extractor",
+      "subtitle": "A small, local-first CLI that turns messy prose into clean data.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-json-extractor-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
