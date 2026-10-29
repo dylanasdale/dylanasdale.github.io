@@ -2755,6 +2755,25 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/insurance-enrollment-timeline-webapp"
         }
       ]
+    },
+    {
+      "id": "custom-order-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Custom Order Tracker",
+      "subtitle": "A local-first queue for makers who take commissions.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/custom-order-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/custom-order-tracker-webapp"
+        }
+      ]
     }
   ],
   "links": [
