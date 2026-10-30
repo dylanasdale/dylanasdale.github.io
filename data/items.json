@@ -1626,6 +1626,25 @@
       ]
     },
     {
+      "id": "free-everyday-software-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Every-Day Software Directory",
+      "subtitle": "A static, single-file HTML directory of genuinely free software every household deserves — free software, not just \"free tools.\" LibreOffice, GIMP, Audacity, VLC, Syncthing-style file sync, compression tools, a…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-everyday-software-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-everyday-software-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
