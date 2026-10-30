@@ -3259,6 +3259,40 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/weekly-triage-board-webapp"
         }
       ]
+    },
+    {
+      "id": "free-interview-prep-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Interview Prep Pack",
+      "subtitle": "Interview week, one printable at a time — nine calm, fill-in sheets that build into polished PDFs on your own computer.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-interview-prep-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "unit-price-compare-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Unit Price Compare Webapp",
+      "subtitle": "Unit Price Compare ==================",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/unit-price-compare-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/unit-price-compare-webapp"
+        }
+      ]
     }
   ],
   "links": [
