@@ -1596,6 +1596,36 @@
       ]
     },
     {
+      "id": "new-pet-first-week-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "New Pet First Week Guide",
+      "subtitle": "A kind, plain-English manual for bringing home a rescue cat or dog and surviving — gently — the first seven days together.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/new-pet-first-week-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "smartphone-photo-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Smartphone Photo Basics",
+      "subtitle": "A warm, plain-English manual for taking photos worth keeping — with the phone already in your pocket.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/smartphone-photo-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
