@@ -1581,6 +1581,21 @@
       ]
     },
     {
+      "id": "free-home-labeling-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "free-home-labeling-kit",
+      "subtitle": "Free printables for taming the small home mysteries that sneak up on everyone: untagged cords, mystery breakers, forgotten valves, and \"mom, where's the tape?\" Every sheet is a single HTML/CSS page that prints to PDF…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-home-labeling-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
