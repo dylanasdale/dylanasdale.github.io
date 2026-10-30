@@ -3293,6 +3293,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/unit-price-compare-webapp"
         }
       ]
+    },
+    {
+      "id": "debt-payoff-planner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "debt-payoff-planner",
+      "subtitle": "A Python command-line tool that turns debt dread into a plan.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/debt-payoff-planner-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
