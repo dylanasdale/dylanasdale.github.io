@@ -1645,6 +1645,51 @@
       ]
     },
     {
+      "id": "directory-site-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "directory-site-starter-template",
+      "subtitle": "A copy-ready starter for JSON-driven directory sites: one data/cards.json file you edit by hand, one static page with search and category filtering, and an offline pytest suite that keeps your data honest — including…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/directory-site-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-school-year-organizer-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free School Year Organizer Kit",
+      "subtitle": "Eight unbranded, print-and-go PDF organizers that help a regular parent tame the school year from the first week of paperwork to the end-of-year binder cleanout.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-school-year-organizer-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "homelab-self-hosting-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Family Self-Hosting Guide",
+      "subtitle": "A plain-English, friend-paced manual for gently self-hosting your family's tech at home — what is safe to host, which spare device to pick, file and photo sync, a family wiki, a small static website, remote access…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/homelab-self-hosting-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3305,6 +3350,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/debt-payoff-planner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-spread-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-spread-checker-cli",
+      "subtitle": "A local, stdlib-only command line tool that checks a finished KDP paperback interior PDF before you spend an upload cycle - page count and parity, blank-page placement, margins and bleed by trim size, duplicate or…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-spread-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "link-safety-inspector-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Link Safety Inspector",
+      "subtitle": "Python 3.10 or newer.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/link-safety-inspector-cli",
           "primary": true
         }
       ]
