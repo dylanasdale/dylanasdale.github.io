@@ -3804,6 +3804,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ebay-auction-timing-webapp"
         }
       ]
+    },
+    {
+      "id": "wardrobe-capsule-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "wardrobe-capsule-mcp-server",
+      "subtitle": "A calmer closet, one small tool at a time.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/wardrobe-capsule-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
