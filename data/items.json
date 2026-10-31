@@ -1893,6 +1893,21 @@
       ]
     },
     {
+      "id": "ai-workflow-chains-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Workflow Chains Guide",
+      "subtitle": "One big prompt asks too much.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-workflow-chains-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
