@@ -1833,6 +1833,21 @@
       ]
     },
     {
+      "id": "guide-writing-cookbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Guide Writing Cookbook",
+      "subtitle": "The Guide-Writing Cookbook ===========================",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/guide-writing-cookbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3662,6 +3677,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/vcard-contact-cards-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "bill-negotiation-scripts-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Calmer Bills: The Ring-Binder of Discount-Call Scripts",
+      "subtitle": "A warm, plain-English manual for making the phone calls most of us dread: asking your internet provider, phone carrier, insurance company, credit-card issuer, or hospital to lower a bill.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bill-negotiation-scripts-guide",
           "primary": true
         }
       ]
