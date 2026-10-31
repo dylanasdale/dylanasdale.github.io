@@ -1653,9 +1653,13 @@
       "meta": "Directory · Free · Built with OpenCode",
       "links": [
         {
-          "label": "View on GitHub",
-          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/directory-site-starter-template",
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/directory-site-starter-template/",
           "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/directory-site-starter-template"
         }
       ]
     },
@@ -1685,6 +1689,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/homelab-self-hosting-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "aging-in-place-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Aging-in-Place Comfort Guide",
+      "subtitle": "Room-by-room walkthroughs, grab bars and lighting in a sensible order, fall-risk fixes in weekend doses, medication and appointment systems that survive bad days, life-alert options decoded in plain English, scripts…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/aging-in-place-comfort-guide",
           "primary": true
         }
       ]
@@ -3381,6 +3400,25 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/link-safety-inspector-cli",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "return-deadline-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Return Deadline Tracker",
+      "subtitle": "An offline, zero-dependency web app for the quiet dread of missed return windows.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/return-deadline-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/return-deadline-tracker-webapp"
         }
       ]
     }
