@@ -3834,6 +3834,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "chapter-critique-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chapter-critique",
+      "subtitle": "A manuscript-first-draft helper.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chapter-critique-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
