@@ -1848,6 +1848,51 @@
       ]
     },
     {
+      "id": "local-ai-voice-assistant-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The House Voice",
+      "subtitle": "A friend-paced, fully offline manual for building your own private home voice assistant — wake word, local LLM brain, offline speech-to-text, and scriptable household commands (timers, lists, quiet hours, kid and…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-ai-voice-assistant-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "reading-room-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Reading Room MCP Server",
+      "subtitle": "A small, local-first MCP (Model Context Protocol) server for one household's reading room: track what each person is reading with per-person progress, hold to-be-continued bookmarks, view a lending swap grid showing…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/reading-room-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-ocean-fishing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Ocean Fishing Guide — A Fan-Made Manual Without the Spreadsheets",
+      "subtitle": "Ocean fishing has wonderful community spreadsheets — and spreadsheet dread for the rest of us.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-ocean-fishing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3692,6 +3737,51 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bill-negotiation-scripts-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-energy-mapping-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Energy Mapping Printables",
+      "subtitle": "Seven printable planning sheets built around a simple, kind premise: plan around your real energy, not around an imagined version of your motivation.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-energy-mapping-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-fact-check-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Fact-Check Directory",
+      "subtitle": "A directory of free fact-checking sources and tools, plus plain-English checklists and a shareable \"verify before you forward\" card for group chats.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-fact-check-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-phone-reset-day-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Phone Reset Day Pack",
+      "subtitle": "Nine printable sheets for a monthly phone reset ritual: about an hour total, broken into snack-sized steps with friendly pacing notes on every sheet.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-phone-reset-day-pack",
           "primary": true
         }
       ]
