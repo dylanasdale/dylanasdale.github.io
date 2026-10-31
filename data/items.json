@@ -3785,6 +3785,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ebay-auction-timing-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "eBay Auction Timing",
+      "subtitle": "eBay Auction Timing is a tiny offline web app for resellers, flea-market diggers, and garage-sale flippers.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ebay-auction-timing-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ebay-auction-timing-webapp"
+        }
+      ]
     }
   ],
   "links": [
