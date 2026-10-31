@@ -1709,6 +1709,70 @@
       ]
     },
     {
+      "id": "free-creator-assets-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Creator Assets Directory",
+      "subtitle": "A single-file, offline static page listing genuinely free image, font, music, icon, and mockup sources for authors and small businesses.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-creator-assets-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-creator-assets-directory"
+        }
+      ]
+    },
+    {
+      "id": "free-meal-train-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Meal Train Kit",
+      "subtitle": "Free printable kit for coordinating meals for someone you love — a new baby, surgery recovery, or any hard season.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-meal-train-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "language-learning-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Learning a Language with AI",
+      "subtitle": "A complete guide for learning a language around a real life — work shifts, kids, commutes — using AI as an endlessly patient conversation partner:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/language-learning-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nurse-preceptor-toolkit-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse Preceptor Toolkit",
+      "subtitle": "An education-only manual for nurses who get asked to precept a new grad — and would love to do it without losing the shift, the orientee, or themselves.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nurse-preceptor-toolkit-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3419,6 +3483,66 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/return-deadline-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-houseplant-care-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Houseplant Helper Printables",
+      "subtitle": "Free printable PDFs for keeping the greenery alive: plain-English, fill-by-hand sheets for real plant parents.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-houseplant-care-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "audiobook-length-estimator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "audiobook-length-estimator",
+      "subtitle": "Size an audiobook before anyone hits record.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/audiobook-length-estimator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "craft-wip-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "craft-wip-mcp-server",
+      "subtitle": "A tiny MCP server for the craft room, written in pure Python (standard library only, zero dependencies).",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/craft-wip-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-simple-mending-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "free-simple-mending-pack",
+      "subtitle": "Free printable guides for confident, simple clothing mending.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-simple-mending-pack",
+          "primary": true
         }
       ]
     }
