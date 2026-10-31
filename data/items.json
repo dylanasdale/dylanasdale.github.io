@@ -1773,6 +1773,66 @@
       ]
     },
     {
+      "id": "plain-health-research-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Plain Health Research Guide",
+      "subtitle": "A beginner-friendly, education-only manual for making sense of health news, study abstracts, and medical statistics — written in plain English, like a friend would explain it.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/plain-health-research-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "podcast-friend-starter-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Podcast Friend Starter Guide",
+      "subtitle": "A calm, plain-English manual for starting a small podcast or audio show — written for authors and one-person LLCs who already have a full life to run.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/podcast-friend-starter-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "selling-digital-products-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Selling Digital Products Guide",
+      "subtitle": "A plain-English manual for a one-person LLC selling digital products directly — what to make besides books, how to compare Etsy/Gumroad/Ko-fi with honest round-number fee math, listing copy and preview images,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/selling-digital-products-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "small-landlord-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Small Landlord, Calm Guide",
+      "subtitle": "A warm, plain-English, education-only manual for renting out a room, a house, or an ADU (accessory dwelling unit) — the kind of small rental a regular person handles on the side, not a property empire.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/small-landlord-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3542,6 +3602,66 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-simple-mending-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "paper-binder-index-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Paper Binder Index",
+      "subtitle": "A small, offline MCP server that indexes where your physical paperwork lives — the deed in the fireproof binder under \"Housing\", the car title in the fire safe, the passport in the drawer — so an AI agent can answer…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/paper-binder-index-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "plain-email-newsletter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "plain-email-newsletter-template",
+      "subtitle": "Copy-ready template for readable email newsletters that survive Gmail and dark mode.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/plain-email-newsletter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "recipe-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Recipe MCP Server",
+      "subtitle": "A small, offline MCP server (Model Context Protocol, stdio transport) that holds a personal recipe collection and gives AI agents the tools to help you actually cook: search by what's in your fridge, scale recipes…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/recipe-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "vcard-contact-cards-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "vcc — vcard-contact-cards-cli",
+      "subtitle": "Five-second contact sharing, fully offline.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/vcard-contact-cards-cli",
           "primary": true
         }
       ]
