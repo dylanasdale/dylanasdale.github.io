@@ -1908,6 +1908,51 @@
       ]
     },
     {
+      "id": "context-and-memory-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Context & Memory: The AI Guide Nobody Handled You",
+      "subtitle": "Most AI guides start with \"here's how to write a prompt.\" This one starts earlier — with the stuff that actually determines whether your AI sessions go well or go sideways:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/context-and-memory-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-accountability-partner-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Gentle Accountability Friendship Kit",
+      "subtitle": "Free printables for starting and keeping a gentle accountability friendship.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-accountability-partner-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-chess-club-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Pop-Up Chess Club Kit",
+      "subtitle": "Free printables for running a tiny pop-up chess club at a library table, a coffee shop, or a kitchen table — nothing to install at the venue, no signups, no apps, no chess clock required.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-chess-club-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3846,6 +3891,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chapter-critique-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "faq-help-center-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "FAQ Help Center Starter Template",
+      "subtitle": "A static-site starter for small businesses and sellers shipping a self-serve help center: plain Markdown questions organized by category, search-as-you-type, print-friendly article pages, and a contact escape on…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/faq-help-center-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-regression-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-regression-cli",
+      "subtitle": "Store prompt variants as versioned template files, define fixed test cases in YAML, run them against any OpenAI-compatible endpoint (Ollama included, config file only — no API keys in files), score every output…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/prompt-regression-cli",
           "primary": true
         }
       ]
