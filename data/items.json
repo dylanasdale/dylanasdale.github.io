@@ -3958,6 +3958,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ollama-chat-page-template"
         }
       ]
+    },
+    {
+      "id": "sim-scenario-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "sim-scenario-drafter",
+      "subtitle": "Pick a skill and a realistic room, and the tool drafts a printable Markdown packet containing:",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/sim-scenario-drafter-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
