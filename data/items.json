@@ -3924,6 +3924,40 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "toolbox-lending-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Toolbox Lending MCP Server",
+      "subtitle": "A beginner-friendly MCP server (Model Context Protocol) for the household toolbox.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/toolbox-lending-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-chat-page-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Local Chat Playground (single-file template)",
+      "subtitle": "A zero-install chat page for talking to any OpenAI-compatible endpoint — works great with Ollama by default.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ollama-chat-page-template/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ollama-chat-page-template"
+        }
+      ]
     }
   ],
   "links": [
