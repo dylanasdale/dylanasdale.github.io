@@ -1953,6 +1953,51 @@
       ]
     },
     {
+      "id": "library-author-visit-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Author Visit Handbook",
+      "subtitle": "A $0-budget manual for local authors arranging friendly, free visits -- with the pitch that gets the yes, the fifty-minute plan that fills the hour, and the kit that makes the second visit cost ten minutes.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/library-author-visit-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-transcription-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Local Transcription Handbook",
+      "subtitle": "A plain-English manual covering the whole path from microphone to summary:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-transcription-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mini-course-author-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Mini-Course Author Guide",
+      "subtitle": "Eleven documents in docs/, also published as a small static website:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/mini-course-author-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -3970,6 +4015,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/sim-scenario-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-genealogy-sources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Genealogy Sources Directory",
+      "subtitle": "A curated, hand-maintained directory of free genealogy sources and routes: FamilySearch, state and county archives, census lookups, free-via-library newspaper routes, Find A Grave (and the etiquette of using it…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-genealogy-sources-directory",
           "primary": true
         }
       ]
