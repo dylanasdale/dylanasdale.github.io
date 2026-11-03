@@ -4669,6 +4669,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/street-reseller-profit-log-webapp"
         }
       ]
+    },
+    {
+      "id": "when-to-pay-for-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "When to Pay for AI",
+      "subtitle": "Then open site/index.html in any browser.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/when-to-pay-for-ai-guide",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
