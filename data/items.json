@@ -4217,6 +4217,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/resale-season-calendar-webapp"
         }
       ]
+    },
+    {
+      "id": "agent-trace-explainer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Agent Trace Explainer",
+      "subtitle": "A friendly command-line tool that turns agents'/LLMs' tool-call transcripts — the JSONL logs that AI assistants and agent frameworks quietly write while they work — into a clean, human-readable timeline.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/agent-trace-explainer-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
