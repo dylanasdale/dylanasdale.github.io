@@ -4593,6 +4593,82 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "clinical-wrong-answer-log-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Wrong Answer Log",
+      "subtitle": "A small offline web app for nursing students who practice questions and miss some.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/clinical-wrong-answer-log-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/clinical-wrong-answer-log-webapp"
+        }
+      ]
+    },
+    {
+      "id": "household-chore-rotation-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Household Chore Rotation",
+      "subtitle": "An offline, local-first webapp that helps a household of any size share chores fairly — with a joint rotation wheel, strengths-based assignments, easy trade logging, and a no-shame skip log that quietly thanks…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/household-chore-rotation-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/household-chore-rotation-webapp"
+        }
+      ]
+    },
+    {
+      "id": "kdp-price-ladder-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-price-ladder-webapp",
+      "subtitle": "An offline, single-page webapp that turns KDP pricing into a sliding ladder: pick your trim, pages, and royalty plan, then slide through 10 price points and watch per-unit royalty, break-even units, and worst-case…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/kdp-price-ladder-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-price-ladder-webapp"
+        }
+      ]
+    },
+    {
+      "id": "street-reseller-profit-log-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Flip Ledger",
+      "subtitle": "An offline, single-file webapp for tracking street-flipper daily profits.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/street-reseller-profit-log-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/street-reseller-profit-log-webapp"
+        }
+      ]
     }
   ],
   "links": [
