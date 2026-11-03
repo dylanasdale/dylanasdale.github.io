@@ -2276,6 +2276,21 @@
       ]
     },
     {
+      "id": "ai-narration-choices-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Audiobook Voice Decision Guide",
+      "subtitle": "An author's manual on audiobook narration choices — should your audiobook be narrated by a hired human voice, an AI voice, or you?",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-narration-choices-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
