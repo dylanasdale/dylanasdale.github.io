@@ -4748,6 +4748,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "epub-precheck-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "epub-precheck",
+      "subtitle": "Before you upload your EPUB, run it through this first.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/epub-precheck-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "quarterly-tax-dates-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "quarterly-tax-dates",
+      "subtitle": "A small, quiet Python CLI that guards the four quarterly US estimated-tax deadlines.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/quarterly-tax-dates-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
