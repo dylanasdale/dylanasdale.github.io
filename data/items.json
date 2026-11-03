@@ -2257,6 +2257,25 @@
       ]
     },
     {
+      "id": "free-mobile-apps-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Forever: Mobile Apps That Actually Stay Free",
+      "subtitle": "A static, plain-English directory of genuinely free mobile apps that stay free.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-mobile-apps-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-mobile-apps-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
