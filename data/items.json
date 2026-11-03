@@ -1998,6 +1998,36 @@
       ]
     },
     {
+      "id": "github-pages-hub-site-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub Pages Hub Site Guide",
+      "subtitle": "The manual for building and keeping a personal hub site on GitHub Pages — the Asdale way: one repo, one index.html routing readers to books, guides, and tools, project cards and breadcrumbs, error pages people can…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/github-pages-hub-site-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-nurse-educators-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The AI Manual for Clinical Nurse Educators",
+      "subtitle": "A plain-English, beginner-friendly guide for clinical educators and nurse educators who want to use AI tools to draft lesson plans, write fictional teaching cases, build simulation scenarios, and grade with rubrics —…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-for-nurse-educators-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
