@@ -2178,6 +2178,21 @@
       ]
     },
     {
+      "id": "ffxiv-housing-and-craft-station-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Housing for Non-Crafters",
+      "subtitle": "A friendly, fan-made manual for housing in FINAL FANTASY XIV, written for players who never plan to craft: buy-in budgets, what furniture actually matters, garden planter math, crop-swap etiquette with neighbours,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-housing-and-craft-station-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -4429,6 +4444,89 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/email-headers-inspector-cli",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-roleplay-profile-builder-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Adventurer's Ledger — FFXIV Roleplay Profile Builder",
+      "subtitle": "A static, fully offline single-page web app for building Final Fantasy XIV roleplay character cards: fill in the bio, appearance, personality sliders, story hooks, free-company info, and contact preferences — then…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-roleplay-profile-builder-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-roleplay-profile-builder-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-library-card-power-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Library Card Power Pack",
+      "subtitle": "Every entry answers the same three questions: what it is, what it costs, and what you need to sign up — then shows real example libraries with links to their own public pages (full source list on each entry page).",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-library-card-power-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "price-tag-printer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "price-tag-printer",
+      "subtitle": "Print-ready price tags and shelf labels from a simple CSV.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/price-tag-printer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "rss-digest-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "rss-digest-cli",
+      "subtitle": "Turn an OPML or URL list into a calm morning digest — a small, print-friendly roundup of your RSS/Atom feeds with stories deduped and grouped by topic.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/rss-digest-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "snail-mail-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "✉ Snail Mailkeeper",
+      "subtitle": "An offline webapp for the handmade-letter revival: keep track of real-world mail and pen pals — who you write, when your last letter went out, ideas for someday, prompts you haven't answered yet, birthdays worth a…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/snail-mail-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/snail-mail-tracker-webapp"
         }
       ]
     }
