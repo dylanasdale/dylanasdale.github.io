@@ -4733,6 +4733,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-prescription-savings-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "FreeRx Finder — Free & Legit Ways to Pay Less for Prescriptions",
+      "subtitle": "A warm, plain-English, static directory of free and legitimate ways to lower US prescription cash prices:",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-prescription-savings-directory",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
