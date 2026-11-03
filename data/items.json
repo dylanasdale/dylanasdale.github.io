@@ -2088,6 +2088,81 @@
       ]
     },
     {
+      "id": "blog-your-hobby-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Manual: Start a Hobby Blog on GitHub Pages for Free",
+      "subtitle": "A complete, tested, local-first manual for starting a hobby blog with Markdown, a tiny build script, and GitHub Pages — plus a working example blog in this very repo.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/blog-your-hobby-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "rent-your-first-apartment-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Renting Your First Apartment: A Friendly Manual",
+      "subtitle": "The beginner-friendly guide to renting your first place — written the way a friend would explain it: plain English, step by step, never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/rent-your-first-apartment-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "workplace-ai-etiquette-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Workplace AI Etiquette Guide",
+      "subtitle": "A plain-English manual for using AI tools at work without getting yourself — or your employer — into trouble.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/workplace-ai-etiquette-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-reseller-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Reseller Tools Directory",
+      "subtitle": "A static, beginner-friendly directory of free-tier tools for online resellers — photo editing, keyword research, shipping calculators, sold-price lookups (free tiers), sales trackers, and label makers — plus an…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-reseller-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "student-papers-ai-ethics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Essays and Papers with AI, Honestly",
+      "subtitle": "A classroom-friendly manual for students (and their teachers) on using AI with school essays and papers without cheating: what counts as cheating by the numbers, how to translate your school's policy into plain…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/student-papers-ai-ethics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -4229,6 +4304,55 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/agent-trace-explainer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-food-and-potion-log-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Raid Night Pantry",
+      "subtitle": "A warm, one-column, fully offline web app for FINAL FANTASY XIV players: log the consumables you burn through on raid night (food, tinctures/potions, melds/materia), keep a stock checklist with restock reminders, and…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-food-and-potion-log-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-food-and-potion-log-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-shipping-supplies-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Shipping Supplies Directory",
+      "subtitle": "A plain-English, no-nonsense directory of where to get free or cheap shipping supplies - for resellers on eBay, Etsy, Poshmark, Mercari, Amazon, or anywhere a label prints.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-shipping-supplies-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "complaints-that-get-results-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Complaints That Get Results",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/complaints-that-get-results-guide",
           "primary": true
         }
       ]
