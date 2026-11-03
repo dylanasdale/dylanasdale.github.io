@@ -4778,6 +4778,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "pet-log-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Pet Log MCP Server",
+      "subtitle": "A local MCP server for household pet care notes: vet-visit histories, medication organizers, weight trends, feeding notes, and on-demand groomer/sitter handoff summaries.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/pet-log-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
