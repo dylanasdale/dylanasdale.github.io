@@ -2028,6 +2028,66 @@
       ]
     },
     {
+      "id": "ai-on-your-phone-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The AI-on-Your-Phone Guide",
+      "subtitle": "The site is fully self-contained: no CDN, no fonts to fetch, no JavaScript, no analytics.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-on-your-phone-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-open-source-games-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Open-Source Games Directory",
+      "subtitle": "A hand-curated, fully static directory of free, open-source (FLOSS) games, plus a plain-English guide, Play Free Forever, covering categories, install tips, controller support, gift-able picks, FLOSS licenses…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-open-source-games-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection-defense-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Injection Defense Guide",
+      "subtitle": "Prompt injection is the #1 security problem for people who use AI assistants, agents, and tools — and almost nobody explains it in plain English.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/prompt-injection-defense-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "rag-your-docs-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "RAG Your Docs Handbook",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/rag-your-docs-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -4061,6 +4121,100 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-genealogy-sources-directory",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "brain-dump-to-outline-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "brain-dump-to-outline",
+      "subtitle": "Point it at a brain-dump file or a folder of messy notes and get a tidy draft: a heading hierarchy that groups related thoughts, a decisions-to-make list, and your next three actions - rendered as Markdown or a task CSV.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/brain-dump-to-outline-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "consignment-payout-splitter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Consignment Payout Splitter (CLI)",
+      "subtitle": "Compute per-vendor consignment/booth payouts from a simple sales CSV: commission tiers, per-item discounts, flat fees, and deductions — plus a settlement report and per-vendor summary, all in plain CSV.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/consignment-payout-splitter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "docker-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Docker in Plain English",
+      "subtitle": "Docker explained the way a friend would: warm, step by step, never condescending.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/docker-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nursing-student-freebies-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Nursing-Student Freebies Directory",
+      "subtitle": "A curated, hand-checked directory of free resources for nursing students: flashcards, NCLEX-style practice questions, open-access journals, scholarships, drug references, and simulation-lab-style learning.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-nursing-student-freebies-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-model-card-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "modelcard-builder",
+      "subtitle": "A tiny, friendly command-line tool that reads the facts already on your machine about a local AI model — a .gguf file, an Ollama model, or a LM Studio download — and turns them into a readable one-page \"model card\"…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-model-card-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-season-calendar-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Season Calendar",
+      "subtitle": "A fully offline, single-file web app for planning the buy-low and sell-high seasons of reselling.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/resale-season-calendar-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/resale-season-calendar-webapp"
         }
       ]
     }
