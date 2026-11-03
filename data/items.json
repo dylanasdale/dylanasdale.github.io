@@ -2163,6 +2163,21 @@
       ]
     },
     {
+      "id": "ai-companion-roles-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Companion Roles Guide",
+      "subtitle": "Vague asks get vague answers.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-companion-roles-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -4353,6 +4368,66 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/complaints-that-get-results-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "accessible-palette-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Accessible Palette Checker",
+      "subtitle": "python3 -m accessiblepalette contrast \"#29323C\" \"#FDF8F2\" --simulate protanopia python3 -m accessiblepalette contrast \"rgb(240, 169, 59)\" \"#FFFFFF\" --json",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/accessible-palette-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-exercise-booklet-generator",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Exercise Booklet Generator",
+      "subtitle": "Turn your .pgn games or puzzle sets into printable chess exercise booklets — offline, in plain Python, with zero dependencies.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-exercise-booklet-generator",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-pgn-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess PGN MCP Server",
+      "subtitle": "A local-first MCP server for your own chess game library: store and tag PGNs, open games by player / opening / result, get per-player stats, look up positions, and export filtered collections.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-pgn-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "email-headers-inspector-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "mailtimeline",
+      "subtitle": "Read email headers only from .eml and .msg files, turn them into a human-readable timeline, explain SPF / DKIM / DMARC in plain English, flag spoofing patterns (including reply-to mismatches), and export a JSON report.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/email-headers-inspector-cli",
           "primary": true
         }
       ]
