@@ -2242,6 +2242,21 @@
       ]
     },
     {
+      "id": "multi-agent-teams-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Multi-Agent Teams Guide",
+      "subtitle": "A plain-English manual on running several AI agents together like a tiny staff — when a team beats one agent, assigning roles and handoffs, shared-file conventions, spotting confusion loops, and three worked…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/multi-agent-teams-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
