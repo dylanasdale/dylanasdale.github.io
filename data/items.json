@@ -2193,6 +2193,55 @@
       ]
     },
     {
+      "id": "free-small-tasks-connector-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "The Small Tasks Connector",
+      "subtitle": "A free, plain-English directory of ways to trade small tasks without money: community noticeboards (physical and online), library skill-swap nights, neighbourhood tool libraries, and mutual-aid groups — plus a…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-small-tasks-connector-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-small-tasks-connector-directory"
+        }
+      ]
+    },
+    {
+      "id": "local-ai-speed-polish-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Local AI Speed & Polish Handbook",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-ai-speed-polish-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nursing-faculty-clinical-judgment-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Clinical Judgment Guide",
+      "subtitle": "Five practice guides in docs/, each paired with a printable worksheet:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nursing-faculty-clinical-judgment-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -4527,6 +4576,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/snail-mail-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-holiday-letter-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Holiday Letter & Invitation Pack",
+      "subtitle": "Free-forever, no-signup printables for the season: plain HTML/CSS sources that build into clean, unbranded, print-ready PDFs.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-holiday-letter-pack",
+          "primary": true
         }
       ]
     }
