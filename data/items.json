@@ -4684,6 +4684,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "markdown-slide-deck-generator",
+      "tag": "Free",
+      "free": true,
+      "title": "mdslide",
+      "subtitle": "Turn a Markdown outline into self-contained HTML slides — one Python file, zero dependencies, zero build step, works fully offline.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/markdown-slide-deck-generator",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
