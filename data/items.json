@@ -2291,6 +2291,36 @@
       ]
     },
     {
+      "id": "free-grandkid-video-call-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "The Free Grandkid Video Call Pack",
+      "subtitle": "A free printable pack for staying close to your grandkids over video calls.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-grandkid-video-call-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "spreadsheet-formulas-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Spreadsheet Formulas, With a Friend",
+      "subtitle": "A beginner manual on using AI to learn spreadsheet formulas — written like a friend would explain it: plain English, step by step, never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/spreadsheet-formulas-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
