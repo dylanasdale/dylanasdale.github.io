@@ -4895,6 +4895,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/appeal-deadline-tracker-webapp"
         }
       ]
+    },
+    {
+      "id": "submission-tracker-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "submission-tracker-mcp-server",
+      "subtitle": "A local-first MCP server for writers who send work out to magazines, literary agents, and anthologies.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/submission-tracker-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
