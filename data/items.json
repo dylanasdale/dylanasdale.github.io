@@ -2321,6 +2321,25 @@
       ]
     },
     {
+      "id": "book-launch-countdown-page-template",
+      "tag": "Free",
+      "free": true,
+      "title": "book-launch-countdown-page-template",
+      "subtitle": "A single-page, static countdown site for a book launch day — built for Dylan Asdale's The Massive AI Manual.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/book-launch-countdown-page-template/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/book-launch-countdown-page-template"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
