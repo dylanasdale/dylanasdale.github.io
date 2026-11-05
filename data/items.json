@@ -5659,6 +5659,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "docx-strip-comments-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "docx-strip-comments-cli",
+      "subtitle": "Copy a Word document and strip everything you wouldn't want a stranger to read: tracked changes, inline comments, and your personal metadata — so the clean copy is safe to share.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/docx-strip-comments-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
