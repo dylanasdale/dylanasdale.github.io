@@ -5742,6 +5742,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "citation-formatter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "citation-formatter-cli",
+      "subtitle": "Turn book, article, and paper metadata (or a simple YAML list) into formatted APA, MLA, Chicago, and IEEE citations, a paste-ready bibliography, and KDP-style back-matter — \"About the Sources\" written like a friend…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/citation-formatter-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
