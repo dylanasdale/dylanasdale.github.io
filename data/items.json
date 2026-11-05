@@ -2468,6 +2468,55 @@
       ]
     },
     {
+      "id": "free-focus-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Focus Tools Directory",
+      "subtitle": "A permanent, plain-English directory of free focus and ADHD-help tools - distraction blockers, pomodoro and gentle timers, body-doubling sessions, text-to-speech readers, note-capture apps, soundscapes, and browser…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-focus-tools-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-focus-tools-directory"
+        }
+      ]
+    },
+    {
+      "id": "free-moving-binder-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "free-moving-binder-kit — Calm Move Kit",
+      "subtitle": "Free printable kits for a calm move.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-moving-binder-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "research-paper-beginner-analysis-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Reading Research Papers — A Beginner's Guide",
+      "subtitle": "Warm plain English, education-only disclaimers throughout, built to complement ai-for-nurse-educators-guide and patient-teaching-with-ai-guide with the deeper source-reading skill underneath them both.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/research-paper-beginner-analysis-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5183,6 +5232,55 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/caption-tidy-cli",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "donation-log-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "donation-log-mcp-server",
+      "subtitle": "A local MCP server for a tidy giving record: log donation drops with date, charity, item bags or dollars, your own condition notes, estimated-value education pointers (never tax advice), a \"photos-kept-here\" folder…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/donation-log-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nurse-week-appreciation-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurses Week Appreciation Pack",
+      "subtitle": "13 PDFs total, all US Letter (8.5 × 11 in), all generated from one Python script.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-nurse-week-appreciation-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "recipe-math-teacher-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Recipe Math Teacher",
+      "subtitle": "A gentle, offline web app that teaches kitchen math from scratch: no jargon, no shame, every answer comes with the worked steps written out — like a patient friend explaining it across the counter.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/recipe-math-teacher-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/recipe-math-teacher-webapp"
         }
       ]
     }
