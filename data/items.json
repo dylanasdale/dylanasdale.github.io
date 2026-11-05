@@ -2641,6 +2641,25 @@
       ]
     },
     {
+      "id": "free-audiobook-sources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "The Freebie Audiobook Directory",
+      "subtitle": "This repo is the audio half of the pair.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-audiobook-sources-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-audiobook-sources-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
