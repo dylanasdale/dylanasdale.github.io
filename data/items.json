@@ -2400,6 +2400,74 @@
       ]
     },
     {
+      "id": "free-diy-repair-guides-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free DIY Repair Directory",
+      "subtitle": "A single-file, offline static directory of official, genuinely free DIY-repair help: manufacturer manual archives, appliance part diagrams, auto-repair library options, phone and laptop fix-it guides, sewing and…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-diy-repair-guides-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-diy-repair-guides-directory"
+        }
+      ]
+    },
+    {
+      "id": "listing-photo-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Listing Photo Basics",
+      "subtitle": "A small-business manual for resale listing photos that actually sell — built on a phone, from a corner of a room, on any budget.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/listing-photo-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "press-kit-page-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Press Kit Page — Starter Template",
+      "subtitle": "Nothing to build.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/press-kit-page-starter-template/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/press-kit-page-starter-template"
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-relic-weapon-roadmap-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Relic Weapon Roadmap Guide",
+      "subtitle": "Or open site/index.html straight from disk — the checklists work either way.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-relic-weapon-roadmap-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5066,6 +5134,55 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/reading-challenge-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "digital-delivery-page-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Digital Delivery Page Template",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/digital-delivery-page-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "show-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Show Tracker",
+      "subtitle": "A family watch-list that lives entirely in your browser.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/show-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/show-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "caption-tidy-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "caption-tidy-cli",
+      "subtitle": "Offline cleanup for SRT and WebVTT caption files - makes auto-generated subtitles actually watchable.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/caption-tidy-cli",
+          "primary": true
         }
       ]
     }
