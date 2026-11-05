@@ -2660,6 +2660,40 @@
       ]
     },
     {
+      "id": "embeddings-and-vector-search-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Embeddings & Vector Search Handbook",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/embeddings-and-vector-search-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-public-domain-art-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Art Vault: public domain &amp; CC0 sources for covers and printables",
+      "subtitle": "A curated, human-built directory of free-to-use art sources for KDP book covers, low-content printables, and anything else you sell.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-public-domain-art-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-public-domain-art-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
