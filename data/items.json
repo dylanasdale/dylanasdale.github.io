@@ -2566,6 +2566,36 @@
       ]
     },
     {
+      "id": "interview-panel-question-bank-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Interview Panel Question Bank Guide",
+      "subtitle": "A workbook-style manual of interview question banks for both sides of the table — banked-and-reusable, fairness-first, with calm-answer worksheets and AI-assisted mock-session practice that runs keyless and local-first.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/interview-panel-question-bank-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "renter-appliance-survival-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Renter Appliance Survival Guide",
+      "subtitle": "A friendly, plain-English manual for the five appliances everyone lives with — dishwasher, washer, dryer, refrigerator, and HVAC basics — written for people with zero hardware-store background.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/renter-appliance-survival-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5330,6 +5360,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/recipe-math-teacher-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-home-task-of-the-week-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Home Task of the Week Pack",
+      "subtitle": "Free family \"chores-as-quests\" printables: one printable page per week that treats the household like a pick-up group instead of a chore list.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-home-task-of-the-week-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mindmap-from-list-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "mindmap-from-list",
+      "subtitle": "Turn a plain, indented list (or a Markdown outline) into a mind map you can print.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/mindmap-from-list-cli",
+          "primary": true
         }
       ]
     }
