@@ -4910,6 +4910,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ffxiv-screenshot-album-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Screenshot Album CLI",
+      "subtitle": "A friendly Python command-line carer for your Final Fantasy XIV screenshots folder (and honestly, any similarly-named game screenshot folder).",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-screenshot-album-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
