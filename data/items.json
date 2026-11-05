@@ -2340,6 +2340,66 @@
       ]
     },
     {
+      "id": "hiring-your-first-helper-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Hiring Your First Helper Guide",
+      "subtitle": "You run (or are starting) a tiny business and you've hit the moment where one more pair of hands would genuinely help — but every search result seems to assume you have an HR department.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/hiring-your-first-helper-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "searching-well-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Searching Well with AI",
+      "subtitle": "Two tools sit next to each other on every homework, work task, and health question: the search engine and the AI chatbot.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/searching-well-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "travel-nurse-first-contract-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Travel Nurse First-Contract Guide",
+      "subtitle": "An education-only manual for registered nurses taking their first travel assignment: agency types decoded, contract clauses in plain English, NLC compact licensing basics, honest pay-package comparisons,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/travel-nurse-first-contract-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "wearables-and-health-data-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Wearables & Health Data Manual",
+      "subtitle": "An education-only beginner manual for smartwatches, smart rings, and health apps.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/wearables-and-health-data-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
