@@ -2596,6 +2596,51 @@
       ]
     },
     {
+      "id": "data-broker-removal-walkthrough-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Data Broker Removal Walkthrough Guide",
+      "subtitle": "You search your own name, and people-search sites are selling your home address, relatives, and phone number.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/data-broker-removal-walkthrough-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "git-mistakes-rescue-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Git Mistakes Rescue Handbook",
+      "subtitle": "You know the feeling.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/git-mistakes-rescue-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "small-business-year-end-closeout-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Small-Business Year-End Closeout Guide",
+      "subtitle": "A plain-English, step-by-step companion for closing the books on a tiny LLC or side business — no panic, no jargon, no tax advice.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/small-business-year-end-closeout-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5389,6 +5434,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/mindmap-from-list-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "hobby-lesson-plan-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "lesson-builder",
+      "subtitle": "An offline CLI that turns a simple bullet list of what a beginner should learn into a friendly lesson plan: sessions paced from gentle starters to bigger stretches, printable one-page lesson cards, a supply list per…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/hobby-lesson-plan-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "seven-topics-a-week-site-template",
+      "tag": "Free",
+      "free": true,
+      "title": "seven-topics-a-week-site-template",
+      "subtitle": "A static site template for publishing a weekly topics newsletter on GitHub Pages — one HTML page per weekly topic, generated from plain Markdown in posts/, with an archive index, an inline RSS feed, and a next-week…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/seven-topics-a-week-site-template",
           "primary": true
         }
       ]
