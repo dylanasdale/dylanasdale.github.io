@@ -1,4 +1,5 @@
-"""Sync the "freebuilds" shelf with the PUBLIC repos in the OpenCode-Projects-AtlasRearden8 org.
+"""Sync the "freebuilds" list (the OpenCode Small Projects card on /projects/) with the PUBLIC repos
+in the OpenCode-Projects-AtlasRearden8 org.
 
 What it does (safe to run any time; it only commits when something changed):
   * Appends a card to data/items.json -> "freebuilds" for every PUBLIC repo not already listed.
@@ -7,19 +8,19 @@ What it does (safe to run any time; it only commits when something changed):
   * For a new repo with a top-level index.html it turns on GitHub Pages (free for public repos)
     and adds an "Open it" button once the Pages URL answers 200. Existing entries whose only link
     is the GitHub repo also get "Open it" added once their Pages site is live.
-  * Re-renders the plain-HTML (no-JavaScript) copies between the freebuilds markers in
-    free-builds/index.html (all cards) and index.html (first 3).
+  * Re-renders the plain-HTML (no-JavaScript) index between the freebuilds markers inside the
+    OpenCode Small Projects card in projects/index.html, plus its "Show all N projects" count.
   * Commits as Dylan Asdale and pushes to main.
 
 Run from anywhere:  python3 tools/sync_freebuilds.py [--dry-run] [--no-push]
 Needs the GitHub CLI (gh), already signed in.
 """
-import fcntl, html, json, os, re, subprocess, sys, time, urllib.request
+import html, json, os, re, subprocess, sys, time, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ITEMS = ROOT / "data" / "items.json"
-PAGES = [(ROOT / "free-builds" / "index.html", None), (ROOT / "index.html", 3)]
+PAGES = [ROOT / "projects" / "index.html"]
 ORG = os.environ.get("FREEBUILDS_ORG", "OpenCode-Projects-AtlasRearden8")
 LOCAL_LAB = Path("/workspace/opencode-lab")
 IDENT = {"GIT_AUTHOR_NAME": "Dylan Asdale", "GIT_AUTHOR_EMAIL": "dylanasdale@users.noreply.github.com",
@@ -148,34 +149,28 @@ def write_freebuilds(items):
     ITEMS.write_text(new, encoding="utf-8")
 
 
-def card_html(it):
-    out = [f'<li class="item no-img" id="{e(it["id"])}"><div class="item-text">']
-    if it.get("tag"):
-        out.append(f'<p class="tag{" free" if it.get("free") else ""}">{e(it["tag"])}</p>')
-    out.append(f'<h3 class="item-title">{e(it["title"])}</h3>')
-    if it.get("subtitle"):
-        out.append(f'<p class="sub">{e(it["subtitle"])}</p>')
-    if it.get("meta"):
-        out.append(f'<p class="meta">{e(it["meta"])}</p>')
-    if it.get("links"):
-        out.append('<div class="actions">')
-        for l in it["links"]:
-            ext = ' rel="noopener"' if l["href"].startswith("http") else ""
-            out.append(f'<a class="btn{" primary" if l.get("primary") else ""}" href="{e(l["href"])}"{ext}>{e(l["label"])}</a>')
-        out.append("</div>")
-    out.append("</div></li>")
-    return "".join(out)
+def row_html(it):
+    """One compact line in the OpenCode Small Projects index (mirrors subList() in assets/site.js)."""
+    links = it.get("links") or []
+    main = next((l for l in links if l.get("primary")), links[0] if links else None)
+    title = e(it["title"])
+    if main:
+        ext = ' rel="noopener"' if main["href"].startswith("http") else ""
+        title = f'<a href="{e(main["href"])}"{ext}>{title}</a>'
+    kind = it.get("meta", "").split(" ·")[0]
+    return f"<li>{title}" + (f'<span class="meta">{e(kind)}</span>' if kind else "") + "</li>"
 
 
 def render_fallbacks(items):
     changed = []
-    for path, limit in PAGES:
+    for path in PAGES:
         if not path.is_file():
             continue
         src = path.read_text(encoding="utf-8")
-        cards = "\n".join(card_html(i) for i in (items[:limit] if limit else items))
+        rows = "\n".join(row_html(i) for i in items)
         new = re.sub(r"(<!-- freebuilds:start -->\n?).*?(<!-- freebuilds:end -->)",
-                     lambda m: m.group(1) + cards + "\n" + m.group(2), src, flags=re.S)
+                     lambda m: m.group(1) + rows + "\n" + m.group(2), src, flags=re.S)
+        new = re.sub(r"Show all \d+ projects", f"Show all {len(items)} projects", new)
         if new != src:
             changed.append(path)
             if not DRY:
@@ -184,6 +179,7 @@ def render_fallbacks(items):
 
 
 def main():
+    import fcntl  # POSIX only; imported here so render_fallbacks() can be reused on any OS
     lock = open("/tmp/sync_freebuilds.lock", "w")
     fcntl.flock(lock, fcntl.LOCK_EX)
     if run("git", "config", "user.email").strip() != IDENT["GIT_AUTHOR_EMAIL"]:
@@ -242,11 +238,11 @@ def main():
         return
     if not (added or upgraded or changed):
         log("nothing to change"); return
-    paths = ["data/items.json"] + [str(p.relative_to(ROOT)) for p, _ in PAGES]
+    paths = ["data/items.json"] + [str(p.relative_to(ROOT)) for p in PAGES]
     run("git", "add", "--", *paths)
     if not run("git", "diff", "--cached", "--name-only").strip():
         log("nothing staged"); return
-    msg = "Free Builds: add " + ", ".join(added) if added else "Free Builds: refresh cards"
+    msg = "OpenCode Small Projects: add " + ", ".join(added) if added else "OpenCode Small Projects: refresh list"
     run("git", "commit", "-q", "-m", msg, "--", *paths, env=IDENT)
     if NO_PUSH:
         log("committed (not pushed)"); return

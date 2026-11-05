@@ -1,5 +1,6 @@
 // Renders every shelf from /data/items.json. A shelf is any element with data-list="books|guides|projects|links".
 // Optional: data-limit="3" shows the first N items; data-skip="id1,id2" hides items by id.
+// An item with "listFrom": "freebuilds" renders as a full-width card holding a collapsible index of that list.
 (() => {
   const ICONS = {
     x: '<path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.17h1.7L7.42 4.74H5.6l11.07 14.43Z"/>',
@@ -20,8 +21,28 @@
     return a;
   }
 
-  function itemCard(it, level) {
-    const li = el('li', 'item' + (it.image ? '' : ' no-img'));
+  // A card with "listFrom": "<list>" folds that whole list into a collapsible index inside the card.
+  function subList(items) {
+    const d = el('details', 'sublist');
+    d.append(el('summary', '', `Show all ${items.length} projects`));
+    const ul = el('ul', 'sublist-items');
+    for (const s of items) {
+      const main = s.links?.find((l) => l.primary) || s.links?.[0];
+      const li = el('li');
+      const a = el(main ? 'a' : 'span', '', s.title);
+      if (main) { a.href = main.href; if (external(main.href)) a.rel = 'noopener'; }
+      li.append(a);
+      const kind = (s.meta || '').split(' ·')[0];
+      if (kind) li.append(el('span', 'meta', kind));
+      ul.append(li);
+    }
+    d.append(ul);
+    return d;
+  }
+
+  function itemCard(it, level, data) {
+    const sub = it.listFrom ? (data?.[it.listFrom] || []) : null;
+    const li = el('li', 'item' + (it.image ? '' : ' no-img') + (sub ? ' wide' : ''));
     li.id = it.id;
     const main = it.links?.find((l) => l.primary) || it.links?.[0];
     if (it.image) {
@@ -41,6 +62,7 @@
     if (it.subtitle) t.append(el('p', 'sub', it.subtitle));
     if (it.meta) t.append(el('p', 'meta', it.meta));
     if (it.links?.length) { const act = el('div', 'actions'); for (const l of it.links) act.append(linkBtn(l, it.title)); t.append(act); }
+    if (sub?.length) t.append(subList(sub));
     li.append(t);
     return li;
   }
@@ -74,7 +96,7 @@
       host.replaceChildren();
       if (!items.length) { host.replaceWith(emptyState(kind)); continue; }
       const level = host.dataset.level || 'h3';
-      for (const it of items) host.append(kind === 'links' ? linkCard(it) : itemCard(it, level));
+      for (const it of items) host.append(kind === 'links' ? linkCard(it) : itemCard(it, level, data));
     }
   }
   render();

@@ -36,7 +36,7 @@ Every shelf on the site comes from **`data/items.json`**. To add a book, guide, 
 | `image`, `imageAlt`, `imageWidth`, `imageHeight` | no | Cover or thumbnail. Leave `image` out for a text-only card. Put files in `assets/img/` and keep them small (WebP, about 400–800 px wide). |
 | `links` | no | Buttons. The first one with `"primary": true` is pink, and the cover image links to it. |
 
-Lists: `books`, `guides`, `projects`, `freebuilds`, `links`. Entries in `links` use `label`, `handle`, `href` and `icon` (`x`, `threads`, `bluesky`, `tiktok`, `book` or `globe`).
+Lists: `books`, `guides`, `projects`, `freebuilds`, `links`. An item with `"listFrom": "<list>"` renders as a full-width card with a collapsible index of that whole list (that is how the OpenCode Small Projects card shows `freebuilds`). Entries in `links` use `label`, `handle`, `href` and `icon` (`x`, `threads`, `bluesky`, `tiktok`, `book` or `globe`).
 
 When `projects` (or any list) is empty, the site shows a tasteful "More coming soon" panel automatically. Never add placeholder or made-up items.
 
@@ -45,12 +45,11 @@ Each page also contains a plain-HTML copy of its shelf so the content is readabl
 Where each list shows:
 
 - Home (`index.html`): two hand-written featured cards (the book and the free library), then the first 3 guide highlights, projects, and the first 3 links.
-- Home also shows the first 3 `freebuilds` cards.
-- `books/`, `free-guides/`, `projects/`, `free-builds/`, `brand/`, `connect/`: the full lists. `free-guides/guides-for-everything-ai/` is the full Guides for Everything AI library (its own build, see its README) and `free-guides/aws-guides/` holds the AWS guides.
+- `books/`, `free-guides/`, `projects/`, `brand/`, `connect/`: the full lists. `free-guides/guides-for-everything-ai/` is the full Guides for Everything AI library (its own build, see its README) and `free-guides/aws-guides/` holds the AWS guides.
 
-### Free Builds (automatic)
+### OpenCode Small Projects (automatic)
 
-`free-builds/` lists the public repos in the OpenCode-Projects-AtlasRearden8 GitHub org (free tools, guides and apps built by AI coding tools during free model periods). `python3 tools/sync_freebuilds.py` appends a card for any new public repo (existing cards and hand edits are left alone), turns on GitHub Pages for repos with a top-level `index.html` and adds an "Open it" button once that page is live, refreshes the no-JavaScript copies between the `freebuilds:start`/`freebuilds:end` markers, then commits and pushes. The OpenCode publisher runs it automatically each time it makes a repo public. Add `--dry-run` to preview or `--no-push` to commit locally only.
+The `freebuilds` list feeds the OpenCode Small Projects card on `projects/`. It lists the public repos in the OpenCode-Projects-AtlasRearden8 GitHub org (free tools, guides and apps built by AI coding tools during free model periods). `python3 tools/sync_freebuilds.py` appends a card for any new public repo (existing cards and hand edits are left alone), turns on GitHub Pages for repos with a top-level `index.html` and adds an "Open it" button once that page is live, refreshes the no-JavaScript index between the `freebuilds:start`/`freebuilds:end` markers inside that card (and its "Show all N projects" count), then commits and pushes. The OpenCode publisher runs it automatically each time it makes a repo public. Add `--dry-run` to preview or `--no-push` to commit locally only.
 
 ## Add a new page
 
@@ -60,14 +59,14 @@ Copy `projects/index.html` to `newpage/index.html`, change the title, descriptio
 
 ```
 index.html            home
-books/ free-guides/ projects/ free-builds/ brand/ connect/   section pages
+books/ free-guides/ projects/ brand/ connect/   section pages
 404.html              not-found page (GitHub Pages serves it automatically)
 data/items.json       all shelf content
 assets/site.css       the design system
 assets/site.js        renders shelves from items.json
 assets/aurora.js      the animated halftone background (from Guides for Everything v3)
 assets/fonts/         Bluu Next (SIL OFL 1.1, license included)
-tools/sync_freebuilds.py  keeps the Free Builds shelf in sync with GitHub
+tools/sync_freebuilds.py  keeps the OpenCode Small Projects list in sync with GitHub
 assets/img/           covers, background art and og-image.jpg (1200×630 social preview)
 favicon.svg favicon-32.png apple-touch-icon.png
 sitemap.xml robots.txt .nojekyll

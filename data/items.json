@@ -106,7 +106,20 @@
       "links": [{ "label": "Read free", "href": "/free-guides/guides-for-everything-ai/output/ai-agents.pdf" }]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "id": "opencode-small-projects",
+      "tag": "Free",
+      "free": true,
+      "title": "OpenCode Small Projects",
+      "subtitle": "Small tools, guides and apps built with OpenCode, the open-source AI coding agent, during free model periods. Every one is public on GitHub.",
+      "meta": "Built with OpenCode",
+      "listFrom": "freebuilds",
+      "links": [
+        { "label": "Browse on GitHub", "href": "https://github.com/OpenCode-Projects-AtlasRearden8", "primary": true }
+      ]
+    }
+  ],
   "freebuilds": [
     {
       "id": "free-ai-tools-directory",
