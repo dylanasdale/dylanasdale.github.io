@@ -2517,6 +2517,55 @@
       ]
     },
     {
+      "id": "downsizing-parent-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Downsizing Parent Guide",
+      "subtitle": "An emotionally-aware, beginner-friendly manual for helping a parent downsize — from calling the first family meeting to getting the last pickup booked.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/downsizing-parent-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-copywriting-block-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Copy-Editing Block Starter Kit",
+      "subtitle": "A free directory of copy-editing boosts for stuck authors and journals: 40 copy-editing prompts, blank-outline heavy templates (how-to, story, nonfiction chapter, revision plan), revision checklists, and a…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-copywriting-block-starter-kit/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-copywriting-block-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "free-teacher-ai-classroom-guide-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Teacher AI Classroom — Guide Pack",
+      "subtitle": "A print-and-go paperwork pack for classroom teachers who are new to AI.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-teacher-ai-classroom-guide-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
