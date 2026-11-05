@@ -36,7 +36,7 @@
   <section class="section site-map">
     <ul class="site-map-list">
       <xsl:for-each select="sm:urlset/sm:url">
-        <xsl:variable name="path" select="substring-after(sm:loc, 'https://dylanasdale.github.io')"/>
+        <xsl:variable name="path" select="substring-after(sm:loc, 'https://asdaledynamics.com')"/>
         <li>
           <a href="{sm:loc}"><xsl:value-of select="$path"/></a>
           <span>Last updated <xsl:value-of select="sm:lastmod"/></span>

@@ -83,4 +83,4 @@ Then open http://localhost:8000/. Paths start with `/`, so open the site from it
 
 ## Publish
 
-Repository `dylanasdale/dylanasdale.github.io`, Settings › Pages › Deploy from a branch › `main` / `(root)`. The site appears at https://dylanasdale.github.io/.
+Repository `dylanasdale/dylanasdale.github.io`, Settings › Pages › Deploy from a branch › `main` / `(root)`. The site appears at https://asdaledynamics.com/.

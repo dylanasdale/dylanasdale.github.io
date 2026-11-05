@@ -181,7 +181,7 @@ def build_print_html(d):
   <p>The service list follows AWS's own documentation of the services included in the Free plan for new accounts, checked on {long_date(d['checked'])}: <a href="{e(d['source'])}">{e(d['source'])}</a></p>
   <p>AWS adds and changes Free plan services often, and AWS is still rolling out its new sign-up experience, so what you see in your own account can differ. Always check the AWS Free Tier page and your Billing console before you rely on something being free.</p>
   <p>Descriptions are written for this guide in plain English. AWS, Amazon Web Services and all service names are trademarks of Amazon.com, Inc. or its affiliates. This guide is independent and isn't endorsed by AWS.</p>
-  <p>More free guides at <a href="https://dylanasdale.github.io/free-guides/">dylanasdale.github.io/free-guides</a></p>
+  <p>More free guides at <a href="https://asdaledynamics.com/free-guides/">asdaledynamics.com/free-guides</a></p>
 </section>""")
     out.append("</body></html>")
     return "".join(out)
