@@ -2694,6 +2694,21 @@
       ]
     },
     {
+      "id": "author-agent-skills-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Agent Skills Pack",
+      "subtitle": "A collection of tested agent skills for writers who use agentic CLIs (Claude Code, Codex, OpenCode, and friends).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/author-agent-skills-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
