@@ -5614,6 +5614,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-cactpot-solver-webapp"
         }
       ]
+    },
+    {
+      "id": "free-road-trip-games-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Road Trip Games Pack",
+      "subtitle": "A free, printable, screen-light pack of family road trip games — built around real car and van trips with kids, grandparents, and low-energy drivers.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-road-trip-games-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
