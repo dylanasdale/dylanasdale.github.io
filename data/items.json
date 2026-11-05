@@ -4925,6 +4925,89 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "free-game-night-hosting-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Game Night Hosting Pack",
+      "subtitle": "A free, printable pack for an easy family card-game night: simple house-rule cards for classic card games, printable score sheets, a fold-away tournament bracket, a snack-plan worksheet, tips for including younger…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-game-night-hosting-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "time-zone-friend-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Time Zone Friend",
+      "subtitle": "A beginner-friendly, offline command-line tool for scheduling calls across time zones.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/time-zone-friend-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "houseplant-watering-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Plant Schedule",
+      "subtitle": "A tiny offline webapp for keeping houseplants alive: one card per plant with water / fertilize / repot intervals, a \"today\" tap list showing exactly what is due, light notes, an emoji photo placeholder, and a…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/houseplant-watering-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/houseplant-watering-webapp"
+        }
+      ]
+    },
+    {
+      "id": "long-weekend-strategist-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Long Weekend Strategist",
+      "subtitle": "Stretch your vacation days into long weekends.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/long-weekend-strategist-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "reading-challenge-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Reading Challenge Tracker",
+      "subtitle": "An offline, single-file web app for year-long reading challenges.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/reading-challenge-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/reading-challenge-tracker-webapp"
+        }
+      ]
     }
   ],
   "links": [
