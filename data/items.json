@@ -2739,6 +2739,21 @@
       ]
     },
     {
+      "id": "local-ai-privacy-hardening-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Local AI Privacy Hardening Guide",
+      "subtitle": "You got a local model running.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-ai-privacy-hardening-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5626,6 +5641,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-road-trip-games-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "med-list-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "med-list-mcp-server",
+      "subtitle": "A local MCP server that keeps your personal medication list organized as plain, readable Markdown — receipt style, not a medical journal.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/med-list-mcp-server",
           "primary": true
         }
       ]
