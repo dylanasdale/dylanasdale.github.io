@@ -2754,6 +2754,40 @@
       ]
     },
     {
+      "id": "first-kdp-book-roadmap-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "First KDP Book Roadmap Guide",
+      "subtitle": "An end-to-end beginner manual for publishing your first low-stress book on Amazon Kindle Direct Publishing (KDP) — in plain English, with no hype and no tricks.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/first-kdp-book-roadmap-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-privacy-checkup-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebie Directory: DIY Privacy Checkup",
+      "subtitle": "Every entry has a friend-style one-liner and a plain-English note on what the tool actually inspects.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-privacy-checkup-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-privacy-checkup-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
