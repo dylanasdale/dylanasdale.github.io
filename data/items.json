@@ -2709,6 +2709,36 @@
       ]
     },
     {
+      "id": "budget-ai-pc-build-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Budget AI PC Guide",
+      "subtitle": "Everything in these manuals is education only: we explain categories, tradeoffs, and ranges — never \"buy this exact product,\" and never a word aimed at selling you something.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/budget-ai-pc-build-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "share-your-local-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Share Your Local AI — One Household Manual",
+      "subtitle": "The guide lives in docs/ — ten short pages, one afternoon:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/share-your-local-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5563,6 +5593,25 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/transcript-chapter-marker-cli",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-cactpot-solver-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Mini Cactpot Solver",
+      "subtitle": "A static, no-build webapp for FFXIV's Gold Saucer lottery: enter the numbers you have scratched off on a Mini Cactpot ticket and get the expected-value-best line to pick, plus the best next square to scratch.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-cactpot-solver-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-cactpot-solver-webapp"
         }
       ]
     }
