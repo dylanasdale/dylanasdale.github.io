@@ -5535,6 +5535,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "model-vram-fitter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "vramfit - \"Can I run this model?\" fitter",
+      "subtitle": "An offline command-line tool that answers the question everyone asks when they first meet local AI: can my machine actually run this model?",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/model-vram-fitter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "transcript-chapter-marker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "transcript-chapter-marker-cli",
+      "subtitle": "Offline CLI that takes a raw transcript (plain text, SRT or WebVTT) and turns it into something you can actually publish: chapter markers, a clickable -mm:ss index, and a topics list — ready for YouTube descriptions…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/transcript-chapter-marker-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
