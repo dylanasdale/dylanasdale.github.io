@@ -5857,6 +5857,25 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/garden-bed-planner-webapp"
         }
       ]
+    },
+    {
+      "id": "volunteer-shift-board-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Volunteer Shift Board",
+      "subtitle": "An offline, single-file web app for community groups coordinating volunteer shifts: event-shift cards with open slots, first-timer slots marked kindly, private group-admin notes, recurring-event templates, a…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/volunteer-shift-board-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/volunteer-shift-board-webapp"
+        }
+      ]
     }
   ],
   "links": [
