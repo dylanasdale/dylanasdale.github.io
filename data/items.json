@@ -2869,6 +2869,111 @@
       ]
     },
     {
+      "id": "everyday-batch-file-automation-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Everyday Batch-File Automation Handbook",
+      "subtitle": "A beginner-friendly, plain-English manual for one-off batch file jobs on Windows and Mac.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/everyday-batch-file-automation-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-lost-wallet-recovery-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Lost Wallet Recovery Kit",
+      "subtitle": "A calm, plain-English kit for the worst Tuesday of the month: the day your wallet goes missing.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-lost-wallet-recovery-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-new-job-first-week-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "First-Week-of-Work Freebie Kit",
+      "subtitle": "Local-first by design: no accounts, no forms that phone home, no data collection.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-new-job-first-week-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nursing-portfolio-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Professional Portfolio With AI Help",
+      "subtitle": "A healthcare-education manual — never medical advice — for registered nurses and other healthcare workers who want to build a working, sanitized, hospital-safe professional portfolio with the help of AI tools.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nursing-portfolio-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ocr-and-handwriting-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "OCR and Handwriting Guide",
+      "subtitle": "Turn paper, receipts, and handwritten notes into clean, searchable text — using free OCR tools and free AI, explained like a friend would explain it.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ocr-and-handwriting-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "teach-a-friend-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Teach a Friend AI — A Warm Manual for Being the Helper",
+      "subtitle": "You already use AI.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/teach-a-friend-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "windows-ai-features-plain-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Windows 11's Built-In AI: A Plain-English Walking Guide",
+      "subtitle": "A substantive, step-by-step manual for regular Windows 11 users who want to actually use the AI that ships with Windows — Copilot chat, the AI features in the Photos and Paint apps, and the newer, bigger privacy…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/windows-ai-features-plain-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -5889,6 +5994,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/volunteer-shift-board-webapp"
+        }
+      ]
+    },
+    {
+      "id": "free-senior-discounts-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Worth Asking: A Senior Discounts Directory",
+      "subtitle": "A static, offline, single-file directory of real senior discounts worth asking about — groceries, pharmacies, restaurants, phone and internet plans, transit and park passes, and eye and dental care.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-senior-discounts-directory",
+          "primary": true
         }
       ]
     }
