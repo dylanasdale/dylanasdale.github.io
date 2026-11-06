@@ -2801,6 +2801,59 @@
       ]
     },
     {
+      "id": "everyday-translation-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Translation for Everyday Life",
+      "subtitle": "The manual teaches one repeatable workflow: read a document's structure before translating anything, keep personal details out of cloud tools, verify the AI's draft before you act on it, and know when the right move…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/everyday-translation-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-unclaimed-money-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Unclaimed Money Directory",
+      "subtitle": "A static, offline single-file directory of official finders for money you may already own:",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-unclaimed-money-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-unclaimed-money-directory"
+        }
+      ]
+    },
+    {
+      "id": "course-deadline-board-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Course Deadline Board",
+      "subtitle": "Map a whole semester's deadlines on one board.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/course-deadline-board-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/course-deadline-board-webapp"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
