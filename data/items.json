@@ -2854,6 +2854,21 @@
       ]
     },
     {
+      "id": "club-treasurer-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Club Treasurer Handbook",
+      "subtitle": "Small clubs run on volunteer treasurers, and volunteer treasurers are usually handed a shoebox and a login and told \"good luck.\" This handbook is the \"good luck\" replacement: eight short chapters and six plain…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/club-treasurer-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
