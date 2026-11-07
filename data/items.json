@@ -6877,6 +6877,40 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "chapter-pacing-report-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chapter-pacing-report-cli",
+      "subtitle": "A chapter pacing checkup for authors.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chapter-pacing-report-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "tabletop-score-keeper-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Tabletop Score Keeper",
+      "subtitle": "A big-button score keeper for game night.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/tabletop-score-keeper-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/tabletop-score-keeper-webapp"
+        }
+      ]
     }
   ],
   "links": [
