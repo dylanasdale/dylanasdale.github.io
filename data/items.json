@@ -3102,6 +3102,51 @@
       ]
     },
     {
+      "id": "car-insurance-shopping-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Car Insurance Shopping Calm Guide",
+      "subtitle": "A beginner-friendly manual (and a small static site) for shopping car insurance without dread.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/car-insurance-shopping-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "meal-planning-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Meal Planning with Free AI — A Beginner's Manual",
+      "subtitle": "Plain-English, step-by-step, never condescending — explained like a friend would.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/meal-planning-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "talk-your-book-dictation-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Talk Your Book: A Voice Dictation Manual for Authors",
+      "subtitle": "Free dictation across Windows, macOS, and phones, no-key local transcription endpoints (Ollama-friendly), punctuation control tricks, sculpting spoken drafts into readable prose in any AI editor, manuscript privacy,…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/talk-your-book-dictation-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
