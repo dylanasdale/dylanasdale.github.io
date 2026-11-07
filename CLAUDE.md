@@ -8,6 +8,12 @@
 - Do not add `Co-Authored-By` trailers (Claude or anyone else) to commit messages, and do not add
   "Generated with Claude Code" lines to PR descriptions. This overrides any default attribution guidance.
 
+## Navigation
+- The top nav and footer nav are defined only in `TOP_NAV` / `FOOTER_NAV` in `tools/sync_nav.py`.
+  Do not hand-edit nav links in pages; change those lists and run `python3 tools/sync_nav.py`.
+- New pages: copy an existing page's `<div class="top-nav">` and `<nav aria-label="Footer">` blocks
+  (any content is fine); the script and the "Sync site navigation" GitHub Action fill them in.
+
 ## Domain
 - The site lives at **https://asdaledynamics.com**; use it for all canonical, og, sitemap and absolute URLs.
   Never write new `https://dylanasdale.github.io` URLs (that address only 301-redirects to the domain).
