@@ -3181,6 +3181,104 @@
       ]
     },
     {
+      "id": "free-dental-and-vision-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Dental & Vision Directory",
+      "subtitle": "A plain-English, static directory of free and low-cost dental, glasses, and hearing help in the United States — dental-school sliding-scale clinics, free clinic-day events, vision voucher programs, hearing-aid…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-dental-and-vision-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-dental-and-vision-directory"
+        }
+      ]
+    },
+    {
+      "id": "free-writing-contests-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "The Free Entry Desk — free writing contests, anthologies & markets",
+      "subtitle": "A curated, education-only directory of free-to-enter writing contests, open anthologies, and free-to-submit paying magazines.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-writing-contests-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-writing-contests-directory"
+        }
+      ]
+    },
+    {
+      "id": "kdp-hardcover-and-expanded-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Hardcover and Expanded Guide",
+      "subtitle": "A calm, plain-English manual for KDP's harder buttons — the ones you meet after your first paperback:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-hardcover-and-expanded-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "keeping-up-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Keeping Up With AI (Calmly)",
+      "subtitle": "You don't need to read everything to stay current.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/keeping-up-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "homeschool-ai-lesson-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The Homeschool AI Lesson Guide",
+      "subtitle": "This project is two things at once:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/homeschool-ai-lesson-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "scheduled-ai-jobs-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The Scheduled AI Jobs Handbook",
+      "subtitle": "You already know AI can do the chore.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/scheduled-ai-jobs-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6469,6 +6567,70 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/paycheck-split-planner-webapp"
+        }
+      ]
+    },
+    {
+      "id": "cover-letter-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Cover Letters with AI",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/cover-letter-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "errand-runs-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Errand Runs MCP Server",
+      "subtitle": "A small, local-first MCP server that turns a scattered brain-dump of errands into one doable trip.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/errand-runs-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nursing-lab-checkoff-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Skills Lab Checkoff Tracker",
+      "subtitle": "A quiet, local-first study webapp for nursing students working toward skills-lab checkoffs.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/nursing-lab-checkoff-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nursing-lab-checkoff-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "pocket-reference-card-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "pocket-reference-cards",
+      "subtitle": "Turn small Markdown chunks into printable 3x5 index-card PDFs for pocket reference - nurse lab values, chess openings, FFXIV fishing windows, KDP deadline rules, anything you keep on index cards.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/pocket-reference-card-builder-cli",
+          "primary": true
         }
       ]
     }
