@@ -3294,6 +3294,21 @@
       ]
     },
     {
+      "id": "markdown-for-everyone-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Markdown for Everyone",
+      "subtitle": "Plain-English manual teaching Markdown as a life skill — notes, to-do lists, resumes, READMEs, and simple docs — in nine tiny lessons.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/markdown-for-everyone-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
