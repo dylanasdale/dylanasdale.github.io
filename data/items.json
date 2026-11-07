@@ -3072,6 +3072,36 @@
       ]
     },
     {
+      "id": "ai-benchmarks-explained-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Benchmarks Explained — a plain-English guide to reading AI model rankings",
+      "subtitle": "Most AI leaderboards look like alphabet soup: MMLU, GPQA, HellaSwag, scores like 86.3% and #1 on Arena.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-benchmarks-explained-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-cover-diy-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Cover DIY Basics Guide",
+      "subtitle": "A beginner-friendly manual for designing clean, KDP-ready book covers yourself, using free tools (Canva's free tier, GIMP, or an Affinity trial).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/book-cover-diy-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
