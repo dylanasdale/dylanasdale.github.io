@@ -3023,6 +3023,55 @@
       ]
     },
     {
+      "id": "free-read-aloud-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Read-Aloud Directory",
+      "subtitle": "A static, no-build directory of free text-to-speech and read-aloud helpers for readers who prefer listening: browser read modes, phone equivalents, free TTS apps, and e-readers with synthetic narration.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-read-aloud-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-read-aloud-directory"
+        }
+      ]
+    },
+    {
+      "id": "free-writing-retreat-day-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free-Writing-Retreat-Day Kit",
+      "subtitle": "A free printable kit for running an at-home Saturday writing retreat — timers, snacks, and gentle structure included.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-writing-retreat-day-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "translated-editions-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Translated Editions Handbook",
+      "subtitle": "A beginner-friendly, plain-English manual for independent authors who want to sell translated editions of their books — how to choose target languages, budget AI-assisted translation with real human review, run…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/translated-editions-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6145,6 +6194,51 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-deep-dungeon-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "llm-task-router-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "llm-task-router-cli",
+      "subtitle": "Sort your everyday AI tasks into quick-job vs.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-task-router-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-tag-organizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-tag-organizer",
+      "subtitle": "Organize your best prompts, locally — explained like a friend would.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/prompt-tag-organizer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "stale-listing-reviewer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "stale-listing-reviewer",
+      "subtitle": "A local-first Python CLI for resellers (eBay, Poshmark, Mercari, Amazon...).",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/stale-listing-reviewer-cli",
+          "primary": true
         }
       ]
     }
