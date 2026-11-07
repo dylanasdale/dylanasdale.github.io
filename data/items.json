@@ -6847,6 +6847,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "exif-scrub-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "exif-scrub",
+      "subtitle": "Photos carry invisible baggage: where you were (GPS), what you shot it with (Make, Model, Lens, Software), and when you shot it (DateTimeOriginal and friends).",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/exif-scrub-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-volunteer-from-home-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Kitchen-Table Volunteering",
+      "subtitle": "A free, static directory of volunteering you can do from home: archive transcription, citizen science, remote crisis-line volunteering, online tutoring, accessibility testing, and craft drives.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-volunteer-from-home-directory",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
