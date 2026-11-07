@@ -3279,6 +3279,21 @@
       ]
     },
     {
+      "id": "llm-finetuning-without-fear-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Fine-Tuning Without Fear",
+      "subtitle": "You can train a small AI model to write, format, and respond exactly the way you want — on an ordinary computer, with a spreadsheet, in a weekend.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-finetuning-without-fear-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6691,6 +6706,25 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kindle-clippings-tidy-cli",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-garden-crossbreed-planner-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Garden Crossbreed Planner",
+      "subtitle": "A friendly, no-account web app for Final Fantasy XIV housing gardeners: pick a target crop and your garden patch size, get seed pairing suggestions mapped onto a color-coded circular bed layout, then track day-by-day…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-garden-crossbreed-planner-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-garden-crossbreed-planner-webapp"
         }
       ]
     }
