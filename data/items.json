@@ -6742,6 +6742,51 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-garden-crossbreed-planner-webapp"
         }
       ]
+    },
+    {
+      "id": "car-repair-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Car Repair, in Plain English",
+      "subtitle": "Decode estimate line items, ask confident questions, understand OBD-II codes, and use free AI to translate a quote into plain English before deciding repair now versus wait.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/car-repair-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "retirement-accounts-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Retirement Accounts, Plain English",
+      "subtitle": "A friendly, plain-English explainer of 401(k)s, IRAs, Roth vs.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/retirement-accounts-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "spaced-repetition-scheduler-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Spaced Repetition Scheduler CLI",
+      "subtitle": "A tiny Python command-line tool that schedules review of anything.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/spaced-repetition-scheduler-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
