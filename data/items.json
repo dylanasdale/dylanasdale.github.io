@@ -3162,6 +3162,25 @@
       ]
     },
     {
+      "id": "free-sleep-sounds-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Sleep Sounds Directory",
+      "subtitle": "A curated directory of free, no-signup sleep and focus audio: brown noise, rain, fan loops, ASMR-safe picks, workaround-free streamers, YouTube length tricks, and timer methods that auto-stop so audio never runs all…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-sleep-sounds-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-sleep-sounds-directory"
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6378,6 +6397,25 @@
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/library-loans-mcp-server",
           "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-night-shift-packing-lists-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Night-Shift Packing Lists Pack",
+      "subtitle": "Free printable tear-out packing checklists for night-shift nurses and late-shift workers.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-night-shift-packing-lists-pack/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-night-shift-packing-lists-pack"
         }
       ]
     }
