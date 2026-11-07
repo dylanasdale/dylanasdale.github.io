@@ -6437,6 +6437,40 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/before-after-photo-slider-template"
         }
       ]
+    },
+    {
+      "id": "ffxiv-daily-reset-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "ffxiv-daily-reset-mcp-server",
+      "subtitle": "A small, local-first Model Context Protocol (MCP) server that tracks your FFXIV daily and weekly reset responsibilities — grand company turned-ins, duty support queues, beast tribe allowances, item turn-ins, and any…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-daily-reset-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "paycheck-split-planner-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Paycheck Split Planner",
+      "subtitle": "A static, local-first webapp that splits your upcoming paycheck into four buckets — needs, bills due before your next pay, fun, and sinking pots — with an editable date-block timeline and safe-zero warnings when…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/paycheck-split-planner-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/paycheck-split-planner-webapp"
+        }
+      ]
     }
   ],
   "links": [
