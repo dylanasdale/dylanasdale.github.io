@@ -6832,6 +6832,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "subtitle-file-tidier-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "caption-tidier",
+      "subtitle": "What it fixes:",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/subtitle-file-tidier-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
