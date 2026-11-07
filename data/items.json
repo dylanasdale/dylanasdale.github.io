@@ -6011,6 +6011,74 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ffxiv-pvp-series-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV PvP Season Tracker",
+      "subtitle": "A tiny, private, offline web app for tracking your Final Fantasy XIV PvP season progress.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-pvp-series-tracker-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-pvp-series-tracker-webapp"
+        }
+      ]
+    },
+    {
+      "id": "llm-parameter-playground-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "LLM Parameter Playground",
+      "subtitle": "An offline, single-file web app for playing with the sampling parameters of any OpenAI-compatible endpoint — Ollama out of the box, or any custom base URL.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/llm-parameter-playground-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-parameter-playground-webapp"
+        }
+      ]
+    },
+    {
+      "id": "newsletter-archive-site-template",
+      "tag": "Free",
+      "free": true,
+      "title": "newsletter-archive-site-template",
+      "subtitle": "A copy-ready static template that turns a folder of newsletter issues into a browsable archive site.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/newsletter-archive-site-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "screenshot-to-text-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "screenshot-to-text-cli",
+      "subtitle": "Point it at a folder of screenshots and get one clean, copyable .txt file per image, a manifest CSV that tracks everything it has ever processed, and hash-based dedupe so repeated screenshots never get OCR'd twice.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/screenshot-to-text-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
