@@ -1,0 +1,48 @@
+# Early warning before the repo or site gets near GitHub's limits. It never blocks a push and never commits.
+# Limits: 100 MB per file (pushes are rejected; GitHub warns from 50 MB), about 1 GB for a published
+# Pages site, and repos ideally under 1 GB (git keeps every version of every file, so rebuilt PDFs add up).
+# Warnings show as yellow annotations on the workflow run and in the run summary.
+name: Repo size check
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  size:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check file, site and repo sizes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO_WARN_MB: 500     # whole repo including history
+          SITE_WARN_MB: 700     # files currently published (Pages limit is about 1 GB)
+          FILE_WARN_MB: 40      # single file (GitHub warns at 50 MB, rejects at 100 MB)
+        run: |
+          repo_mb=$(( $(gh api "repos/${{ github.repository }}" --jq .size) / 1024 ))
+          site_mb=$(( $(du -sk --exclude=.git . | cut -f1) / 1024 ))
+          {
+            echo "### Repo size"
+            echo "| What | Size | Warn at |"
+            echo "|---|---|---|"
+            echo "| Repo with history | ${repo_mb} MB | ${REPO_WARN_MB} MB |"
+            echo "| Published site files | ${site_mb} MB | ${SITE_WARN_MB} MB |"
+            echo ""
+            echo "Largest files:"
+            echo '```'
+            find . -path ./.git -prune -o -type f -printf '%s %p\n' | sort -rn | head -5 | awk '{printf "%6.1f MB  %s\n", $1/1048576, $2}'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          [ "$repo_mb" -ge "$REPO_WARN_MB" ] && echo "::warning::Repo is ${repo_mb} MB with history (warn at ${REPO_WARN_MB} MB). Rebuilt PDFs add up; consider moving PDFs to GitHub Releases."
+          [ "$site_mb" -ge "$SITE_WARN_MB" ] && echo "::warning::Published site files are ${site_mb} MB; the GitHub Pages limit is about 1 GB."
+          find . -path ./.git -prune -o -type f -size +"${FILE_WARN_MB}"M -print | while read -r f; do
+            echo "::warning file=${f#./}::${f#./} is over ${FILE_WARN_MB} MB (GitHub rejects files over 100 MB)."
+          done
+          echo "Repo ${repo_mb} MB, site ${site_mb} MB."

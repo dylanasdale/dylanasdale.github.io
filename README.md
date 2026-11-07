@@ -4,6 +4,15 @@ Dylan Asdale's hub site: books, free guides, projects and links. Plain static HT
 
 The look is adapted from the **Guides for Everything v3** design (guidesforeverythingai.github.io): Bluu Next headings, Hanken Grotesk text, a near-black canvas, a hot-pink accent, and the animated halftone aurora behind the page.
 
+## Where to work on it
+
+- **Local folder:** `C:\Users\Dylan\Documents\Claude\asdaledynamics-site` is the one working copy for hand edits. Start Claude Code (or any editor) there so this repo's `CLAUDE.md` rules apply. `git pull` before you start, and push when you're done.
+- **Automated writers:** these push to `main` on their own, so always pull first:
+  - the OpenCode publisher (OpenCode Small Projects card, via `tools/sync_freebuilds.py`)
+  - AI Deal Radar's `scripts/publish-site.mjs`, every 6 hours from `C:\Users\Dylan\Documents\Claude\ai-deal-radar`, using its own private clone in `data\site-repo` (only touches `ai-deals/index.html` and `data/ai-deals.json`)
+  - the **Sync site navigation** Action (see Navigation below)
+- **Size:** the **Repo size check** Action (`.github/workflows/size-check.yml`) reports the repo, site and largest-file sizes on every push, and warns before anything nears GitHub's limits (100 MB per file, about 1 GB per Pages site). Each rebuild of the guide PDFs adds about 70 MB of history, so rebuild them only when the content really changes.
+
 ## Add something new
 
 Every shelf on the site comes from **`data/items.json`**. To add a book, guide, project or link, add one object to the right list and push. The pages pick it up on the next load.
