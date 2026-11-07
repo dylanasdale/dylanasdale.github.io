@@ -50,7 +50,7 @@ Facts (install commands, settings, menu paths, flags, pricing) were checked agai
 
 Every build also writes **`index.html`**, a landing page with every manual's cover, page count, and Read/Download links, generated from `output/manifest.json` and [`templates/site.html`](templates/site.html). Covers are saved to `output/covers/`. The landing page is near-black with hot-pink accents and an animated halftone aurora (a WebGL dot grid lit by flowing pink and violet light, with a 2D glow fallback, static under reduced motion) behind the page. Headings use Bluu Next (self-hosted from `assets/fonts/`, SIL OFL 1.1, licence included) and text uses Hanken Grotesk. The Claude Edition shelf comes first and the Grok Edition sits at the bottom. The PDFs stay print-friendly white.
 
-To publish it with **GitHub Pages** (free for public repos), do this once: repository **Settings › Pages**, then under **Build and deployment** set **Source** to **Deploy from a branch**, choose **`main`** and **`/ (root)`**, and click **Save**. The live site is **https://guidesforeverythingai.github.io/**, served from the `main` branch of [`guidesforeverythingai/guidesforeverythingai.github.io`](https://github.com/guidesforeverythingai/guidesforeverythingai.github.io); it updates every time you push rebuilt manuals there. (The old address, `https://atlasrearden8.github.io/GuidesForEverything/`, is being retired.) For a fork, a repo named `<name>.github.io` serves at `https://<name>.github.io/`, and any other repo name serves at `https://<name>.github.io/<repo>/`; every link on the page is relative, so both work.
+The library is published as part of Dylan's hub site at **https://asdaledynamics.com/free-guides/guides-for-everything-ai/**, served by GitHub Pages from the `main` branch of [`dylanasdale/dylanasdale.github.io`](https://github.com/dylanasdale/dylanasdale.github.io) (this folder). Rebuild here and push that repo to update it. The old addresses only redirect: **https://guidesforeverythingai.github.io/** (the [`guidesforeverythingai/guidesforeverythingai.github.io`](https://github.com/guidesforeverythingai/guidesforeverythingai.github.io) repo, whose `index.html` and `404.html` forward visitors and deep links such as `/output/<slug>.pdf` to the same path here) and `https://atlasrearden8.github.io/GuidesForEverything/`. Don't publish new builds to those repos. The top and footer navigation in `templates/site.html` comes from the hub site's `tools/sync_nav.py`, so don't edit it here. Every link on the page is relative, so the page also works if you serve this folder on its own.
 
 Regenerate only the page (no PDF rebuild) with `node build.mjs --site`.
 
@@ -162,7 +162,7 @@ output/<slug>.pdf   (US Letter, embedded fonts, PDF bookmarks)
 | `templates/manual.html` | Page skeleton: cover, inside cover, contents, body |
 | `templates/layout.js` | Pre-pagination layout fixes (keep-with-next, table and step splitting) |
 | `templates/site.html` | The landing page template; `build.mjs` fills in the manuals |
-| `index.html` | Generated landing page (GitHub Pages serves it from the repo root) |
+| `index.html` | Generated landing page, served at asdaledynamics.com/free-guides/guides-for-everything-ai/ |
 | `assets/fonts/` | Bluu Next webfonts (WOFF2 converted from Velvetyne's OTFs) with `OFL-BluuNext.txt` |
 | `output/manifest.json`, `output/covers/` | Generated manual details and cover images for the site |
 | `styles/manual.css` | The whole design: page setup, typography, components |
