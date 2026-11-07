@@ -6633,6 +6633,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "expense-category-labeler-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "expense-tagger",
+      "subtitle": "Tag bank-export CSVs into plain-English categories for a personal or tiny-business ledger.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/expense-category-labeler-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nurse-shift-swap-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse Shift-Swap Pack",
+      "subtitle": "Print-ready HTML versions of each sheet live in print/, styled for Letter or A4 (you can print the .md files too — they're just friendlier as reading docs).",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-nurse-shift-swap-pack",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
