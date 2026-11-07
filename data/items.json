@@ -3147,6 +3147,21 @@
       ]
     },
     {
+      "id": "free-manual-lookup-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Manual Lookup Directory",
+      "subtitle": "You just moved into a place with a mystery dishwasher.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-manual-lookup-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
