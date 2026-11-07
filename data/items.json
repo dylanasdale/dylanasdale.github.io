@@ -3324,6 +3324,66 @@
       ]
     },
     {
+      "id": "ai-citations-trust-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Trust-but-Verify Manual for What AI Tells You",
+      "subtitle": "A beginner-friendly guide to checking AI-generated claims before publishing: essays, posts, newsletters, book chapters.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-citations-trust-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-computer-use-agents-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Computer-Use & Browser Agents Guide",
+      "subtitle": "A guide to computer-use agents (software that moves a mouse and types on a keyboard for you) and browser agents (software that navigates web pages for you).",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-computer-use-agents-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "how-ai-learns-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "How AI Learns — a plain-English guide to what happens before your AI answers",
+      "subtitle": "You type a question, and seconds later a tidy, helpful answer appears.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/how-ai-learns-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "learn-to-code-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Learn to Code with AI",
+      "subtitle": "A first coding manual for absolute beginners: variables, loops, and functions, learned through tiny exercises built together with AI as a patient tutor.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/learn-to-code-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6923,6 +6983,70 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/boardgame-collection-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "bank-reconciliation-lite-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "bank-reconciliation-lite",
+      "subtitle": "Turn bank-CSV dread into a calm monthly ritual.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bank-reconciliation-lite-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ai-trivia-night-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Trivia Night Pack",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-ai-trivia-night-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-block-party-starter-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Block Party Starter Pack",
+      "subtitle": "Flyers, sign-up sheets, potluck table cards, name tags, a kid-games guide, cleanup sign-ups, a rainy-day plan B, and a gentle organizer page about permits, quiet schedules, and different diets.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-block-party-starter-pack/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-block-party-starter-pack"
+        }
+      ]
+    },
+    {
+      "id": "model-roundtable-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "model-roundtable",
+      "subtitle": "Ask one prompt once - hear from two or three models at the same time, side by side, in your terminal.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/model-roundtable-cli",
           "primary": true
         }
       ]
