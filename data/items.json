@@ -6911,6 +6911,21 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/tabletop-score-keeper-webapp"
         }
       ]
+    },
+    {
+      "id": "boardgame-collection-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "boardgame-collection-mcp-server",
+      "subtitle": "A local-first MCP server over a plain-file board game log.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/boardgame-collection-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
