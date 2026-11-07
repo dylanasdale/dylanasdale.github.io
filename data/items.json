@@ -6241,6 +6241,55 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "chess-blunder-journal-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chess-blunder-journal",
+      "subtitle": "Turn post-game feelings into fixes.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-blunder-journal-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "event-signup-page-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Event Signup Page Template",
+      "subtitle": "A copy-ready static template for event signup pages — book launches, workshops, and club nights.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/event-signup-page-template/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/event-signup-page-template"
+        }
+      ]
+    },
+    {
+      "id": "library-loans-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Library Loans MCP Server",
+      "subtitle": "A small, local-first MCP server that keeps track of the books you borrow from your public library branches.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/library-loans-mcp-server",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
