@@ -3309,6 +3309,21 @@
       ]
     },
     {
+      "id": "first-will-and-estate-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "First Will & Estate Basics Guide",
+      "subtitle": "A gentle, beginner-friendly manual for getting your advance-planning basics in order: wills, beneficiaries, powers of attorney, healthcare directives, and a family letter of instruction — written without gloom, with…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/first-will-and-estate-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -6784,6 +6799,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/spaced-repetition-scheduler-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-museum-park-passes-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Culture &amp; Outdoors Directory",
+      "subtitle": "A plain-English, ad-free directory of legitimately free and low-cost ways to see culture and the outdoors in the United States:",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-museum-park-passes-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "passphrase-maker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Passphrase Maker",
+      "subtitle": "An offline passphrase generator that rolls real dice (cryptographically) using the EFF large diceware word list.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/passphrase-maker-cli",
           "primary": true
         }
       ]
