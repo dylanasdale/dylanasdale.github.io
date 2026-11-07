@@ -6663,6 +6663,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "job-hunt-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "job-hunt-mcp-server",
+      "subtitle": "A small, local-first MCP (Model Context Protocol) server that keeps your job hunt in plain files.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/job-hunt-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kindle-clippings-tidy-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kindle-clippings-tidy",
+      "subtitle": "Distinct from web clippings and citation formatting tools — this one is only for tidying Kindle's own export file.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kindle-clippings-tidy-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
