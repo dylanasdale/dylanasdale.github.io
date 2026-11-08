@@ -7393,6 +7393,4297 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "bill-calendar-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Bill Calendar",
+      "subtitle": "A local-first, month-view money calendar for the fridge: point it at a simple CSV of your bills, see what's due, and print a clean one-page calendar.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bill-calendar-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-swiss-pairings-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Club Swiss",
+      "subtitle": "A single-file helper for running a small Swiss-style chess tournament at your club.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-swiss-pairings-webapp",
+          "primary": true
+        }
+      ]
+    }
+  ],
+  "kilobuilds": [
+    {
+      "id": "free-accessibility-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Accessibility Tools Directory",
+      "subtitle": "A free directory of accessibility tools and built-in OS features — screen readers, magnifiers, dictation, captions, reading aids, and ADHD / low-energy helpers — grouped by need and device.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-accessibility-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kilo-code-free-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Kilo Code Free Handbook",
+      "subtitle": "A beginner-friendly manual (Markdown docs + static HTML site) on using Kilo Code for free: installing the CLI and VS Code extension, free models with no account, headless runs, modes and agents, safe permissions,…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kilo-code-free-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-image-generation-first-steps-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Image Generation First Steps Guide",
+      "subtitle": "A beginner-friendly manual (Markdown docs + static HTML site) on making AI images for free: choosing models, writing prompts, aspect ratios, local versus cloud, copyright basics, safety filters, and a printable…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-image-generation-first-steps-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-settings-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Privacy Settings Handbook",
+      "subtitle": "A beginner-friendly manual for the privacy and data-training settings in popular AI apps and assistants.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-privacy-settings-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-llm-benchmark-notes-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Running Local LLMs on a Home PC — A Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to choosing, installing, and running large language models (LLMs) entirely on your own computer — no cloud account, no monthly bill, and your data never leaves your house.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-llm-benchmark-notes-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-servers-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "MCP Servers — Plain English Guide",
+      "subtitle": "A beginner manual and static website explaining the Model Context Protocol (MCP): what MCP servers do, how to install and run one locally, how to connect to files and databases, and safety rules for AI file access.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-servers-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-and-your-job-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Privacy at Work: A Beginner Manual",
+      "subtitle": "Keep your work and health data private when using AI",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-privacy-and-your-job-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-pdf-and-print-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free PDF & Print Tools Directory",
+      "subtitle": "Free, no-account tools for merging, splitting, compressing, signing, filling forms, large print, and converting PDFs to ebook formats.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-pdf-and-print-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ai-coding-for-beginners-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Coding for Beginners",
+      "subtitle": "A plain-English, step-by-step manual for learning to code with AI — completely free, with no account required for the models we recommend.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ai-coding-for-beginners-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-launch-timeline-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Launch Timeline",
+      "subtitle": "A simple, free tool for authors.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/book-launch-timeline-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "online-privacy-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Online Privacy Basics",
+      "subtitle": "A beginner-friendly manual and static website on personal digital privacy: passwords, two-factor authentication, data-broker opt-outs, private browsing, and phone/email hygiene.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/online-privacy-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-assisted-coding-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI-Assisted Coding: A Beginner's Manual",
+      "subtitle": "A plain-English, step-by-step guide to writing code with AI for free.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-assisted-coding-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-author-launch-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Author Launch Kit",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-author-launch-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "simple-automation-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Simple Automation Handbook",
+      "subtitle": "A beginner-friendly manual on safe, everyday automation: sorting downloads, renaming files, setting up bill reminders, and saving webpages — using only built-in tools and tiny scripts you can read and trust.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/simple-automation-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-medical-bill-organizer-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Medical Bill Organizer Kit",
+      "subtitle": "Fillable, printable worksheets for tracking medical bills, insurance claims, explanation-of-benefits (EOBs), payment plans, and charity-care applications.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-medical-bill-organizer-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-job-search-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Job Search Guide",
+      "subtitle": "A beginner-friendly manual and static site for using AI in your job search — resumes, cover letters, interview practice, application tracking, and what never to paste online.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-job-search-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-paperwork-and-forms-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Paperwork and Forms Guide",
+      "subtitle": "A beginner-friendly manual for using AI to handle everyday paperwork — reading forms, filling out applications, benefits documents, leases, and insurance papers — plus what never to share and how to save your copies.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-paperwork-and-forms-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-transcription-and-captions-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Transcription and Captions Guide",
+      "subtitle": "A beginner-friendly manual on free AI transcription and captions for meetings, lectures, and videos.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-transcription-and-captions-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "benefits-application-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Applying for Benefits &amp; Assistance: A Beginner's Manual",
+      "subtitle": "Plain-English, step-by-step help for finding benefit programs, gathering documents, filling out forms, and tracking applications &mdash; written so paperwork feels understandable, not intimidating.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/benefits-application-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "senior-tech-comfort-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Senior Tech Comfort Guide",
+      "subtitle": "A plain-English, large-print beginner manual for everyday technology — phones, email, video calls, passwords, text size, and scam avoidance — written for seniors who want clear, step-by-step checklists without jargon…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/senior-tech-comfort-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-senior-resources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Resources Directory for Seniors",
+      "subtitle": "A free directory of resources for seniors — benefits, tech classes, legal aid, health information, and discounts — grouped by category, each with cost, who it's for, how to access, and an official link.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-senior-resources-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-transcription-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Transcription and Caption Tools Directory",
+      "subtitle": "A free directory of no-account transcription and caption tools — live captions, dictation, audio/video-to-text, local Whisper options, and caption editors.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-transcription-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ocr-and-scanning-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free OCR & Scanning Directory",
+      "subtitle": "Free tools that turn paper into searchable text.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ocr-and-scanning-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-first-book-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP First Book Guide",
+      "subtitle": "A beginner-friendly manual (Markdown docs + static HTML site) on publishing your first book with Amazon KDP: manuscript prep, trim size, cover basics, ISBN, pricing, categories, keywords, upload steps, and proofing.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-first-book-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "healthcare-shift-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Healthcare Shift Basics Guide",
+      "subtitle": "A beginner-friendly manual for healthcare workers learning shift fundamentals: handoffs, report sheets, break planning, and shift recovery.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/healthcare-shift-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "author-marketing-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Marketing Basics Guide",
+      "subtitle": "A beginner-friendly manual for marketing a book for free, written for authors with no ad budget.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/author-marketing-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-medical-records-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Medical Records Kit",
+      "subtitle": "Fillable, printable worksheets for organizing your medical records: provider log, medication list, immunization tracker, appointment history, and records-request letters.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-medical-records-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-writing-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Writing & Editing Tools",
+      "subtitle": "A friendly, no-account, no-affiliate directory of free writing and editing tools — word processors, distraction-free editors, grammar help, name generators, and ebook converters.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-writing-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "low-energy-daily-routine-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Low-Energy & ADHD-Friendly Daily Routine Guide",
+      "subtitle": "A beginner-friendly manual and printable static site for low-energy and ADHD-friendly daily routines.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/low-energy-daily-routine-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "author-platform-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Platform Basics Guide",
+      "subtitle": "A free, privacy-safe, step-by-step manual for building an author platform with zero ad budget.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/author-platform-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "low-energy-days-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Low-Energy Days Handbook",
+      "subtitle": "A kind, small-steps beginner manual for low-energy and ADHD-friendly productivity: picking one task, gentle scheduling, rest without guilt, energy tracking, and low-demand routines — with printable routine cards.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/low-energy-days-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "reselling-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Reselling Basics: A Beginner Manual for eBay and Amazon Flipping",
+      "subtitle": "A plain-English beginner manual for finding items to flip, writing listings, pricing, shipping supplies, fees, and record keeping on eBay and Amazon.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/reselling-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-documentation-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI-Assisted Shift Documentation",
+      "subtitle": "A beginner manual for nurses and healthcare workers on using AI to draft shift documentation — report sheets, handoff notes, and patient-education summaries — step by step, privacy first, never medical advice.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-documentation-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-chess-resources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Chess Resources Directory",
+      "subtitle": "A beginner-friendly directory of free chess resources: Lichess, Chess.com free tiers, puzzles, tactics trainers, opening databases, and endgame studies.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-chess-resources-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-invoice-receipt-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Invoice & Receipt Kit",
+      "subtitle": "Freelancers, side-hustlers, authors, and small-business owners who need simple, professional forms without creating an account, handing over an email, or paying a subscription.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-invoice-receipt-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-bookkeeping-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Small-Business Bookkeeping",
+      "subtitle": "A plain-English beginner manual on using AI for small-business bookkeeping: categorizing expenses, tracking income, receipts, quarterly tax prep, and knowing when to hire a pro.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-bookkeeping-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-home-organizing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Home Organizing",
+      "subtitle": "A beginner-friendly manual on using AI to organize your home: digital filing, photo routines, household inventories, family schedules, and printable labels.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-home-organizing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-speech-and-audio-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Speech & Audio Tools",
+      "subtitle": "A friendly, no-cost directory of speech-to-text, text-to-speech, recording, and editing tools.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-speech-and-audio-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-holiday-planning-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Holiday Planning",
+      "subtitle": "A beginner-friendly manual for using AI through the holidays — gift ideas and budgets, travel plans, gathering checklists, meal plans, and post-holiday decluttering.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-holiday-planning-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-small-business-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies — Free Small-Business Tools",
+      "subtitle": "A no-nonsense directory of free tools for invoicing, bookkeeping, scheduling, and contracts — built for small businesses, authors, and resellers (eBay/Amazon, KDP publishing).",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-small-business-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ai-video-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Video Tools Directory",
+      "subtitle": "A freebies directory of free and free-tier AI video tools — for editing, captioning, thumbnails, and enhancement.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ai-video-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-pages-author-site-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Author Site with GitHub Pages — Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to publishing a free author website with GitHub Pages, plus a ready-to-use static HTML author site template.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-pages-author-site-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-client-first-steps-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "MCP Client First Steps",
+      "subtitle": "A beginner-friendly manual and static site for learning Model Context Protocol (MCP) clients: what they do, how to connect them to local files and folders, how to run your first stdio MCP server, and the safety rules…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-client-first-steps-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "batch-file-renamer-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Safe Batch File Renaming — Beginner Manual",
+      "subtitle": "A plain-English guide to renaming lots of files at once — safely — using the tools already on your computer, plus tiny scripts you can copy and paste.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/batch-file-renamer-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-budget-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Budget Printables Kit",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-budget-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-healthcare-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Healthcare Printables Kit",
+      "subtitle": "Fillable, printable worksheets for health paperwork: appointment log, medication list, provider directory, and insurance tracker.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-healthcare-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-kdp-templates-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies Directory - Free KDP & Book Templates",
+      "subtitle": "A static directory of free KDP and book publishing templates: interior layouts, cover templates, copyright pages, and series bibles.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-kdp-templates-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-ai-vs-cloud-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Running AI Locally vs. Cloud: A Beginner's Manual",
+      "subtitle": "A plain-English beginner's manual for choosing between running AI on your own computer and using cloud AI services.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-ai-vs-cloud-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-parents-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Family Life: A Beginner's Manual",
+      "subtitle": "A plain-English, step-by-step guide to using free AI models for everyday family life — school forms, meal ideas, activities, and bedtime stories — without ever pasting your kids' names or school information into an…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-parents-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-teachers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Teachers: A Beginner's Manual",
+      "subtitle": "You are a teacher.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-teachers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-hobbyists-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Hobbyists",
+      "subtitle": "A beginner-friendly manual and static HTML site on using free AI models for hobbies &mdash; crafting, collecting, gaming, DIY projects, and more &mdash; written in plain English, step by step, with printable project…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-hobbyists-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-privacy-letter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Privacy Letter Kit",
+      "subtitle": "Fillable, printable letters to opt out of AI training, data-broker lists, and marketing emails.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-privacy-letter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-clubs-and-groups-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Clubs and Meetups — Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to using free AI models for club and meetup work: agendas, newsletters, rosters, and event flyers.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-clubs-and-groups-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-craft-and-hobby-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Craft & Hobby Printables Kit",
+      "subtitle": "1.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-craft-and-hobby-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-email-template-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Email Template Kit",
+      "subtitle": "Fillable email templates for everyday work and life: thank-you notes, inquiry letters, follow-ups, and polite declines.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-email-template-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "agents-and-mcp-starter-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Agents & MCP: A Beginner's Manual",
+      "subtitle": "This folder contains two versions of the same beginner manual:",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/agents-and-mcp-starter-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-tools-for-nurses-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Tools for Nurses & Healthcare Workers",
+      "subtitle": "A free beginner manual in plain English: shift prep, patient education, charting help, scheduling, and free AI models.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-tools-for-nurses-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "automation-for-beginners-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Simple Automation for Beginners",
+      "subtitle": "A beginner-friendly manual on safe, everyday automation: organizing files, repeating tasks, email reminders, and scheduling — using only built-in tools and tiny scripts you can read end to end.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/automation-for-beginners-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "personal-privacy-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Personal Privacy Basics",
+      "subtitle": "A beginner-friendly manual on locking down your accounts, browsers, and phones — plus how to opt out of AI training and data brokers, and how to spot scams.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/personal-privacy-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-job-search-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Job-Search Kit",
+      "subtitle": "A free, printable, no-account-needed kit of job-search resources: resume and cover letter templates, interview prep questions, an application tracker, and networking email scripts.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-job-search-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-paperwork-organizer-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Paperwork Organizer Kit",
+      "subtitle": "Fillable paperwork organizers — a bill tracker, an appointment log, a form-filling cheat sheet, and a document checklist.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-paperwork-organizer-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ollama-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Local AI Starter Kit",
+      "subtitle": "A free, local-first directory of AI tools you can run entirely offline on your own computer.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ollama-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-authors-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Authors: A Beginner's Guide to Writing and Publishing with Free AI Models",
+      "subtitle": "Plain English, step by step, printable worksheets.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-authors-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ffxiv-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Freebies Kit",
+      "subtitle": "Fillable, printable FFXIV printables — no account needed, no game assets, completely free.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ffxiv-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-for-authors-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub for Authors: A Beginner Manual",
+      "subtitle": "Host a free author site, track your edits, and publish book excerpts — with GitHub Pages.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-for-authors-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-getting-started-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Local AI with Ollama — A Beginner's Manual",
+      "subtitle": "A step-by-step, printable guide to running AI models locally on your own computer with Ollama.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-getting-started-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-home-care-aides-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Home Care Aides: A Beginner Manual",
+      "subtitle": "Daily notes, care plans, and family updates using free AI models.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-home-care-aides-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-small-business-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Small Businesses and LLCs",
+      "subtitle": "A beginner-friendly manual and static HTML site that explains how small businesses and LLCs can use free AI models for admin work, marketing, customer emails, and bookkeeping — plain English, step by step, with…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-small-business-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-shift-planner-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Shift Planner Kit",
+      "subtitle": "Printable shift planners for nurses and shift workers: brain sheets, sleep logs, handoff templates, and weekly schedules.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-shift-planner-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-tenant-resources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Tenant Resources Directory",
+      "subtitle": "Free lease checklists, repair-request letters, and move-in/move-out checklists for renters.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-tenant-resources-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-meal-planning-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Meal Planning Guide",
+      "subtitle": "Plan a week of meals from what's already in your pantry — using free AI tools, step by step, in plain English.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-meal-planning-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-insurance-appeals-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Insurance Appeals Guide",
+      "subtitle": "A beginner-friendly manual for using AI to draft insurance denial appeals and medical bill dispute letters — step by step.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-insurance-appeals-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-photo-organizing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Photo Organizing Guide",
+      "subtitle": "A beginner-friendly manual for organizing digital photos using free, local AI tools — never uploading your sensitive photos to the cloud.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-photo-organizing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-meal-planner-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Meal Planning Kit",
+      "subtitle": "Anyone who wants to plan meals without fuss: busy households, nurses on shifting schedules, folks on a tight budget, or anyone who prefers paper over apps.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-meal-planner-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-pet-care-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Pet Care — A Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to using AI for everyday pet care: tracking medications, vet visits, feeding schedules, and behavior notes — plus pet-sitter instructions, emergency contacts, and printable care…",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-pet-care-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-moving-and-relocation-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Moving and Relocation Guide",
+      "subtitle": "A beginner-friendly manual on using AI for moving and relocation: packing checklists, address-change timelines, utility transfers, budget tracking, and room-by-room inventory.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-moving-and-relocation-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-insurance-appeal-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Insurance Appeal & Medical Bill Dispute Kit",
+      "subtitle": "Fillable, printable, no account needed.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-insurance-appeal-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-llc-formation-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free LLC Formation Kit",
+      "subtitle": "Fillable, printable, no account needed.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-llc-formation-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-tools-for-beginners-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Tools for Beginners",
+      "subtitle": "A plain-English, step-by-step manual for anyone who wants to use AI tools — chatbots, image generators, writing assistants, and audio tools — without the jargon and without being talked down to.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-tools-for-beginners-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "open-source-for-beginners-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Open Source for Beginners",
+      "subtitle": "A plain-English beginner manual for using and contributing to open-source software on GitHub.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/open-source-for-beginners-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "writing-with-local-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Writing with Local AI Models via Ollama",
+      "subtitle": "A beginner-friendly manual and static site for writing with AI models that run entirely on your own computer.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/writing-with-local-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-chess-study-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Chess Study Kit",
+      "subtitle": "A free, printable, large-print-friendly chess study kit for beginners and club players.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-chess-study-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nurse-ce-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Nurse CE Kit",
+      "subtitle": "Every page is a single self-contained HTML file with embedded CSS.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-nurse-ce-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "building-ai-agents-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Building Simple AI Agents: A Beginner's Manual",
+      "subtitle": "A plain-English, step-by-step guide to planning, tool use, memory, and safety for AI agents — no coding required to start.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/building-ai-agents-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "choosing-local-llms-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Choosing and Running Local LLMs with Ollama",
+      "subtitle": "A beginner-friendly manual for choosing and running large language models on your own computer with Ollama.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/choosing-local-llms-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "first-pull-request-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Your First Pull Request: A Beginner's Guide to GitHub",
+      "subtitle": "A plain-English, step-by-step manual for forking, cloning, branches, issues, and your first pull request — written for non-programmers, by a friend.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/first-pull-request-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-kdp-publishing-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free KDP Publishing Kit",
+      "subtitle": "Free printable forms for self-publishing on Amazon Kindle Direct Publishing (KDP).",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-kdp-publishing-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "patient-data-privacy-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Patient Data Privacy Guide",
+      "subtitle": "A beginner-friendly manual for healthcare workers and anyone handling patient information: HIPAA basics, what never to paste into AI chatbots, securing work devices, and safe information sharing.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/patient-data-privacy-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "automation-for-shift-workers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "No-Code Automation for Shift Workers",
+      "subtitle": "A beginner-friendly manual on automating life around irregular schedules — night shifts, rotating rosters, overtime, and shift swaps — using tools you already have plus tiny, auditable scripts you can read end to end.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/automation-for-shift-workers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-author-newsletter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Author Newsletter Kit",
+      "subtitle": "Fillable, printable newsletter templates and planning tools for authors — no account, no signup, no email required.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-author-newsletter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nurse-career-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse Career Change Freebies Kit",
+      "subtitle": "Printable worksheets for nurses moving into a new career — bedside to your next role.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-nurse-career-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-journaling-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Journaling — A Beginner's Manual",
+      "subtitle": "A warm, low-pressure guide to using AI as a journaling companion.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-journaling-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-ollama-home-server-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Ollama Home Server Guide",
+      "subtitle": "A beginner-friendly, step-by-step manual for running Ollama as a headless home server: install, auto-start on boot, access from other devices, pull and run models, and keep your chats private.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-ollama-home-server-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-summarization-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Summarization Handbook",
+      "subtitle": "A beginner-friendly, free AI handbook for summarizing articles, meeting notes, documents, and emails.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-summarization-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-vehicle-maintenance-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Vehicle Maintenance Kit",
+      "subtitle": "A printable, fillable toolkit for tracking your car's maintenance, repairs, fuel, and mileage.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-vehicle-maintenance-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-pantry-inventory-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Pantry Inventory Kit",
+      "subtitle": "No account needed.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-pantry-inventory-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-consumer-rights-and-legal-aid-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Consumer Rights & Legal Aid Guide",
+      "subtitle": "A beginner-friendly manual and static website for using free AI to handle consumer-rights paperwork: warranty claims, repair-or-replace demands, complaint letters, and small-claims court preparation.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-consumer-rights-and-legal-aid-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-nurse-leadership-and-management-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Nurse Managers and Leaders: A Beginner Manual",
+      "subtitle": "Plain-English, step-by-step AI education for nurse managers, nurse leaders, and charge nurses.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-nurse-leadership-and-management-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-tabletop-gamers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Tabletop RPGs and Board Games",
+      "subtitle": "A beginner-friendly manual and static website for using free AI with tabletop roleplaying games and board games: character sheets, campaign notes, NPC ideas, rule clarifications, session prep, and board game help.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-tabletop-gamers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-tabletop-gamers-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Tabletop Gamers Printables Kit",
+      "subtitle": "Fillable, printable character sheets, session notes, an NPC tracker, and a rules cheat-sheet for tabletop RPG and board game night.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-tabletop-gamers-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-healthcare-administration-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Healthcare Administration — Beginner Manual",
+      "subtitle": "A step-by-step, printable beginner manual on using AI for healthcare administration tasks: forms, scheduling, billing basics, compliance reminders, and documentation workflows.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-healthcare-administration-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-consumer-rights-and-dispute-templates-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Consumer Rights & Dispute Templates Kit",
+      "subtitle": "Fillable, printable templates for common consumer-rights paperwork: demand letters, warranty claims, small-claims worksheets, and a complaint tracker.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-consumer-rights-and-dispute-templates-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-healthcare-admin-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Healthcare Administration Freebies Kit",
+      "subtitle": "A free, fillable, printable, large-print-friendly kit of healthcare administration forms — built for busy healthcare workers who need straightforward paperwork tools.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-healthcare-admin-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-safety-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Safety Basics",
+      "subtitle": "A beginner-friendly manual on AI safety basics: data privacy, scam and deepfake spotting, and what never to paste into chatbots.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-safety-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-club-host-assistant-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Club Host Assistant CLI",
+      "subtitle": "A friendly, local-first command-line tool for running a book club.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/book-club-host-assistant-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-letter-writing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Writing Letters with AI",
+      "subtitle": "A beginner-friendly manual for writing letters with AI: complaints, appeals, thank-you notes, and requests.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-letter-writing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-caregiver-resources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Caregiver Resources Directory",
+      "subtitle": "If you're caring for a parent, a spouse, a child, or anyone who depends on you, you know how hard it can be to find help.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-caregiver-resources-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-nonprofit-organizations-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Nonprofits and Volunteer Groups",
+      "subtitle": "A beginner manual and static website that shows how nonprofits, volunteer groups, and small charities can use free, privacy-safe AI to write grant letters, donor thank-you notes, event flyers, and volunteer schedules.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-nonprofit-organizations-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-password-manager-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Password Manager Guide",
+      "subtitle": "A beginner-friendly manual on passwords, password managers, two-factor authentication, and securing your accounts with AI help.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-password-manager-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "digital-photo-backup-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Photo Backup Handbook",
+      "subtitle": "A beginner-friendly guide to backing up digital photos safely — local copies, external drives, cloud options, file naming, and duplicate handling.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/digital-photo-backup-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-lending-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Lending Tracker CLI",
+      "subtitle": "A warm, local-first Python command line tool for tracking books you lend to friends and borrowers — complete with due dates, returns, and local JSON/CSV export.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/book-lending-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-legal-aid-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies Directory — Free Legal Aid & Self-Help Resources",
+      "subtitle": "A plain-English directory of free legal aid and self-help resources: court forms, lawyer referral, tenant and consumer help, plus debt/credit, veterans benefits, family law, expungement, and immigration.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-legal-aid-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-royalty-splitter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Royalty Splitter CLI",
+      "subtitle": "A friendly, local-first command-line tool for co-authors to split book royalties and expenses by agreed percentages.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/book-royalty-splitter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-for-healthcare-workers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub for Healthcare Workers: A Beginner Manual",
+      "subtitle": "Plain English, step-by-step guidance for healthcare workers who want to use GitHub to document protocols, share templates, and version-control shift sheets.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-for-healthcare-workers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-ai-for-authors-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Local LLMs for Authors: A Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to running local large language models (LLMs) on your own computer for writing and editing books.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-ai-for-authors-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-locally-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Coding with Local Models",
+      "subtitle": "A beginner-friendly manual for writing code with free, local AI models.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-coding-locally-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "automation-for-authors-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Automating Author Admin",
+      "subtitle": "You wrote a book.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/automation-for-authors-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-kdp-author-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free KDP Author Kit",
+      "subtitle": "A friendly, free directory of official Kindle Direct Publishing (KDP) resources for authors: cover templates, blurb (book description) help, category pickers, and royalty calculators.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-kdp-author-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "healthcare-worker-privacy-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Privacy for Healthcare Workers",
+      "subtitle": "A beginner manual and static HTML site on AI privacy for healthcare workers: what never to paste into chatbots, patient data basics, and safe habits.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/healthcare-worker-privacy-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-healthcare-shift-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Healthcare Shift Kit",
+      "subtitle": "Fillable, printable, no-account-needed worksheets for healthcare workers: brain sheets, shift handover templates, continuing education (CE) trackers, and medication logs.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-healthcare-shift-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-shift-worker-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Worker Printables Kit",
+      "subtitle": "If you work rotating shifts, nights, or weekends, this kit is for you.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-shift-worker-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "adhd-friendly-productivity-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Low-Energy Productivity for ADHD Brains",
+      "subtitle": "A beginner manual for getting things done when your energy is low, your executive function is tired, and \"just try harder\" has never worked.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/adhd-friendly-productivity-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Workflow Basics Guide",
+      "subtitle": "A beginner-friendly manual on simple AI workflows: choosing tools, chaining prompts, and keeping humans in the loop.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-workflow-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "book-release-checklist-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Book Release Checklist Cli",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/book-release-checklist-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-flipping-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Flipping Starter Kit",
+      "subtitle": "Free, printable, plain-English tools for eBay and Amazon reselling: listing templates, profit calculators, a sourcing log, and pricing tips.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-flipping-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-healthcare-worker-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies Directory for Healthcare Workers",
+      "subtitle": "A static, client-side-searchable directory of free resources for healthcare workers: continuing education (CE) courses, scholarships and grants, printables and handouts, and support links.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-healthcare-worker-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-for-writers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub for Writers",
+      "subtitle": "A beginner-friendly manual for authors who want to version-control their manuscripts, collaborate with editors, and publish free author sites using GitHub.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-for-writers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "privacy-for-small-business-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Privacy for Small Business",
+      "subtitle": "A beginner-friendly manual for protecting your customers' data, using AI tools safely, and writing simple privacy policies — for small businesses, solo founders, freelancers, and author-LLCs.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/privacy-for-small-business-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-llm-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free LLM Starter Kit",
+      "subtitle": "A free, beginner-friendly kit for running large language models (LLMs) locally on your own computer.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-llm-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-college-students-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for College Students — Beginner Manual",
+      "subtitle": "A plain-English, step-by-step beginner manual for using free AI tools in college: essay brainstorming, study guides, citation help, schedule planning, and email drafts.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-college-students-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-grant-writing-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Grant Writing — A Beginner's Manual",
+      "subtitle": "Plain-English, step-by-step help for using free AI to write grants: finding funders, drafting narratives, building budgets, and writing reports.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-grant-writing-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-retirees-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI for Retirement",
+      "subtitle": "A beginner-friendly manual and static website for using free artificial intelligence in retirement: staying connected, hobby projects, health paperwork, travel planning, and scam avoidance.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-retirees-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-etsy-seller-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Etsy Seller Starter Kit",
+      "subtitle": "A no-cost starter kit for new Etsy sellers: shop policies, listing worksheet, pricing calculator, packaging slip, and income log.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-etsy-seller-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-grant-writing-resources-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Grant-Writing Resources Directory",
+      "subtitle": "A free, beginner-friendly directory of grant-writing resources: funder databases, proposal templates, budget worksheets, and writing guides.",
+      "meta": "Directory · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-grant-writing-resources-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-client-building-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Building MCP Clients",
+      "subtitle": "A beginner-friendly manual and static HTML site on building MCP (Model Context Protocol) clients that connect local LLMs to files, folders, and apps.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-client-building-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-beginners-large-print-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Beginners: Large-Print Guide",
+      "subtitle": "Plain-English, step-by-step help using free AI — no jargon, no condescension, no prior experience needed.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-beginners-large-print-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ebay-selling-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Selling on eBay with Free AI",
+      "subtitle": "A beginner-friendly manual and static site for using free AI to sell on eBay — no paid tools required.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ebay-selling-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-actions-for-authors-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub Actions for Authors",
+      "subtitle": "A beginner-friendly manual and static site for using GitHub Actions to auto-build book sites, run checks on pushes, deploy to GitHub Pages, and handle secrets safely — written in plain English, step by step.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-actions-for-authors-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "two-factor-auth-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Two-Factor Authentication Basics",
+      "subtitle": "A plain-English beginner's guide to two-factor authentication (2FA): authenticator apps, SMS risks, recovery codes, and backing up your accounts.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/two-factor-auth-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-2fa-setup-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free 2FA Setup Kit",
+      "subtitle": "A free, printable, privacy-first kit for setting up two-factor authentication (2FA) on your online accounts.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-2fa-setup-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-first-apartment-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "First Apartment Freebies Kit",
+      "subtitle": "Fillable, printable paperwork for your first apartment — no account, no signup, no tracking, nothing sold to you.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-first-apartment-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-sold-comps-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Sold-Comps Kit",
+      "subtitle": "Free printable tools for resale price research (eBay, Amazon, Poshmark, and more).",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-sold-comps-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-bloggers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Blogging with Free AI: A Beginner Manual",
+      "subtitle": "A plain-English, step-by-step guide to writing and publishing blog posts using only free AI tools.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-bloggers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-fact-checking-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Verifying AI Outputs: A Beginner's Manual",
+      "subtitle": "AI can be a helpful starting point.",
+      "meta": "Guide · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-fact-checking-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-library-manager-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Library Manager CLI",
+      "subtitle": "A friendly, local-first command-line tool for saving, tagging, searching, filling in, exporting, and sending reusable AI prompts.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-library-manager-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-series-page-planner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-series-page-planner",
+      "subtitle": "A local-first Node CLI that turns a YAML file of a book series (titles, subtitles, keywords, blurbs, release dates) into consistent KDP-ready metadata sheets, keyword-length checks, and a release calendar — in…",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-series-page-planner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-leve-and-roulette-planner-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Daily & Weekly Planner",
+      "subtitle": "A friendly, local-first static web app that helps Final Fantasy XIV players plan their daily roulettes, leve allowances, and weekly goals.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-leve-and-roulette-planner-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "medication-schedule-printable-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Daily Medication & Supplement Schedule",
+      "subtitle": "A local-first, printable daily medication/supplement schedule chart and refill tracker.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/medication-schedule-printable-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "small-business-receipt-sorter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "receipt-sorter",
+      "subtitle": "A friendly, local-first command-line tool that sorts a folder of receipt files (PDF, JPG, PNG, and a few other image formats) into year/month/category folders and writes a CSV expense summary for bookkeeping.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/small-business-receipt-sorter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-automation-for-busy-people-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Automation for Busy People",
+      "subtitle": "Simple automations for everyday life: sorting downloads, renaming files, bill reminders, and saving webpages — using built-in tools, free apps, and small no-code scripts.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-automation-for-busy-people-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-desynth-profit-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Desynth Profit Tracker CLI",
+      "subtitle": "A small, local-first Python CLI for FFXIV players to log desynth results, track profit per item, and export CSV.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-desynth-profit-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "data-deletion-request-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "data-deletion-request-cli",
+      "subtitle": "A local-first Python CLI that drafts GDPR and CCPA data-deletion and opt-out letters from templates.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/data-deletion-request-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "discharge-instructions-plain-english-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Discharge Instructions Plain English CLI",
+      "subtitle": "A friendly, local-first command-line tool that rewrites hospital discharge instructions into plain, easy-to-understand language at a 6th-grade reading level.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/discharge-instructions-plain-english-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-llm-prompt-tester-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Tester CLI",
+      "subtitle": "A small, local-first Python CLI for testing system prompts against a local LLM endpoint (Ollama by default, or any OpenAI-compatible URL).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-llm-prompt-tester-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "github-for-beginners-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub for Beginners",
+      "subtitle": "A plain-English, step-by-step beginner manual for GitHub: creating an account, repositories, commits, issues, pull requests, releases, and publishing a free static site with GitHub Pages.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/github-for-beginners-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-nurse-printables-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Nurse Printables Pack",
+      "subtitle": "Fillable, printable, no-account-needed worksheets for nurses: shift prep sheet, report brain sheet, CE (continuing education) log, and break-time checklist.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-nurse-printables-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "client-payment-log-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "payment-log",
+      "subtitle": "Local-first CLI for freelancers and small businesses: log client payments, track overdue invoices, and export CSV or PDF summaries.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/client-payment-log-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-royalty-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Royalty Calculator CLI",
+      "subtitle": "A friendly, local-first Python tool that calculates Kindle Direct Publishing (KDP) paperback royalties from your book's list price, page count, paper type, and marketplace — then prints a clean, copy-pasteable profit…",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-royalty-calculator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "system-prompt-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "system-prompt-builder",
+      "subtitle": "A Python CLI to build, preview, save, and live-test system prompts with variables and mock data.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/system-prompt-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nurse-ce-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse CE Tracker CLI",
+      "subtitle": "A command-line tool for nurses to log continuing-education hours, track license-renewal deadlines, and export CSV reports.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/nurse-ce-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-model-manager-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ollama-model-manager",
+      "subtitle": "A friendly Python command-line tool for managing Ollama models on your own computer.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-model-manager-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-opening-repertoire-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Opening Repertoire CLI",
+      "subtitle": "A Python command-line tool to build and quiz your personal chess opening repertoire from PGN files, with spaced-repetition tracking stored locally in JSON.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-opening-repertoire-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-schedule-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Schedule MCP Server",
+      "subtitle": "A friendly, local-first MCP server for tracking work shifts, days off, and rotation patterns — built with healthcare workers in mind.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-schedule-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "document-summarizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "document-summarizer",
+      "subtitle": "A beginner-friendly command-line tool that summarizes documents using a local, OpenAI-compatible LLM endpoint (default: Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/document-summarizer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-category-picker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdpcategorypicker",
+      "subtitle": "CLI tool for KDP authors to browse Amazon categories, validate category fit for a book, save picks, and export them for KDP upload.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-category-picker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "project-quote-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "project-quote-builder",
+      "subtitle": "Copy this folder onto your machine, then install:",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/project-quote-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-sleep-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Sleep Tracker",
+      "subtitle": "A friendly, local-first command line tool for healthcare workers to log shift sleep and fatigue patterns, with CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-sleep-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-marketboard-watcher-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Marketboard Watcher CLI",
+      "subtitle": "No game assets are included.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-marketboard-watcher-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "low-energy-task-roulette-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "task-roulette",
+      "subtitle": "Pick one small task for low-energy or ADHD days from a local JSON list, with tracking and export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/low-energy-task-roulette-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-endgame-study-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Endgame Study CLI",
+      "subtitle": "A warm, local-first Python CLI for studying chess endgames from FEN positions, tracking your progress in a local JSON file, and quizzing your recall.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-endgame-study-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-benefits-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies Directory",
+      "subtitle": "Free benefits and assistance programs — how to qualify, documents needed, how to apply, and where to get local help.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-benefits-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-pay-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Pay Calculator CLI",
+      "subtitle": "A friendly, local-first Python CLI that helps healthcare workers estimate shift pay — hourly rate, shift differentials, overtime, and holiday premiums.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-pay-calculator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-square-trainer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Square Trainer CLI",
+      "subtitle": "A small, local-first Python command-line tool for drilling chess board coordinates and square colors.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-square-trainer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-privacy-scrubber-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Privacy Scrubber",
+      "subtitle": "A small, dependency-free Python CLI that scrubs names, phones, emails, and postal addresses out of text before you send it to an LLM.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-privacy-scrubber-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "business-expense-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Business Expense Tracker CLI",
+      "subtitle": "A friendly, local-first command-line tool for logging business expenses by category, tracking totals, and exporting clean CSV or PDF summaries.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/business-expense-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "exif-stripper-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "exif-stripper",
+      "subtitle": "A tiny, local-first Python CLI that strips EXIF and GPS metadata from your photos before you share them.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/exif-stripper-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "isbn-lookup-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ISBN Lookup CLI",
+      "subtitle": "A small, local-first Python CLI for looking up a book's title, author, and edition by ISBN — built for reselling on eBay/Amazon and for KDP/author records.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/isbn-lookup-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-ab-test-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-ab",
+      "subtitle": "Local-first CLI to A/B test two prompt variants against an OpenAI-compatible endpoint (default Ollama), compare the outputs side by side, and save the results as Markdown.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-ab-test-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-adhd-printables-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "Free ADHD Printables Pack",
+      "subtitle": "Fillable, printable task cards, routine templates, and an energy tracker for low-energy and ADHD days.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-adhd-printables-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "openai-compatible-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "openai-compatible-checker-cli",
+      "subtitle": "A small, local-first Python CLI that smoke-tests OpenAI-compatible HTTP endpoints -- Ollama, LM Studio, Kilo Gateway, and anything else that speaks the OpenAI chat/completions API.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/openai-compatible-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-rating-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Rating Tracker",
+      "subtitle": "Dylan Asdale is a registered nurse turned AI author and founder of ASDALE DYNAMICS, LLC (Indiana, formed October 2026).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-rating-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "manuscript-progress-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Manuscript Progress CLI",
+      "subtitle": "A friendly, local-first command-line tool for authors to track manuscript word count, chapter progress, and writing streaks.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/manuscript-progress-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-agent-skills-template",
+      "tag": "Free",
+      "free": true,
+      "title": "MCP Agent Skills Template",
+      "subtitle": "A template repo for building MCP agent skills: a skill schema, example skills, and an OpenAI-compatible planner client (default Ollama).",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-agent-skills-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-title-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Title Builder",
+      "subtitle": "A local-first Python CLI for eBay/Amazon resellers to build listing titles from item attributes, with character counts, keyword hints, CSV logging, and a dry-run mode.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/resale-title-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "sheet-formula-helper-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Sheet Formula Helper",
+      "subtitle": "Turn plain-English requests into Excel and Google Sheets formulas — no coding, no API keys, nothing leaves your computer unless you want it to.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/sheet-formula-helper-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-pgn-splitter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "PGN Splitter CLI",
+      "subtitle": "Chess players, club organizers, and anyone working with PGN files who wants to turn one big multi-game file into one tidy file per game.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-pgn-splitter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "invoice-generator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Invoice Generator CLI",
+      "subtitle": "A small, local-first Python CLI that turns client info and line items into polished invoice PDFs.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/invoice-generator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "timesheet-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "timesheet-cli",
+      "subtitle": "Freelancers, authors, small-business owners, and anyone who needs a dead-simple way to track where their time goes.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/timesheet-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-blunder-log-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chess-blunder-log",
+      "subtitle": "A small, local-first Python CLI for logging chess blunders and lessons from played games, using FEN positions or PGN snippets.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-blunder-log-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-batch-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-batch",
+      "subtitle": "No external dependencies; installs offline with pip:",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-batch-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "family-budget-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Family Budget CLI",
+      "subtitle": "A simple, local-first command-line tool for building a monthly family budget.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/family-budget-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-blurb-writer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Blurb Writer",
+      "subtitle": "A local-first Python CLI that writes Kindle Direct Publishing (KDP) book blurbs from a short premise, using a configurable OpenAI-compatible endpoint (default: Ollama running on localhost).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-blurb-writer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-tactics-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "chess-tactics-cli",
+      "subtitle": "A small, local-first Python CLI for drilling chess tactics from FEN positions: find the best move, check your answer, and track your accuracy and streak in a local JSON file.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-tactics-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-chat-history-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ollama-chat-history",
+      "subtitle": "A friendly, local-first Python CLI for searching, exporting, and managing your Ollama chat history.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-chat-history-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-jar-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-jar",
+      "subtitle": "Save, tag, search, fill, and send reusable AI prompts as local Markdown/YAML files with {{variables}}.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-jar-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-llm-conversation-stats-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Local LLM Conversation Stats CLI",
+      "subtitle": "A local-first, dependency-free Python CLI that reads your local LLM chat logs and reports message counts, token estimates, top topics, and daily activity summaries.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-llm-conversation-stats-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-watchlist-server",
+      "tag": "Free",
+      "free": true,
+      "title": "mcp-watchlist-server",
+      "subtitle": "A friendly, local-first MCP server for tracking a personal watchlist of shows, movies, and games — each with optional notes and a 1–5 rating.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-watchlist-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-variable-expander-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-expander",
+      "subtitle": "A friendly, local-first Python CLI that fills in {{variables}} in prompt templates using information from a CSV or JSON file, and saves one ready-to-use prompt per row.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-variable-expander-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "author-review-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ARC Tracker CLI",
+      "subtitle": "A friendly, local-first command-line tool for authors who want to track ARC (advance reader copy) readers, review requests, and follow-ups — without accounts, API keys, or anything phoning home.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/author-review-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-gil-goal-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ffxiv-gil-goal-cli",
+      "subtitle": "A friendly little command-line tool for FFXIV players who want to save up gil for a big purchase — a house, a mount, glamour, or anything else.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-gil-goal-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-series-bible-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-series-bible",
+      "subtitle": "A friendly, local-first command-line tool for building and maintaining a KDP series bible: your characters, settings, timelines, and series order, all saved locally as JSON and exportable to Markdown.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-series-bible-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nurse-prep-sheet-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse Shift Prep Sheet CLI",
+      "subtitle": "A small, local-first command-line tool for building a nurse shift prep sheet: patient list, tasks, and priorities, saved to a local JSON file with printable text output.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/nurse-prep-sheet-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-ads-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-tracker",
+      "subtitle": "Local-first CLI for authors to log KDP ad spend, sales, and royalties by book.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-ads-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-profit-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Profit Tracker CLI",
+      "subtitle": "A local-first, no-keys Python command-line tool for eBay/Amazon resellers to log items, costs, fees, and sales, and compute profit per listing plus monthly totals, with local JSON and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/resale-profit-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-duty-rotations-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Duty & Trial Log",
+      "subtitle": "A friendly, local-first Python command line tool for Final Fantasy XIV players.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-duty-rotations-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-model-comparer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "compare-cli",
+      "subtitle": "A local-first command-line tool that lets you compare local LLM models side by side.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-model-comparer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-quality-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Quality Checker CLI",
+      "subtitle": "A friendly, local-first Python CLI that reads a prompt draft and reviews it for clarity, variables, bias, and safety, then writes a Markdown report with a score from 1 to 5 for each category.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-quality-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-opening-explorer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Opening Explorer CLI",
+      "subtitle": "A friendly, local-first Python CLI for exploring chess openings.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-opening-explorer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-notes-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Notes MCP Server",
+      "subtitle": "An MCP (Model Context Protocol) server for logging nursing shift notes — tasks, handoffs, and observations — via stdio with local JSON storage and printable summaries.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-notes-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-study-planner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Study Planner CLI",
+      "subtitle": "A Python command-line tool for planning chess opening and endgame study sessions, logging practice, and tracking progress with local JSON storage and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-study-planner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "paperwork-renewal-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Paperwork Renewal Tracker",
+      "subtitle": "A beginner-friendly, local-first command-line tool to track document renewals — licenses, vehicle registration, insurance, and passports — with due-date alerts and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/paperwork-renewal-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "quarterly-tax-estimator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "qtax",
+      "subtitle": "A local-first CLI for authors and small businesses to estimate quarterly federal estimated taxes from your own income and expense entries.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/quarterly-tax-estimator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-mount-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Mount Tracker CLI",
+      "subtitle": "A friendly Python command-line tool for Final Fantasy XIV players to log the mounts they've collected.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-mount-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-inventory-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Inventory MCP Server",
+      "subtitle": "A local-first Model Context Protocol (MCP) server for tracking reselling inventory (eBay, Amazon, and beyond).",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/resale-inventory-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-chain-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Prompt Chain Builder Cli",
+      "subtitle": "prompt-chain-builder-cli ========================",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-chain-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "system-prompt-versioner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "promptv",
+      "subtitle": "Save, diff, and compare system-prompt versions across OpenAI-compatible endpoints (default Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/system-prompt-versioner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-meal-planner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Meal Planner CLI",
+      "subtitle": "A friendly, local-first command-line tool that turns the ingredients already in your pantry into a weekly meal plan.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-meal-planner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "insurance-appeal-letter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Insurance Denial Appeal Letter CLI",
+      "subtitle": "A local-first Python CLI that drafts insurance denial appeal letters from policy and claim details using a configurable OpenAI-compatible endpoint (default Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/insurance-appeal-letter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "pet-care-record-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "pet-care-record-cli",
+      "subtitle": "A small, local-first command-line tool for logging pet medications, vet visits, vaccinations, and care notes.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/pet-care-record-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-puzzle-timer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Puzzle Timer CLI",
+      "subtitle": "A small, friendly command-line tool to time your chess puzzle solving, track your accuracy and streaks, log where each puzzle came from (FEN or URL), and schedule reviews so you don't forget what you've learned.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-puzzle-timer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "moving-checklist-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Moving Checklist CLI",
+      "subtitle": "A local-first Python CLI that generates room-by-room moving checklists and address-change timelines from a single move date.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/moving-checklist-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "photo-organizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Photo Organizer CLI",
+      "subtitle": "A local-first Python CLI to organize photos by date and event, detect near-duplicate filenames, and suggest consistent renames.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/photo-organizer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "college-application-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "College Application Tracker CLI",
+      "subtitle": "This tool helps students and families keep track of college applications in one place.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/college-application-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "data-privacy-basics-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Data Privacy Basics",
+      "subtitle": "A beginner-friendly manual for protecting your personal data online — passwords, two-factor authentication, browser privacy, app permissions, data deletion requests, and what never to share with AI.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/data-privacy-basics-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ai-image-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free AI Image Tools Directory",
+      "subtitle": "A free, no-account-required directory of AI image generators and tools — browser-based, local, and open-source — with usage limits, privacy notes, and step-by-step beginner tutorials.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ai-image-tools-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "no-code-automation-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "No-Code Automation for Beginners",
+      "subtitle": "Automate everyday tasks without writing code: email rules, file organization, calendar reminders, and simple app connections — using tools you already have, plus tiny, auditable scripts you can read end to end.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/no-code-automation-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-metadata-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Metadata Checker",
+      "subtitle": "A local-first command-line tool that audits Kindle Direct Publishing (KDP) book metadata — title, subtitle, description, categories, and keywords — for common issues and length limits.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-metadata-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "article-summarizer-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Article Summarizer CLI",
+      "subtitle": "A local-first Python CLI that summarizes articles and text using a configurable OpenAI-compatible endpoint (default [Ollama] running on localhost:11434).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/article-summarizer-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "word-count-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "wordcount",
+      "subtitle": "Plain English, step by step, never condescending — built for beginner authors, self-publishers, and anyone who wants to know how long their writing will take to read.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/word-count-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ebay-shipping-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "eBay Shipping Calculator CLI",
+      "subtitle": "A local-first, beginner-friendly command line tool that estimates eBay shipping costs by weight, dimensions, and service tier, with plain-English profit-margin hints so you never guess at shipping again.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ebay-shipping-calculator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-crafting-macro-generator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Crafting Macro Generator CLI",
+      "subtitle": "A small, local-first Python CLI that turns crafting recipes and rotations into FFXIV game-ready macros, with step limits and automatic macro splitting.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-crafting-macro-generator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-directory-watcher-server",
+      "tag": "Free",
+      "free": true,
+      "title": "MCP Directory Watcher Server",
+      "subtitle": "This server runs entirely on your computer.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-directory-watcher-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-cover-mockup-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-cover-mockup-cli",
+      "subtitle": "A local-first, no-keys Python CLI that computes KDP (Kindle Direct Publishing) cover dimensions and spine width from page count, paper type, and trim size, then prints or writes print-ready spec sheets (plain text…",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-cover-mockup-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-cross-lister-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Cross-Lister CLI",
+      "subtitle": "Or run without installing:",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/resale-cross-lister-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-handover-notes-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Handover Notes CLI",
+      "subtitle": "This tool helps practicing nurses and other healthcare workers turn quick, bullet-style shift notes into clean, plain-language handover summaries.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-handover-notes-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-scrip-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Scrip Tracker CLI",
+      "subtitle": "A local-first Python command line tool for tracking Final Fantasy XIV white and purple scrips, scrip vendor unlocks, and spending goals.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-scrip-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "adhd-brain-dump-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "adhd-brain-dump",
+      "subtitle": "A gentle, local-first Python CLI for capturing ADHD brain dumps, sorting them by energy level and urgency, and exporting a simple printable next-action list.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/adhd-brain-dump-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "medical-bill-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Medical Bill Tracker CLI",
+      "subtitle": "Plain English, tested, local-first.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/medical-bill-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "context-window-calculator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "context-calc",
+      "subtitle": "context-calc is for anyone running local models (llama.cpp, Ollama, LM Studio, KoboldCPP, and friends) who wants to know, before sending a prompt: roughly how many tokens is this, and will it fit in the model's…",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/context-window-calculator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-gear-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Gear Tracker CLI",
+      "subtitle": "A local-first Python command-line tool for Final Fantasy XIV players to log gear upgrades, track item level, materia, and sources, with JSON storage and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-gear-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "mcp-skill-registry-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "MCP Skill Registry CLI",
+      "subtitle": "A local-first Python CLI to register, list, and test MCP agent skills using a JSON catalog with schema validation.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/mcp-skill-registry-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-template-linter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-lint",
+      "subtitle": "A friendly, local-first command-line tool that lints prompt templates.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-template-linter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resale-category-mapper-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Resale Category Mapper CLI",
+      "subtitle": "This installs the resale-map command on your PATH.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/resale-category-mapper-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-model-router-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ollama-model-router",
+      "subtitle": "A friendly, local-first Python CLI that sends your prompts to different Ollama models based on the task at hand, lets you compare the responses side by side, and saves everything to your own computer.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-model-router-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-for-gig-and-on-call-workers-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI for Gig, On-Call, and Irregular-Schedule Workers",
+      "subtitle": "Your schedule changes week to week.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ai-for-gig-and-on-call-workers-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "gig-worker-earnings-and-timesheet-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "gigtrack",
+      "subtitle": "A friendly, local-first command-line tool for logging gig and on-call work hours, earnings, expenses, and shift types.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/gig-worker-earnings-and-timesheet-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "healthcare-admin-form-auditor-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Healthcare Admin Form Auditor CLI",
+      "subtitle": "A small, local-first Python CLI that helps you check healthcare administrative forms for missing required fields, deadline dates, and overall completeness.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/healthcare-admin-form-auditor-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "tabletop-rpg-npc-generator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "rpg-npc-cli",
+      "subtitle": "A local-first, beginner-friendly command-line tool that generates tabletop RPG NPCs and campaign notes through a configurable OpenAI-compatible endpoint (default Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/tabletop-rpg-npc-generator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "consumer-complaint-letter-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Consumer Complaint Letter Drafter",
+      "subtitle": "A friendly, local-first command-line tool that helps you draft consumer complaint, warranty, and small-claims demand letters using a local AI model.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/consumer-complaint-letter-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "plain-english-jargon-sweeper-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Plain-English Jargon Sweeper",
+      "subtitle": "A local-only command-line tool that scans Markdown and plain text for jargon, long sentences, and readability issues, then suggests plain-English rewrites.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/plain-english-jargon-sweeper-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-pdf-qa-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "local-pdf-qa-cli",
+      "subtitle": "A local-first Python CLI that answers questions about your local PDF documents using a configurable OpenAI-compatible endpoint (default Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-pdf-qa-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "appointment-reminder-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Appointment Reminder Builder CLI",
+      "subtitle": "A friendly, local-first Python command-line tool for building appointment reminder lists from a provider, a date, and some notes.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/appointment-reminder-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "copyright-page-generator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "copyright-page-generator-cli",
+      "subtitle": "A local-first Python CLI that generates book copyright pages — year, rights holder, ISBN, and edition — from local JSON templates, exporting Markdown or PDF.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/copyright-page-generator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-ai-prompt-library-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Freebies",
+      "subtitle": "Free prompt libraries and starter prompts for writing, reselling, bookkeeping, and daily life — plus budgeting, paperwork, and simple marketing help.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-ai-prompt-library-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "shift-swap-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Shift Swap Tracker CLI",
+      "subtitle": "A small, local-first command-line tool for shift workers to log shift swaps, coverage requests, and balance hours.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/shift-swap-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "cover-letter-generator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "cover-letter-cli",
+      "subtitle": "A local-first command-line tool that writes cover letters for job applications and reselling inquiries — using any OpenAI-compatible endpoint, with Ollama as the default so you never need an API key.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/cover-letter-generator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "epub-validator-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "epub-validate",
+      "subtitle": "A local-only Python CLI that validates EPUB files for Amazon KDP upload.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/epub-validator-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "author-income-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Income Tracker",
+      "subtitle": "A local-first command line tool for authors to log royalties, advances, and expenses across books and platforms, with per-book statements and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/author-income-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ebay-listing-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "eBay Listing Drafter",
+      "subtitle": "A friendly, local-first command-line tool that helps you write eBay listing titles and descriptions from your item details — and adds a plain-language profit estimate so you know what you might make before you list.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ebay-listing-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "medication-list-simplifier-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "medsplain",
+      "subtitle": "Plain-English medication list summaries and printable charts, powered by a configurable OpenAI-compatible endpoint (default: local Ollama).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/medication-list-simplifier-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-opening-notebook-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Opening Notebook CLI",
+      "subtitle": "A friendly, local-first command-line tool for chess players to log opening lines, traps, and refutations — complete with PGN snippets and review dates.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-opening-notebook-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-series-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "KDP Series Tracker CLI",
+      "subtitle": "A local-first Python command line tool for tracking Kindle Direct Publishing (KDP) series books, blurbs, keywords, and royalties per title.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/kdp-series-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-llm-reading-list-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "reading-list-cli",
+      "subtitle": "or run directly:",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/local-llm-reading-list-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nurse-report-sheet-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Nurse Report Sheet CLI",
+      "subtitle": "Education only.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/nurse-report-sheet-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chess-review-scheduler-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chess Review Scheduler",
+      "subtitle": "This tool helps you decide what to review tomorrow using spaced repetition, a learning method that shows you material right before you're likely to forget it.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chess-review-scheduler-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "prompt-history-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "prompt-history",
+      "subtitle": "A friendly, local-first command-line tool to save, tag, diff, search, and export prompt versions.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/prompt-history-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "sales-tax-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Sales Tax Tracker CLI",
+      "subtitle": "A local-first Python command-line tool for small sellers to track sales tax collected by state and period, with summary reports and CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/sales-tax-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-gathering-log-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "ffxiv-gathering-log",
+      "subtitle": "This is for FFXIV gatherers who want a simple, private way to keep track of where nodes are, how often they respawn, and what they have gathered.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ffxiv-gathering-log-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "receipt-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Receipt MCP Server",
+      "subtitle": "A local-first Model Context Protocol (MCP) server for organizing receipts: categorize, summarize, and export tax-ready reports.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/receipt-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-college-scholarship-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free College Scholarships & Financial Aid Directory",
+      "subtitle": "A freebies directory of free scholarship and financial aid resources for students and families: application tips, essay help, a deadline tracker, and financial aid office guidance.",
+      "meta": "App · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/free-college-scholarship-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "grant-proposal-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Grant Proposal Drafter CLI",
+      "subtitle": "A friendly, local-first Python CLI that drafts grant proposal sections from your project details using an OpenAI-compatible endpoint (Ollama by default).",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/grant-proposal-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "home-inventory-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Home Inventory CLI",
+      "subtitle": "No accounts, no cloud, no API keys, no personal data collected.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/home-inventory-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "etsy-listing-drafter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Etsy Listing Drafter CLI",
+      "subtitle": "A warm, beginner-friendly Python CLI that drafts Etsy listing titles, descriptions, and tags from your item details.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/etsy-listing-drafter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "medication-refill-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Medication Refill Tracker",
+      "subtitle": "A local-first, beginner-friendly CLI for tracking prescriptions, refill dates, and pharmacy contacts — with due-date alerts and local JSON/CSV export.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/medication-refill-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "reading-challenge-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Reading Challenge Tracker CLI",
+      "subtitle": "A friendly, local-first command-line tool for tracking your reading goals, finished books, ratings, and reviews.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/reading-challenge-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "wedding-budget-planner-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Wedding Budget Planner CLI",
+      "subtitle": "A small, local-first Python command-line tool that helps couples build a wedding budget together.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/wedding-budget-planner-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "podcast-show-notes-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Podcast Show Notes CLI",
+      "subtitle": "A friendly, local-first Python CLI that turns your podcast recording notes into clean show notes and an episode description.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/podcast-show-notes-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "semantic-deduper-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "semantic-deduper",
+      "subtitle": "A friendly, local-first Python CLI that finds near-duplicate notes and ideas in your text files using fuzzy matching, then groups the candidates so you can review them in a spreadsheet.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/semantic-deduper-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "chargeback-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Chargeback Tracker CLI",
+      "subtitle": "A small, local-first Python CLI for tracking payment disputes and chargebacks.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/chargeback-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ollama-modelfile-linter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "modelfile-lint",
+      "subtitle": "A friendly, local-first command-line tool that checks your Ollama Modelfiles for best practices — valid instructions, sensible parameter ranges, and clean formatting — and offers suggested fixes you can apply…",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/ollama-modelfile-linter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "series-consistency-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "series-consistency-checker-cli",
+      "subtitle": "A local-first Python CLI that checks manuscript files for inconsistent character names, place names, and timeline details.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/series-consistency-checker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "warranty-tracker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Warranty Tracker CLI",
+      "subtitle": "Keep track of warranties and expiration dates for your appliances, electronics, and gear — all on your own computer, with no accounts, no API keys, and nothing sent to the cloud.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/warranty-tracker-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "supplier-scorecard-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Supplier Scorecard CLI",
+      "subtitle": "A local-first command-line tool to score resale suppliers (eBay, Amazon, wholesale, liquidation) on price, speed (lead time), and quality.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/supplier-scorecard-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "broken-link-checker-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Broken Link Checker CLI",
+      "subtitle": "A local-first Python command-line tool that crawls HTML files and reports broken internal links.",
+      "meta": "CLI · Free · Built with Kilo Code",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/Kilo-Projects-AtlasRearden8/broken-link-checker-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
