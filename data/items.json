@@ -7186,6 +7186,104 @@
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-treasure-map-party-planner-webapp"
         }
       ]
+    },
+    {
+      "id": "free-job-training-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "The Actually-Free Job Training Directory",
+      "subtitle": "A plain-English, warm Gen-X-neighbor-quality directory of job Training and upskilling that costs $0.00: university courses taken in audit mode, learning platforms already paid for by your public library, certificates…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-job-training-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-legal-streaming-music-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free & Legal Streaming Music Directory",
+      "subtitle": "A friendly directory of free and legal ways to hear music and calm audio: library streaming passes, public-radio apps, live coding-game stations, archives for older music, and royalty-free players.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-legal-streaming-music-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-recipe-sites-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "free-recipe-sites-directory",
+      "subtitle": "A curated, human-friendly directory of genuinely free recipe sources:",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-recipe-sites-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kitchen-multi-timer-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "🍳 PanWall — Parallel Kitchen Timers",
+      "subtitle": "One glance, every pan.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/kitchen-multi-timer-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kitchen-multi-timer-webapp"
+        }
+      ]
+    },
+    {
+      "id": "net-worth-snapshot-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "net-worth-snapshot",
+      "subtitle": "A tiny offline Python CLI that turns a small CSV of account names and balances into a clean one-page monthly net worth snapshot: your assets, your debts, and a plain-text trend line of how your net worth has moved…",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/net-worth-snapshot-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "resume-site-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "one-page resume site",
+      "subtitle": "A one-page personal resume as a zero-JavaScript static site: clean typographic layout, a print stylesheet that lands on US letter paper, ATS-friendly text order via plain semantic HTML, and optional dark mode driven…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/resume-site-starter-template/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/resume-site-starter-template"
+        }
+      ]
     }
   ],
   "links": [
