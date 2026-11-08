@@ -7167,6 +7167,25 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ffxiv-treasure-map-party-planner-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Treasure Map Party Planner",
+      "subtitle": "A friendly, offline web app for Final Fantasy XIV treasure map parties.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/ffxiv-treasure-map-party-planner-webapp/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-treasure-map-party-planner-webapp"
+        }
+      ]
     }
   ],
   "links": [
