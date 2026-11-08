@@ -3426,6 +3426,21 @@
       ]
     },
     {
+      "id": "rss-your-way-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Owning Your Reading Again — a gentle guide to RSS",
+      "subtitle": "A beginner-friendly manual for taking back your reading, listening, and attention from the infinite feed.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/rss-your-way-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
