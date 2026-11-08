@@ -121,14 +121,14 @@
     },
     {
       "id": "kilo-small-projects",
-      "tag": "Private",
-      "muted": true,
-      "wide": true,
+      "tag": "Free",
+      "free": true,
       "title": "Kilo Small Projects",
-      "subtitle": "Small tools, guides and apps built with Kilo Code during free model periods. Repositories are currently private; access is required to view them.",
+      "subtitle": "Small tools, guides and apps built with Kilo Code, the open-source AI coding agent, during free model periods. Every one is public on GitHub.",
       "meta": "Built with Kilo Code",
+      "listFrom": "kilobuilds",
       "links": [
-        { "label": "View GitHub organization", "href": "https://github.com/Kilo-Projects-AtlasRearden8", "primary": true }
+        { "label": "Browse on GitHub", "href": "https://github.com/Kilo-Projects-AtlasRearden8", "primary": true }
       ]
     }
   ],
