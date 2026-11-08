@@ -1,0 +1,33 @@
+# Keeps the OpenCode Small Projects and Kilo Small Projects cards on /projects/ in step with GitHub.
+# Every 6 hours (and on demand) it runs tools/sync_freebuilds.py, which adds a card for every new
+# PUBLIC repo in the two orgs and updates each card's "Show all N projects" count, then commits as
+# Dylan Asdale. The OpenCode publisher also runs the same script right after it publishes a repo.
+# This workflow's token cannot switch on GitHub Pages in the other orgs; a sync run from a signed-in
+# PC (python3 tools/sync_freebuilds.py) does that and adds the "Open it" buttons.
+name: Sync small projects
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-projects
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync both project lists and push any changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "Dylan Asdale"
+          git config user.email "dylanasdale@users.noreply.github.com"
+          python3 tools/sync_freebuilds.py --no-wait

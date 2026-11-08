@@ -8,7 +8,7 @@ The look is adapted from the **Guides for Everything v3** design (guidesforevery
 
 - **Local folder:** `C:\Users\Dylan\Documents\Claude\asdaledynamics-site` is the one working copy for hand edits. Start Claude Code (or any editor) there so this repo's `CLAUDE.md` rules apply. `git pull` before you start, and push when you're done.
 - **Automated writers:** these push to `main` on their own, so always pull first:
-  - the OpenCode publisher (OpenCode Small Projects card, via `tools/sync_freebuilds.py`)
+  - the OpenCode publisher and the 6-hourly "Sync small projects" Action (OpenCode and Kilo Small Projects cards, via `tools/sync_freebuilds.py`)
   - AI Deal Radar's `scripts/publish-site.mjs`, every 6 hours from `C:\Users\Dylan\Documents\Claude\ai-deal-radar`, using its own private clone in `data\site-repo` (only touches `ai-deals/index.html` and `data/ai-deals.json`)
   - the **Sync site navigation** Action (see Navigation below)
 - **Size:** the **Repo size check** Action (`.github/workflows/size-check.yml`) reports the repo, site and largest-file sizes on every push, and warns before anything nears GitHub's limits (100 MB per file, about 1 GB per Pages site). Each rebuild of the guide PDFs adds about 70 MB of history, so rebuild them only when the content really changes.
@@ -58,7 +58,7 @@ Where each list shows:
 
 ### OpenCode Small Projects (automatic)
 
-The `freebuilds` list feeds the OpenCode Small Projects card on `projects/`. It lists the public repos in the OpenCode-Projects-AtlasRearden8 GitHub org (free tools, guides and apps built by AI coding tools during free model periods). `python3 tools/sync_freebuilds.py` appends a card for any new public repo (existing cards and hand edits are left alone), turns on GitHub Pages for repos with a top-level `index.html` and adds an "Open it" button once that page is live, refreshes the no-JavaScript index between the `freebuilds:start`/`freebuilds:end` markers inside that card (and its "Show all N projects" count), then commits and pushes. The OpenCode publisher runs it automatically each time it makes a repo public. Add `--dry-run` to preview or `--no-push` to commit locally only.
+The `freebuilds` and `kilobuilds` lists feed the OpenCode Small Projects and Kilo Small Projects cards on `projects/`. They list the public repos in the OpenCode-Projects-AtlasRearden8 and Kilo-Projects-AtlasRearden8 GitHub orgs (free tools, guides and apps built by AI coding agents during free model periods). `python3 tools/sync_freebuilds.py` appends a card for any new public repo in either org (existing cards and hand edits are left alone), turns on GitHub Pages for repos with a top-level `index.html` and adds an "Open it" button once that page is live, refreshes each card's no-JavaScript index (between the `freebuilds:` / `kilobuilds:` start and end markers) and its own "Show all N projects" count, then commits and pushes. It runs every 6 hours via `.github/workflows/sync-projects.yml`, and the OpenCode publisher also runs it each time it makes a repo public. Options: `--org opencode|kilo|all`, `--dry-run`, `--no-push`, `--no-wait` (do not wait for new Pages sites; a later run adds their buttons).
 
 ### Free/Discounted AI Deals (automatic)
 
@@ -82,7 +82,7 @@ assets/site.css       the design system
 assets/site.js        renders shelves from items.json
 assets/aurora.js      the animated halftone background (from Guides for Everything v3)
 assets/fonts/         Bluu Next (SIL OFL 1.1, license included)
-tools/sync_freebuilds.py  keeps the OpenCode Small Projects list in sync with GitHub
+tools/sync_freebuilds.py  keeps the OpenCode and Kilo Small Projects lists in sync with GitHub
 tools/sync_nav.py         the one definition of the top and footer nav, applied to every page
 assets/img/           covers, background art and og-image.jpg (1200×630 social preview)
 favicon.svg favicon-32.png apple-touch-icon.png
