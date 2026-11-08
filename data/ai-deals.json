@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-08T08:31:54.824Z",
- "contentHash": "112f7b3a92b9d623",
+ "updatedAt": "2026-11-08T22:12:41.592Z",
+ "contentHash": "1d9a7c732e8d533b",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -189,23 +189,6 @@
    "source": "Yahoo Tech",
    "firstSeenAt": "2026-10-30T18:16:32.310Z",
    "publishedAt": "2026-10-30T15:30:00.000Z"
-  },
-  {
-   "id": "5c1450230b933d86da81",
-   "kind": "deal",
-   "title": "Get many AI opinions with this multi-AI tool — lifetime access is on sale for just $29.97",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNFM2T1hxWDNxV1owWE5WZ1dNaFZKczVnaGpIZ1NVSEtGa1ZLSFV6TkRFcVFkOFVka0tqOXlGQUtodDEyN0lZcGJoSzhzWUZidjh6WENYbDZiMHkxTnNESG5MVWNTaUhlWXhzLUp5eV83cEllbFYwVHQ2QUF2YWRwbmdsUHc?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$29.97",
-   "vendor": null,
-   "approval": null,
-   "source": "Mashable",
-   "firstSeenAt": "2026-10-25T22:53:00.109Z",
-   "publishedAt": "2026-10-25T10:00:00.000Z"
   },
   {
    "id": "aa69c3e8922bfb064bb2",
