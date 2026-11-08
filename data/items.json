@@ -7089,6 +7089,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "ai-terms-of-service-decoded-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "AI Terms of Service, Decoded",
+      "subtitle": "You use AI apps every week.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ai-terms-of-service-decoded-guide",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
