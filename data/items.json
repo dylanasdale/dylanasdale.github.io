@@ -3490,6 +3490,21 @@
       ]
     },
     {
+      "id": "sell-your-car-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Sell Your Car, Calm Guide",
+      "subtitle": "A step-by-step life-admin guide to selling a car privately — written the way a friend would explain it: plain English, one step at a time, never condescending.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/sell-your-car-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -7360,6 +7375,21 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/keyboard-shortcut-flashcards-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "run-a-good-meeting-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "Run a Good Meeting",
+      "subtitle": "Anyone who runs meetings with roughly 5–15 people: a small business, a club, a co-op, a committee, a board.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/run-a-good-meeting-handbook",
           "primary": true
         }
       ]
