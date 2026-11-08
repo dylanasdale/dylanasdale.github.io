@@ -3396,6 +3396,36 @@
       ]
     },
     {
+      "id": "e-signatures-and-online-forms-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "The E-Signatures and Online Forms Guide",
+      "subtitle": "Open site/index.html in any browser.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/e-signatures-and-online-forms-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "home-internet-shopping-calm-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Home Internet Shopping — A Calm Guide",
+      "subtitle": "A plain-English, low-pressure guide to buying or switching home internet: the speed your household actually needs, promo pricing and contracts decoded, mesh vs router vs rental, lower-cost plans, polite cancel…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/home-internet-shopping-calm-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
