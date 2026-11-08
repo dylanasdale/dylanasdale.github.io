@@ -42,7 +42,7 @@
 
   function itemCard(it, level, data) {
     const sub = it.listFrom ? (data?.[it.listFrom] || []) : null;
-    const li = el('li', 'item' + (it.image ? '' : ' no-img') + (sub ? ' wide' : ''));
+    const li = el('li', 'item' + (it.image ? '' : ' no-img') + (sub || it.wide ? ' wide' : ''));
     li.id = it.id;
     const main = it.links?.find((l) => l.primary) || it.links?.[0];
     if (it.image) {
@@ -57,7 +57,7 @@
       a.append(img); li.append(a);
     }
     const t = el('div', 'item-text');
-    if (it.tag) t.append(el('p', 'tag' + (it.free ? ' free' : ''), it.tag));
+    if (it.tag) t.append(el('p', 'tag' + (it.free ? ' free' : it.muted ? ' muted' : ''), it.tag));
     t.append(el(level, 'item-title', it.title));
     if (it.subtitle) t.append(el('p', 'sub', it.subtitle));
     if (it.meta) t.append(el('p', 'meta', it.meta));

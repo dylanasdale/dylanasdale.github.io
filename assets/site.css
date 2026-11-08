@@ -103,7 +103,7 @@ h3 { margin: 0; }
 
 .tag { display: inline-flex; align-items: center; gap: 6px; width: fit-content; margin: 0; padding: 3px 10px 3px 8px; border-radius: 999px; color: var(--pink-soft); background: var(--pink-bg); font: 600 11px/1.4 var(--body); letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 .tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-.tag.free { color: #ddd3da; background: rgb(255 255 255 / .08); }
+.tag.free, .tag.muted { color: #ddd3da; background: rgb(255 255 255 / .08); }
 
 /* featured: large glass panels */
 .featured { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: var(--s5); }

@@ -121,6 +121,9 @@
     },
     {
       "id": "kilo-small-projects",
+      "tag": "Private",
+      "muted": true,
+      "wide": true,
       "title": "Kilo Small Projects",
       "subtitle": "Small tools, guides and apps built with Kilo Code during free model periods. Repositories are currently private; access is required to view them.",
       "meta": "Built with Kilo Code",
