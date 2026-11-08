@@ -66,6 +66,8 @@ h1 em, h2 em { font-style: italic; color: var(--pink); }
 .hero-actions { display: flex; align-items: center; gap: var(--s4) var(--s5); flex-wrap: wrap; }
 .tally { margin: 0; color: var(--text-3); font-size: 14px; font-variant-numeric: tabular-nums; }
 .tally b { color: var(--text); font-weight: 600; }
+/* Home hero: the kicker was removed, so lift the copy into its place on two-column layouts. */
+@media (min-width: 901px) { .home-hero .hero-copy { transform: translateY(-24px); } }
 .page-hero { min-height: 0; grid-template-columns: minmax(0, 1fr); padding-block: clamp(4px, 1vw, 12px) clamp(16px, 3vw, 40px); }
 .page-hero .hero-copy { max-width: 760px; }
 
@@ -168,8 +170,17 @@ h3 { margin: 0; }
 
 /* ------------------------------------------------------------ responsive */
 @media (max-width: 1180px) {
+  /* Keep the longer "Asdale Dynamics, LLC" brand and all seven links on one row down to the 900px layout. */
+  .topbar { gap: var(--s4); }
+  .top-nav { gap: var(--s4); }
+  .brand, .top-link { letter-spacing: .14em; }
   .featured { grid-template-columns: minmax(0, 1fr); }
   .shelf, .links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 1000px) {
+  /* Below this the brand and seven links no longer share a row: brand on its own row, links below. */
+  .topbar { flex-wrap: wrap; gap: var(--s3); }
+  .top-nav { gap: var(--s3) var(--s5); justify-content: flex-start; }
 }
 @media (max-width: 900px) {
   .hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-top: var(--s5); }
