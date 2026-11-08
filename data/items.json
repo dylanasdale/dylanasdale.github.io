@@ -3441,6 +3441,55 @@
       ]
     },
     {
+      "id": "author-taxes-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Taxes, Plain English",
+      "subtitle": "A beginner manual for self-employed authors and small-business owners whose income lands on Schedule C — royalties from books, freelance income, reselling, side businesses, and the honest, slightly messy reality of…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/author-taxes-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-self-publish-tools-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Self-Publishing Tools Directory",
+      "subtitle": "A curated directory of genuinely free helpers for self-publishing: manuscript formatting tools, cover mockup generators, royalty and spreads calculators, free ISBN info, and blurb-check sites.",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/free-self-publish-tools-directory/",
+          "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-self-publish-tools-directory"
+        }
+      ]
+    },
+    {
+      "id": "nursing-care-plan-walkthrough-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Care Plans, Explained Like a Friend Would",
+      "subtitle": "A walkthrough guide for nursing students.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nursing-care-plan-walkthrough-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -7282,6 +7331,36 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/resume-site-starter-template"
+        }
+      ]
+    },
+    {
+      "id": "free-plain-health-sites-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free Plain-English Health Sites Directory",
+      "subtitle": "A hand-built directory of trustworthy, plain-English health information sources that are free to read: MedlinePlus, NIH institute pages, hospital teaching libraries, and free meal/medication trackers.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-plain-health-sites-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "keyboard-shortcut-flashcards-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Shortcut Flashcards",
+      "subtitle": "Recall the shortcut, reveal the answer, grade yourself honestly, and the scheduler decides when each card comes back.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/keyboard-shortcut-flashcards-cli",
+          "primary": true
         }
       ]
     }
