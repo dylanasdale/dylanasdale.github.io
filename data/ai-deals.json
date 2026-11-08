@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-08T05:15:03.287Z",
- "contentHash": "2291804a09cee966",
+ "updatedAt": "2026-11-08T08:20:13.817Z",
+ "contentHash": "49ecb112603b6726",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -480,23 +480,6 @@
    "publishedAt": null
   },
   {
-   "id": "05450a72c888b36f18ac",
-   "kind": "deal",
-   "title": "AdaptlyPost: lifetime deal — $59",
-   "summary": "Plan, schedule, and publish to 13 social platforms with AI-powered captions, images, and automation Rated 4.9/5 by 120 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/adaptlypost/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 59,
-   "originalPrice": 190,
-   "value": "$59",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
    "id": "e9bcf1248c796131da66",
    "kind": "deal",
    "title": "BetterClaw: lifetime deal — $79",
@@ -507,6 +490,23 @@
    "price": 79,
    "originalPrice": 450,
    "value": "$79",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "05450a72c888b36f18ac",
+   "kind": "deal",
+   "title": "AdaptlyPost: lifetime deal — $59",
+   "summary": "Plan, schedule, and publish to 13 social platforms with AI-powered captions, images, and automation Rated 4.9/5 by 120 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/adaptlypost/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 59,
+   "originalPrice": 190,
+   "value": "$59",
    "vendor": null,
    "approval": null,
    "source": "AppSumo",
@@ -528,6 +528,23 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "7f65a7ded21fb45bf554",
+   "kind": "deal",
+   "title": "NoCodeBackend: lifetime deal — $79",
+   "summary": "Instant database, REST APIs, and auth for apps built with AI coding tools Rated 4.8/5 by 136 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/nocodebackend/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 79,
+   "originalPrice": 688,
+   "value": "$79",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-08T06:42:01.520Z",
    "publishedAt": null
   },
   {
