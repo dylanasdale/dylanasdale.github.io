@@ -118,6 +118,15 @@
       "links": [
         { "label": "Browse on GitHub", "href": "https://github.com/OpenCode-Projects-AtlasRearden8", "primary": true }
       ]
+    },
+    {
+      "id": "kilo-small-projects",
+      "title": "Kilo Small Projects",
+      "subtitle": "Small tools, guides and apps built with Kilo Code during free model periods. Repositories are currently private; access is required to view them.",
+      "meta": "Built with Kilo Code",
+      "links": [
+        { "label": "View GitHub organization", "href": "https://github.com/Kilo-Projects-AtlasRearden8", "primary": true }
+      ]
     }
   ],
   "freebuilds": [
