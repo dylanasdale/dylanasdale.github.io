@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-08T22:12:41.592Z",
- "contentHash": "1d9a7c732e8d533b",
+ "updatedAt": "2026-11-08T23:15:02.421Z",
+ "contentHash": "5cd5884a58387e93",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -19,6 +19,23 @@
    "source": "Lifehacker",
    "firstSeenAt": "2026-11-07T02:06:18.746Z",
    "publishedAt": "2026-11-07T01:15:00.000Z"
+  },
+  {
+   "id": "9da9dfc926d9fa736809",
+   "kind": "deal",
+   "title": "HTML Pub: lifetime deal — $39",
+   "summary": "Launch live websites from ChatGPT, Claude, or Cursor HTML with this AI website builder and host Rated 1.0/5 by 1 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/html-pub/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 39,
+   "originalPrice": 0,
+   "value": "$39",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-05T14:48:04.152Z",
+   "publishedAt": null
   },
   {
    "id": "d6ab05099044b4ac5644",
@@ -52,23 +69,6 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-22T16:36:23.183Z",
-   "publishedAt": null
-  },
-  {
-   "id": "9da9dfc926d9fa736809",
-   "kind": "deal",
-   "title": "HTML Pub: lifetime deal — $39",
-   "summary": "Launch live websites from ChatGPT, Claude, or Cursor HTML with this AI website builder and host",
-   "url": "https://appsumo.com/products/html-pub/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 39,
-   "originalPrice": 0,
-   "value": "$39",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-05T14:48:04.152Z",
    "publishedAt": null
   },
   {
