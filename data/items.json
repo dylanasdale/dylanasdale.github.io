@@ -7059,6 +7059,36 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "junk-drawer-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Junk Drawer MCP Server",
+      "subtitle": "A local MCP server cataloguing the small things that vanish: cables, adapters, batteries, craft bits, spare keys.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/junk-drawer-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "review-quote-formatter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "review-quote-formatter-cli",
+      "subtitle": "Turn pasted book reviews into honest, attributed pull quotes — fast, offline, local-first.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/review-quote-formatter-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
