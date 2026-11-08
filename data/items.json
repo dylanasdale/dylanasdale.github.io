@@ -7403,9 +7403,13 @@
       "meta": "App · Free · Built with OpenCode",
       "links": [
         {
-          "label": "View on GitHub",
-          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bill-calendar-webapp",
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/bill-calendar-webapp/",
           "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/bill-calendar-webapp"
         }
       ]
     },
@@ -7418,9 +7422,13 @@
       "meta": "App · Free · Built with OpenCode",
       "links": [
         {
-          "label": "View on GitHub",
-          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-swiss-pairings-webapp",
+          "label": "Open it",
+          "href": "https://opencode-projects-atlasrearden8.github.io/chess-swiss-pairings-webapp/",
           "primary": true
+        },
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-swiss-pairings-webapp"
         }
       ]
     }
