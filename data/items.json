@@ -7137,6 +7137,21 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "llm-clipboard-polisher-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "clipolish (llm-clipboard-polisher)",
+      "subtitle": "Privacy-first clipboard polisher for local AI.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-clipboard-polisher-cli",
+          "primary": true
+        }
+      ]
     }
   ],
   "links": [
