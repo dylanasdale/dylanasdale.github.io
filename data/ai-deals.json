@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-08T23:15:02.421Z",
- "contentHash": "5cd5884a58387e93",
+ "updatedAt": "2026-11-09T05:15:01.961Z",
+ "contentHash": "3d39a529972696de",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -225,23 +225,6 @@
    "publishedAt": null
   },
   {
-   "id": "54174fce84cb910c7843",
-   "kind": "deal",
-   "title": "Notte: lifetime deal — $69",
-   "summary": "Build browser automation scripts, AI agents, and serverless API endpoints from a single platform Rated 3.9/5 by 27 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/notte/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 69,
-   "originalPrice": 240,
-   "value": "$69",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-04T01:22:27.985Z",
-   "publishedAt": null
-  },
-  {
    "id": "251ecbe1cea03585b6f2",
    "kind": "deal",
    "title": "MagicCanvas: lifetime deal — $49",
@@ -463,23 +446,6 @@
    "publishedAt": null
   },
   {
-   "id": "e9bcf1248c796131da66",
-   "kind": "deal",
-   "title": "BetterClaw: lifetime deal — $79",
-   "summary": "Build no-code AI agents with BYOK, 99+ one-click connectors, trust levels, and approval queues Rated 4.5/5 by 15 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/betterclaw/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 79,
-   "originalPrice": 450,
-   "value": "$79",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
    "id": "05450a72c888b36f18ac",
    "kind": "deal",
    "title": "AdaptlyPost: lifetime deal — $59",
@@ -490,6 +456,23 @@
    "price": 59,
    "originalPrice": 190,
    "value": "$59",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "e9bcf1248c796131da66",
+   "kind": "deal",
+   "title": "BetterClaw: lifetime deal — $79",
+   "summary": "Build no-code AI agents with BYOK, 99+ one-click connectors, trust levels, and approval queues Rated 4.5/5 by 15 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/betterclaw/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 79,
+   "originalPrice": 450,
+   "value": "$79",
    "vendor": null,
    "approval": null,
    "source": "AppSumo",
@@ -630,6 +613,23 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "82056d382e2814a4590a",
+   "kind": "deal",
+   "title": "MeetMouse: lifetime deal — $5",
+   "summary": "The Granola alternative that runs 100% on your Mac — transcripts, notes, and a live coach. Rated 3.9/5 by 17 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/meetmouse/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 5,
+   "originalPrice": 0,
+   "value": "$5",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-09T05:13:09.695Z",
    "publishedAt": null
   }
  ],
