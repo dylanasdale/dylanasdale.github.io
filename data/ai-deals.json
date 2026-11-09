@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-09T11:15:09.321Z",
- "contentHash": "421792405836af6a",
+ "updatedAt": "2026-11-09T17:15:02.092Z",
+ "contentHash": "41d943eaa0498f84",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -89,6 +89,23 @@
    "publishedAt": "2026-10-28T18:20:15.000Z"
   },
   {
+   "id": "0ee2c481f8b6d9e9fd53",
+   "kind": "deal",
+   "title": "Compare 20+ AI models side by side for $63 with this lifetime deal",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb1luUk01eGFVbUVSaHpWTnRuM1YxWDM3T0l0SmxFZmJoTWxjU2tLUkljc2tGd2F4a2g1TzJWbE5FRktwRnRXWUpJdTloZXd0ejc2eFUyRmlBRFhkZUlYMGNvVnVvWmtLWDNtbzk4V1A4RXVnRG1Yd2FuWE04V3NhZDlNMTJMMEJkQUxCTGFYeGlNQ0M3U3FfdGNvYmZWT0Nibld6R2Y3MWIwODlIZW1R?oc=5",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": null,
+   "originalPrice": null,
+   "value": "$63",
+   "vendor": null,
+   "approval": null,
+   "source": "Macworld",
+   "firstSeenAt": "2026-11-09T16:18:50.162Z",
+   "publishedAt": "2026-11-09T07:49:17.000Z"
+  },
+  {
    "id": "adb9021790bd8fe2b82c",
    "kind": "deal",
    "title": "This AI Platform Gives You Lifetime Access To 20+ AI Models For A$112",
@@ -172,23 +189,6 @@
    "source": "Seattle Post-Intelligencer",
    "firstSeenAt": "2026-10-30T18:16:32.310Z",
    "publishedAt": "2026-10-30T14:37:38.000Z"
-  },
-  {
-   "id": "f63a35e7eba09351c28b",
-   "kind": "deal",
-   "title": "Compare 20+ AI models side by side with this $79 lifetime deal",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmVlTExNWTlvclJuTHBtQlhvVlpqVHJUOURZSkhuaFFjWjZGS3NPTkxtUmxsZi1zVmR0RjhwN1U0TkZwY05nNXhrVkNIa0FvOHFFVEhBQmw0RENvaGFkcDJlQmtGbGw1SUxNMV9SWi1SNTdKRHktdG9aREtaTVdpRmw2bUtmelRZ?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$79",
-   "vendor": null,
-   "approval": null,
-   "source": "Yahoo Tech",
-   "firstSeenAt": "2026-10-30T18:16:32.310Z",
-   "publishedAt": "2026-10-30T15:30:00.000Z"
   },
   {
    "id": "aa69c3e8922bfb064bb2",
@@ -494,6 +494,23 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "db51f8d611ba28f5f8bb",
+   "kind": "deal",
+   "title": "LaunchLemonade: lifetime deal — $69",
+   "summary": "Build AI agents that do the work for you, or that your clients pay to use.",
+   "url": "https://appsumo.com/products/launchlemonade/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 69,
+   "originalPrice": 0,
+   "value": "$69",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-09T14:17:48.275Z",
    "publishedAt": null
   },
   {
