@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-09T05:15:01.961Z",
- "contentHash": "3d39a529972696de",
+ "updatedAt": "2026-11-09T11:15:09.321Z",
+ "contentHash": "421792405836af6a",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -720,6 +720,40 @@
    "publishedAt": "2026-10-26T07:00:00.000Z"
   },
   {
+   "id": "d69db0e84b2b548a4a91",
+   "kind": "deal",
+   "title": "Millions of Globe subscribers get free access to multiple AI tools",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT2dOWVhPNVk4SHp5YjhPdFhLcDNKS3BWb3pDTTdMTi14OVQ4MWNMQnVFMmt5X21uWVhwdE9LMU5ZeE42S1dJNk9UbmlmR3JUZmtoRWpUcW1xc05TUDFncENjNWF3RWZGeTBlenhhbnM1b2tIakI0TjBvZEM5N1V2UjlRaFVMLUNMV3ZrM0JZZml3OGhPNlU2Ti1mTVFEYXp6MXQyNWN6VWFqZ2ZnTHp5VFFsZWt2dGlBclHSAb8BQVVfeXFMT1pKLS1qVUZCR2lrWHhndnNyaXVkN1RXRUxJZEtHWHRZVFJjMDVvRWtvcVZyOXowUG1raERYOXpsV085SUlMQm5mN3BaRWlGOUMyZXM3Tkt1Wl8zYi1CQjBkeU5vYkNTRldJUGhFLWFJNTk3VktHOVc1cEZadUlvdU9YNjJOMExYMUdRRW91RGJXWTFDX19RZjNrU3N5T0RfenlvTHp6cmJwRzVKWVY2TG15RHQ1UmJHbGU1NTZnb2s?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "The Manila Times",
+   "firstSeenAt": "2026-11-09T10:15:44.418Z",
+   "publishedAt": "2026-11-09T09:28:00.000Z"
+  },
+  {
+   "id": "1a6aaf7c2f710eb20c80",
+   "kind": "deal",
+   "title": "Telco subscribers get free access to AI tools this Christmas",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaEpPS3MtMnl5SDRUS3llQTlaMEdlSHVFdWNjT3VYR05jRHotbVJObzg5c3RmMGJTLVBlazVoSGRnNDBFaFJkZlBHU2JkMFR4cWRBdFkzVU5Xa01DLXNsTjl4Nm5uYVFia0YyVFVuRjFOaHZTWEZyZ1pBVXZJWkhablZnTEE2RUZIUXJhanhfdU1JLUQ1LVBUaXlaczlwSVhQQkh0VktPd05OeHR5VFJVcERvVFBKcFAtMmhR0gG7AUFVX3lxTE5oSk9Lcy0yeXlINFRLeWVBOVowR2VIdUV1Y2NPdVhHTmNEei1tUk5vODlzdGYwYlMtUGVrNWhIZGc0MEVoUmRmUEdTYmQwVHhxZEF0WTNVTldrTUMtc2xOOXg2bm5hUWJrRjJUVW5GMU5odlNYRnJnWkFVdklaSFpuVmdMQTZFRkhRcmFqeF91TUktRDUtUFRpeVpzOXBJWFBCSHRWS093Tk54dHlUUlVwRG9UUEpwUC0yaFE?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Philstar.com",
+   "firstSeenAt": "2026-11-09T09:15:08.537Z",
+   "publishedAt": "2026-11-09T07:00:00.000Z"
+  },
+  {
    "id": "6e644fd95f4b09e56a94",
    "kind": "deal",
    "title": "College of DuPage Students Get Free Access to AI tools, but Questions Remain",
@@ -837,23 +871,6 @@
    "source": "EIN Presswire",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": "2026-10-20T14:17:00.000Z"
-  },
-  {
-   "id": "6b75dae75d979d91c259",
-   "kind": "deal",
-   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-   "summary": "",
-   "url": "https://github.com/rociiu/talorys",
-   "offerType": "free",
-   "offerTypeLabel": "Free access",
-   "price": null,
-   "originalPrice": null,
-   "value": null,
-   "vendor": null,
-   "approval": null,
-   "source": "Hacker News",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": "2026-10-10T10:52:09.000Z"
   },
   {
    "id": "6f2aca72a3fc44028770",
