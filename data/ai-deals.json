@@ -1,8 +1,25 @@
 {
- "updatedAt": "2026-11-09T17:15:02.092Z",
- "contentHash": "41d943eaa0498f84",
+ "updatedAt": "2026-11-09T23:15:02.047Z",
+ "contentHash": "e71b31ae862f1080",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
+  {
+   "id": "7ed1d68c1e85f862727b",
+   "kind": "deal",
+   "title": "This $63 AI Deal Gives You Lifetime Access to Claude, Gemini and 20+ AI Models Ahead of Black Friday",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qYWtac29yWkltc2pEaWNRbzZtTnNSb1RQN2poc01hRGtveG13LXhNNnlvRWp3dUt0b3JEdnUyUXVCU2hLcU1IaEt2eDNpRnN6UHRJdDVpdTVUbW85ZU1DNEF2THc0QQ?oc=5",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": null,
+   "originalPrice": null,
+   "value": "$63",
+   "vendor": null,
+   "approval": null,
+   "source": "CNET",
+   "firstSeenAt": "2026-11-09T21:21:24.943Z",
+   "publishedAt": "2026-11-09T21:06:30.000Z"
+  },
   {
    "id": "19426fa09e8734aa2b0d",
    "kind": "deal",
@@ -480,23 +497,6 @@
    "publishedAt": null
   },
   {
-   "id": "0d0f659581a96765b0ec",
-   "kind": "deal",
-   "title": "Creator Lookup: lifetime deal — $59",
-   "summary": "Search an AI-powered influencer database of 400M+ creators across Instagram, TikTok, and YouTube Rated 4.9/5 by 21 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/creator-lookup/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 59,
-   "originalPrice": 299,
-   "value": "$59",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
    "id": "db51f8d611ba28f5f8bb",
    "kind": "deal",
    "title": "LaunchLemonade: lifetime deal — $69",
@@ -786,6 +786,23 @@
    "source": "The Courier",
    "firstSeenAt": "2026-11-02T21:53:30.148Z",
    "publishedAt": "2026-11-02T20:59:49.000Z"
+  },
+  {
+   "id": "18cb22e3622ff10d9c59",
+   "kind": "deal",
+   "title": "Globe offers free access to AI tools for millions of Filipino customers this Christmas",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUxiYWRrdjJrbGdQYVlDbjRwQmJhVEloNWdXajZ4clBQbFVSWldFaGREVWtjbWIxUnkyTXg1QzRsQlE0angxY1RxdUE1NnlzR180engwWkRFYkZYXzVJeFRXdXlOeGlRV3dWaWsxbjE2SFRNeFdSZTlvRUx2cjg1bDdHTnRiNGdOR3E5c2ZnSGl4aTZiYjV0NGJlV2RORXVCbm5jTmZIcUpoN0ktSkpBaGRLX0ZFc0JlcUN5aFNwYXpKVlJmUE8tcklsR21yRmllLW9J?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Manila Standard",
+   "firstSeenAt": "2026-11-09T17:19:21.081Z",
+   "publishedAt": "2026-11-09T08:21:20.000Z"
   },
   {
    "id": "7a614b1fb5326a356d88",
