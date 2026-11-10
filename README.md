@@ -53,7 +53,8 @@ Each page also contains a plain-HTML copy of its shelf so the content is readabl
 
 Where each list shows:
 
-- Home (`index.html`): two hand-written featured cards (the book and the free library), then the first 3 guide highlights, projects, and the first 3 links.
+- Home (`index.html`): hand-written company page (hero, products in development, company summary, contact cards showing the first 3 `links`).
+- `company/`, `products/`, `about/`: hand-written company pages. `connect/` is the Contact page and shows the full `links` list.
 - `books/`, `free-guides/`, `projects/`, `brand/`, `connect/`: the full lists. `free-guides/guides-for-everything-ai/` is the full Guides for Everything AI library (its own build, see its README) and `free-guides/aws-guides/` holds the AWS guides.
 
 ### OpenCode Small Projects (automatic)
@@ -75,7 +76,8 @@ The top nav and the footer nav are defined once, in `TOP_NAV` and `FOOTER_NAV` a
 
 ```
 index.html            home
-books/ free-guides/ projects/ brand/ connect/   section pages
+company/ products/ about/ connect/              company pages (connect/ is Contact)
+books/ free-guides/ projects/ brand/             section pages
 404.html              not-found page (GitHub Pages serves it automatically)
 data/items.json       all shelf content
 assets/site.css       the design system

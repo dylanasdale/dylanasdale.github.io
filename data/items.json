@@ -11839,6 +11839,9 @@
     }
   ],
   "links": [
+    { "id": "email", "icon": "mail", "label": "Email", "handle": "dylan.asdale@asdaledynamics.com", "href": "mailto:dylan.asdale@asdaledynamics.com" },
+    { "id": "github", "icon": "github", "label": "GitHub", "handle": "github.com/dylanasdale", "href": "https://github.com/dylanasdale" },
+    { "id": "linkedin", "icon": "linkedin", "label": "LinkedIn", "handle": "Dylan Asdale, RN, BSN", "href": "https://www.linkedin.com/in/dylan-asdale-rn-bsn-550823113/" },
     { "id": "x", "icon": "x", "label": "X", "handle": "@DylanAsdaleAI", "href": "https://x.com/DylanAsdaleAI" },
     { "id": "threads", "icon": "threads", "label": "Threads", "handle": "@dylanasdale", "href": "https://www.threads.com/@dylanasdale" },
     { "id": "bluesky", "icon": "bluesky", "label": "Bluesky", "handle": "@dylan-asdale.bsky.social", "href": "https://bsky.app/profile/dylan-asdale.bsky.social" },

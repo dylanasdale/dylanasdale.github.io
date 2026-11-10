@@ -24,23 +24,25 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # (href, label) in display order. Edit here, and only here.
 TOP_NAV = [
-    ("/books/", "Books"),
-    ("/free-guides/", "Free Guides"),
+    ("/company/", "Company"),
+    ("/products/", "Products"),
+    ("/about/", "About"),
+    ("/connect/", "Contact"),
     ("/ai-tools/", "AI Tools"),
+    # Keep /ai-deals/ in the top nav: AI Deal Radar's publish-site.mjs stops with an error without it.
     ("/ai-deals/", "Free/Discounted AI Deals"),
-    ("/projects/", "Projects"),
-    ("/brand/", "Brand"),
-    ("/connect/", "Connect"),
 ]
 FOOTER_NAV = [
-    ("/books/", "Books"),
-    ("/free-guides/", "Free Guides"),
+    ("/company/", "Company"),
+    ("/products/", "Products"),
+    ("/about/", "About"),
+    ("/connect/", "Contact"),
     ("/ai-tools/", "AI Tools"),
     ("/ai-deals/", "Free/Discounted AI Deals"),
+    ("/free-guides/", "Free Guides"),
+    ("/books/", "Books"),
     ("/projects/", "Projects"),
     ("/brand/", "Brand"),
-    ("/company/", "Company"),
-    ("/connect/", "Connect"),
 ]
 
 SKIP_DIRS = {".git", "node_modules", ".github", ".claude"}
