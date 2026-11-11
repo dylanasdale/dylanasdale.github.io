@@ -1,0 +1,54 @@
+/* About page: the founder text on the left, the portrait with the signature under it on the right.
+   Loaded after fx.css; the backdrop behind the portrait and the sparks around the signature are drawn by portrait.js. */
+.founder-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 56px); align-items: stretch; }
+/* The portrait rises into the empty space beside the page heading; the signature sits just under it. */
+.portrait { --lift: 0px; margin: calc(-1 * var(--lift)) auto 0; width: 100%; max-width: 460px; display: flex; flex-direction: column; gap: 14px; }
+
+/* ---------- the portrait: the figure cut out of its photo, on a near-black card with slow code rain behind ---------- */
+.portrait-frame { position: relative; aspect-ratio: 4 / 5; }
+.portrait-back, .portrait-edge { position: absolute; inset: 0; border-radius: 28px; }
+/* viewfinder corners, just outside the card */
+.portrait-frame::before { content: ''; position: absolute; inset: -11px; --c: var(--pink); --l: 26px; --t: 2px; background:
+  linear-gradient(var(--c), var(--c)) 0 0 / var(--l) var(--t), linear-gradient(var(--c), var(--c)) 0 0 / var(--t) var(--l),
+  linear-gradient(var(--c), var(--c)) 100% 0 / var(--l) var(--t), linear-gradient(var(--c), var(--c)) 100% 0 / var(--t) var(--l),
+  linear-gradient(var(--c), var(--c)) 0 100% / var(--l) var(--t), linear-gradient(var(--c), var(--c)) 0 100% / var(--t) var(--l),
+  linear-gradient(var(--c), var(--c)) 100% 100% / var(--l) var(--t), linear-gradient(var(--c), var(--c)) 100% 100% / var(--t) var(--l);
+  background-repeat: no-repeat; filter: drop-shadow(0 0 6px rgb(255 63 164 / .8)); pointer-events: none; }
+/* inside the card: a dark slope of colour, near black, with two very faint clouds of colour, and over them the code rain */
+.portrait-back { overflow: hidden; background: #020203; box-shadow: 0 50px 100px -50px rgb(0 0 0 / .95), 0 0 80px -34px rgb(255 63 164 / .5); }
+.portrait-glow { position: absolute; width: 85%; aspect-ratio: 1; border-radius: 50%; filter: blur(46px); }
+.portrait-glow.a { right: -28%; top: -18%; background: rgb(255 63 164 / .035); animation: portrait-drift-a 26s ease-in-out infinite alternate; }
+.portrait-glow.b { left: -34%; top: 22%; background: rgb(120 70 255 / .045); animation: portrait-drift-b 34s ease-in-out infinite alternate; }
+/* the code rain (portrait.js); it fades in once it is drawing */
+.portrait-back canvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 1.2s; }
+.portrait-back canvas.on { opacity: 1; }
+@keyframes portrait-drift-a { to { transform: translate(-34%, 26%) scale(1.15); } }
+@keyframes portrait-drift-b { to { transform: translate(38%, -20%) scale(.9); } }
+/* the edge of the card: a faint line, with a light that runs round it */
+@property --portrait-a { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+.portrait-edge { padding: 1.5px; background: conic-gradient(from var(--portrait-a), rgb(255 255 255 / .16) 0 62%, var(--pink) 80%, #fff 89%, var(--violet) 95%, rgb(255 255 255 / .16)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; animation: portrait-run 8s linear infinite; pointer-events: none; }
+@keyframes portrait-run { to { --portrait-a: 360deg; } }
+/* the figure, kept just inside the card */
+.portrait-cut { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; clip-path: inset(2px round 26px); filter: drop-shadow(0 8px 22px rgb(0 0 0 / .55)); }
+
+/* ---------- the signature: white ink straight on the page, giving off sparks (no box) ---------- */
+.sig { position: relative; margin: 0; padding: 0 8px; touch-action: pan-y; }
+.sig canvas { position: absolute; inset: -70px -14px -30px; width: calc(100% + 28px); height: calc(100% + 100px); pointer-events: none; -webkit-mask: linear-gradient(transparent, #000 34%, #000 86%, transparent); mask: linear-gradient(transparent, #000 34%, #000 86%, transparent); }
+.sig-glow { position: relative; filter: drop-shadow(0 0 4px rgb(255 255 255 / .4)) drop-shadow(0 0 16px rgb(255 63 164 / .45)); }
+.sig-ink { aspect-ratio: 1200 / 392; background: radial-gradient(120px circle at var(--sx, -40%) var(--sy, 50%), var(--pink), var(--pink-soft) 35%, #fff 75%); -webkit-mask: url(/assets/img/dylan-asdale-signature.webp) center / 100% 100% no-repeat; mask: url(/assets/img/dylan-asdale-signature.webp) center / 100% 100% no-repeat; }
+/* The write-on is run by portrait.js, which uncovers the ink in step with its tracing light. Until that script takes over
+   the ink is hidden; if the script never runs, the signature simply appears after 4 s. */
+.js:not(.sig-live) .sig-ink { clip-path: inset(-10% 100% -10% 0); animation: sig-safe 1ms 4s forwards; }
+@keyframes sig-safe { to { clip-path: none; } }
+
+/* only wide screens have empty space beside the heading */
+@media (min-width: 1200px) { .portrait { --lift: 170px; } }
+@media (max-width: 900px) {
+  .founder-row { grid-template-columns: minmax(0, 1fr); }
+  .portrait { order: -1; max-width: 400px; margin-top: 0; }
+  .portrait-frame::before { inset: -7px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .portrait-glow, .portrait-edge { animation: none; }
+  .js:not(.sig-live) .sig-ink { clip-path: none; animation: none; }
+}

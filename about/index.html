@@ -30,7 +30,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/fx.css">
+<link rel="stylesheet" href="/assets/nav.css">
+<link rel="stylesheet" href="/assets/portrait.css?v=2">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -98,12 +102,22 @@
 </header>
 
 <main class="wrap" id="main">
-  <section class="section panel" aria-labelledby="founder">
+  <div class="section founder-row">
+  <section class="panel" aria-labelledby="founder">
     <div class="section-head"><div><h2 id="founder">The <em>founder.</em></h2><p class="shelf-note">Registered nurse turned AI builder.</p></div></div>
     <p>Dylan Asdale is a registered nurse (RN, BSN) who taught himself to build with AI tools. He founded Asdale Dynamics, LLC in October 2026 to turn that work into products, and he runs the company as its Founder and Sole Member from Avon, Indiana.</p>
     <p>His nursing background shapes what the company builds. One of its two products in development is a patient-advocacy app that turns a patient's treatment history into evidence-linked briefs for clinic visits. The other is a desktop app that routes each task to the best free or low-cost AI model available, to cut AI API costs. More on both is on the <a href="/products/">products page</a>.</p>
-    <p>The company's long-term research direction is AI-brain interfaces for treatment-resistant depression.</p>
+    <p>The company's long-term research directions are brain-computer interfaces for treatment-resistant depression, and AI-guided pharmaceutical development, with a focus on psychopharmacology, to be carried out in collaboration with physicians.</p>
   </section>
+  <figure class="portrait">
+    <div class="portrait-frame">
+      <div class="portrait-back" aria-hidden="true"><i class="portrait-glow a"></i><i class="portrait-glow b"></i><canvas></canvas></div>
+      <i class="portrait-edge" aria-hidden="true"></i>
+      <img class="portrait-cut" src="/assets/img/dylan-asdale-cutout-960.webp" width="960" height="1200" alt="Dylan Asdale, RN, BSN, in red scrubs and a blue scrub cap." decoding="async">
+    </div>
+    <figcaption class="sig"><canvas aria-hidden="true"></canvas><div class="sig-glow"><div class="sig-ink" role="img" aria-label="Signature: Dylan Asdale, RN, BSN"></div></div></figcaption>
+  </figure>
+  </div>
 
   <section class="section panel" aria-labelledby="origin">
     <div class="section-head"><div><h2 id="origin">Origin.</h2><p class="shelf-note">How it started.</p></div><a class="more" href="/books/">Books page →</a></div>
@@ -127,6 +141,8 @@
   <p class="foot-sitemap"><a href="/sitemap/">Sitemap</a></p>
 </footer>
 <script src="/assets/site.js" defer></script>
-<script src="/assets/aurora.js" defer></script>
+<script src="/assets/fx.js" defer></script>
+<script src="/assets/nav.js" defer></script>
+<script src="/assets/portrait.js?v=4" defer></script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+/* Collapsing menu, used by every page (loaded after home.css or fx.css; driven by nav.js).
+   Without JavaScript the plain row of links stays in the bar. If nav.js fails to run, the links come back after 4 s. */
+.js:not(.nav-live) .top-nav { visibility: hidden; animation: nav-safe 1ms 4s forwards; }
+@keyframes nav-safe { to { visibility: visible; } }
+
+/* ---------- the bar: brand on the left, one Menu button on the right ---------- */
+.nav-live .brand span { display: inline; }
+.navx-btn { position: relative; display: inline-flex; align-items: center; gap: 12px; flex: none; margin: 0; padding: 11px 16px 11px 18px; border: 1px solid rgb(255 255 255 / .16); border-radius: 999px; background: rgb(255 255 255 / .04); color: var(--text); font: 600 12px/1 var(--body); letter-spacing: .18em; text-transform: uppercase; overflow: hidden; isolation: isolate; transition: color .3s, border-color .3s; -webkit-tap-highlight-color: transparent; }
+.navx-btn::before { content: ''; position: absolute; z-index: -1; inset: 0; border-radius: inherit; background: var(--pink); transform: translateY(101%); transition: transform .4s var(--ease); }
+.navx-btn:hover, .nav-open .navx-btn { color: var(--pink-ink); border-color: var(--pink); }
+.navx-btn:hover::before, .nav-open .navx-btn::before { transform: none; }
+.navx-btn i { position: relative; width: 18px; height: 10px; }
+.navx-btn i::before, .navx-btn i::after { content: ''; position: absolute; left: 0; width: 100%; height: 2px; border-radius: 2px; background: currentColor; transition: transform .45s var(--ease), top .45s var(--ease); }
+.navx-btn i::before { top: 0; }
+.navx-btn i::after { top: 8px; }
+.nav-open .navx-btn i::before { top: 4px; transform: rotate(45deg); }
+.nav-open .navx-btn i::after { top: 4px; transform: rotate(-45deg); }
+/* the bar stays put while its menu is open */
+.nav-open .nav.hide, .nav-open .topbar.fx-hide { transform: translate(-50%, 0); opacity: 1; }
+
+/* ---------- the menu: a glass panel that drops down under the Menu button ---------- */
+.navx { --top: 78px; --right: 16px; position: fixed; z-index: 25; top: var(--top); right: var(--right); width: min(500px, calc(100vw - 2 * var(--right))); border: 1px solid rgb(255 140 198 / .22); border-radius: 28px; background: rgb(12 8 12 / .82); -webkit-backdrop-filter: blur(22px) saturate(1.4); backdrop-filter: blur(22px) saturate(1.4); box-shadow: 0 30px 80px -20px rgb(0 0 0 / .8), 0 0 60px -20px rgb(255 63 164 / .45); overflow: hidden; visibility: hidden; opacity: 0; clip-path: circle(0 at calc(100% - 56px) 0); transform: translateY(-10px); transition: clip-path .6s var(--ease), opacity .4s, transform .6s var(--ease), visibility 0s .6s; }
+.nav-open .navx { visibility: visible; opacity: 1; transform: none; clip-path: circle(150% at calc(100% - 56px) 0); transition: clip-path .8s var(--ease), opacity .3s, transform .6s var(--ease), visibility 0s; }
+.navx canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.navx-scroll { position: relative; max-height: calc(100vh - var(--top) - 16px); max-height: calc(100dvh - var(--top) - 16px); overflow: hidden auto; padding: 20px 26px 22px; scrollbar-width: thin; scrollbar-color: #3a2a34 transparent; }
+.navx .top-nav { counter-reset: n; display: flex; flex-direction: column; align-items: stretch; flex-wrap: nowrap; gap: 0; overflow: visible; }
+.navx .top-nav a { counter-increment: n; position: relative; display: flex; align-items: baseline; gap: .4em; padding: .2em 0; border-radius: 0; background: none; box-shadow: none; overflow: visible; white-space: normal; text-decoration: none; text-transform: none; letter-spacing: -.01em; font: 700 clamp(23px, min(6.4vw, 4.9vh), 36px)/1.08 var(--display); color: var(--text); opacity: 0; transform: translateY(26px) rotate(2deg); transform-origin: 0 100%; transition: opacity .3s, transform .3s, color .3s; }
+.navx .top-nav a + a { border-top: 1px solid rgb(255 255 255 / .06); }
+.navx .top-nav a::before { content: counter(n, decimal-leading-zero); position: static; inset: auto; z-index: auto; flex: none; width: 2.8em; border-radius: 0; background: none; transform: none; transition: color .3s; font: 600 11px/1 var(--body); letter-spacing: .2em; color: var(--pink-soft); }
+.nav-open .navx .top-nav a { opacity: 1; transform: none; transition: opacity .7s var(--ease), transform .7s var(--ease), color .3s; transition-delay: calc(.1s + var(--n, 0) * 45ms), calc(.1s + var(--n, 0) * 45ms), 0s; }
+.navx .top-nav a > span { display: block; transition: transform .5s var(--ease); }
+.navx .top-nav .nw { display: inline-block; white-space: nowrap; }
+.navx .top-nav .nl { display: inline-block; will-change: transform; }
+.navx .top-nav a[aria-current="page"], .navx .top-nav a[aria-current="page"]:hover { color: var(--pink); background: none; box-shadow: none; }
+.navx .top-nav a[aria-current="page"]::after { content: 'Here'; align-self: center; margin-left: auto; padding: 5px 9px; border-radius: 999px; background: var(--pink-bg); color: var(--pink-soft); font: 600 10px/1 var(--body); font-style: normal; letter-spacing: .18em; text-transform: uppercase; white-space: nowrap; }
+@media (hover: hover) {
+  .navx .top-nav:has(a:hover) a:not(:hover) { opacity: .4; }
+  .navx .top-nav a:hover, .navx .top-nav a:focus-visible { color: var(--pink); font-style: italic; }
+  .navx .top-nav a:hover > span { transform: translateX(.3em); }
+}
+
+@media (max-width: 520px) {
+  .nav-live .brand { letter-spacing: .1em; font-size: 11px; }
+  .navx-btn { padding: 10px 13px 10px 15px; letter-spacing: .14em; }
+  .navx { border-radius: 22px; }
+  .navx-scroll { padding: 14px 18px 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js:not(.nav-live) .top-nav { visibility: visible; }
+  .navx, .nav-open .navx { clip-path: none; transform: none; }
+  .navx .top-nav a { transform: none !important; }
+}

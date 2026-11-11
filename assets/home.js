@@ -73,7 +73,7 @@ function drawGL(t) {
 /* =============== 2. Particle sculpture: morphs between shapes, scatters from the pointer =============== */
 const fx = $('#fx'), ctx = fx.getContext('2d');
 const N = W < 700 ? 1500 : 3400;
-const LABELS = ['Asdale Dynamics', 'AI model router', 'Patient-advocacy briefs', 'Voice for AI agents', 'AI-brain interfaces · research'];
+const LABELS = ['Asdale Dynamics', 'AI model router', 'Patient-advocacy briefs', 'Voice for AI agents', 'Brain-computer interfaces · research'];
 function sample(draw) {
   const S = 400, c = document.createElement('canvas'); c.width = c.height = S;
   const g = c.getContext('2d'); g.fillStyle = g.strokeStyle = '#fff'; g.lineCap = g.lineJoin = 'round'; draw(g, S);
@@ -180,7 +180,7 @@ for (const el of $$('.tilt')) {
 const io = new IntersectionObserver((es) => { for (const e of es) if (e.isIntersecting) { e.target.classList.add('in'); $$('[data-scramble]', e.target).forEach((s) => scramble(s)); io.unobserve(e.target); } }, { threshold: .18 });
 $$('[data-reveal], [data-inview]').forEach((el) => io.observe(el));
 new IntersectionObserver((es) => { voiceIn = es[0].isIntersecting; }, { threshold: .45 }).observe($('#voice-sec'));
-const ITEMS = ['AI model router', 'Patient-advocacy briefs', 'Voice for AI agents', 'RN-founded', 'Avon, Indiana', 'In development', 'Bootstrapped'];
+const ITEMS = ['AI model router', 'Brain-computer interfaces', 'Patient-advocacy briefs', 'AI-guided pharmaceutical development', 'Voice for AI agents', 'RN-founded', 'Psychopharmacology research', 'Avon, Indiana', 'In development', 'Long-term research', 'Bootstrapped'];
 const tracks = $$('.track').map((el, k) => { const html = ITEMS.map((s, i) => `<span class="${(i + k) % 2 ? 'o' : ''}">${s}</span><span class="s">✦</span>`).join(''); el.innerHTML = html + html + html + html; return { el, dir: +el.dataset.dir, off: 0, half: 0 }; });
 function sizeTracks() { for (const tr of tracks) tr.half = tr.el.scrollWidth / 4; }
 function drawTracks() { for (const tr of tracks) { tr.off += (1.1 + Math.abs(scrollVel) * .55) * tr.dir * (scrollVel < -1 ? -1 : 1); const o = ((tr.off % tr.half) + tr.half) % tr.half; tr.el.style.transform = `translate3d(${-o}px, 0, 0) skewX(${clamp(scrollVel * -.35, -14, 14)}deg)`; } }

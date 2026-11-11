@@ -1,7 +1,7 @@
 /* Dylan Asdale · hub site.
    Design system adapted from Guides for Everything v3 (guidesforeverythingai.github.io):
    Bluu Next display type (Velvetyne, SIL OFL 1.1, self-hosted), Hanken Grotesk text,
-   near-black canvas, hot-pink accent, halftone aurora behind everything (assets/aurora.js). */
+   near-black canvas, hot-pink accent, animated background behind everything (assets/fx.js). */
 @font-face { font-family: 'Bluu Next'; src: url(/assets/fonts/BluuNext-Bold.woff2) format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 @font-face { font-family: 'Bluu Next'; src: url(/assets/fonts/BluuNext-Bolditalic.woff2) format('woff2'); font-weight: 700; font-style: italic; font-display: swap; }
 :root {

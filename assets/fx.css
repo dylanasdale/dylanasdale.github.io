@@ -1,0 +1,99 @@
+/* Motion layer for every page except the homepage. Loaded after site.css; driven by fx.js.
+   Anything that starts hidden is scoped under html.js, and shows itself after 4 s if fx.js never runs. */
+:root { --violet: #b06bff; --ease: cubic-bezier(.2, .8, .2, 1); }
+body { overflow-x: hidden; }
+.skip-link { z-index: 300; }
+
+/* ---------- progress bar, cursor, click ring (elements are created by fx.js) ---------- */
+.fx-progress { position: fixed; top: 0; left: 0; height: 3px; width: 100%; z-index: 30; transform-origin: 0 50%; transform: scaleX(0); background: linear-gradient(90deg, var(--violet), var(--pink), #fff); box-shadow: 0 0 18px var(--pink); pointer-events: none; }
+.cur-dot, .cur-ring { position: fixed; left: 0; top: 0; z-index: 100; pointer-events: none; border-radius: 50%; opacity: 0; will-change: transform; }
+.cur-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; background: #fff; mix-blend-mode: difference; }
+.cur-ring { width: 44px; height: 44px; margin: -22px 0 0 -22px; border: 1px solid rgb(255 140 198 / .8); box-shadow: 0 0 24px rgb(255 63 164 / .45), inset 0 0 14px rgb(255 63 164 / .25); transition: width .3s var(--ease), height .3s var(--ease), margin .3s var(--ease), background .3s, border-color .3s; }
+.cur-ring.hot { width: 76px; height: 76px; margin: -38px 0 0 -38px; background: rgb(255 63 164 / .1); border-color: var(--pink); }
+.cur-ring.down { width: 30px; height: 30px; margin: -15px 0 0 -15px; }
+@media (hover: hover) and (pointer: fine) {
+  body.has-cursor, body.has-cursor *:not(input):not(textarea):not(select) { cursor: none; }
+  body.has-cursor .cur-dot, body.has-cursor .cur-ring { opacity: 1; }
+}
+.shock { position: fixed; z-index: 99; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; border: 2px solid var(--pink); pointer-events: none; animation: fx-shock .8s var(--ease) forwards; }
+@keyframes fx-shock { to { transform: scale(16); opacity: 0; border-width: .5px; } }
+
+/* ---------- floating glass nav ---------- */
+.masthead { padding-top: 108px; }
+.topbar { position: fixed; z-index: 20; top: 16px; left: 50%; width: min(1264px, calc(100% - 32px)); transform: translate(-50%, 0); flex-wrap: nowrap; gap: 16px; padding: 9px 10px 9px 18px; border: 1px solid var(--line); border-radius: 999px; background: rgb(12 8 12 / .6); -webkit-backdrop-filter: blur(18px) saturate(1.4); backdrop-filter: blur(18px) saturate(1.4); transition: transform .5s var(--ease), opacity .5s; }
+.topbar.fx-hide { transform: translate(-50%, -140%); opacity: 0; }
+.topbar .brand { font-size: 12px; letter-spacing: .18em; }
+.topbar .brand svg { width: 18px; height: 18px; transition: transform .8s var(--ease); filter: drop-shadow(0 0 8px var(--pink)); }
+.topbar .brand:hover svg { transform: rotate(180deg) scale(1.3); }
+.top-nav { flex-wrap: nowrap; gap: 2px; min-width: 0; overflow-x: auto; scrollbar-width: none; justify-content: flex-start; }
+.top-nav::-webkit-scrollbar { display: none; }
+.top-link { position: relative; z-index: 0; flex: none; padding: 10px 13px; border-radius: 999px; font: 500 13px/1 var(--body); letter-spacing: 0; text-transform: none; overflow: hidden; transition: color .3s; }
+.top-link::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit; background: var(--pink); transform: translateY(101%); transition: transform .35s var(--ease); }
+.top-link:hover { color: var(--pink-ink); }
+.top-link:hover::before { transform: none; }
+.top-link[aria-current="page"] { color: var(--pink-soft); background: var(--pink-bg); box-shadow: inset 0 0 0 1px rgb(255 140 198 / .35); }
+.top-link[aria-current="page"]:hover { color: var(--pink-ink); }
+
+/* ---------- headline: letters rise in, then lean away from the pointer ---------- */
+.js .hero-copy h1:not(.fx-split) { opacity: 0; animation: fx-safe 1ms 4s forwards; }
+h1 .w { display: inline-block; white-space: nowrap; }
+h1 .lo { display: inline-block; transform: translateY(115%) rotate(12deg); opacity: 0; animation: fx-rise 1s var(--ease) forwards; animation-delay: calc(.1s + var(--i) * 24ms); }
+h1 .li { display: inline-block; will-change: transform; }
+h1 em .li { background: linear-gradient(100deg, var(--pink) 20%, #fff 45%, var(--pink-soft) 55%, var(--pink) 80%); background-size: 300% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none; animation: fx-sheen 5s linear infinite; padding: .1em .06em; margin: -.1em -.06em; }
+@keyframes fx-rise { to { transform: none; opacity: 1; } }
+@keyframes fx-sheen { to { background-position: -300% 0; } }
+@keyframes fx-safe { to { opacity: 1; transform: none; filter: none; } }
+
+/* ---------- scroll reveal: sections, hero text, section headings ---------- */
+.js :is(main > .section, .notes, .page-hero .lede, .hero-actions) { opacity: 0; transform: translateY(44px) scale(.98); filter: blur(8px); transition: opacity .9s var(--ease), transform 1s var(--ease), filter .9s var(--ease); animation: fx-safe 1ms 4s forwards; }
+.fx-live :is(main > .section, .notes, .page-hero .lede, .hero-actions) { animation: none; }
+.fx-live :is(main > .section, .notes, .page-hero .lede, .hero-actions).fx-in { opacity: 1; transform: none; filter: none; }
+.fx-live .page-hero .lede { transition-delay: .45s; }
+.fx-live .hero-actions { transition-delay: .6s; }
+.sw { display: inline-block; overflow: hidden; vertical-align: top; padding: .08em .05em .16em; margin: -.08em -.05em -.16em; }
+.sw > span { display: inline-block; transform: translateY(110%) rotate(6deg); transition: transform .9s var(--ease); transition-delay: calc(.1s + var(--i) * 70ms); }
+.fx-in .sw > span { transform: none; }
+/* cards step in one after another once their section is showing (also when a shelf fills in late) */
+.fx-live .fx-in :is(.item, .link-card, .feature) { animation: fx-card .8s var(--ease) backwards; }
+.fx-live .fx-in :is(.item, .link-card):nth-child(2) { animation-delay: 70ms; }
+.fx-live .fx-in :is(.item, .link-card):nth-child(3) { animation-delay: 140ms; }
+.fx-live .fx-in :is(.item, .link-card):nth-child(4) { animation-delay: 210ms; }
+.fx-live .fx-in :is(.item, .link-card):nth-child(5) { animation-delay: 280ms; }
+.fx-live .fx-in :is(.item, .link-card):nth-child(n+6) { animation-delay: 350ms; }
+@keyframes fx-card { from { opacity: 0; transform: translateY(26px) scale(.97); } }
+
+/* ---------- cards: tilt toward the pointer, with a glowing edge that follows it ---------- */
+.notes > section { padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--glass); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
+:is(.item, .link-card, .feature, .notes > section) { --mx: 50%; --my: 50%; --rx: 0deg; --ry: 0deg; position: relative; }
+.fx-live :is(.item, .link-card, .feature, .notes > section) { transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry)) scale(var(--sc, 1)); transition: transform .5s var(--ease), border-color .25s, background .25s, box-shadow .4s; }
+.fx-live :is(.item, .link-card, .feature, .notes > section).fx-tilting { transition: transform .08s linear, border-color .25s, background .25s, box-shadow .4s; }
+:is(.item, .link-card, .feature, .notes > section)::after { content: ''; position: absolute; inset: -1px; border-radius: inherit; padding: 1.5px; background: radial-gradient(240px circle at var(--mx) var(--my), var(--pink), rgb(176 107 255 / .6) 40%, transparent 70%); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity .4s; pointer-events: none; }
+:is(.item, .link-card, .feature, .notes > section):hover::after { opacity: 1; }
+:is(.item, .link-card, .feature, .notes > section):hover { box-shadow: 0 18px 50px -24px rgb(255 63 164 / .55); }
+
+/* ---------- buttons and text links ---------- */
+.btn { position: relative; overflow: hidden; isolation: isolate; will-change: transform; }
+.btn::before { content: ''; position: absolute; z-index: -1; left: var(--bx, 50%); top: var(--by, 50%); width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: var(--pink); transform: scale(0); transition: transform .6s var(--ease); }
+.btn:hover::before { transform: scale(60); }
+.btn:hover { color: var(--pink-ink); border-color: var(--pink); }
+.btn.primary { box-shadow: 0 0 34px rgb(255 63 164 / .35); }
+.btn.primary::before { background: #fff; }
+.more { position: relative; }
+.more::after { content: ''; position: absolute; left: 0; bottom: 0; height: 1px; width: 100%; background: var(--pink); transform-origin: 100% 50%; transition: transform .5s var(--ease); }
+.more:hover::after { transform: scaleX(0); transform-origin: 0 50%; }
+
+/* ---------- footer wordmark (created by fx.js) ---------- */
+.fx-wordmark { display: flex; justify-content: center; margin-top: var(--s8); padding-block: 14px 6px; overflow: hidden; font: 700 clamp(30px, 10.6vw, 200px)/.9 var(--display); letter-spacing: -.02em; white-space: nowrap; user-select: none; }
+.fx-wordmark span { display: inline-block; color: transparent; -webkit-text-stroke: 1px rgb(255 140 198 / .4); will-change: transform; }
+.fx-wordmark + .foot { margin-top: var(--s4); }
+
+@media (max-width: 900px) {
+  .masthead { padding-top: 84px; }
+  .topbar { top: 12px; padding-left: 14px; }
+  .topbar .brand span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .js .hero-copy h1, h1 .lo, .sw > span, .js :is(main > .section, .notes, .page-hero .lede, .hero-actions) { opacity: 1 !important; transform: none !important; filter: none !important; }
+  :is(.item, .link-card, .feature, .notes > section) { transform: none !important; }
+}
