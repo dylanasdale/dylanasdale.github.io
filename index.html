@@ -31,7 +31,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="preload" href="/assets/fonts/BluuNext-Bolditalic.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="/assets/home.css">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -90,89 +92,118 @@
 </script>
 </head>
 <body>
-<div class="aurora" aria-hidden="true"><canvas id="aurora"></canvas></div>
+<div class="loader" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z" fill="#ff3fa4"/></svg></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+<canvas id="fx" aria-hidden="true"></canvas>
 <div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="cur-ring" aria-hidden="true"></div><div class="cur-dot" aria-hidden="true"></div>
+<div class="shape-cap" aria-hidden="true"></div>
+
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="wrap masthead">
-  <nav class="topbar" aria-label="Main navigation">
-    <a class="brand" href="/" aria-label="Asdale Dynamics home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z" fill="#ff3fa4"/></svg><span>Asdale Dynamics, LLC</span></a>
-    <div class="top-nav"><a class="top-link" href="/company/">Company</a><a class="top-link" href="/products/">Products</a><a class="top-link" href="/about/">About</a><a class="top-link" href="/connect/">Contact</a><a class="top-link" href="/ai-tools/">AI Tools</a><a class="top-link" href="/ai-deals/">Free/Discounted AI Deals</a></div>
-  </nav>
-  <div class="hero page-hero">
-    <div class="hero-copy">
-      <h1>AI products, built with a <em>nurse's&nbsp;rigor.</em></h1>
-      <p class="lede">Asdale Dynamics, LLC is an RN-founded AI product company in Avon, Indiana. We build our own AI products: tools that make AI cheaper to run and more useful to the people who rely on it.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="/products/">See what we're building <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 3.5 13.5 8 9 12.5"/></svg></a>
-        <a class="btn" href="mailto:dylan.asdale@asdaledynamics.com">Contact us</a>
-      </div>
-    </div>
+<nav class="nav" aria-label="Main navigation">
+  <a class="brand" href="/" data-magnetic=".3"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z" fill="#ff3fa4"/></svg><span>Asdale Dynamics, LLC</span></a>
+  <div class="top-nav"><a class="top-link" href="/company/">Company</a><a class="top-link" href="/products/">Products</a><a class="top-link" href="/about/">About</a><a class="top-link" href="/connect/">Contact</a><a class="top-link" href="/ai-tools/">AI Tools</a><a class="top-link" href="/ai-deals/">Free/Discounted AI Deals</a></div>
+</nav>
+
+<div class="page">
+<header class="hero wrap">
+  <p class="eyebrow reveal-up" style="--d:.2s" data-scramble>RN-founded AI product company · Avon, Indiana</p>
+  <h1 id="h1">AI products, built with a <em>nurse's rigor.</em></h1>
+  <p class="lede reveal-up" style="--d:1.5s">Asdale Dynamics, LLC is an RN-founded AI product company in Avon, Indiana. We build our own AI products: tools that make AI cheaper to run and more useful to the people who rely on it.</p>
+  <div class="actions reveal-up" style="--d:1.7s">
+    <a class="btn primary" href="/products/" data-magnetic=".35"><span>See what we're building <i>→</i></span></a>
+    <a class="btn" href="mailto:dylan.asdale@asdaledynamics.com" data-magnetic=".35"><span>Contact us</span></a>
   </div>
+  <div class="scroll-hint reveal-up" style="--d:2.2s" aria-hidden="true"><b></b>Scroll</div>
 </header>
 
-<main class="wrap" id="main">
-  <section class="section panel" aria-labelledby="products-title">
-    <div class="section-head"><div><h2 id="products-title">In <em>development.</em></h2><p class="shelf-note">Two products, plus one long-term research direction.</p></div><a class="more" href="/products/">Products page →</a></div>
-    <ul class="shelf">
-      <li class="item no-img"><div class="item-text">
-        <p class="tag">In development</p>
-        <h3 class="item-title">AI model router for the desktop</h3>
+<div class="marquee" aria-hidden="true"><div class="track" data-dir="1"></div></div>
+<div class="marquee" aria-hidden="true"><div class="track" data-dir="-1"></div></div>
+
+<main id="main">
+  <section class="block wrap" aria-labelledby="dev">
+    <div class="head" data-inview>
+      <div><p class="eyebrow" data-scramble>Two products, plus one long-term research direction</p><h2 id="dev" data-split>In <em>development.</em></h2></div>
+      <a class="more" href="/products/" data-magnetic=".3">Products page →</a>
+    </div>
+    <ul class="cards">
+      <li class="card tilt" data-reveal style="--i:0" data-shape="1">
+        <span class="num">01</span><p class="tag">In development</p>
+        <h3>AI model router for the desktop</h3>
         <p class="sub">A desktop app that routes each task to the best free or low-cost AI model available, to cut AI API costs.</p>
-        <p class="meta">Desktop app · In development</p>
-      </div></li>
-      <li class="item no-img"><div class="item-text">
-        <p class="tag">In development</p>
-        <h3 class="item-title">Patient-advocacy briefs</h3>
+      </li>
+      <li class="card tilt" data-reveal style="--i:1" data-shape="2">
+        <span class="num">02</span><p class="tag">In development</p>
+        <h3>Patient-advocacy briefs</h3>
         <p class="sub">An app that turns a patient's treatment history into evidence-linked briefs for clinic visits.</p>
-        <p class="meta">Patient-advocacy app · In development</p>
-      </div></li>
-      <li class="item no-img"><div class="item-text">
-        <p class="tag">Long-term research</p>
-        <h3 class="item-title">AI-brain interfaces</h3>
+      </li>
+      <li class="card tilt" data-reveal style="--i:2" data-shape="4">
+        <span class="num">03</span><p class="tag muted">Long-term research</p>
+        <h3>AI-brain interfaces</h3>
         <p class="sub">A long-term research direction: AI-brain interfaces for treatment-resistant depression. This is research, not a product.</p>
-        <p class="meta">Research direction · Not a product</p>
-      </div></li>
+      </li>
     </ul>
-    <p>Also exploring: a voice for AI agents, safety checks for health AI, an agent cost meter and a private health-records assistant. <a href="/products/#ideas">See the ideas.</a></p>
+    <p class="also" data-reveal>Also exploring: a voice for AI agents, safety checks for health AI, an agent cost meter and a private health-records assistant. <a href="/products/#ideas">See the ideas.</a></p>
   </section>
 
-  <section class="section panel" aria-labelledby="company-title">
-    <div class="section-head"><div><h2 id="company-title">The <em>company.</em></h2><p class="shelf-note">Founded October 2026. Bootstrapped.</p></div><a class="more" href="/company/">Company page →</a></div>
-    <p>ASDALE DYNAMICS, LLC is an Indiana single-member LLC based in Avon, Indiana, founded and run by <a href="/about/">Dylan Asdale, RN, BSN</a>, a registered nurse turned AI builder. The company mainly builds its own AI products. Client work (AI agents, multi-model pipelines, workflow automations and custom web apps) is secondary.</p>
+  <section class="block wrap" aria-labelledby="voice" id="voice-sec">
+    <div class="voice">
+      <div data-inview>
+        <p class="eyebrow" data-scramble>Early build · Voice for AI agents</p>
+        <h2 id="voice" data-split>Hear <em>it.</em></h2>
+        <p data-reveal>An MCP server that lets AI agents speak out loud, with swappable speech engines. Press play to hear the founder's cloned voice.</p>
+        <p class="fine" data-reveal style="--i:1">This clip is computer-generated. Dylan Asdale did not say this sentence. It was made with a clone of his own voice, created from his own recording.</p>
+        <p data-reveal style="--i:2"><a class="more" href="/products/voice/" data-magnetic=".3">Read about the voice tool →</a></p>
+      </div>
+      <div class="player" data-reveal>
+        <canvas id="ring" aria-hidden="true"></canvas>
+        <button class="play" id="play" type="button" data-magnetic=".45" aria-label="Play a sample of the cloned voice"><span id="playlabel">Play</span></button>
+        <audio id="clip" preload="none" src="/assets/audio/voice-sample-intro.mp3"></audio>
+      </div>
+    </div>
   </section>
 
-  <section class="section" aria-labelledby="contact-title">
-    <div class="section-head"><div><h2 id="contact-title">Get in <em>touch.</em></h2><p class="shelf-note">Questions, partnerships and program inquiries are welcome.</p></div><a class="more" href="/connect/">All contact links →</a></div>
-    <ul class="links" data-list="links" data-limit="3">
-<li><a class="link-card" href="mailto:dylan.asdale@asdaledynamics.com"><span><b>Email</b><small>dylan.asdale@asdaledynamics.com</small></span></a></li>
-<li><a class="link-card" href="https://github.com/dylanasdale" rel="me noopener"><span><b>GitHub</b><small>github.com/dylanasdale</small></span></a></li>
-<li><a class="link-card" href="https://www.linkedin.com/in/dylan-asdale-rn-bsn-550823113/" rel="me noopener"><span><b>LinkedIn</b><small>Dylan Asdale, RN, BSN</small></span></a></li>
-</ul>
+  <section class="block wrap" aria-labelledby="co">
+    <div class="head" data-inview>
+      <div><p class="eyebrow" data-scramble>Founded October 2026 · Bootstrapped</p><h2 id="co" data-split>The <em>company.</em></h2></div>
+      <a class="more" href="/company/" data-magnetic=".3">Company page →</a>
+    </div>
+    <p class="big" id="big">ASDALE DYNAMICS, LLC is an Indiana single-member LLC based in Avon, Indiana, founded and run by <mark>Dylan Asdale, RN, BSN</mark>, a registered nurse turned AI builder. The company mainly builds <mark>its own AI products.</mark> Client work (AI agents, multi-model pipelines, workflow automations and custom web apps) is secondary.</p>
+    <ul class="facts">
+      <li class="fact tilt" data-reveal style="--i:0"><small>Founded</small><b>October 2026</b></li>
+      <li class="fact tilt" data-reveal style="--i:1"><small>Based in</small><b>Avon, Indiana</b></li>
+      <li class="fact tilt" data-reveal style="--i:2"><small>Funding</small><b>Bootstrapped</b></li>
+      <li class="fact tilt" data-reveal style="--i:3"><small>Founder</small><b>Dylan Asdale, RN, BSN</b></li>
+    </ul>
   </section>
 
-  <section class="notes" aria-label="More from Asdale Dynamics">
-    <section>
-      <h2>Live tool.</h2>
-      <p>AI Deal Radar scans for free AI tools, free tiers, credits and startup programs and filters out spam and expired offers. <a href="/ai-deals/">See the latest deals</a> or browse the <a href="/ai-tools/">AI tools page</a>.</p>
-    </section>
-    <section>
-      <h2>Free guides.</h2>
-      <p>A free library of print-ready manuals on AI tools and AWS, written in plain English. <a href="/free-guides/">Browse the free guides.</a></p>
-    </section>
-    <section>
-      <h2>Origin.</h2>
-      <p>The company grew out of its founder teaching himself AI tools, then writing it all down as <i>The Massive AI Manual</i>. <a href="/books/">See the book.</a></p>
-    </section>
+  <section class="block wrap contact" aria-labelledby="ct">
+    <div data-inview>
+      <h2 id="ct" data-split>Get in <em>touch.</em></h2>
+      <p class="sub" data-reveal>Questions, partnerships and program inquiries are welcome.</p>
+    </div>
+    <a class="orb" href="mailto:dylan.asdale@asdaledynamics.com" data-magnetic=".5" data-reveal><span>Email<br>us →</span></a>
+    <div class="pills" data-reveal>
+      <a class="btn" href="https://github.com/dylanasdale" rel="me noopener" data-magnetic=".3"><span>GitHub</span></a>
+      <a class="btn" href="https://www.linkedin.com/in/dylan-asdale-rn-bsn-550823113/" rel="me noopener" data-magnetic=".3"><span>LinkedIn</span></a>
+      <a class="btn" href="/connect/" data-magnetic=".3"><span>All contact links</span></a>
+    </div>
+    <div class="notes">
+      <a class="note tilt" data-reveal style="--i:0" href="/ai-deals/"><i>→</i><h3>Live tool.</h3><p>AI Deal Radar scans for free AI tools, free tiers, credits and startup programs and filters out spam and expired offers.</p></a>
+      <a class="note tilt" data-reveal style="--i:1" href="/free-guides/"><i>→</i><h3>Free guides.</h3><p>A free library of print-ready manuals on AI tools and AWS, written in plain English.</p></a>
+      <a class="note tilt" data-reveal style="--i:2" href="/books/"><i>→</i><h3>Origin.</h3><p>The company grew out of its founder teaching himself AI tools, then writing it all down as The Massive AI Manual.</p></a>
+    </div>
   </section>
 </main>
 
-<footer class="wrap foot">
-  <p>© 2026 Asdale Dynamics, LLC</p>
+<footer>
+  <div class="wordmark" id="wordmark" aria-hidden="true"></div>
   <nav aria-label="Footer"><a href="/company/">Company</a><a href="/products/">Products</a><a href="/about/">About</a><a href="/connect/">Contact</a><a href="/ai-tools/">AI Tools</a><a href="/ai-deals/">Free/Discounted AI Deals</a><a href="/free-guides/">Free Guides</a><a href="/books/">Books</a><a href="/projects/">Projects</a><a href="/brand/">Brand</a></nav>
-  <p>Display type: Bluu Next by Jean-Baptiste Morizot, Velvetyne (SIL OFL).</p>
-  <p class="foot-sitemap"><a href="/sitemap/">Sitemap</a></p>
+  <div class="wrap foot"><span>© 2026 Asdale Dynamics, LLC</span><span>Display type: Bluu Next by Jean-Baptiste Morizot, Velvetyne (SIL OFL).</span></div>
+  <p class="wrap foot"><a href="/sitemap/">Sitemap</a></p>
 </footer>
-<script src="/assets/site.js" defer></script>
-<script src="/assets/aurora.js" defer></script>
+</div>
+<script src="/assets/home.js" defer></script>
 </body>
 </html>
