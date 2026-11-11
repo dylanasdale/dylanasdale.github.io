@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-10T21:40:51.998Z",
- "contentHash": "cc025c3b2ca46119",
+ "updatedAt": "2026-11-11T05:15:03.135Z",
+ "contentHash": "56f9161b87dc1485",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -206,6 +206,23 @@
    "source": "Seattle Post-Intelligencer",
    "firstSeenAt": "2026-10-30T18:16:32.310Z",
    "publishedAt": "2026-10-30T14:37:38.000Z"
+  },
+  {
+   "id": "b6a2ce351edff9d21867",
+   "kind": "deal",
+   "title": "Honeylog: lifetime deal — $59",
+   "summary": "Detect and analyze AI crawlers, search bots, and spoofers with real-time server log intelligence Rated 4.8/5 by 5 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/honeylog/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 59,
+   "originalPrice": 129,
+   "value": "$59",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-11T01:40:40.278Z",
+   "publishedAt": null
   },
   {
    "id": "87b1c4c055ca6a2dd592",
@@ -446,11 +463,11 @@
    "publishedAt": null
   },
   {
-   "id": "f582937f08a831a4b4e9",
+   "id": "0d0f659581a96765b0ec",
    "kind": "deal",
-   "title": "Acti: lifetime deal — $59",
-   "summary": "Use this agentic mobile keyboard to dictate, translate, and automate tasks across 300+ apps and APIs Rated 4.7/5 by 7 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/acti/",
+   "title": "Creator Lookup: lifetime deal — $59",
+   "summary": "Search an AI-powered influencer database of 400M+ creators across Instagram, TikTok, and YouTube Rated 4.9/5 by 21 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/creator-lookup/",
    "offerType": "lifetime",
    "offerTypeLabel": "Lifetime deal",
    "price": 59,
@@ -472,6 +489,23 @@
    "offerTypeLabel": "Lifetime deal",
    "price": 59,
    "originalPrice": 190,
+   "value": "$59",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "f582937f08a831a4b4e9",
+   "kind": "deal",
+   "title": "Acti: lifetime deal — $59",
+   "summary": "Use this agentic mobile keyboard to dictate, translate, and automate tasks across 300+ apps and APIs Rated 4.7/5 by 7 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/acti/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 59,
+   "originalPrice": 299,
    "value": "$59",
    "vendor": null,
    "approval": null,
@@ -647,23 +681,6 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-23T09:44:58.584Z",
-   "publishedAt": null
-  },
-  {
-   "id": "4dad80645cb51121ac6f",
-   "kind": "deal",
-   "title": "Aivolut Books: lifetime deal — $59",
-   "summary": "Write and publish unique, high-quality books and digital products with AI Rated 4.3/5 by 3 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/aivolut-books/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 59,
-   "originalPrice": 228,
-   "value": "$59",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
   },
   {
@@ -1109,23 +1126,6 @@
    "source": "Hacker News",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": "2026-10-17T06:29:17.000Z"
-  },
-  {
-   "id": "8ff32593c3c69d30a349",
-   "kind": "deal",
-   "title": "Headroom: free annual deal",
-   "summary": "Slash Claude Code and Codex token usage with local compression, project learnings, and add-ons Rated 4.9/5 by 23 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/headroom/",
-   "offerType": "free",
-   "offerTypeLabel": "Free access",
-   "price": 0,
-   "originalPrice": 36,
-   "value": "Free",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-23T07:43:56.646Z",
-   "publishedAt": null
   }
  ],
  "programs": [
