@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Voice for AI Agents · Asdale Dynamics, LLC</title>
+<meta name="description" content="Voice for AI Agents is an MCP server that lets AI agents speak out loud, with swappable speech engines. In development at Asdale Dynamics, LLC.">
+<meta name="theme-color" content="#07060a">
+<meta name="author" content="Asdale Dynamics, LLC">
+<link rel="canonical" href="https://asdaledynamics.com/products/voice/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Asdale Dynamics">
+<meta property="og:title" content="Voice for AI Agents · Asdale Dynamics, LLC">
+<meta property="og:description" content="Voice for AI Agents is an MCP server that lets AI agents speak out loud, with swappable speech engines. In development at Asdale Dynamics, LLC.">
+<meta property="og:url" content="https://asdaledynamics.com/products/voice/">
+<meta property="og:image" content="https://asdaledynamics.com/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Asdale Dynamics, LLC">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@DylanAsdaleAI">
+<meta name="twitter:creator" content="@DylanAsdaleAI">
+<meta name="twitter:title" content="Voice for AI Agents · Asdale Dynamics, LLC">
+<meta name="twitter:description" content="Voice for AI Agents is an MCP server that lets AI agents speak out loud, with swappable speech engines. In development at Asdale Dynamics, LLC.">
+<meta name="twitter:image" content="https://asdaledynamics.com/assets/img/og-image.jpg">
+<link rel="preload" href="/assets/fonts/BluuNext-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Person",
+   "@id": "https://asdaledynamics.com/#dylan",
+   "name": "Dylan Asdale",
+   "honorificSuffix": "RN, BSN",
+   "jobTitle": "Founder",
+   "worksFor": {
+    "@id": "https://asdaledynamics.com/#organization"
+   },
+   "url": "https://asdaledynamics.com/about/",
+   "sameAs": [
+    "https://github.com/dylanasdale",
+    "https://www.linkedin.com/in/dylan-asdale-rn-bsn-550823113/",
+    "https://x.com/DylanAsdaleAI",
+    "https://www.threads.com/@dylanasdale",
+    "https://bsky.app/profile/dylan-asdale.bsky.social"
+   ]
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://asdaledynamics.com/#organization",
+   "name": "Asdale Dynamics, LLC",
+   "legalName": "ASDALE DYNAMICS, LLC",
+   "url": "https://asdaledynamics.com/",
+   "description": "RN-founded AI product company based in Avon, Indiana.",
+   "foundingDate": "2026-10-21",
+   "email": "dylan.asdale@asdaledynamics.com",
+   "founder": {
+    "@id": "https://asdaledynamics.com/#dylan"
+   },
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Avon",
+    "addressRegion": "IN",
+    "addressCountry": "US"
+   },
+   "sameAs": [
+    "https://github.com/dylanasdale",
+    "https://www.linkedin.com/in/dylan-asdale-rn-bsn-550823113/"
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div class="aurora" aria-hidden="true"><canvas id="aurora"></canvas></div>
+<div class="grain" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="wrap masthead">
+  <nav class="topbar" aria-label="Main navigation">
+    <a class="brand" href="/" aria-label="Asdale Dynamics home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z" fill="#ff3fa4"/></svg><span>Asdale Dynamics, LLC</span></a>
+    <div class="top-nav"><a class="top-link" href="/company/">Company</a><a class="top-link" href="/products/" aria-current="page">Products</a><a class="top-link" href="/about/">About</a><a class="top-link" href="/connect/">Contact</a><a class="top-link" href="/ai-tools/">AI Tools</a><a class="top-link" href="/ai-deals/">Free/Discounted AI Deals</a></div>
+  </nav>
+  <div class="hero page-hero">
+    <div class="hero-copy">
+      <h1>Give your AI agent <em>a voice.</em></h1>
+      <p class="lede">Voice for AI Agents lets almost any AI agent speak out loud, in a natural voice. In development.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <section class="section panel" aria-labelledby="what">
+    <div class="section-head"><div><h2 id="what">What it <em>does.</em></h2><p class="shelf-note">In development. Not released yet.</p></div></div>
+    <p>AI agents are good at doing work and bad at telling you about it. They finish a long task and wait silently for you to look at the screen. Voice for AI Agents lets them say it out loud.</p>
+    <p>It is an MCP server. MCP (the Model Context Protocol) is the common way AI agents connect to tools, so any agent that supports it, such as Claude Code, Claude Desktop or Cursor, can connect once and then speak: spoken replies, alerts when a task finishes, and reading text aloud.</p>
+    <p>The speech engine is swappable. The agent makes the same request whichever engine is behind it, so the voice can improve without changing anything on the agent side.</p>
+  </section>
+
+  <section class="section panel" aria-labelledby="hear">
+    <div class="section-head"><div><h2 id="hear">Hear <em>it.</em></h2><p class="shelf-note">The founder's voice, cloned from a short recording.</p></div></div>
+    <ul class="shelf" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Sample</p>
+        <h3 class="item-title">A task alert</h3>
+        <p class="sub">“Your build finished. All forty-two tests passed, and nothing caught fire.”</p>
+        <audio controls preload="none" style="width:100%;margin-top:.6rem" src="/assets/audio/voice-sample-alert.mp3">Your browser cannot play this audio. <a href="/assets/audio/voice-sample-alert.mp3">Download the clip.</a></audio>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Sample</p>
+        <h3 class="item-title">A summary</h3>
+        <p class="sub">“Here's your summary. Three emails need a reply today. The rest can wait until Monday.”</p>
+        <audio controls preload="none" style="width:100%;margin-top:.6rem" src="/assets/audio/voice-sample-summary.mp3">Your browser cannot play this audio. <a href="/assets/audio/voice-sample-summary.mp3">Download the clip.</a></audio>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Sample</p>
+        <h3 class="item-title">An introduction</h3>
+        <p class="sub">“Hi, I'm Dylan. Well, technically I'm a computer speaking in Dylan's voice. He recorded a couple of minutes, and I took it from there.”</p>
+        <audio controls preload="none" style="width:100%;margin-top:.6rem" src="/assets/audio/voice-sample-intro.mp3">Your browser cannot play this audio. <a href="/assets/audio/voice-sample-intro.mp3">Download the clip.</a></audio>
+      </div></li>
+    </ul>
+    <p>These clips are computer-generated. Dylan Asdale did not say these sentences. They were made by the tool's ElevenLabs engine, using a clone of his own voice that he created from his own recording.</p>
+  </section>
+
+  <section class="section panel" aria-labelledby="engines">
+    <div class="section-head"><div><h2 id="engines">Speech <em>engines.</em></h2><p class="shelf-note">Pick the trade-off between quality, cost and privacy.</p></div></div>
+    <ul class="shelf" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Built in</p>
+        <h3 class="item-title">Windows voices</h3>
+        <p class="sub">The voices that come with Windows. Nothing to install, works offline. Robotic, so it is the fallback.</p>
+        <p class="meta">Offline · Free</p>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Local</p>
+        <h3 class="item-title">Kokoro</h3>
+        <p class="sub">A small neural model that runs on the PC. Fast, with dozens of built-in voices.</p>
+        <p class="meta">Offline · Free</p>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Local</p>
+        <h3 class="item-title">Chatterbox</h3>
+        <p class="sub">A larger neural model that runs on the PC's graphics card and can copy a voice from a short recording. The text and the recording never leave the PC.</p>
+        <p class="meta">Offline · Free · Voice copying</p>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Hosted</p>
+        <h3 class="item-title">ElevenLabs</h3>
+        <p class="sub">A hosted speech service with very natural voices, including voices cloned in your own account. The clips on this page were made with it.</p>
+        <p class="meta">Hosted · Paid per use</p>
+      </div></li>
+      <li class="item no-img"><div class="item-text">
+        <p class="tag">Open</p>
+        <h3 class="item-title">Any compatible speech server</h3>
+        <p class="sub">Any server that offers an OpenAI-compatible speech endpoint can be plugged in. Not yet tested against a real server.</p>
+        <p class="meta">Local or hosted</p>
+      </div></li>
+    </ul>
+  </section>
+
+  <section class="section panel" aria-labelledby="status">
+    <div class="section-head"><div><h2 id="status">Where it <em>stands.</em></h2><p class="shelf-note">An honest status.</p></div><a class="more" href="/products/">All products →</a></div>
+    <ul>
+      <li><b>Early build.</b> It runs on the founder's own PC and is tested in-house. It has not been released and has no outside users.</li>
+      <li><b>Works today:</b> speaking through the PC's speakers, choosing the output device, saving each clip as an audio file, and copying a voice from a recording.</li>
+      <li><b>Not built yet:</b> listening (speech to text), streaming audio, and stopping speech mid-sentence.</li>
+      <li><b>The goal:</b> speech that sounds indistinguishable from a person, available to almost any agent.</li>
+    </ul>
+    <p>A voice should only be copied with the consent of the person it belongs to. The voice on this page is the founder's own.</p>
+  </section>
+
+  <section class="section" aria-labelledby="contact-title">
+    <div class="section-head"><div><h2 id="contact-title">Get in <em>touch.</em></h2></div><a class="more" href="/connect/">All contact links →</a></div>
+    <p>Questions about the tool, or interest in trying it when it is ready: <a href="mailto:dylan.asdale@asdaledynamics.com">dylan.asdale@asdaledynamics.com</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>© 2026 Asdale Dynamics, LLC</p>
+  <nav aria-label="Footer"><a href="/company/">Company</a><a href="/products/">Products</a><a href="/about/">About</a><a href="/connect/">Contact</a><a href="/ai-tools/">AI Tools</a><a href="/ai-deals/">Free/Discounted AI Deals</a><a href="/free-guides/">Free Guides</a><a href="/books/">Books</a><a href="/projects/">Projects</a><a href="/brand/">Brand</a></nav>
+  <p>Display type: Bluu Next by Jean-Baptiste Morizot, Velvetyne (SIL OFL).</p>
+  <p class="foot-sitemap"><a href="/sitemap/">Sitemap</a></p>
+</footer>
+<script src="/assets/site.js" defer></script>
+<script src="/assets/aurora.js" defer></script>
+</body>
+</html>
