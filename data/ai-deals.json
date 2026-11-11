@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-11T17:15:02.619Z",
- "contentHash": "586e82d2f651f32e",
+ "updatedAt": "2026-11-11T23:15:02.384Z",
+ "contentHash": "7814d10f5dfbc427",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -87,23 +87,6 @@
    "source": "AppSumo",
    "firstSeenAt": "2026-10-22T16:36:23.183Z",
    "publishedAt": null
-  },
-  {
-   "id": "8e4b8c21c23794238703",
-   "kind": "deal",
-   "title": "Anthropic gives US governments 40% off Claude in a new GSA deal",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnczdl90NDRUN3pWSWNiY04wdzhqdXM3a1UwckpPdW41X3cwcDBITXRxVnBsZUhSLU8wRHBRWTFmWEk3QnZmSEtOREdRSmRkandIVF9neVdKazVqT0FNbXNzNGZqQWMtR0oyN3JNS1Q4ZHhWcmRoSWdvNkc0M2pvUQ?oc=5",
-   "offerType": "discount",
-   "offerTypeLabel": "Discount",
-   "price": null,
-   "originalPrice": null,
-   "value": "40% off",
-   "vendor": null,
-   "approval": null,
-   "source": "The Next Web",
-   "firstSeenAt": "2026-11-01T03:56:55.120Z",
-   "publishedAt": "2026-10-28T18:20:15.000Z"
   },
   {
    "id": "0ee2c481f8b6d9e9fd53",
@@ -839,11 +822,11 @@
    "publishedAt": "2026-11-10T17:27:20.000Z"
   },
   {
-   "id": "baf34ba190ff34105187",
+   "id": "e0817258feafecdf2c74",
    "kind": "deal",
-   "title": "Globe offers free access to 11 AI tools via AI Fiesta platform during holiday season",
+   "title": "Globe is giving customers FREE access to AI Fiesta during Christmas season",
    "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeEs4TmhBTDMwLXE4YmRKWmVSWUFfaGNTa0xTNldhNDY3RjJYX2tFV3Fsd3BPTDBQZHRwZFNTY3ZfY3k3aGRvOVN2REJlT1N1NWJycjQ1aG5uZjVvWE16QVprN1hKWVF0Tk42TFNIRWlBbFNZYmtIT2lFbHRQN1N2aDd3ZUdmZzVRWlFqZU5BTFRqM0pPWUI2QzRya1lDRmpKcVB5dUdSSmJzVFcxN3ZvU1hpc2Q2TzlxSWR0RkxXNWxOTFZCaUE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSGN5TFNDTC0zbmlGUXp3X0FfcHZGRWtxbFJ4NkhXWUVDTnhPNDVfa3R3d1JfT3VFUlpwX1NwcW1za0JmQklUSGZaVU1TaXhVcU43TlRobi1jZlNXNFlxTU1IT2xLenRnbE5vdFZPVWJ2V01ycGhmS3ZuRXdibjJ5dA?oc=5",
    "offerType": "free",
    "offerTypeLabel": "Free access",
    "price": null,
@@ -851,9 +834,9 @@
    "value": null,
    "vendor": null,
    "approval": null,
-   "source": "Telecompaper",
-   "firstSeenAt": "2026-11-10T08:27:00.441Z",
-   "publishedAt": "2026-11-10T07:54:17.000Z"
+   "source": "GIZGUIDE",
+   "firstSeenAt": "2026-11-10T21:38:37.718Z",
+   "publishedAt": "2026-11-10T10:36:00.000Z"
   },
   {
    "id": "4f58846c6da10f794f23",
