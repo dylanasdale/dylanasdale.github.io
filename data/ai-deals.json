@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-11T11:15:02.596Z",
- "contentHash": "792384d434343d8c",
+ "updatedAt": "2026-11-11T17:15:02.619Z",
+ "contentHash": "586e82d2f651f32e",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -720,6 +720,23 @@
    "publishedAt": "2026-11-03T10:01:28.000Z"
   },
   {
+   "id": "712628a97457e73d96d8",
+   "kind": "deal",
+   "title": "OpenAI's ChatGPT Go now free in India: Users fume as UPI payments fail during free plan rollout",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQclVmYVVQem5xYm5WcjhwazZjem1sRVF0cWpCVlNMal8tNmpXZlJDMVhVZC1fNFVvSk9nSmREQjBQS19PanpJbWY5RTNNSC15WF9saHlTNTNwcF9teV92YlppX29FNnVkNlZoYjVRRExlQW5yRzZZVVB3LUpFSE4tcXlETTk0UVd4ck4wS0tqa0RMTDRva3g1aW9qdS12dnIwb1o2VFlfYXQtVGRvRVpZU1piUkRQOFJFNWw2S01qdDlJOXJMNEFHUzk0ODdCczZ3elIxVFIxMzNNRTlRTG9sZEFCNkZBR3ZycVZuTjNmVnFPNlZJNnfSAfsBQVVfeXFMUGUyTGhsVXVOZnNmVl9WVXlsYkJRYWo2cDUwclVsU1dJTTZhMnh6d0RNNUI0YXBCSnZNZ2l1QkI5czJhYlVaTEhlMEF3SmJJbWxOdFNMdlVwbjQ3ZUpuQ20xdlc4cUlBU1N0YlVadDBHdUIwRWIyc2hscGlKSGtLUjk1ZjQ3cXc4MGh3U2d4RWRnWmFWTld3WGc0XzJGMGxfWHpnN1picXNMOXZaRGRqNjVhX25vYzVnNDQxbGpkcHlBaFhsbkZIaE1BZXZYX3lESi1SMHRCaWFDT3E5Qk9KWXVZOHRpc1JlLW40Qmg2amEzVFM5aVg4OG9pQTg?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "The Economic Times",
+   "firstSeenAt": "2026-11-11T12:57:39.289Z",
+   "publishedAt": "2026-11-09T08:00:00.000Z"
+  },
+  {
    "id": "a5159bb31e96950409fb",
    "kind": "deal",
    "title": "Free access to ChatGPT for BYU students",
@@ -839,11 +856,11 @@
    "publishedAt": "2026-11-10T07:54:17.000Z"
   },
   {
-   "id": "18cb22e3622ff10d9c59",
+   "id": "4f58846c6da10f794f23",
    "kind": "deal",
-   "title": "Globe offers free access to AI tools for millions of Filipino customers this Christmas",
+   "title": "Globe gives customers free access to AI tools this Christmas",
    "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUxiYWRrdjJrbGdQYVlDbjRwQmJhVEloNWdXajZ4clBQbFVSWldFaGREVWtjbWIxUnkyTXg1QzRsQlE0angxY1RxdUE1NnlzR180engwWkRFYkZYXzVJeFRXdXlOeGlRV3dWaWsxbjE2SFRNeFdSZTlvRUx2cjg1bDdHTnRiNGdOR3E5c2ZnSGl4aTZiYjV0NGJlV2RORXVCbm5jTmZIcUpoN0ktSkpBaGRLX0ZFc0JlcUN5aFNwYXpKVlJmUE8tcklsR21yRmllLW9J?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xM2NDQ0d2LTVXRllab0lrSmFQOUZNWkVUNS1Tb293aS03cXNOcG53dFlJSExlNTM5X1BVNjBYbHFYTzc1V01mQlN3LWwyY3NpRFJ5b092S3MyU29QZ2phMmFaUm5GU09HZlhaRUQ3UQ?oc=5",
    "offerType": "free",
    "offerTypeLabel": "Free access",
    "price": null,
@@ -851,9 +868,9 @@
    "value": null,
    "vendor": null,
    "approval": null,
-   "source": "Manila Standard",
-   "firstSeenAt": "2026-11-09T17:19:21.081Z",
-   "publishedAt": "2026-11-09T08:21:20.000Z"
+   "source": "Speed",
+   "firstSeenAt": "2026-11-10T08:27:00.441Z",
+   "publishedAt": "2026-11-10T01:31:48.000Z"
   },
   {
    "id": "7a614b1fb5326a356d88",
