@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-12T05:15:03.040Z",
- "contentHash": "f826cd79bc02ebf3",
+ "updatedAt": "2026-11-12T11:15:02.641Z",
+ "contentHash": "2868382657077387",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -341,6 +341,23 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-28T17:09:43.382Z",
+   "publishedAt": null
+  },
+  {
+   "id": "5a7eae75b76fd41094fe",
+   "kind": "deal",
+   "title": "Kortex: lifetime deal — $49",
+   "summary": "Capture AI chats, export sources, and automate NotebookLM workflows from one Chrome extension Rated 3.6/5 by 25 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/kortex/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 49,
+   "originalPrice": 99,
+   "value": "$49",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-10-23T19:50:08.064Z",
    "publishedAt": null
   },
   {
@@ -822,11 +839,11 @@
    "publishedAt": "2026-11-10T10:36:00.000Z"
   },
   {
-   "id": "4f58846c6da10f794f23",
+   "id": "18cb22e3622ff10d9c59",
    "kind": "deal",
-   "title": "Globe gives customers free access to AI tools this Christmas",
+   "title": "Globe offers free access to AI tools for millions of Filipino customers this Christmas",
    "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xM2NDQ0d2LTVXRllab0lrSmFQOUZNWkVUNS1Tb293aS03cXNOcG53dFlJSExlNTM5X1BVNjBYbHFYTzc1V01mQlN3LWwyY3NpRFJ5b092S3MyU29QZ2phMmFaUm5GU09HZlhaRUQ3UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUxiYWRrdjJrbGdQYVlDbjRwQmJhVEloNWdXajZ4clBQbFVSWldFaGREVWtjbWIxUnkyTXg1QzRsQlE0angxY1RxdUE1NnlzR180engwWkRFYkZYXzVJeFRXdXlOeGlRV3dWaWsxbjE2SFRNeFdSZTlvRUx2cjg1bDdHTnRiNGdOR3E5c2ZnSGl4aTZiYjV0NGJlV2RORXVCbm5jTmZIcUpoN0ktSkpBaGRLX0ZFc0JlcUN5aFNwYXpKVlJmUE8tcklsR21yRmllLW9J?oc=5",
    "offerType": "free",
    "offerTypeLabel": "Free access",
    "price": null,
@@ -834,9 +851,9 @@
    "value": null,
    "vendor": null,
    "approval": null,
-   "source": "Speed",
-   "firstSeenAt": "2026-11-10T08:27:00.441Z",
-   "publishedAt": "2026-11-10T01:31:48.000Z"
+   "source": "Manila Standard",
+   "firstSeenAt": "2026-11-09T17:19:21.081Z",
+   "publishedAt": "2026-11-09T08:21:20.000Z"
   },
   {
    "id": "7a614b1fb5326a356d88",
