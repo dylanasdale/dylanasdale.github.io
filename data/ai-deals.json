@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-12T17:15:02.577Z",
- "contentHash": "95943afe41ac3c9e",
+ "updatedAt": "2026-11-12T23:15:02.424Z",
+ "contentHash": "76d635acd093d887",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -873,6 +873,23 @@
    "publishedAt": "2026-10-20T12:45:55.000Z"
   },
   {
+   "id": "8d7d4c332de43a0ad215",
+   "kind": "deal",
+   "title": "Show HN: Postman but a free 5MB iOS and Mac client with iCloud synch",
+   "summary": "I Got tired of giving up 500Mb or RAM to test APIs. I made my own the based on how I use the app. It close to parity with postman and also has an MCP server so claude and manage my test suites.",
+   "url": "https://pokharel.net/2026/11/12/api-man-a-native-ios-mac-postman-like-client-without-electron/",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Hacker News",
+   "firstSeenAt": "2026-11-12T22:14:43.839Z",
+   "publishedAt": "2026-11-12T21:59:20.000Z"
+  },
+  {
    "id": "66b780989f7f8b72ae3b",
    "kind": "deal",
    "title": "Vancouver’s Unbounce Adds AI Page Builder and Gives Current Customers Free Credits",
@@ -973,6 +990,23 @@
    "source": "Hacker News",
    "firstSeenAt": "2026-10-28T16:09:13.884Z",
    "publishedAt": "2026-10-28T08:18:29.000Z"
+  },
+  {
+   "id": "4b3e1083d1f9c4b50f72",
+   "kind": "deal",
+   "title": "TalkingTech – Free MCP server and API for engineering leadership content",
+   "summary": "",
+   "url": "https://talkingtech.online",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Hacker News",
+   "firstSeenAt": "2026-11-12T21:14:07.859Z",
+   "publishedAt": "2026-11-12T21:03:02.000Z"
   },
   {
    "id": "4f09a4cdee01e25f2670",
