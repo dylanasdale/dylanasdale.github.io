@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-12T11:15:02.641Z",
- "contentHash": "2868382657077387",
+ "updatedAt": "2026-11-12T17:15:02.577Z",
+ "contentHash": "95943afe41ac3c9e",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -293,40 +293,6 @@
    "publishedAt": null
   },
   {
-   "id": "d79de6dce80db5ce91d0",
-   "kind": "deal",
-   "title": "Hyperleap AI: lifetime deal — $39",
-   "summary": "Capture, qualify, and book leads 24/7 with an AI chatbot for your website, WhatsApp, and Instagram Rated 4.0/5 by 1 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/hyperleap-ai/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 39,
-   "originalPrice": 0,
-   "value": "$39",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-02T19:06:50.039Z",
-   "publishedAt": null
-  },
-  {
-   "id": "537241998f00984f3a18",
-   "kind": "deal",
-   "title": "Yoya: lifetime deal — $39",
-   "summary": "Schedule meetings with an AI assistant that chats with guests and preps a brief before every call Rated 4.0/5 by 1 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/yoya/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 39,
-   "originalPrice": 588,
-   "value": "$39",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-02T19:06:50.039Z",
-   "publishedAt": null
-  },
-  {
    "id": "21684173df2c89362925",
    "kind": "deal",
    "title": "Webclaw: lifetime deal — $59",
@@ -579,23 +545,6 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-11-04T21:46:54.513Z",
-   "publishedAt": null
-  },
-  {
-   "id": "64424471ad18872d6545",
-   "kind": "deal",
-   "title": "BookZero: lifetime deal — $39",
-   "summary": "Automate bookkeeping and tax categorization for the US and Canada with this AI receipt scanner",
-   "url": "https://appsumo.com/products/bookzero/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 39,
-   "originalPrice": 0,
-   "value": "$39",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-30T18:16:32.310Z",
    "publishedAt": null
   },
   {
