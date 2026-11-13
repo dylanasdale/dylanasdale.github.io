@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-12T23:15:02.424Z",
- "contentHash": "76d635acd093d887",
+ "updatedAt": "2026-11-13T17:15:02.701Z",
+ "contentHash": "2c2918acfe124255",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -174,23 +174,6 @@
    "publishedAt": "2026-11-01T17:25:00.000Z"
   },
   {
-   "id": "b452ef70de4dcf0eec69",
-   "kind": "deal",
-   "title": "Stop copying prompts between AI chatbots with this $79 lifetime deal",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONXNOR3d2UHFYdXNvM2RESnctZWxrd212UVMtT0d6aDRmaUwtUTZvMzh3X0pieXRmS0FnczhJaU1reDNvNGZsU0FxdUZya1dOVTc3Y2gxUl9hSUFVaEZSRHkzQi1YYzBMSjd6Y0pxNHFOSU9MMVRUUnRUSkdkZXQ4dnk0QkVtQ2ttSnJZRkdEU1Q?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$79",
-   "vendor": null,
-   "approval": null,
-   "source": "Seattle Post-Intelligencer",
-   "firstSeenAt": "2026-10-30T18:16:32.310Z",
-   "publishedAt": "2026-10-30T14:37:38.000Z"
-  },
-  {
    "id": "b6a2ce351edff9d21867",
    "kind": "deal",
    "title": "Honeylog: lifetime deal — $59",
@@ -256,40 +239,6 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-11-06T15:00:46.395Z",
-   "publishedAt": null
-  },
-  {
-   "id": "251ecbe1cea03585b6f2",
-   "kind": "deal",
-   "title": "MagicCanvas: lifetime deal — $49",
-   "summary": "Tap into Google Veo, Seedance, Wan, and more with this all-in-one AI video and image generator Rated 4.5/5 by 2 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/magiccanvas/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 199,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-03T21:20:25.409Z",
-   "publishedAt": null
-  },
-  {
-   "id": "8b19018180fc97005fbc",
-   "kind": "deal",
-   "title": "XMagnet: lifetime deal — $49",
-   "summary": "Find B2B leads, write personalized cold emails, and land in the inbox with this AI outreach agent Rated 3.0/5 by 1 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/xmagnet/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 0,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-03T21:20:25.409Z",
    "publishedAt": null
   },
   {
@@ -788,11 +737,11 @@
    "publishedAt": "2026-11-10T10:36:00.000Z"
   },
   {
-   "id": "18cb22e3622ff10d9c59",
+   "id": "4f58846c6da10f794f23",
    "kind": "deal",
-   "title": "Globe offers free access to AI tools for millions of Filipino customers this Christmas",
+   "title": "Globe gives customers free access to AI tools this Christmas",
    "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUxiYWRrdjJrbGdQYVlDbjRwQmJhVEloNWdXajZ4clBQbFVSWldFaGREVWtjbWIxUnkyTXg1QzRsQlE0angxY1RxdUE1NnlzR180engwWkRFYkZYXzVJeFRXdXlOeGlRV3dWaWsxbjE2SFRNeFdSZTlvRUx2cjg1bDdHTnRiNGdOR3E5c2ZnSGl4aTZiYjV0NGJlV2RORXVCbm5jTmZIcUpoN0ktSkpBaGRLX0ZFc0JlcUN5aFNwYXpKVlJmUE8tcklsR21yRmllLW9J?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xM2NDQ0d2LTVXRllab0lrSmFQOUZNWkVUNS1Tb293aS03cXNOcG53dFlJSExlNTM5X1BVNjBYbHFYTzc1V01mQlN3LWwyY3NpRFJ5b092S3MyU29QZ2phMmFaUm5GU09HZlhaRUQ3UQ?oc=5",
    "offerType": "free",
    "offerTypeLabel": "Free access",
    "price": null,
@@ -800,9 +749,9 @@
    "value": null,
    "vendor": null,
    "approval": null,
-   "source": "Manila Standard",
-   "firstSeenAt": "2026-11-09T17:19:21.081Z",
-   "publishedAt": "2026-11-09T08:21:20.000Z"
+   "source": "Speed",
+   "firstSeenAt": "2026-11-10T08:27:00.441Z",
+   "publishedAt": "2026-11-10T01:31:48.000Z"
   },
   {
    "id": "7a614b1fb5326a356d88",
@@ -1107,6 +1056,23 @@
    "originalPrice": null,
    "value": "Up to $5,000",
    "vendor": "AgentGrown",
+   "approval": "Most Qualify",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "74e22d4ce8538ec5a02f",
+   "kind": "program",
+   "title": "MongoDB startup program",
+   "summary": "Document database and Atlas cloud",
+   "url": "https://creditforstartups.com/companies/mongodb",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "Varies",
+   "vendor": "MongoDB",
    "approval": "Open to All",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
@@ -1124,7 +1090,7 @@
    "originalPrice": null,
    "value": "$12,000",
    "vendor": "Notion",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1141,7 +1107,7 @@
    "originalPrice": null,
    "value": "$30,000",
    "vendor": "Runware",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1158,6 +1124,23 @@
    "originalPrice": null,
    "value": "$100,000+",
    "vendor": "Zendesk",
+   "approval": "Most Qualify",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "5fd9b6b2bca6a68fa00e",
+   "kind": "program",
+   "title": "Cloudvisor startup program",
+   "summary": "AWS partner for credits and cloud costs",
+   "url": "https://creditforstartups.com/companies/cloudvisor",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "$10,000",
+   "vendor": "Cloudvisor",
    "approval": "Open to All",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
@@ -1181,6 +1164,23 @@
    "publishedAt": null
   },
   {
+   "id": "27178b72f581d87f7958",
+   "kind": "program",
+   "title": "Sentry startup program",
+   "summary": "Error tracking and app monitoring",
+   "url": "https://creditforstartups.com/companies/sentry",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "$5,000",
+   "vendor": "Sentry",
+   "approval": "Open to All",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
    "id": "44193ccda1b4febaac31",
    "kind": "program",
    "title": "Shor startup program",
@@ -1193,6 +1193,23 @@
    "value": "$12,000+ a year in free enterprise support",
    "vendor": "Shor",
    "approval": "Check eligibility",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "6eda55d6c1e82840c901",
+   "kind": "program",
+   "title": "WorkOS startup program",
+   "summary": "Enterprise auth and user management",
+   "url": "https://creditforstartups.com/companies/workos",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "Varies",
+   "vendor": "WorkOS",
+   "approval": "Open to All",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1226,7 +1243,7 @@
    "originalPrice": null,
    "value": "$10,000",
    "vendor": "Algolia",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1243,9 +1260,26 @@
    "originalPrice": null,
    "value": "$200,000",
    "vendor": "AWS",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "4e96243c4a33f6d64e8f",
+   "kind": "program",
+   "title": "Clowdey startup program",
+   "summary": "Clowdey applies for AWS credits for you, free: $25,000 with a pitch deck, up to $100,000 for funded startups. Fill in a 5‑minute form; Clowdey handles eligibility, the application and every AWS follow-up.",
+   "url": "https://creditforstartups.com/companies/clowdey",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "$100,000",
+   "vendor": "Clowdey",
+   "approval": "Most Qualify",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-11-13T00:15:45.772Z",
    "publishedAt": null
   },
   {
@@ -1260,7 +1294,7 @@
    "originalPrice": null,
    "value": "$200,000",
    "vendor": "Databricks",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1277,7 +1311,7 @@
    "originalPrice": null,
    "value": "$5,500+",
    "vendor": "ElevenLabs",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1294,7 +1328,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "Fireworks AI",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1311,7 +1345,7 @@
    "originalPrice": null,
    "value": "$10,000",
    "vendor": "GitHub",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1379,7 +1413,7 @@
    "originalPrice": null,
    "value": "$25,000",
    "vendor": "Intercom",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1396,7 +1430,7 @@
    "originalPrice": null,
    "value": "$150,000",
    "vendor": "Microsoft",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1413,24 +1447,7 @@
    "originalPrice": null,
    "value": "$3,000",
    "vendor": "Mintlify",
-   "approval": "Conditions",
-   "source": "Credit for Startups",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
-   "id": "74e22d4ce8538ec5a02f",
-   "kind": "program",
-   "title": "MongoDB startup program",
-   "summary": "Document database and Atlas cloud",
-   "url": "https://creditforstartups.com/companies/mongodb",
-   "offerType": "program",
-   "offerTypeLabel": "Startup program",
-   "price": null,
-   "originalPrice": null,
-   "value": "Varies",
-   "vendor": "MongoDB",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1481,7 +1498,7 @@
    "originalPrice": null,
    "value": "$20,000",
    "vendor": "Neo4j",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1498,7 +1515,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "NVIDIA Inception",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1515,7 +1532,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "OpenAI",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1532,7 +1549,7 @@
    "originalPrice": null,
    "value": "$5,000",
    "vendor": "Perplexity AI",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1549,7 +1566,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "Pinecone",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1583,7 +1600,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "SpaceXSI",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-23T14:47:33.300Z",
    "publishedAt": null
@@ -1617,7 +1634,7 @@
    "originalPrice": null,
    "value": "$30,000",
    "vendor": "Vercel",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1668,7 +1685,7 @@
    "originalPrice": null,
    "value": "Free for 1 year",
    "vendor": "Amplitude",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1719,7 +1736,7 @@
    "originalPrice": null,
    "value": "$50,000",
    "vendor": "Atlassian",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1753,7 +1770,7 @@
    "originalPrice": null,
    "value": "$30,000",
    "vendor": "Auth0",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1844,23 +1861,6 @@
    "publishedAt": null
   },
   {
-   "id": "5fd9b6b2bca6a68fa00e",
-   "kind": "program",
-   "title": "Cloudvisor startup program",
-   "summary": "AWS partner for credits and cloud costs",
-   "url": "https://creditforstartups.com/companies/cloudvisor",
-   "offerType": "program",
-   "offerTypeLabel": "Startup program",
-   "price": null,
-   "originalPrice": null,
-   "value": "$10,000",
-   "vendor": "Cloudvisor",
-   "approval": "Conditions",
-   "source": "Credit for Startups",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
    "id": "6d299841f6691ca0bde0",
    "kind": "program",
    "title": "CodeRabbit startup program",
@@ -1906,7 +1906,7 @@
    "originalPrice": null,
    "value": "$15,000",
    "vendor": "Customer.io",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1923,7 +1923,7 @@
    "originalPrice": null,
    "value": "$100,000",
    "vendor": "Datadog",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -1940,7 +1940,7 @@
    "originalPrice": null,
    "value": "$5,000",
    "vendor": "Deel",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2042,7 +2042,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "HubSpot",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2110,7 +2110,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "Linear",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2144,7 +2144,7 @@
    "originalPrice": null,
    "value": "$145,000",
    "vendor": "Mixpanel",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2161,7 +2161,24 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "MojoAuth",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
+   "source": "Credit for Startups",
+   "firstSeenAt": "2026-10-22T14:35:11.982Z",
+   "publishedAt": null
+  },
+  {
+   "id": "2993ba81f9b353b419c4",
+   "kind": "program",
+   "title": "Neon startup program",
+   "summary": "Serverless Postgres",
+   "url": "https://creditforstartups.com/companies/neon",
+   "offerType": "program",
+   "offerTypeLabel": "Startup program",
+   "price": null,
+   "originalPrice": null,
+   "value": "$200,000",
+   "vendor": "Neon",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2178,7 +2195,7 @@
    "originalPrice": null,
    "value": "$50,000",
    "vendor": "Nirvana Labs",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-11-06T22:04:08.336Z",
    "publishedAt": null
@@ -2331,7 +2348,7 @@
    "originalPrice": null,
    "value": "$25,000",
    "vendor": "Resend",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2416,7 +2433,7 @@
    "originalPrice": null,
    "value": "$2,000",
    "vendor": "Salad",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2450,24 +2467,7 @@
    "originalPrice": null,
    "value": "$9,000",
    "vendor": "Sanity",
-   "approval": "Conditions",
-   "source": "Credit for Startups",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
-   "id": "27178b72f581d87f7958",
-   "kind": "program",
-   "title": "Sentry startup program",
-   "summary": "Error tracking and app monitoring",
-   "url": "https://creditforstartups.com/companies/sentry",
-   "offerType": "program",
-   "offerTypeLabel": "Startup program",
-   "price": null,
-   "originalPrice": null,
-   "value": "$5,000",
-   "vendor": "Sentry",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2484,7 +2484,7 @@
    "originalPrice": null,
    "value": "$5,000",
    "vendor": "Shortcut",
-   "approval": "Conditions",
+   "approval": "Most Qualify",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2552,7 +2552,7 @@
    "originalPrice": null,
    "value": "$10,000",
    "vendor": "Supabase",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2569,7 +2569,7 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "Tally",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2609,23 +2609,6 @@
    "publishedAt": null
   },
   {
-   "id": "6eda55d6c1e82840c901",
-   "kind": "program",
-   "title": "WorkOS startup program",
-   "summary": "Enterprise auth and user management",
-   "url": "https://creditforstartups.com/companies/workos",
-   "offerType": "program",
-   "offerTypeLabel": "Startup program",
-   "price": null,
-   "originalPrice": null,
-   "value": "Varies",
-   "vendor": "WorkOS",
-   "approval": "Conditions",
-   "source": "Credit for Startups",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
    "id": "d9306478d493798b63bf",
    "kind": "program",
    "title": "Xero startup program",
@@ -2654,7 +2637,7 @@
    "originalPrice": null,
    "value": "$5,400",
    "vendor": "Zoom",
-   "approval": "Conditions",
+   "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
    "publishedAt": null
@@ -2671,23 +2654,6 @@
    "originalPrice": null,
    "value": "Varies",
    "vendor": "Modal",
-   "approval": "VC-Backed",
-   "source": "Credit for Startups",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": null
-  },
-  {
-   "id": "2993ba81f9b353b419c4",
-   "kind": "program",
-   "title": "Neon startup program",
-   "summary": "Serverless Postgres",
-   "url": "https://creditforstartups.com/companies/neon",
-   "offerType": "program",
-   "offerTypeLabel": "Startup program",
-   "price": null,
-   "originalPrice": null,
-   "value": "$200,000",
-   "vendor": "Neon",
    "approval": "VC-Backed",
    "source": "Credit for Startups",
    "firstSeenAt": "2026-10-22T14:35:11.982Z",
