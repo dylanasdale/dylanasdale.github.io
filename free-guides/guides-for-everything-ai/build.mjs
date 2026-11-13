@@ -540,8 +540,7 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
     'ai-privacy-security': 'Work smarter',
     'ai-trading': 'Explore',
   };
-  const baseSlug = (slug) => slug.replace(/-grok$/, '');
-  const topicFor = (manual) => topicBySlug[baseSlug(manual.slug)] || 'Explore';
+  const topicFor = (manual) => topicBySlug[manual.slug] || 'Explore';
   const topics = [...new Set(manuals.map(topicFor))];
   const filters = [
     '<button class="filter" type="button" data-filter="all" aria-pressed="true">All guides</button>',
@@ -549,27 +548,19 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
   ].join('\n');
   const mb = (bytes) => `${(bytes / 1048576).toFixed(1)} MB`;
   const volLabel = (v) => (v != null ? `Vol. ${String(v).padStart(2, '0')}` : '');
-  const edClass = (m) => (/claude/i.test(m.edition_label || '') ? 'ed-claude' : 'ed-grok');
-  const isClaude = (m) => edClass(m) === 'ed-claude';
+  const edClass = (m) => (/claude/i.test(m.edition_label || '') ? 'ed-claude' : '');
   const byVol = new Map();
   for (const m of manuals) {
     const k = m.volume ?? `x-${m.slug}`;
     if (!byVol.has(k)) byVol.set(k, []);
     byVol.get(k).push(m);
   }
-  const twinOf = (m) => (byVol.get(m.volume ?? `x-${m.slug}`) || []).find((o) => o !== m);
-  // style: 'feature' = the Claude shelf (large covers), 'row' = the compact Grok shelf at the bottom.
+  // style: 'feature' = large covers (the only shelf today); 'row' = compact rows, kept for a future second shelf.
   const card = (m, style) => {
     const topic = topicFor(m);
     const label = m.edition_label || '';
     const searchText = `${m.title} ${m.subtitle} ${topic} ${label} Vol ${m.volume ?? ''}`.toLowerCase();
     const fullTitle = label ? `${m.title} (${label})` : m.title;
-    const twin = twinOf(m);
-    const twinLink = twin && isClaude(m)
-      ? `<a class="twin" href="#ed-${twin.slug}">Also in the ${escapeHtml(twin.edition_label || 'other edition')} · ${twin.pages} pages</a>`
-      : twin
-        ? `<a class="twin" href="#ed-${twin.slug}">${escapeHtml(twin.edition_label || 'Other edition')}: ${twin.pages} pages</a>`
-        : '';
     return `<li class="book book-${style} ${edClass(m)}" id="ed-${m.slug}" style="--book: ${escapeHtml(m.accent)}" data-topic="${escapeHtml(topic)}" data-search="${escapeHtml(searchText)}">
   <a class="cover" href="${pdfHref(m.slug)}" aria-label="Open ${escapeHtml(fullTitle)} (PDF)"><img src="output/covers/${m.slug}.jpg" alt="Cover of ${escapeHtml(fullTitle)}" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
@@ -583,50 +574,26 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
       <a class="btn primary" href="${pdfHref(m.slug)}">Read<span class="sr-only"> ${escapeHtml(fullTitle)}</span></a>
       <a class="btn" href="${downloadHref(m.slug)}" download>Download<span class="sr-only"> ${escapeHtml(fullTitle)}</span></a>
     </div>
-    ${twinLink}
   </div>
 </li>`;
   };
-  const claude = manuals.filter(isClaude);
-  const grok = manuals.filter((m) => !isClaude(m));
-  const grokTwins = grok.filter((m) => twinOf(m));
-  const grokOnly = grok.filter((m) => !twinOf(m));
   const range = (list) => { const vs = list.map((m) => m.volume).filter((v) => v != null); return vs.length ? `${Math.min(...vs)}–${Math.max(...vs)}` : ''; };
-  const claudeShelf = claude.length
+  const shelves = manuals.length
     ? `<section class="edition-shelf claude-shelf" data-shelf aria-labelledby="claude-title">
   <div class="edition-head">
-    <h2 id="claude-title">The Claude Edition <span class="h-range">Vols ${range(claude)}</span></h2>
+    <h2 id="claude-title">The Claude Edition <span class="h-range">Vols ${range(manuals)}</span></h2>
     <p class="shelf-note">The expanded edition of the core library, written by Claude (Anthropic's AI) in Claude Code. Each volume is a complete, print-ready manual.</p>
   </div>
   <ol class="shelf shelf-feature">
-${claude.map((m) => card(m, 'feature')).join('\n')}
+${manuals.map((m) => card(m, 'feature')).join('\n')}
   </ol>
 </section>`
     : '';
-  const grokShelf = grok.length
-    ? `<section class="edition-shelf grok-shelf" data-shelf aria-labelledby="grok-title">
-  <div class="edition-head">
-    <h2 id="grok-title">The Grok Edition</h2>
-    <p class="shelf-note">Written and fact-checked by Grok Bot: concise versions of Vols ${range(grokTwins)} and the new Vols ${range(grokOnly)}. Every manual is clearly labelled with its edition.</p>
-  </div>
-  ${grokTwins.length ? `<div class="subshelf" data-shelf><h3 class="shelf-title">Vols ${range(grokTwins)}, concise editions</h3>
-  <ol class="shelf shelf-row">
-${grokTwins.map((m) => card(m, 'row')).join('\n')}
-  </ol></div>` : ''}
-  ${grokOnly.length ? `<div class="subshelf" data-shelf><h3 class="shelf-title">Vols ${range(grokOnly)}, new volumes</h3>
-  <ol class="shelf shelf-row">
-${grokOnly.map((m) => card(m, 'row')).join('\n')}
-  </ol></div>` : ''}
-</section>`
-    : '';
-  const shelves = claudeShelf + '\n' + grokShelf;
   const editions = [...new Set(manuals.map((m) => m.edition).filter(Boolean))];
   const vars = {
     cards: shelves,
     shelves,
-    claude_shelf: claudeShelf,
-    grok_shelf: grokShelf,
-    claude_pages: String(claude.reduce((n, m) => n + m.pages, 0)),
+    claude_shelf: shelves,
     filters,
     count: String(manuals.length),
     volumes: String(byVol.size),

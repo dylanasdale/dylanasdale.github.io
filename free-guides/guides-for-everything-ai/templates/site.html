@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Guides for Everything · Field manuals for the AI era</title>
 <meta name="theme-color" content="#07060a">
-<meta name="description" content="Free, print-ready beginner manuals for Claude Code, GitHub, vibe coding, AI tools, MCP, n8n, Notion and more. The Claude Edition of Vols 1–10 leads; the Grok Edition follows with concise versions and Vols 11–21.">
+<meta name="description" content="Free, print-ready beginner manuals for Claude Code, GitHub, vibe coding, AI tools, MCP, n8n, Notion and more.">
 <link rel="canonical" href="https://asdaledynamics.com/free-guides/guides-for-everything-ai/">
 <meta property="og:url" content="https://asdaledynamics.com/free-guides/guides-for-everything-ai/">
 <link rel="preload" href="assets/fonts/BluuNext-Bold.woff2" as="font" type="font/woff2" crossorigin>
@@ -34,7 +34,6 @@
   --pink-ink: #12030b;
   --pink-soft: #ff8cc6;
   --claude-bg: rgb(255 63 164 / .14);
-  --grok-fg: #ddd3da; --grok-bg: rgb(255 255 255 / .08);
   --display: 'Bluu Next', 'Didot', 'Bodoni 72', Georgia, serif;
   --titling: 'Bluu Next Titling', 'Bluu Next', Georgia, serif;
   --body: 'Hanken Grotesk', 'Helvetica Neue', 'Segoe UI', system-ui, sans-serif;
@@ -123,7 +122,6 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
 .edition-tag { display: inline-flex; align-items: center; gap: 6px; width: fit-content; margin: 0; padding: 3px 10px 3px 8px; border-radius: 999px; font: 600 11px/1.4 var(--body); letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
 .edition-tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 .ed-claude .edition-tag { color: var(--pink-soft); background: var(--claude-bg); }
-.ed-grok .edition-tag { color: var(--grok-fg); background: var(--grok-bg); }
 
 .cover { display: block; position: relative; aspect-ratio: 8.5/11; border-radius: 3px 7px 7px 3px; overflow: hidden; background: #f4f0f2; box-shadow: 0 4px 8px rgb(0 0 0 / .5), 0 18px 34px -12px rgb(0 0 0 / .85); transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1); }
 .cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -145,9 +143,6 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
 .book-feature { display: grid; gap: var(--s4); align-content: start; }
 .book-feature .ed-note { display: none; }
 
-/* the Grok shelf: compact rows on dark glass */
-.grok-shelf { margin-top: var(--s9); padding: 48px 32px 32px; border: 1px solid var(--line); border-radius: 26px; background: var(--glass); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
-.grok-shelf .shelf-title:first-of-type { margin-top: var(--s5); }
 .shelf-row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5); }
 .book-row { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: var(--s4); align-items: start; padding: var(--s4); border: 1px solid var(--line); border-radius: 14px; background: rgb(7 6 10 / .45); }
 .book-row .book-title { font-size: 19px; }
@@ -193,7 +188,6 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
   .shelf-feature { grid-template-columns: minmax(0, 1fr); gap: var(--s6); }
   .book-feature { grid-template-columns: 112px minmax(0, 1fr); gap: var(--s4); align-items: start; }
   .shelf-row { grid-template-columns: minmax(0, 1fr); gap: var(--s3); }
-  .grok-shelf { margin-inline: -8px; padding-inline: 14px; border-radius: 20px; }
   .actions .btn { min-height: 44px; flex: 1 1 auto; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -219,7 +213,7 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
       <p class="lede">Free, print-ready guides to Claude Code, GitHub, MCP and the tools around them. Written for beginners, checked against the official docs.</p>
       <div class="hero-actions">
         <a class="btn primary" href="#library">Start reading <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2.5v11M3.5 9 8 13.5 12.5 9"/></svg></a>
-        <p class="tally"><b>{{volumes}}</b> volumes · <b>{{count}}</b> editions · <b>{{total_pages}}</b> pages, all free</p>
+        <p class="tally"><b>{{volumes}}</b> volumes · <b>{{total_pages}}</b> pages, all free</p>
       </div>
     </div>
     <div class="fan" aria-hidden="true">
@@ -263,7 +257,6 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
     </section>
   </section>
 
-{{grok_shelf}}
 </main>
 
 <footer class="wrap foot">

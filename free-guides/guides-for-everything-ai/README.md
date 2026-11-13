@@ -6,49 +6,28 @@ Each manual gets a designed cover, an inside cover with a reading legend, a tabl
 
 ## The manuals
 
-Vols 1–10 come in **two editions**, published side by side and labelled on every cover, title page and page footer:
-
-- **Claude Edition**: the expanded edition (roughly 100–150 pages each), written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4. It keeps the original file names, so older links still work.
-- **Grok Edition**: the concise edition (roughly 40–90 pages each), revised and fact-checked by Grok Bot in GrokAllManualsV1. Its files end in `-grok`.
-
-Vols 11–21 exist in the Grok Edition only, written by Grok Bot.
-
-### Vols 1–10: two editions
-
-| # | Manual | Claude Edition | Grok Edition |
-|---|---|---|---|
-| 1 | Claude Code | [`content/claude-code.md`](content/claude-code.md) · [PDF](output/claude-code.pdf) | [`content/claude-code-grok.md`](content/claude-code-grok.md) · [PDF](output/claude-code-grok.pdf) |
-| 2 | GitHub | [`content/github.md`](content/github.md) · [PDF](output/github.pdf) | [`content/github-grok.md`](content/github-grok.md) · [PDF](output/github-grok.pdf) |
-| 3 | Vibe Coding | [`content/vibe-coding.md`](content/vibe-coding.md) · [PDF](output/vibe-coding.pdf) | [`content/vibe-coding-grok.md`](content/vibe-coding-grok.md) · [PDF](output/vibe-coding-grok.pdf) |
-| 4 | Everyday AI Tools | [`content/ai-tools.md`](content/ai-tools.md) · [PDF](output/ai-tools.pdf) | [`content/ai-tools-grok.md`](content/ai-tools-grok.md) · [PDF](output/ai-tools-grok.pdf) |
-| 5 | MCP (Model Context Protocol) | [`content/mcp.md`](content/mcp.md) · [PDF](output/mcp.pdf) | [`content/mcp-grok.md`](content/mcp-grok.md) · [PDF](output/mcp-grok.pdf) |
-| 6 | n8n | [`content/n8n.md`](content/n8n.md) · [PDF](output/n8n.pdf) | [`content/n8n-grok.md`](content/n8n-grok.md) · [PDF](output/n8n-grok.pdf) |
-| 7 | Notion | [`content/notion.md`](content/notion.md) · [PDF](output/notion.pdf) | [`content/notion-grok.md`](content/notion-grok.md) · [PDF](output/notion-grok.pdf) |
-| 8 | Maximum Autonomy | [`content/maximum-autonomy.md`](content/maximum-autonomy.md) · [PDF](output/maximum-autonomy.pdf) | [`content/maximum-autonomy-grok.md`](content/maximum-autonomy-grok.md) · [PDF](output/maximum-autonomy-grok.pdf) |
-| 9 | AI Tools, Connectors & MCP Directory | [`content/ai-tools-directory.md`](content/ai-tools-directory.md) · [PDF](output/ai-tools-directory.pdf) | [`content/ai-tools-directory-grok.md`](content/ai-tools-directory-grok.md) · [PDF](output/ai-tools-directory-grok.pdf) |
-| 10 | Autonomous AI Trading | [`content/ai-trading.md`](content/ai-trading.md) · [PDF](output/ai-trading.pdf) | [`content/ai-trading-grok.md`](content/ai-trading-grok.md) · [PDF](output/ai-trading-grok.pdf) |
-
-### Vols 11–21: Grok Edition
+The library has ten volumes, all in the **Claude Edition**: expanded manuals (roughly 110–200 pages each) written by Claude (Anthropic's AI) in Claude Code. The edition name is printed on every cover, title page and page footer.
 
 | # | Manual | Source | PDF |
 |---|---|---|---|
-| 11 | Running AI Locally | [`content/local-ai.md`](content/local-ai.md) | [`output/local-ai.pdf`](output/local-ai.pdf) |
-| 12 | Custom GPTs, Gems & Claude Projects | [`content/custom-assistants.md`](content/custom-assistants.md) | [`output/custom-assistants.pdf`](output/custom-assistants.pdf) |
-| 13 | AI Agents & Multi-Agent Workflows | [`content/ai-agents.md`](content/ai-agents.md) | [`output/ai-agents.pdf`](output/ai-agents.pdf) |
-| 14 | Python for AI Beginners | [`content/python-ai.md`](content/python-ai.md) | [`output/python-ai.pdf`](output/python-ai.pdf) |
-| 15 | AI APIs & Costs | [`content/ai-apis.md`](content/ai-apis.md) | [`output/ai-apis.pdf`](output/ai-apis.pdf) |
-| 16 | Zapier & Make | [`content/zapier-make.md`](content/zapier-make.md) | [`output/zapier-make.pdf`](output/zapier-make.pdf) |
-| 17 | AI for Personal Finance & Admin | [`content/ai-personal-finance.md`](content/ai-personal-finance.md) | [`output/ai-personal-finance.pdf`](output/ai-personal-finance.pdf) |
-| 18 | AI Privacy & Security | [`content/ai-privacy-security.md`](content/ai-privacy-security.md) | [`output/ai-privacy-security.pdf`](output/ai-privacy-security.pdf) |
-| 19 | AI for Healthcare Workers | [`content/ai-healthcare.md`](content/ai-healthcare.md) | [`output/ai-healthcare.pdf`](output/ai-healthcare.pdf) |
-| 20 | Get the Most from Every AI Plan | [`content/prompt-maximization.md`](content/prompt-maximization.md) | [`output/prompt-maximization.pdf`](output/prompt-maximization.pdf) |
-| 21 | AWS for Beginners | [`content/aws-beginners.md`](content/aws-beginners.md) | [`output/aws-beginners.pdf`](output/aws-beginners.pdf) |
+| 1 | Claude Code | [`content/claude-code.md`](content/claude-code.md) | [`output/claude-code.pdf`](output/claude-code.pdf) |
+| 2 | GitHub | [`content/github.md`](content/github.md) | [`output/github.pdf`](output/github.pdf) |
+| 3 | Vibe Coding | [`content/vibe-coding.md`](content/vibe-coding.md) | [`output/vibe-coding.pdf`](output/vibe-coding.pdf) |
+| 4 | Everyday AI Tools | [`content/ai-tools.md`](content/ai-tools.md) | [`output/ai-tools.pdf`](output/ai-tools.pdf) |
+| 5 | MCP (Model Context Protocol) | [`content/mcp.md`](content/mcp.md) | [`output/mcp.pdf`](output/mcp.pdf) |
+| 6 | n8n | [`content/n8n.md`](content/n8n.md) | [`output/n8n.pdf`](output/n8n.pdf) |
+| 7 | Notion | [`content/notion.md`](content/notion.md) | [`output/notion.pdf`](output/notion.pdf) |
+| 8 | Maximum Autonomy | [`content/maximum-autonomy.md`](content/maximum-autonomy.md) | [`output/maximum-autonomy.pdf`](output/maximum-autonomy.pdf) |
+| 9 | AI Tools, Connectors & MCP Directory | [`content/ai-tools-directory.md`](content/ai-tools-directory.md) | [`output/ai-tools-directory.pdf`](output/ai-tools-directory.pdf) |
+| 10 | Autonomous AI Trading | [`content/ai-trading.md`](content/ai-trading.md) | [`output/ai-trading.pdf`](output/ai-trading.pdf) |
+
+The Grok Edition (concise versions of Vols 1–10, and Vols 11–21) was retired in November 2026 and is no longer published.
 
 Facts (install commands, settings, menu paths, flags, pricing) were checked against official documentation in October 2026.
 
 ## The website
 
-Every build also writes **`index.html`**, a landing page with every manual's cover, page count, and Read/Download links, generated from `output/manifest.json` and [`templates/site.html`](templates/site.html). Covers are saved to `output/covers/`. The landing page is near-black with hot-pink accents and an animated halftone aurora (a WebGL dot grid lit by flowing pink and violet light, with a 2D glow fallback, static under reduced motion) behind the page. Headings use Bluu Next (self-hosted from `assets/fonts/`, SIL OFL 1.1, licence included) and text uses Hanken Grotesk. The Claude Edition shelf comes first and the Grok Edition sits at the bottom. The PDFs stay print-friendly white.
+Every build also writes **`index.html`**, a landing page with every manual's cover, page count, and Read/Download links, generated from `output/manifest.json` and [`templates/site.html`](templates/site.html). Covers are saved to `output/covers/`. The landing page is near-black with hot-pink accents and an animated halftone aurora (a WebGL dot grid lit by flowing pink and violet light, with a 2D glow fallback, static under reduced motion) behind the page. Headings use Bluu Next (self-hosted from `assets/fonts/`, SIL OFL 1.1, licence included) and text uses Hanken Grotesk. The PDFs stay print-friendly white.
 
 The library is published as part of Dylan's hub site at **https://asdaledynamics.com/free-guides/guides-for-everything-ai/**, served by GitHub Pages from the `main` branch of [`dylanasdale/dylanasdale.github.io`](https://github.com/dylanasdale/dylanasdale.github.io) (this folder). Rebuild here and push that repo to update it. The old addresses only redirect: **https://guidesforeverythingai.github.io/** (the [`guidesforeverythingai/guidesforeverythingai.github.io`](https://github.com/guidesforeverythingai/guidesforeverythingai.github.io) repo, whose `index.html` and `404.html` forward visitors and deep links such as `/output/<slug>.pdf` to the same path here) and `https://atlasrearden8.github.io/GuidesForEverything/`. Don't publish new builds to those repos. The top and footer navigation in `templates/site.html` comes from the hub site's `tools/sync_nav.py`, so don't edit it here. Every link on the page is relative, so the page also works if you serve this folder on its own.
 
@@ -100,7 +79,7 @@ That's it. No template or stylesheet changes are needed. Files whose names start
 | `volume` | Shows "Vol. NN" on the cover |
 | `edition` | Month the facts were checked (cover and disclaimer) |
 | `kicker`, `audience` | Small cover label and cover footer text |
-| `edition_label`, `edition_note` | Edition name (for example `Claude Edition` or `Grok Edition`) shown on the cover, the title page and every page footer, plus a one-line note on who wrote it |
+| `edition_label`, `edition_note` | Edition name (for example `Claude Edition`) shown on the cover, the title page and every page footer, plus a one-line note on who wrote it |
 | `accent`, `accent2` | Main and secondary colors |
 | `motif` | Cover art: `orbits`, `grid`, `waves`, `blocks`, `network`, `pages` |
 | `cover: dark` | Dark cover (the default is a white, toner-friendly cover) |
