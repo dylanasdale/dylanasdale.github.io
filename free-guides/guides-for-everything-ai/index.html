@@ -33,7 +33,6 @@
   --pink-hot: #ff2e88;
   --pink-ink: #12030b;
   --pink-soft: #ff8cc6;
-  --claude-bg: rgb(255 63 164 / .14);
   --display: 'Bluu Next', 'Didot', 'Bodoni 72', Georgia, serif;
   --titling: 'Bluu Next Titling', 'Bluu Next', Georgia, serif;
   --body: 'Hanken Grotesk', 'Helvetica Neue', 'Segoe UI', system-ui, sans-serif;
@@ -87,7 +86,7 @@ h1 em { font-style: italic; color: var(--pink); }
 .btn svg { width: 15px; height: 15px; }
 .hero-actions .btn { min-height: 50px; padding-inline: 26px; }
 
-/* hero visual A: a fanned stack of Claude covers in perspective */
+/* hero visual A: a fanned stack of covers in perspective */
 .fan { position: relative; height: clamp(360px, 40vw, 540px); perspective: 1800px; }
 .fan-stage { position: absolute; inset: 0; transform-style: preserve-3d; transform: rotateX(10deg) rotateY(-26deg); animation: sway 14s ease-in-out infinite alternate; }
 .fan-card { position: absolute; top: 8%; left: 18%; width: 42%; aspect-ratio: 8.5/11; border-radius: 4px 9px 9px 4px; overflow: hidden; background: #fff;
@@ -112,16 +111,13 @@ h1 em { font-style: italic; color: var(--pink); }
 
 h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-spacing: -.005em; text-wrap: balance; }
 .h-range { display: inline-block; margin-left: .35em; vertical-align: .55em; color: var(--pink-soft); font: 500 12.5px/1 var(--body); letter-spacing: .2em; text-transform: uppercase; }
-.edition-shelf { margin-top: var(--s8); }
-.edition-shelf[hidden], .subshelf[hidden], .book[hidden] { display: none; }
-.edition-head { display: grid; gap: var(--s3); margin-bottom: var(--s6); }
+.library-shelf { margin-top: var(--s8); }
+.library-shelf[hidden], .subshelf[hidden], .book[hidden] { display: none; }
+.shelf-head { display: grid; gap: var(--s3); margin-bottom: var(--s6); }
 .shelf-note { margin: 0; max-width: 62ch; color: var(--text-2); font-size: 16.5px; line-height: 1.65; }
 .shelf-title { margin: var(--s7) 0 var(--s4); font: 700 clamp(21px, 2vw, 26px)/1.2 var(--display); }
 .shelf { list-style: none; margin: 0; padding: 0; display: grid; }
 
-.edition-tag { display: inline-flex; align-items: center; gap: 6px; width: fit-content; margin: 0; padding: 3px 10px 3px 8px; border-radius: 999px; font: 600 11px/1.4 var(--body); letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
-.edition-tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-.ed-claude .edition-tag { color: var(--pink-soft); background: var(--claude-bg); }
 
 .cover { display: block; position: relative; aspect-ratio: 8.5/11; border-radius: 3px 7px 7px 3px; overflow: hidden; background: #f4f0f2; box-shadow: 0 4px 8px rgb(0 0 0 / .5), 0 18px 34px -12px rgb(0 0 0 / .85); transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1); }
 .cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -131,23 +127,20 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
 .vol { margin: 0; color: var(--text-3); font: 500 11.5px/1.3 var(--body); letter-spacing: .2em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
 .book-title { margin: 0; font: 700 24px/1.12 var(--display); text-wrap: balance; }
 .sub { margin: 0; color: var(--text-2); font-size: 15px; line-height: 1.5; text-wrap: pretty; }
-.ed-note { margin: 0; color: var(--text-3); font-size: 13.5px; line-height: 1.5; }
 .meta { margin: 0; color: var(--text-3); font-size: 13.5px; font-variant-numeric: tabular-nums; }
 .actions { display: flex; gap: var(--s2); flex-wrap: wrap; margin-top: var(--s2); }
 .actions .btn { min-height: 40px; padding-inline: 16px; font-size: 11.5px; }
 .twin { width: fit-content; color: var(--text-3); font-size: 13.5px; text-decoration: underline; text-decoration-color: rgb(255 140 198 / .4); }
 .twin:hover { color: var(--pink-soft); }
 
-/* the Claude shelf: covers lead, five across */
+/* the library shelf: covers lead, five across */
 .shelf-feature { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--s7) var(--s5); }
 .book-feature { display: grid; gap: var(--s4); align-content: start; }
-.book-feature .ed-note { display: none; }
 
 .shelf-row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5); }
 .book-row { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: var(--s4); align-items: start; padding: var(--s4); border: 1px solid var(--line); border-radius: 14px; background: rgb(7 6 10 / .45); }
 .book-row .book-title { font-size: 19px; }
 .book-row .sub { font-size: 14px; }
-.book-row .ed-note { display: none; }
 .book-row .actions .btn { min-height: 38px; padding-inline: 14px; }
 
 .empty { display: none; margin-top: var(--s5); padding: var(--s7) var(--s5); border: 1px dashed var(--line-ctl); border-radius: var(--r); color: var(--text-2); text-align: center; }
@@ -213,7 +206,7 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
       <p class="lede">Free, print-ready guides to Claude Code, GitHub, MCP and the tools around them. Written for beginners, checked against the official docs.</p>
       <div class="hero-actions">
         <a class="btn primary" href="#library">Start reading <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2.5v11M3.5 9 8 13.5 12.5 9"/></svg></a>
-        <p class="tally"><b>10</b> volumes · <b>1444</b> pages, all free</p>
+        <p class="tally"><b>21</b> volumes · <b>1956</b> pages, all free</p>
       </div>
     </div>
     <div class="fan" aria-hidden="true">
@@ -243,159 +236,282 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
     </label>
   </div>
   <p class="results" id="guide-results" role="status" aria-live="polite"></p>
-<section class="edition-shelf claude-shelf" data-shelf aria-labelledby="claude-title">
-  <div class="edition-head">
-    <h2 id="claude-title">The Claude Edition <span class="h-range">Vols 1–10</span></h2>
-    <p class="shelf-note">The expanded edition of the core library, written by Claude (Anthropic's AI) in Claude Code. Each volume is a complete, print-ready manual.</p>
+<section class="library-shelf" data-shelf aria-labelledby="library-title">
+  <div class="shelf-head">
+    <h2 id="library-title">The Library <span class="h-range">Vols 1–21</span></h2>
+    <p class="shelf-note">Each volume is a complete, print-ready manual.</p>
   </div>
   <ol class="shelf shelf-feature">
-<li class="book book-feature ed-claude" id="ed-claude-code" style="--book: #C8603C" data-topic="Build &amp; create" data-search="claude code your first ai coding partner, from installation to every slash command, shortcut, and everyday project build &amp; create claude edition vol 1">
-  <a class="cover" href="output/claude-code.pdf" aria-label="Open Claude Code (Claude Edition) (PDF)"><img src="output/covers/claude-code.jpg" alt="Cover of Claude Code (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-claude-code" style="--book: #C8603C" data-topic="Build &amp; create" data-search="claude code your first ai coding partner, from installation to every slash command, shortcut, and everyday project build &amp; create vol 1">
+  <a class="cover" href="output/claude-code.pdf" aria-label="Open Claude Code (PDF)"><img src="output/covers/claude-code.jpg" alt="Cover of Claude Code" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 01</p>
     <h3 class="book-title">Claude Code</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Your first AI coding partner, from installation to every slash command, shortcut, and everyday project</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">202 pages · 6.7 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/claude-code.pdf">Read<span class="sr-only"> Claude Code (Claude Edition)</span></a>
-      <a class="btn" href="output/claude-code.pdf" download>Download<span class="sr-only"> Claude Code (Claude Edition)</span></a>
+      <a class="btn primary" href="output/claude-code.pdf">Read<span class="sr-only"> Claude Code</span></a>
+      <a class="btn" href="output/claude-code.pdf" download>Download<span class="sr-only"> Claude Code</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-github" style="--book: #1F883D" data-topic="Build &amp; create" data-search="github save, share, and collaborate on your work, with git explained from zero to confident build &amp; create claude edition vol 2">
-  <a class="cover" href="output/github.pdf" aria-label="Open GitHub (Claude Edition) (PDF)"><img src="output/covers/github.jpg" alt="Cover of GitHub (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-github" style="--book: #1F883D" data-topic="Build &amp; create" data-search="github save, share, and collaborate on your work, with git explained from zero to confident build &amp; create vol 2">
+  <a class="cover" href="output/github.pdf" aria-label="Open GitHub (PDF)"><img src="output/covers/github.jpg" alt="Cover of GitHub" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 02</p>
     <h3 class="book-title">GitHub</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Save, share, and collaborate on your work, with Git explained from zero to confident</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">146 pages · 3.6 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/github.pdf">Read<span class="sr-only"> GitHub (Claude Edition)</span></a>
-      <a class="btn" href="output/github.pdf" download>Download<span class="sr-only"> GitHub (Claude Edition)</span></a>
+      <a class="btn primary" href="output/github.pdf">Read<span class="sr-only"> GitHub</span></a>
+      <a class="btn" href="output/github.pdf" download>Download<span class="sr-only"> GitHub</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-vibe-coding" style="--book: #7C4DDB" data-topic="Build &amp; create" data-search="vibe coding build real apps, websites, extensions and tools by describing them in plain english build &amp; create claude edition vol 3">
-  <a class="cover" href="output/vibe-coding.pdf" aria-label="Open Vibe Coding (Claude Edition) (PDF)"><img src="output/covers/vibe-coding.jpg" alt="Cover of Vibe Coding (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-vibe-coding" style="--book: #7C4DDB" data-topic="Build &amp; create" data-search="vibe coding build real apps, websites, extensions and tools by describing them in plain english build &amp; create vol 3">
+  <a class="cover" href="output/vibe-coding.pdf" aria-label="Open Vibe Coding (PDF)"><img src="output/covers/vibe-coding.jpg" alt="Cover of Vibe Coding" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 03</p>
     <h3 class="book-title">Vibe Coding</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Build real apps, websites, extensions and tools by describing them in plain English</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">142 pages · 2.7 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/vibe-coding.pdf">Read<span class="sr-only"> Vibe Coding (Claude Edition)</span></a>
-      <a class="btn" href="output/vibe-coding.pdf" download>Download<span class="sr-only"> Vibe Coding (Claude Edition)</span></a>
+      <a class="btn primary" href="output/vibe-coding.pdf">Read<span class="sr-only"> Vibe Coding</span></a>
+      <a class="btn" href="output/vibe-coding.pdf" download>Download<span class="sr-only"> Vibe Coding</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-ai-tools" style="--book: #0B8A8A" data-topic="AI &amp; agents" data-search="everyday ai tools chat assistants, prompting, research, writing, images, video, voice, phones, agents, privacy, and everyday recipes, explained for complete beginners ai &amp; agents claude edition vol 4">
-  <a class="cover" href="output/ai-tools.pdf" aria-label="Open Everyday AI Tools (Claude Edition) (PDF)"><img src="output/covers/ai-tools.jpg" alt="Cover of Everyday AI Tools (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-ai-tools" style="--book: #0B8A8A" data-topic="AI &amp; agents" data-search="everyday ai tools chat assistants, prompting, research, writing, images, video, voice, phones, agents, privacy, and everyday recipes, explained for complete beginners ai &amp; agents vol 4">
+  <a class="cover" href="output/ai-tools.pdf" aria-label="Open Everyday AI Tools (PDF)"><img src="output/covers/ai-tools.jpg" alt="Cover of Everyday AI Tools" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 04</p>
     <h3 class="book-title">Everyday AI Tools</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Chat assistants, prompting, research, writing, images, video, voice, phones, agents, privacy, and everyday recipes, explained for complete beginners</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">129 pages · 2.3 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/ai-tools.pdf">Read<span class="sr-only"> Everyday AI Tools (Claude Edition)</span></a>
-      <a class="btn" href="output/ai-tools.pdf" download>Download<span class="sr-only"> Everyday AI Tools (Claude Edition)</span></a>
+      <a class="btn primary" href="output/ai-tools.pdf">Read<span class="sr-only"> Everyday AI Tools</span></a>
+      <a class="btn" href="output/ai-tools.pdf" download>Download<span class="sr-only"> Everyday AI Tools</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-mcp" style="--book: #2F6FDE" data-topic="AI &amp; agents" data-search="mcp the model context protocol, the universal way to plug ai into your apps, files, and tools, explained from zero to building and deploying your own servers ai &amp; agents claude edition vol 5">
-  <a class="cover" href="output/mcp.pdf" aria-label="Open MCP (Claude Edition) (PDF)"><img src="output/covers/mcp.jpg" alt="Cover of MCP (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-mcp" style="--book: #2F6FDE" data-topic="AI &amp; agents" data-search="mcp the model context protocol, the universal way to plug ai into your apps, files, and tools, explained from zero to building and deploying your own servers ai &amp; agents vol 5">
+  <a class="cover" href="output/mcp.pdf" aria-label="Open MCP (PDF)"><img src="output/covers/mcp.jpg" alt="Cover of MCP" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 05</p>
     <h3 class="book-title">MCP</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">The Model Context Protocol, the universal way to plug AI into your apps, files, and tools, explained from zero to building and deploying your own servers</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">134 pages · 3.5 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/mcp.pdf">Read<span class="sr-only"> MCP (Claude Edition)</span></a>
-      <a class="btn" href="output/mcp.pdf" download>Download<span class="sr-only"> MCP (Claude Edition)</span></a>
+      <a class="btn primary" href="output/mcp.pdf">Read<span class="sr-only"> MCP</span></a>
+      <a class="btn" href="output/mcp.pdf" download>Download<span class="sr-only"> MCP</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-n8n" style="--book: #E8456B" data-topic="Work smarter" data-search="n8n automate your work and build ai agents, visually, one node at a time, from your first click to your own server work smarter claude edition vol 6">
-  <a class="cover" href="output/n8n.pdf" aria-label="Open n8n (Claude Edition) (PDF)"><img src="output/covers/n8n.jpg" alt="Cover of n8n (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-n8n" style="--book: #E8456B" data-topic="Work smarter" data-search="n8n automate your work and build ai agents, visually, one node at a time, from your first click to your own server work smarter vol 6">
+  <a class="cover" href="output/n8n.pdf" aria-label="Open n8n (PDF)"><img src="output/covers/n8n.jpg" alt="Cover of n8n" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 06</p>
     <h3 class="book-title">n8n</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Automate your work and build AI agents, visually, one node at a time, from your first click to your own server</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">177 pages · 4.6 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/n8n.pdf">Read<span class="sr-only"> n8n (Claude Edition)</span></a>
-      <a class="btn" href="output/n8n.pdf" download>Download<span class="sr-only"> n8n (Claude Edition)</span></a>
+      <a class="btn primary" href="output/n8n.pdf">Read<span class="sr-only"> n8n</span></a>
+      <a class="btn" href="output/n8n.pdf" download>Download<span class="sr-only"> n8n</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-notion" style="--book: #C2711B" data-topic="Work smarter" data-search="notion one workspace for notes, docs, projects, and databases, with ai built in. a complete beginner's manual work smarter claude edition vol 7">
-  <a class="cover" href="output/notion.pdf" aria-label="Open Notion (Claude Edition) (PDF)"><img src="output/covers/notion.jpg" alt="Cover of Notion (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-notion" style="--book: #C2711B" data-topic="Work smarter" data-search="notion one workspace for notes, docs, projects, and databases, with ai built in. a complete beginner's manual work smarter vol 7">
+  <a class="cover" href="output/notion.pdf" aria-label="Open Notion (PDF)"><img src="output/covers/notion.jpg" alt="Cover of Notion" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 07</p>
     <h3 class="book-title">Notion</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">One workspace for notes, docs, projects, and databases, with AI built in. A complete beginner's manual</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">160 pages · 3.9 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/notion.pdf">Read<span class="sr-only"> Notion (Claude Edition)</span></a>
-      <a class="btn" href="output/notion.pdf" download>Download<span class="sr-only"> Notion (Claude Edition)</span></a>
+      <a class="btn primary" href="output/notion.pdf">Read<span class="sr-only"> Notion</span></a>
+      <a class="btn" href="output/notion.pdf" download>Download<span class="sr-only"> Notion</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-maximum-autonomy" style="--book: #D9480F" data-topic="AI &amp; agents" data-search="maximum autonomy every setting, flag, config file, and token choice for hands-off ai agents, tool by tool ai &amp; agents claude edition vol 8">
-  <a class="cover" href="output/maximum-autonomy.pdf" aria-label="Open Maximum Autonomy (Claude Edition) (PDF)"><img src="output/covers/maximum-autonomy.jpg" alt="Cover of Maximum Autonomy (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-maximum-autonomy" style="--book: #D9480F" data-topic="AI &amp; agents" data-search="maximum autonomy every setting, flag, config file, and token choice for hands-off ai agents, tool by tool ai &amp; agents vol 8">
+  <a class="cover" href="output/maximum-autonomy.pdf" aria-label="Open Maximum Autonomy (PDF)"><img src="output/covers/maximum-autonomy.jpg" alt="Cover of Maximum Autonomy" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 08</p>
     <h3 class="book-title">Maximum Autonomy</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Every setting, flag, config file, and token choice for hands-off AI agents, tool by tool</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">111 pages · 3.2 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/maximum-autonomy.pdf">Read<span class="sr-only"> Maximum Autonomy (Claude Edition)</span></a>
-      <a class="btn" href="output/maximum-autonomy.pdf" download>Download<span class="sr-only"> Maximum Autonomy (Claude Edition)</span></a>
+      <a class="btn primary" href="output/maximum-autonomy.pdf">Read<span class="sr-only"> Maximum Autonomy</span></a>
+      <a class="btn" href="output/maximum-autonomy.pdf" download>Download<span class="sr-only"> Maximum Autonomy</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-ai-tools-directory" style="--book: #5B4BDB" data-topic="AI &amp; agents" data-search="ai tools, connectors &amp; mcp directory more than 1,500 ai tools, connectors, and mcp servers, sorted into 23 categories, each with a plain-english description and a price label ai &amp; agents claude edition vol 9">
-  <a class="cover" href="output/ai-tools-directory.pdf" aria-label="Open AI Tools, Connectors &amp; MCP Directory (Claude Edition) (PDF)"><img src="output/covers/ai-tools-directory.jpg" alt="Cover of AI Tools, Connectors &amp; MCP Directory (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-ai-tools-directory" style="--book: #5B4BDB" data-topic="AI &amp; agents" data-search="ai tools, connectors &amp; mcp directory more than 1,500 ai tools, connectors, and mcp servers, sorted into 23 categories, each with a plain-english description and a price label ai &amp; agents vol 9">
+  <a class="cover" href="output/ai-tools-directory.pdf" aria-label="Open AI Tools, Connectors &amp; MCP Directory (PDF)"><img src="output/covers/ai-tools-directory.jpg" alt="Cover of AI Tools, Connectors &amp; MCP Directory" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 09</p>
     <h3 class="book-title">AI Tools, Connectors &amp; MCP Directory</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">More than 1,500 AI tools, connectors, and MCP servers, sorted into 23 categories, each with a plain-English description and a price label</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">133 pages · 5.9 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/ai-tools-directory.pdf">Read<span class="sr-only"> AI Tools, Connectors &amp; MCP Directory (Claude Edition)</span></a>
-      <a class="btn" href="output/ai-tools-directory.pdf" download>Download<span class="sr-only"> AI Tools, Connectors &amp; MCP Directory (Claude Edition)</span></a>
+      <a class="btn primary" href="output/ai-tools-directory.pdf">Read<span class="sr-only"> AI Tools, Connectors &amp; MCP Directory</span></a>
+      <a class="btn" href="output/ai-tools-directory.pdf" download>Download<span class="sr-only"> AI Tools, Connectors &amp; MCP Directory</span></a>
     </div>
   </div>
 </li>
-<li class="book book-feature ed-claude" id="ed-ai-trading" style="--book: #0F8A5F" data-topic="Explore" data-search="autonomous ai trading build, test, and run a hands-off trading bot, step by step explore claude edition vol 10">
-  <a class="cover" href="output/ai-trading.pdf" aria-label="Open Autonomous AI Trading (Claude Edition) (PDF)"><img src="output/covers/ai-trading.jpg" alt="Cover of Autonomous AI Trading (Claude Edition)" width="816" height="1056" decoding="async"></a>
+<li class="book book-feature" id="vol-ai-trading" style="--book: #0F8A5F" data-topic="Explore" data-search="autonomous ai trading build, test, and run a hands-off trading bot, step by step explore vol 10">
+  <a class="cover" href="output/ai-trading.pdf" aria-label="Open Autonomous AI Trading (PDF)"><img src="output/covers/ai-trading.jpg" alt="Cover of Autonomous AI Trading" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">Vol. 10</p>
     <h3 class="book-title">Autonomous AI Trading</h3>
-    <p class="edition-tag">Claude Edition</p>
     <p class="sub">Build, test, and run a hands-off trading bot, step by step</p>
-    <p class="ed-note">Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.</p>
     <p class="meta">110 pages · 2.2 MB · PDF</p>
     <div class="actions">
-      <a class="btn primary" href="output/ai-trading.pdf">Read<span class="sr-only"> Autonomous AI Trading (Claude Edition)</span></a>
-      <a class="btn" href="output/ai-trading.pdf" download>Download<span class="sr-only"> Autonomous AI Trading (Claude Edition)</span></a>
+      <a class="btn primary" href="output/ai-trading.pdf">Read<span class="sr-only"> Autonomous AI Trading</span></a>
+      <a class="btn" href="output/ai-trading.pdf" download>Download<span class="sr-only"> Autonomous AI Trading</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-local-ai" style="--book: #6B4FD8" data-topic="AI &amp; agents" data-search="running ai locally ollama, lm studio, jan and llama.cpp on your own pc, with honest gpu and memory tuning for beginners ai &amp; agents vol 11">
+  <a class="cover" href="output/local-ai.pdf" aria-label="Open Running AI Locally (PDF)"><img src="output/covers/local-ai.jpg" alt="Cover of Running AI Locally" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 11</p>
+    <h3 class="book-title">Running AI Locally</h3>
+    <p class="sub">Ollama, LM Studio, Jan and llama.cpp on your own PC, with honest GPU and memory tuning for beginners</p>
+    <p class="meta">54 pages · 1.4 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/local-ai.pdf">Read<span class="sr-only"> Running AI Locally</span></a>
+      <a class="btn" href="output/local-ai.pdf" download>Download<span class="sr-only"> Running AI Locally</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-custom-assistants" style="--book: #C2410C" data-topic="AI &amp; agents" data-search="custom gpts, gems &amp; claude projects build your own reusable ai assistants in chatgpt, gemini, claude, perplexity and grok, including the 2026 move to plugins and skills ai &amp; agents vol 12">
+  <a class="cover" href="output/custom-assistants.pdf" aria-label="Open Custom GPTs, Gems &amp; Claude Projects (PDF)"><img src="output/covers/custom-assistants.jpg" alt="Cover of Custom GPTs, Gems &amp; Claude Projects" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 12</p>
+    <h3 class="book-title">Custom GPTs, Gems &amp; Claude Projects</h3>
+    <p class="sub">Build your own reusable AI assistants in ChatGPT, Gemini, Claude, Perplexity and Grok, including the 2026 move to plugins and skills</p>
+    <p class="meta">45 pages · 0.9 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/custom-assistants.pdf">Read<span class="sr-only"> Custom GPTs, Gems &amp; Claude Projects</span></a>
+      <a class="btn" href="output/custom-assistants.pdf" download>Download<span class="sr-only"> Custom GPTs, Gems &amp; Claude Projects</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-ai-agents" style="--book: #0F766E" data-topic="AI &amp; agents" data-search="ai agents &amp; multi-agent workflows hand off real work to chatgpt work, codex, claude cowork, gemini tasks, perplexity computer and grok bot, and fan one question out to five ais at once ai &amp; agents vol 13">
+  <a class="cover" href="output/ai-agents.pdf" aria-label="Open AI Agents &amp; Multi-Agent Workflows (PDF)"><img src="output/covers/ai-agents.jpg" alt="Cover of AI Agents &amp; Multi-Agent Workflows" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 13</p>
+    <h3 class="book-title">AI Agents &amp; Multi-Agent Workflows</h3>
+    <p class="sub">Hand off real work to ChatGPT Work, Codex, Claude Cowork, Gemini tasks, Perplexity Computer and Grok Bot, and fan one question out to five AIs at once</p>
+    <p class="meta">48 pages · 1.0 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/ai-agents.pdf">Read<span class="sr-only"> AI Agents &amp; Multi-Agent Workflows</span></a>
+      <a class="btn" href="output/ai-agents.pdf" download>Download<span class="sr-only"> AI Agents &amp; Multi-Agent Workflows</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-python-ai" style="--book: #2F6FDE" data-topic="Build &amp; create" data-search="python for ai beginners from installing python to scripts that call chatgpt, claude, gemini, grok and local models, step by step build &amp; create vol 14">
+  <a class="cover" href="output/python-ai.pdf" aria-label="Open Python for AI Beginners (PDF)"><img src="output/covers/python-ai.jpg" alt="Cover of Python for AI Beginners" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 14</p>
+    <h3 class="book-title">Python for AI Beginners</h3>
+    <p class="sub">From installing Python to scripts that call ChatGPT, Claude, Gemini, Grok and local models, step by step</p>
+    <p class="meta">54 pages · 1.4 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/python-ai.pdf">Read<span class="sr-only"> Python for AI Beginners</span></a>
+      <a class="btn" href="output/python-ai.pdf" download>Download<span class="sr-only"> Python for AI Beginners</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-ai-apis" style="--book: #1F883D" data-topic="Build &amp; create" data-search="ai apis &amp; costs keys, tokens, prices and budgets for openai, anthropic, google and xai, explained for beginners build &amp; create vol 15">
+  <a class="cover" href="output/ai-apis.pdf" aria-label="Open AI APIs &amp; Costs (PDF)"><img src="output/covers/ai-apis.jpg" alt="Cover of AI APIs &amp; Costs" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 15</p>
+    <h3 class="book-title">AI APIs &amp; Costs</h3>
+    <p class="sub">Keys, tokens, prices and budgets for OpenAI, Anthropic, Google and xAI, explained for beginners</p>
+    <p class="meta">44 pages · 1.2 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/ai-apis.pdf">Read<span class="sr-only"> AI APIs &amp; Costs</span></a>
+      <a class="btn" href="output/ai-apis.pdf" download>Download<span class="sr-only"> AI APIs &amp; Costs</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-zapier-make" style="--book: #EA580C" data-topic="Work smarter" data-search="zapier &amp; make connect your apps, automate the boring parts, and add ai to everyday workflows without writing code work smarter vol 16">
+  <a class="cover" href="output/zapier-make.pdf" aria-label="Open Zapier &amp; Make (PDF)"><img src="output/covers/zapier-make.jpg" alt="Cover of Zapier &amp; Make" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 16</p>
+    <h3 class="book-title">Zapier &amp; Make</h3>
+    <p class="sub">Connect your apps, automate the boring parts, and add AI to everyday workflows without writing code</p>
+    <p class="meta">49 pages · 1.0 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/zapier-make.pdf">Read<span class="sr-only"> Zapier &amp; Make</span></a>
+      <a class="btn" href="output/zapier-make.pdf" download>Download<span class="sr-only"> Zapier &amp; Make</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-ai-personal-finance" style="--book: #15803D" data-topic="Work smarter" data-search="ai for personal finance &amp; admin budgets, bills, subscriptions, debt plans, tax paperwork and life admin, with your data handled safely work smarter vol 17">
+  <a class="cover" href="output/ai-personal-finance.pdf" aria-label="Open AI for Personal Finance &amp; Admin (PDF)"><img src="output/covers/ai-personal-finance.jpg" alt="Cover of AI for Personal Finance &amp; Admin" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 17</p>
+    <h3 class="book-title">AI for Personal Finance &amp; Admin</h3>
+    <p class="sub">Budgets, bills, subscriptions, debt plans, tax paperwork and life admin, with your data handled safely</p>
+    <p class="meta">45 pages · 0.8 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/ai-personal-finance.pdf">Read<span class="sr-only"> AI for Personal Finance &amp; Admin</span></a>
+      <a class="btn" href="output/ai-personal-finance.pdf" download>Download<span class="sr-only"> AI for Personal Finance &amp; Admin</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-ai-privacy-security" style="--book: #1D4ED8" data-topic="Work smarter" data-search="ai privacy &amp; security control what ai companies keep, protect your accounts, and use chatbots, connectors and agents without getting burned work smarter vol 18">
+  <a class="cover" href="output/ai-privacy-security.pdf" aria-label="Open AI Privacy &amp; Security (PDF)"><img src="output/covers/ai-privacy-security.jpg" alt="Cover of AI Privacy &amp; Security" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 18</p>
+    <h3 class="book-title">AI Privacy &amp; Security</h3>
+    <p class="sub">Control what AI companies keep, protect your accounts, and use chatbots, connectors and agents without getting burned</p>
+    <p class="meta">43 pages · 0.9 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/ai-privacy-security.pdf">Read<span class="sr-only"> AI Privacy &amp; Security</span></a>
+      <a class="btn" href="output/ai-privacy-security.pdf" download>Download<span class="sr-only"> AI Privacy &amp; Security</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-ai-healthcare" style="--book: #0E7490" data-topic="Work smarter" data-search="ai for healthcare workers save time on documentation, letters, patient education and study, while protecting patients and staying inside hipaa work smarter vol 19">
+  <a class="cover" href="output/ai-healthcare.pdf" aria-label="Open AI for Healthcare Workers (PDF)"><img src="output/covers/ai-healthcare.jpg" alt="Cover of AI for Healthcare Workers" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 19</p>
+    <h3 class="book-title">AI for Healthcare Workers</h3>
+    <p class="sub">Save time on documentation, letters, patient education and study, while protecting patients and staying inside HIPAA</p>
+    <p class="meta">42 pages · 0.6 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/ai-healthcare.pdf">Read<span class="sr-only"> AI for Healthcare Workers</span></a>
+      <a class="btn" href="output/ai-healthcare.pdf" download>Download<span class="sr-only"> AI for Healthcare Workers</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-prompt-maximization" style="--book: #7E22CE" data-topic="AI &amp; agents" data-search="get the most from every ai plan understand usage limits, stretch free and paid plans, batch your work, and rotate between chatgpt, claude, gemini, grok and perplexity ai &amp; agents vol 20">
+  <a class="cover" href="output/prompt-maximization.pdf" aria-label="Open Get the Most from Every AI Plan (PDF)"><img src="output/covers/prompt-maximization.jpg" alt="Cover of Get the Most from Every AI Plan" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 20</p>
+    <h3 class="book-title">Get the Most from Every AI Plan</h3>
+    <p class="sub">Understand usage limits, stretch free and paid plans, batch your work, and rotate between ChatGPT, Claude, Gemini, Grok and Perplexity</p>
+    <p class="meta">43 pages · 0.8 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/prompt-maximization.pdf">Read<span class="sr-only"> Get the Most from Every AI Plan</span></a>
+      <a class="btn" href="output/prompt-maximization.pdf" download>Download<span class="sr-only"> Get the Most from Every AI Plan</span></a>
+    </div>
+  </div>
+</li>
+<li class="book book-feature" id="vol-aws-beginners" style="--book: #C2410C" data-topic="Build &amp; create" data-search="aws for beginners sign up safely, protect your bill, learn the core services, and build your first website, function and ai app on amazon web services build &amp; create vol 21">
+  <a class="cover" href="output/aws-beginners.pdf" aria-label="Open AWS for Beginners (PDF)"><img src="output/covers/aws-beginners.jpg" alt="Cover of AWS for Beginners" width="816" height="1056" decoding="async"></a>
+  <div class="book-text">
+    <p class="vol">Vol. 21</p>
+    <h3 class="book-title">AWS for Beginners</h3>
+    <p class="sub">Sign up safely, protect your bill, learn the core services, and build your first website, function and AI app on Amazon Web Services</p>
+    <p class="meta">45 pages · 1.1 MB · PDF</p>
+    <div class="actions">
+      <a class="btn primary" href="output/aws-beginners.pdf">Read<span class="sr-only"> AWS for Beginners</span></a>
+      <a class="btn" href="output/aws-beginners.pdf" download>Download<span class="sr-only"> AWS for Beginners</span></a>
     </div>
   </div>
 </li>

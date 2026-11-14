@@ -6,8 +6,6 @@
     "volume": 4,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#0B8A8A",
     "pages": 129,
     "bytes": 2359891
@@ -19,8 +17,6 @@
     "volume": 9,
     "kicker": "A Field Guide",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#5B4BDB",
     "pages": 133,
     "bytes": 6173293
@@ -32,8 +28,6 @@
     "volume": 1,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#C8603C",
     "pages": 202,
     "bytes": 7038943
@@ -45,8 +39,6 @@
     "volume": 2,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#1F883D",
     "pages": 146,
     "bytes": 3767137
@@ -58,8 +50,6 @@
     "volume": 8,
     "kicker": "A Power-User's Guide",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#D9480F",
     "pages": 111,
     "bytes": 3304109
@@ -71,8 +61,6 @@
     "volume": 5,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#2F6FDE",
     "pages": 134,
     "bytes": 3718488
@@ -84,8 +72,6 @@
     "volume": 6,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#E8456B",
     "pages": 177,
     "bytes": 4804581
@@ -97,8 +83,6 @@
     "volume": 7,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#C2711B",
     "pages": 160,
     "bytes": 4128280
@@ -110,8 +94,6 @@
     "volume": 3,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#7C4DDB",
     "pages": 142,
     "bytes": 2821487
@@ -123,10 +105,129 @@
     "volume": 10,
     "kicker": "A Beginner’s Manual",
     "edition": "October 2026",
-    "edition_label": "Claude Edition",
-    "edition_note": "Expanded edition written by Claude (Anthropic's AI) in Claude Code and published in GuidesForEverything PR #4.",
     "accent": "#0F8A5F",
     "pages": 110,
     "bytes": 2311971
+  },
+  "ai-agents": {
+    "slug": "ai-agents",
+    "title": "AI Agents & Multi-Agent Workflows",
+    "subtitle": "Hand off real work to ChatGPT Work, Codex, Claude Cowork, Gemini tasks, Perplexity Computer and Grok Bot, and fan one question out to five AIs at once",
+    "volume": 13,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#0F766E",
+    "pages": 48,
+    "bytes": 1030237
+  },
+  "ai-apis": {
+    "slug": "ai-apis",
+    "title": "AI APIs & Costs",
+    "subtitle": "Keys, tokens, prices and budgets for OpenAI, Anthropic, Google and xAI, explained for beginners",
+    "volume": 15,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#1F883D",
+    "pages": 44,
+    "bytes": 1246413
+  },
+  "ai-healthcare": {
+    "slug": "ai-healthcare",
+    "title": "AI for Healthcare Workers",
+    "subtitle": "Save time on documentation, letters, patient education and study, while protecting patients and staying inside HIPAA",
+    "volume": 19,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#0E7490",
+    "pages": 42,
+    "bytes": 679659
+  },
+  "ai-personal-finance": {
+    "slug": "ai-personal-finance",
+    "title": "AI for Personal Finance & Admin",
+    "subtitle": "Budgets, bills, subscriptions, debt plans, tax paperwork and life admin, with your data handled safely",
+    "volume": 17,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#15803D",
+    "pages": 45,
+    "bytes": 792281
+  },
+  "ai-privacy-security": {
+    "slug": "ai-privacy-security",
+    "title": "AI Privacy & Security",
+    "subtitle": "Control what AI companies keep, protect your accounts, and use chatbots, connectors and agents without getting burned",
+    "volume": 18,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#1D4ED8",
+    "pages": 43,
+    "bytes": 979605
+  },
+  "aws-beginners": {
+    "slug": "aws-beginners",
+    "title": "AWS for Beginners",
+    "subtitle": "Sign up safely, protect your bill, learn the core services, and build your first website, function and AI app on Amazon Web Services",
+    "volume": 21,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#C2410C",
+    "pages": 45,
+    "bytes": 1122755
+  },
+  "custom-assistants": {
+    "slug": "custom-assistants",
+    "title": "Custom GPTs, Gems & Claude Projects",
+    "subtitle": "Build your own reusable AI assistants in ChatGPT, Gemini, Claude, Perplexity and Grok, including the 2026 move to plugins and skills",
+    "volume": 12,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#C2410C",
+    "pages": 45,
+    "bytes": 957815
+  },
+  "local-ai": {
+    "slug": "local-ai",
+    "title": "Running AI Locally",
+    "subtitle": "Ollama, LM Studio, Jan and llama.cpp on your own PC, with honest GPU and memory tuning for beginners",
+    "volume": 11,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#6B4FD8",
+    "pages": 54,
+    "bytes": 1427318
+  },
+  "prompt-maximization": {
+    "slug": "prompt-maximization",
+    "title": "Get the Most from Every AI Plan",
+    "subtitle": "Understand usage limits, stretch free and paid plans, batch your work, and rotate between ChatGPT, Claude, Gemini, Grok and Perplexity",
+    "volume": 20,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#7E22CE",
+    "pages": 43,
+    "bytes": 802986
+  },
+  "python-ai": {
+    "slug": "python-ai",
+    "title": "Python for AI Beginners",
+    "subtitle": "From installing Python to scripts that call ChatGPT, Claude, Gemini, Grok and local models, step by step",
+    "volume": 14,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#2F6FDE",
+    "pages": 54,
+    "bytes": 1425822
+  },
+  "zapier-make": {
+    "slug": "zapier-make",
+    "title": "Zapier & Make",
+    "subtitle": "Connect your apps, automate the boring parts, and add AI to everyday workflows without writing code",
+    "volume": 16,
+    "kicker": "A Beginner's Manual",
+    "edition": "October 2026",
+    "accent": "#EA580C",
+    "pages": 49,
+    "bytes": 1051798
   }
 }

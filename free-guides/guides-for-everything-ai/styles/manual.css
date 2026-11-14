@@ -690,7 +690,7 @@ dl.glossary { margin: 0.4em 0 0; }
 .toc-dense .toc-chapter > ol { margin-bottom: 2pt; }
 figure.code.code-chunk + figure.code.code-chunk { margin-top: 0.3em; }
 
-/* Edition labels (for example Claude Edition): cover badge, title page line */
+/* Optional edition label: cover badge, title page line */
 .cover-labels { margin-bottom: 16pt; display: flex; gap: 8pt; align-items: center; flex-wrap: wrap; }
 .cover-labels .cover-kicker { margin-bottom: 0; }
 .cover-edition {

@@ -33,7 +33,6 @@
   --pink-hot: #ff2e88;
   --pink-ink: #12030b;
   --pink-soft: #ff8cc6;
-  --claude-bg: rgb(255 63 164 / .14);
   --display: 'Bluu Next', 'Didot', 'Bodoni 72', Georgia, serif;
   --titling: 'Bluu Next Titling', 'Bluu Next', Georgia, serif;
   --body: 'Hanken Grotesk', 'Helvetica Neue', 'Segoe UI', system-ui, sans-serif;
@@ -87,7 +86,7 @@ h1 em { font-style: italic; color: var(--pink); }
 .btn svg { width: 15px; height: 15px; }
 .hero-actions .btn { min-height: 50px; padding-inline: 26px; }
 
-/* hero visual A: a fanned stack of Claude covers in perspective */
+/* hero visual A: a fanned stack of covers in perspective */
 .fan { position: relative; height: clamp(360px, 40vw, 540px); perspective: 1800px; }
 .fan-stage { position: absolute; inset: 0; transform-style: preserve-3d; transform: rotateX(10deg) rotateY(-26deg); animation: sway 14s ease-in-out infinite alternate; }
 .fan-card { position: absolute; top: 8%; left: 18%; width: 42%; aspect-ratio: 8.5/11; border-radius: 4px 9px 9px 4px; overflow: hidden; background: #fff;
@@ -112,16 +111,13 @@ h1 em { font-style: italic; color: var(--pink); }
 
 h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-spacing: -.005em; text-wrap: balance; }
 .h-range { display: inline-block; margin-left: .35em; vertical-align: .55em; color: var(--pink-soft); font: 500 12.5px/1 var(--body); letter-spacing: .2em; text-transform: uppercase; }
-.edition-shelf { margin-top: var(--s8); }
-.edition-shelf[hidden], .subshelf[hidden], .book[hidden] { display: none; }
-.edition-head { display: grid; gap: var(--s3); margin-bottom: var(--s6); }
+.library-shelf { margin-top: var(--s8); }
+.library-shelf[hidden], .subshelf[hidden], .book[hidden] { display: none; }
+.shelf-head { display: grid; gap: var(--s3); margin-bottom: var(--s6); }
 .shelf-note { margin: 0; max-width: 62ch; color: var(--text-2); font-size: 16.5px; line-height: 1.65; }
 .shelf-title { margin: var(--s7) 0 var(--s4); font: 700 clamp(21px, 2vw, 26px)/1.2 var(--display); }
 .shelf { list-style: none; margin: 0; padding: 0; display: grid; }
 
-.edition-tag { display: inline-flex; align-items: center; gap: 6px; width: fit-content; margin: 0; padding: 3px 10px 3px 8px; border-radius: 999px; font: 600 11px/1.4 var(--body); letter-spacing: .16em; text-transform: uppercase; white-space: nowrap; }
-.edition-tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-.ed-claude .edition-tag { color: var(--pink-soft); background: var(--claude-bg); }
 
 .cover { display: block; position: relative; aspect-ratio: 8.5/11; border-radius: 3px 7px 7px 3px; overflow: hidden; background: #f4f0f2; box-shadow: 0 4px 8px rgb(0 0 0 / .5), 0 18px 34px -12px rgb(0 0 0 / .85); transition: transform .45s cubic-bezier(.16,1,.3,1), box-shadow .45s cubic-bezier(.16,1,.3,1); }
 .cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -131,23 +127,20 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
 .vol { margin: 0; color: var(--text-3); font: 500 11.5px/1.3 var(--body); letter-spacing: .2em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
 .book-title { margin: 0; font: 700 24px/1.12 var(--display); text-wrap: balance; }
 .sub { margin: 0; color: var(--text-2); font-size: 15px; line-height: 1.5; text-wrap: pretty; }
-.ed-note { margin: 0; color: var(--text-3); font-size: 13.5px; line-height: 1.5; }
 .meta { margin: 0; color: var(--text-3); font-size: 13.5px; font-variant-numeric: tabular-nums; }
 .actions { display: flex; gap: var(--s2); flex-wrap: wrap; margin-top: var(--s2); }
 .actions .btn { min-height: 40px; padding-inline: 16px; font-size: 11.5px; }
 .twin { width: fit-content; color: var(--text-3); font-size: 13.5px; text-decoration: underline; text-decoration-color: rgb(255 140 198 / .4); }
 .twin:hover { color: var(--pink-soft); }
 
-/* the Claude shelf: covers lead, five across */
+/* the library shelf: covers lead, five across */
 .shelf-feature { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--s7) var(--s5); }
 .book-feature { display: grid; gap: var(--s4); align-content: start; }
-.book-feature .ed-note { display: none; }
 
 .shelf-row { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5); }
 .book-row { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: var(--s4); align-items: start; padding: var(--s4); border: 1px solid var(--line); border-radius: 14px; background: rgb(7 6 10 / .45); }
 .book-row .book-title { font-size: 19px; }
 .book-row .sub { font-size: 14px; }
-.book-row .ed-note { display: none; }
 .book-row .actions .btn { min-height: 38px; padding-inline: 14px; }
 
 .empty { display: none; margin-top: var(--s5); padding: var(--s7) var(--s5); border: 1px dashed var(--line-ctl); border-radius: var(--r); color: var(--text-2); text-align: center; }
@@ -239,7 +232,7 @@ h2 { margin: 0; font: 700 clamp(30px, 3.4vw, 48px)/1.08 var(--display); letter-s
     </label>
   </div>
   <p class="results" id="guide-results" role="status" aria-live="polite"></p>
-{{claude_shelf}}
+{{shelves}}
   <p class="empty" id="guide-empty">No guides match that search yet. Try another title or topic.</p>
 
   <section class="notes" id="about" aria-labelledby="about-title">

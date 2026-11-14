@@ -506,8 +506,6 @@ function manifestEntry(slug, pages, pdfPath) {
     volume: meta.volume ?? null,
     kicker: meta.kicker || 'A Beginner’s Manual',
     edition: meta.edition || '',
-    edition_label: meta.edition_label || '',
-    edition_note: meta.edition_note || '',
     accent: meta.accent || '#D97757',
     pages,
     bytes: fs.statSync(pdfPath).size,
@@ -548,7 +546,6 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
   ].join('\n');
   const mb = (bytes) => `${(bytes / 1048576).toFixed(1)} MB`;
   const volLabel = (v) => (v != null ? `Vol. ${String(v).padStart(2, '0')}` : '');
-  const edClass = (m) => (/claude/i.test(m.edition_label || '') ? 'ed-claude' : '');
   const byVol = new Map();
   for (const m of manuals) {
     const k = m.volume ?? `x-${m.slug}`;
@@ -556,19 +553,17 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
     byVol.get(k).push(m);
   }
   // style: 'feature' = large covers (the only shelf today); 'row' = compact rows, kept for a future second shelf.
+  // Edition names are printed inside the PDFs only; the site does not show them.
   const card = (m, style) => {
     const topic = topicFor(m);
-    const label = m.edition_label || '';
-    const searchText = `${m.title} ${m.subtitle} ${topic} ${label} Vol ${m.volume ?? ''}`.toLowerCase();
-    const fullTitle = label ? `${m.title} (${label})` : m.title;
-    return `<li class="book book-${style} ${edClass(m)}" id="ed-${m.slug}" style="--book: ${escapeHtml(m.accent)}" data-topic="${escapeHtml(topic)}" data-search="${escapeHtml(searchText)}">
+    const searchText = `${m.title} ${m.subtitle} ${topic} Vol ${m.volume ?? ''}`.toLowerCase();
+    const fullTitle = m.title;
+    return `<li class="book book-${style}" id="vol-${m.slug}" style="--book: ${escapeHtml(m.accent)}" data-topic="${escapeHtml(topic)}" data-search="${escapeHtml(searchText)}">
   <a class="cover" href="${pdfHref(m.slug)}" aria-label="Open ${escapeHtml(fullTitle)} (PDF)"><img src="output/covers/${m.slug}.jpg" alt="Cover of ${escapeHtml(fullTitle)}" width="816" height="1056" decoding="async"></a>
   <div class="book-text">
     <p class="vol">${volLabel(m.volume)}</p>
     <${style === 'feature' ? 'h3' : 'h4'} class="book-title">${escapeHtml(m.title)}</${style === 'feature' ? 'h3' : 'h4'}>
-    ${label ? `<p class="edition-tag">${escapeHtml(label)}</p>` : ''}
     <p class="sub">${escapeHtml(m.subtitle)}</p>
-    ${m.edition_note ? `<p class="ed-note">${escapeHtml(m.edition_note)}</p>` : ''}
     <p class="meta">${m.pages} pages · ${mb(m.bytes)} · PDF</p>
     <div class="actions">
       <a class="btn primary" href="${pdfHref(m.slug)}">Read<span class="sr-only"> ${escapeHtml(fullTitle)}</span></a>
@@ -579,10 +574,10 @@ function buildSite(manifest, { out = path.join(ROOT, 'index.html'), pdfHref = (s
   };
   const range = (list) => { const vs = list.map((m) => m.volume).filter((v) => v != null); return vs.length ? `${Math.min(...vs)}–${Math.max(...vs)}` : ''; };
   const shelves = manuals.length
-    ? `<section class="edition-shelf claude-shelf" data-shelf aria-labelledby="claude-title">
-  <div class="edition-head">
-    <h2 id="claude-title">The Claude Edition <span class="h-range">Vols ${range(manuals)}</span></h2>
-    <p class="shelf-note">The expanded edition of the core library, written by Claude (Anthropic's AI) in Claude Code. Each volume is a complete, print-ready manual.</p>
+    ? `<section class="library-shelf" data-shelf aria-labelledby="library-title">
+  <div class="shelf-head">
+    <h2 id="library-title">The Library <span class="h-range">Vols ${range(manuals)}</span></h2>
+    <p class="shelf-note">Each volume is a complete, print-ready manual.</p>
   </div>
   <ol class="shelf shelf-feature">
 ${manuals.map((m) => card(m, 'feature')).join('\n')}
@@ -593,7 +588,6 @@ ${manuals.map((m) => card(m, 'feature')).join('\n')}
   const vars = {
     cards: shelves,
     shelves,
-    claude_shelf: shelves,
     filters,
     count: String(manuals.length),
     volumes: String(byVol.size),
