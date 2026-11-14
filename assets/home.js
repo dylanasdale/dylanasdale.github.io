@@ -85,7 +85,10 @@ function sample(draw) {
 }
 const dot = (g, x, y, r) => { g.beginPath(); g.arc(x, y, r, 0, 7); g.fill(); };
 const SHAPES = [
-  sample((g, S) => { g.save(); g.scale(S / 24, S / 24); g.fill(new Path2D(STAR)); g.restore(); }),
+  sample((g, S) => { // the company mark: the letter A with the star where its crossbar would be
+    g.save(); g.scale(S / 800, S / 800); g.translate(36.5, 747.5); g.scale(1, -1);
+    g.save(); g.translate(727, 0); g.scale(-1, 1); g.fill(new Path2D('M439 0H722L647 67L377 695H330L76 79L5 0H240L151 78L335 539L531 69Z')); g.restore();
+    g.translate(389, 185); g.scale(14.6, 14.6); g.translate(-12, -12); g.fill(new Path2D(STAR)); g.restore(); }),
   sample((g) => { g.lineWidth = 7; for (let i = 0; i < 7; i++) { const a = i / 7 * Math.PI * 2 - 1.57, x = 200 + Math.cos(a) * 150, y = 200 + Math.sin(a) * 150; g.beginPath(); g.moveTo(200, 200); g.lineTo(x, y); g.stroke(); dot(g, x, y, i % 3 ? 22 : 30); } dot(g, 200, 200, 48); }),
   sample((g) => { g.lineWidth = 15; g.beginPath(); [[14, 210], [96, 210], [116, 176], [136, 210], [160, 210], [182, 60], [212, 340], [236, 210], [262, 210], [286, 158], [312, 210], [386, 210]].forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke(); }),
   sample((g) => { const hs = [50, 110, 190, 130, 250, 330, 210, 290, 160, 230, 120, 80, 40]; hs.forEach((h, i) => { const x = 22 + i * 28; g.beginPath(); g.roundRect(x, 200 - h / 2, 18, h, 9); g.fill(); }); }),
