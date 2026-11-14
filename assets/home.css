@@ -121,6 +121,7 @@ h2 { font: 700 clamp(44px, 7vw, 108px)/.95 var(--display); letter-spacing: -.02e
 .js [data-reveal].in { opacity: 1; transform: none; filter: none; }
 
 .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; list-style: none; margin: 0; padding: 0; perspective: 1400px; }
+.cards > li:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 240px; }
 .card { --mx: 50%; --my: 50%; --rx: 0deg; --ry: 0deg; position: relative; min-height: 320px; display: flex; flex-direction: column; gap: 14px; padding: 28px; border-radius: 26px; border: 1px solid var(--line); background: var(--glass); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); transform-style: preserve-3d; overflow: hidden; }
 .tilt { transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry)) scale(var(--sc, 1)); transition: transform .5s var(--ease); will-change: transform; }
 .tilt.live { transition: transform .08s linear; }
