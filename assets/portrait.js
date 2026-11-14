@@ -113,9 +113,8 @@ window.__sigStep = (n = 60, from = performance.now(), again = false) => { if (ag
   size(); let ms = from; for (let i = 0; i < n; i++) frame(ms += 16.7); return !!cols; };
 })();
 
-// The backdrop behind the portrait: code rain. Columns of random characters fall slowly down a near-black card,
-// violet with one brighter character at the head of each column. The pointer works like a torch: characters near it
-// light up pink and white, scramble, and show even where no column is passing; columns under it fall faster.
+// The backdrop behind the portrait: a near-black card with hidden code. Nothing shows until the pointer is over it.
+// The pointer works like a torch: the random characters near it light up pink and white and keep scrambling.
 (() => {
 'use strict';
 const canvas = document.querySelector('.portrait-back canvas'); if (!canvas) return;
@@ -142,22 +141,12 @@ function frame(dt) {
   if (mouse.k > .01) { const g = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, REACH); g.addColorStop(0, `rgba(255,63,164,${(.2 * mouse.k).toFixed(3)})`); g.addColorStop(1, 'rgba(255,63,164,0)'); // the torch's pool of light
     ctx.fillStyle = g; ctx.fillRect(mouse.x - REACH, mouse.y - REACH, REACH * 2, REACH * 2); }
   const near = (x, y) => mouse.k < .01 ? 0 : Math.max(0, 1 - Math.hypot(x - mouse.x, y - mouse.y) / REACH) * mouse.k; // 0 far from the pointer, 1 on it
-  for (let c = 0; c < cols.length; c++) { let k = cols[c]; const x = pad + c * CELL;
-    const under = mouse.k * Math.max(0, 1 - Math.abs(x - mouse.x) / (REACH * .7)); // columns under the pointer fall up to 2.5 times as fast
-    if (k.wait > 0) k.wait -= dt * (1 + under * 4);
-    else { k.head += k.speed * dt * (1 + under * 1.5); if (k.head - k.len > rows) k = cols[c] = column(false); }
-    const top = k.wait > 0 ? -999 : Math.floor(k.head);
-    // the torch: every character within reach of the pointer shows, lit and scrambling, whether or not a column is passing
+  for (let c = 0; c < cols.length; c++) { const k = cols[c], x = pad + c * CELL;
+    // the torch: every character within reach of the pointer shows, lit and scrambling. Nothing is drawn anywhere else.
     if (mouse.k > .01 && Math.abs(x - mouse.x) < REACH) { const r0 = Math.max(0, Math.floor((mouse.y - REACH) / CELL)), r1 = Math.min(rows, Math.ceil((mouse.y + REACH) / CELL));
-      for (let row = r0; row <= r1; row++) { const n = near(x, row * CELL + CELL / 2); if (n <= 0 || (row <= top && row > top - k.len)) continue;
+      for (let row = r0; row <= r1; row++) { const n = near(x, row * CELL + CELL / 2); if (n <= 0) continue;
         if (Math.random() < .12 * n) k.glyphs[row] = pick();
         ctx.fillStyle = `rgba(255,${Math.round(120 + 110 * n * n)},${Math.round(195 + 50 * n * n)},${Math.min(1, n * (.45 + .75 * n)).toFixed(3)})`; ctx.fillText(k.glyphs[row], x, row * CELL + CELL / 2); } }
-    for (let i = 0; i < k.len; i++) { const row = top - i; if (row < 0 || row > rows) continue; const y = row * CELL + CELL / 2, n = near(x, y);
-      if (Math.random() < .006 + .2 * n) k.glyphs[row] = pick(); // now and then a character changes; near the pointer, constantly
-      const fade = Math.pow(1 - i / k.len, 1.15);
-      ctx.fillStyle = i === 0 ? 'rgba(246,228,255,.95)' : n > .02 ? `rgba(${Math.round(168 + 87 * n)},${Math.round(128 + 100 * n * n)},${Math.round(255 - 40 * n * (1 - n))},${Math.min(1, fade * .78 + n * .7).toFixed(3)})`
-        : k.pink ? `rgba(255,99,180,${(fade * .8).toFixed(3)})` : `rgba(168,128,255,${(fade * .78).toFixed(3)})`;
-      ctx.fillText(k.glyphs[row], x, y); }
   }
 }
 let raf = 0, visible = false, last = 0;
