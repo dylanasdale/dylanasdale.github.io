@@ -1,4 +1,4 @@
-// Renders every shelf from /data/items.json. A shelf is any element with data-list="books|guides|projects|links".
+// Renders every shelf from /data/items.json. A shelf is any element with data-list="books|guides|projects|shop|links".
 // Optional: data-limit="3" shows the first N items; data-skip="id1,id2" hides items by id.
 // An item with "listFrom": "freebuilds" renders as a full-width card holding a collapsible index of that list.
 (() => {

@@ -148,6 +148,7 @@ h2 { font: 700 clamp(44px, 7vw, 108px)/.95 var(--display); letter-spacing: -.02e
 .card-art { position: relative; min-height: 250px; }
 .card-art::before { content: ''; position: absolute; inset: -10px; background: radial-gradient(circle, rgb(255 255 255 / .1) 1px, transparent 1.4px) 0 0 / 18px 18px; -webkit-mask: radial-gradient(closest-side, #000 25%, transparent); mask: radial-gradient(closest-side, #000 25%, transparent); }
 .card-art svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; transition: transform .7s var(--ease), filter .7s; }
+.card-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; border-radius: 18px; }
 .card:hover .card-art svg { transform: scale(1.06); filter: drop-shadow(0 0 16px color-mix(in srgb, var(--accent) 55%, transparent)); }
 .card-art .faint { fill: none; stroke: rgb(255 255 255 / .09); stroke-dasharray: 2 5; }
 .card-art .line { fill: none; stroke: color-mix(in srgb, var(--accent) 60%, transparent); stroke-width: 1.2; stroke-dasharray: 3 6; animation: art-flow 1.4s linear infinite; }

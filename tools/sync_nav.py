@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TOP_NAV = [
     ("/company/", "Company"),
     ("/products/", "Products"),
+    ("/shop/", "Shop"),
     ("/about/", "About"),
     ("/connect/", "Contact"),
     ("/ai-tools/", "AI Tools"),
@@ -35,6 +36,7 @@ TOP_NAV = [
 FOOTER_NAV = [
     ("/company/", "Company"),
     ("/products/", "Products"),
+    ("/shop/", "Shop"),
     ("/about/", "About"),
     ("/connect/", "Contact"),
     ("/ai-tools/", "AI Tools"),

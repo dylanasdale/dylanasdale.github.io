@@ -1,5 +1,43 @@
 {
   "_readme": "Everything on the shelves comes from this file. Add an object to a list and push; no build step. See README.md for every field.",
+  "shop": [
+    {
+      "id": "ai-manual-companion-pack",
+      "tag": "Download · $9",
+      "title": "AI Manual Companion Pack",
+      "subtitle": "A new field kit of 60 copy-paste prompts, six cheat sheets, eight checklists, and ten step-by-step workflows. Original material — not a reprint of The Massive AI Manual. PDF + Markdown.",
+      "meta": "$9 · PDF + Markdown",
+      "image": "/assets/img/shop/cover-companion-pack.webp",
+      "imageAlt": "Cover of the AI Manual Companion Pack",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "links": [
+        {
+          "label": "Buy for $9",
+          "href": "https://buy.stripe.com/eVqeVcemx5ce3RT9Kn0ZW02",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ai-command-center-kit",
+      "tag": "Download · $19",
+      "title": "AI Command Center Kit",
+      "subtitle": "A Notion-importable command center, three importable n8n workflows, two Make blueprints, and a setup guide you can run this week.",
+      "meta": "$19 · Notion + n8n + Make",
+      "image": "/assets/img/shop/cover-command-center.webp",
+      "imageAlt": "Cover of the AI Command Center Kit",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "links": [
+        {
+          "label": "Buy for $19",
+          "href": "https://buy.stripe.com/fZu7sK4LXcEG3RT8Gj0ZW03",
+          "primary": true
+        }
+      ]
+    }
+  ],
   "books": [
     {
       "id": "massive-ai-manual",
