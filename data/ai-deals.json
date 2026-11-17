@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-17T09:41:27.051Z",
- "contentHash": "ac7ff77592b0f11f",
+ "updatedAt": "2026-11-17T17:15:02.445Z",
+ "contentHash": "3ad47f5930759204",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -259,6 +259,23 @@
    "source": "The Courier",
    "firstSeenAt": "2026-11-02T21:53:30.148Z",
    "publishedAt": "2026-11-02T20:59:49.000Z"
+  },
+  {
+   "id": "61ec0ade12f6ec7f8ae4",
+   "kind": "deal",
+   "title": "Google’s Gemini Notebook Builds Sites Free; Lovable Pro: $25",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWXBoX0VOY1JiT3hXT2FHRHNQRGVMZ3YyaElMTU9WVTZ5UGVDbFJDZzIwa29XdEpzM0t2UC1kY2dlNFA2cUoxZWU2OXRaVDlLa3daM1JnWHdEMmZmVnYyN2lZNWlSN3NWZHpiSU8xdjNOYWhBN1NmY0xYcGliMzFrSXdVSTlIUlNac2RGLQ?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": "$25",
+   "vendor": null,
+   "approval": null,
+   "source": "FourWeekMBA",
+   "firstSeenAt": "2026-11-17T13:37:31.649Z",
+   "publishedAt": "2026-11-17T12:51:01.000Z"
   },
   {
    "id": "dedf2e3c1b5b15dc68d1",
@@ -565,23 +582,6 @@
    "source": "Hacker News",
    "firstSeenAt": "2026-10-22T20:38:16.296Z",
    "publishedAt": "2026-10-22T19:43:10.000Z"
-  },
-  {
-   "id": "a6d2a12025240dbe9362",
-   "kind": "deal",
-   "title": "Show HN: MeetCap – Free on-device meeting transcription your AI agent can run",
-   "summary": "MeetCap records your meetings, transcribes them on your computer, and works with your AI agent in both directions. Your agent can run it. In Claude Code, Codex or any agent that can load a skill, say \"record this meeting\" and the menu bar icon turns into a red dot. The agent…",
-   "url": "https://meetcap.seacen.dev",
-   "offerType": "free",
-   "offerTypeLabel": "Free access",
-   "price": null,
-   "originalPrice": null,
-   "value": null,
-   "vendor": null,
-   "approval": null,
-   "source": "Hacker News",
-   "firstSeenAt": "2026-11-01T04:57:24.906Z",
-   "publishedAt": "2026-10-18T13:21:48.000Z"
   }
  ],
  "programs": [
