@@ -242,5 +242,7 @@ function frame(ms) { tick(ms); if (!REDUCED) requestAnimationFrame(frame); }
 window.__step = (n = 60) => { let ms = performance.now(); for (let i = 0; i < n; i++) tick(ms += 16.7); return +window.__ms.toFixed(2); };
 const start = () => { document.body.classList.add('ready'); sizeTracks(); $$('.hero [data-scramble]').forEach((s) => setTimeout(() => scramble(s), 300)); setTimeout(measureLetters, REDUCED ? 0 : 2300); requestAnimationFrame(frame); };
 // Start when the fonts are in, or after 2.5 s at the latest so the loader can never get stuck.
+// Under reduced motion the pictures in the project cards hold still (their SMIL animations are not stopped by CSS).
+if (REDUCED) $$('.card-art svg').forEach((s) => s.pauseAnimations && s.pauseAnimations());
 Promise.race([document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve(), new Promise((r) => setTimeout(r, 2500))]).then(() => setTimeout(start, 350));
 })();
