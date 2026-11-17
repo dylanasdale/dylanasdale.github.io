@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-17T17:15:02.445Z",
- "contentHash": "3ad47f5930759204",
+ "updatedAt": "2026-11-17T23:15:02.072Z",
+ "contentHash": "e9e3daa37e97eb73",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -261,6 +261,23 @@
    "publishedAt": "2026-11-02T20:59:49.000Z"
   },
   {
+   "id": "219b9450d792805638fe",
+   "kind": "deal",
+   "title": "Google opens free access to Tasks AI mode — The Verge",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbk1mOUNXUy14aGpNblNYWC1hd3J6YWs1eGZud1hqMkNOdTBndXZXTTZMWVktcjc4YjgwTmRuRFdoSW1wVVZCRGJUS3VfY0R3d3NfNlo5X3VEYmR1YmpPRk9PVlRaNEdnX3REUWp4TWhxRkV3bGZtb0UwRWZ4dDdjUkJiM0NUemw4WmFGT2I4WGpwOXlkUzJ4WWNSTVcyZGZsV0E?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "UA.NEWS",
+   "firstSeenAt": "2026-11-17T19:40:36.377Z",
+   "publishedAt": "2026-11-17T19:09:58.000Z"
+  },
+  {
    "id": "61ec0ade12f6ec7f8ae4",
    "kind": "deal",
    "title": "Google’s Gemini Notebook Builds Sites Free; Lovable Pro: $25",
@@ -482,23 +499,6 @@
    "publishedAt": "2026-10-20T14:17:00.000Z"
   },
   {
-   "id": "6f2aca72a3fc44028770",
-   "kind": "deal",
-   "title": "Show HN: WhatsApp MCP running free on Cloudflare",
-   "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this.…",
-   "url": "https://github.com/finereli/whatsapp-mcp",
-   "offerType": "free",
-   "offerTypeLabel": "Free access",
-   "price": null,
-   "originalPrice": null,
-   "value": null,
-   "vendor": null,
-   "approval": null,
-   "source": "Hacker News",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": "2026-10-18T21:36:10.000Z"
-  },
-  {
    "id": "3e4b45e737223f49f35b",
    "kind": "deal",
    "title": "Call for Applications: Microsoft Imagine Cup 2027 Offers Startups $250,000 and Up to $1 Million in Startup Credits",
@@ -531,6 +531,23 @@
    "source": "Hacker News",
    "firstSeenAt": "2026-10-28T16:09:13.884Z",
    "publishedAt": "2026-10-28T08:18:29.000Z"
+  },
+  {
+   "id": "e69646dc2ce3cfd556d4",
+   "kind": "deal",
+   "title": "Show HN: Ask your AI before you renew any SaaS (free MCP server)",
+   "summary": "",
+   "url": "https://hissingkitty.com/developers",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Hacker News",
+   "firstSeenAt": "2026-11-17T17:39:35.313Z",
+   "publishedAt": "2026-11-17T16:47:30.000Z"
   },
   {
    "id": "4b3e1083d1f9c4b50f72",
