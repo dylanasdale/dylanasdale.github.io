@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-15T13:21:05.347Z",
- "contentHash": "c088ef9e62198b5f",
+ "updatedAt": "2026-11-17T09:41:27.051Z",
+ "contentHash": "ac7ff77592b0f11f",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -38,6 +38,23 @@
    "publishedAt": "2026-11-07T01:15:00.000Z"
   },
   {
+   "id": "e0a8f8426e3240c741ef",
+   "kind": "deal",
+   "title": "This AI Platform Gives You Lifetime Access To 20+ AI Models For A$81",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdE4wbFhEV2U4Wl9idmdBY0I4Q3o4dDA5c3lyMTVscHlyeTdPQWJoZG5DbHRtbW1wNmRqT3BJNkt2Zms3WC1Ra05qSXNqQUM1eC1sR25yQ1RaQy1zRmVYdmdqLTRFbnFheHNCRnhMbFptX0pUUVZtZWVVUXZXeDBQXy11YnBSV1dkNjVBVm5iWmhlNmVxSkZHTnJldnNuU2xaYnBkZkl3QQ?oc=5",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": null,
+   "originalPrice": null,
+   "value": "$81",
+   "vendor": null,
+   "approval": null,
+   "source": "Lifehacker",
+   "firstSeenAt": "2026-11-17T09:35:29.105Z",
+   "publishedAt": "2026-11-17T00:01:48.000Z"
+  },
+  {
    "id": "0ee2c481f8b6d9e9fd53",
    "kind": "deal",
    "title": "Compare 20+ AI models side by side for $63 with this lifetime deal",
@@ -53,23 +70,6 @@
    "source": "Macworld",
    "firstSeenAt": "2026-11-09T16:18:50.162Z",
    "publishedAt": "2026-11-09T07:49:17.000Z"
-  },
-  {
-   "id": "adb9021790bd8fe2b82c",
-   "kind": "deal",
-   "title": "This AI Platform Gives You Lifetime Access To 20+ AI Models For A$112",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSmx1SU5TMHhPV2dhMW83VGQ1S3kwSmgxOGJrSDBOSDhoTVozLW96RkYzVWVjXy1oNUxZakRyRFp1bUNmazh5cnhWNlRRdGt5VWw2MkVsc0NVMUx2VVR0REw4d2MxNkRrT3R2Uzh1WUk1NU10U2VQZjJvZUVINWl1dnFDN0loVVZzaEN6VkhuWGU5R0dvQ2Q0WGZUVmlVQlVibWotRVc4UHk?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$112",
-   "vendor": null,
-   "approval": null,
-   "source": "Lifehacker",
-   "firstSeenAt": "2026-11-08T02:40:17.392Z",
-   "publishedAt": "2026-11-08T00:01:55.000Z"
   },
   {
    "id": "dd272eed366be6a40e73",
@@ -104,91 +104,6 @@
    "source": "9to5Toys",
    "firstSeenAt": "2026-11-05T19:50:43.903Z",
    "publishedAt": "2026-11-05T19:00:00.000Z"
-  },
-  {
-   "id": "ddac5535d0c56087fb86",
-   "kind": "deal",
-   "title": "Get Lifetime Access to Your Favorite AI Tools for Just $70 Ahead of Black Friday While This 1min.AI Deal Lasts",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KZERnVWpTQjhpckoyUmpKaWpGOFdJTDZuNTNyYWVOeXRVMTJEOUdRa09NQUZuaE45WlcxSnlmUGcwbFhUOW5YUEdqY2dTSWhibzhtWUZFblc2T3YyTWF3OHVGXzlzaDRROWFCeVNOVGFKdC15cmpaR2VGOFA?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$70",
-   "vendor": null,
-   "approval": null,
-   "source": "CNET",
-   "firstSeenAt": "2026-11-01T19:57:45.975Z",
-   "publishedAt": "2026-11-01T17:25:00.000Z"
-  },
-  {
-   "id": "5a7eae75b76fd41094fe",
-   "kind": "deal",
-   "title": "Kortex: lifetime deal — $49",
-   "summary": "Capture AI chats, export sources, and automate NotebookLM workflows from one Chrome extension Rated 3.6/5 by 25 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/kortex/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 99,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-23T19:50:08.064Z",
-   "publishedAt": null
-  },
-  {
-   "id": "b9464986046457d10f6c",
-   "kind": "deal",
-   "title": "Flow AI: lifetime deal — $69",
-   "summary": "Find qualified leads, run automated LinkedIn outreach, and centralize replies in one platform Rated 4.9/5 by 103 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/flow-ai/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 69,
-   "originalPrice": 960,
-   "value": "$69",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T16:36:23.183Z",
-   "publishedAt": null
-  },
-  {
-   "id": "782735af6057f793ecfb",
-   "kind": "deal",
-   "title": "Hedy AI: lifetime deal — $179",
-   "summary": "Your AI-powered assistant for navigating professional conversations with confidence Rated 4.8/5 by 224 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/hedy-ai/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 179,
-   "originalPrice": 299,
-   "value": "$179",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T16:36:23.183Z",
-   "publishedAt": null
-  },
-  {
-   "id": "c42eaada75a9e7d08f1c",
-   "kind": "deal",
-   "title": "AnyChat: lifetime deal — $49",
-   "summary": "Connect with WhatsApp, Messenger, Instagram, and more using this all-in-one AI-powered tool for customer support Rated 4.8/5 by 154 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/anychat/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 108,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-10-22T16:36:23.183Z",
-   "publishedAt": null
   }
  ],
  "free": [
@@ -344,6 +259,23 @@
    "source": "The Courier",
    "firstSeenAt": "2026-11-02T21:53:30.148Z",
    "publishedAt": "2026-11-02T20:59:49.000Z"
+  },
+  {
+   "id": "dedf2e3c1b5b15dc68d1",
+   "kind": "deal",
+   "title": "Actor from \"Kupala\" releases AI film that brought him $450,000 for free access",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DVmZRdHk2QlBiYkEwb1hfa0ozRTZQZU1EQm42VjdRNWpESy01dmZBOGZDY0VNZHdrTHZFMHIxQVhlLW43cUHSAUtBVV95cUxNNDktXzFYSF9Sdi1WcVlBcFlBdE9GM056enMtU0ZTSXowV0xrSjIxZG9XYXlfbVdjWU5GNHQzSXVJZ2pRemJhd0E3cWM?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": "$450,000",
+   "vendor": null,
+   "approval": null,
+   "source": "Наша Ніва",
+   "firstSeenAt": "2026-11-15T21:25:59.787Z",
+   "publishedAt": "2026-11-15T07:47:17.000Z"
   },
   {
    "id": "d2bfc2761ce3bd1ae501",
@@ -650,23 +582,6 @@
    "source": "Hacker News",
    "firstSeenAt": "2026-11-01T04:57:24.906Z",
    "publishedAt": "2026-10-18T13:21:48.000Z"
-  },
-  {
-   "id": "0bd84b4a3011ce0f5d3a",
-   "kind": "deal",
-   "title": "Show HN: I built a free collection of browser-based 3D tools",
-   "summary": "I built 3DValley, a collection of free tools for generating and editing 3D models. You can turn images into 3D models using AI, retexture existing models, remesh geometry, and use other 3D utilities. Some tools run entirely in your browser, while the more computationally…",
-   "url": "https://3dvalley.com",
-   "offerType": "credits",
-   "offerTypeLabel": "Credits",
-   "price": null,
-   "originalPrice": null,
-   "value": null,
-   "vendor": null,
-   "approval": null,
-   "source": "Hacker News",
-   "firstSeenAt": "2026-10-22T14:35:11.982Z",
-   "publishedAt": "2026-10-17T06:29:17.000Z"
   }
  ],
  "programs": [
