@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /f/
 
 Sitemap: https://asdaledynamics.com/sitemap.xml
