@@ -36,6 +36,24 @@
           "primary": true
         }
       ]
+    },
+    {
+      "id": "kdp-self-publishing-toolkit",
+      "tag": "Download · $29",
+      "title": "KDP Self-Publishing Toolkit",
+      "subtitle": "A Markdown-to-KDP book builder that makes your paperback interior PDF, Kindle EPUB, and full cover wrap, plus a no-install listing app for titles, descriptions, keywords, and the AI-disclosure questions. Includes a sample build.",
+      "meta": "$29 · Python CLI + browser app",
+      "image": "/assets/img/shop/cover-kdp-toolkit.webp",
+      "imageAlt": "Cover of the KDP Self-Publishing Toolkit",
+      "imageWidth": 800,
+      "imageHeight": 800,
+      "links": [
+        {
+          "label": "Buy for $29",
+          "href": "https://buy.stripe.com/6oU6oGbal6giaghg8L0ZW04",
+          "primary": true
+        }
+      ]
     }
   ],
   "books": [
