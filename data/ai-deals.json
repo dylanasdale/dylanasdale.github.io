@@ -1,8 +1,25 @@
 {
- "updatedAt": "2026-11-21T23:15:02.640Z",
- "contentHash": "65326b88a0e8b6ae",
+ "updatedAt": "2026-11-22T05:15:02.048Z",
+ "contentHash": "c14207053b899e13",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
+  {
+   "id": "b47097087666cfb7abfa",
+   "kind": "deal",
+   "title": "A New AI Bundle Gives You Lifetime Access to GPT, Claude, and More For A$66",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTU2cE9DRy00eW1HQ083SWUyX29tU0JsRjVhZ2tNNzd4MzQyNGNYMzdXT3BjUHAxZUtNQWZQdk1xcWZyNlpKeDRQRVh6eElvMVRlbjZidmhBMWZxMzFrS0VZVDdtc2p0Q2hRYWdqRG1LUFBpcFFSQ3c1VHZyQ0RhNkRBaU9id3FzRlpIbm9kcEN3cEtHSlB2OFZnTldOYXZ0RkNuWnJJeG5jNkVOZW5V?oc=5",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": null,
+   "originalPrice": null,
+   "value": "$66",
+   "vendor": null,
+   "approval": null,
+   "source": "Lifehacker",
+   "firstSeenAt": "2026-11-22T02:27:17.479Z",
+   "publishedAt": "2026-11-22T00:02:05.000Z"
+  },
   {
    "id": "7ed1d68c1e85f862727b",
    "kind": "deal",
@@ -104,6 +121,23 @@
    "source": "Macworld",
    "firstSeenAt": "2026-11-09T16:18:50.162Z",
    "publishedAt": "2026-11-09T07:49:17.000Z"
+  },
+  {
+   "id": "dc26c93042e437212b86",
+   "kind": "deal",
+   "title": "Formaloo: lifetime deal — $99",
+   "summary": "Create no-code forms, client portals, and business apps, then let AI agents automate what comes next Rated 4.6/5 by 199 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/formaloo/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 99,
+   "originalPrice": 684,
+   "value": "$99",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T01:26:46.541Z",
+   "publishedAt": null
   },
   {
    "id": "abb00a48a1cd98877aee",
@@ -259,23 +293,6 @@
    "publishedAt": null
   },
   {
-   "id": "31096ffc6468ed7901da",
-   "kind": "deal",
-   "title": "CluGTM (formerly Cleanlist AI): lifetime deal — $89",
-   "summary": "Search 1B+ profiles, enrich from 25+ providers, and research leads with AI in one GTM platform Rated 4.7/5 by 133 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/clugtm/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 89,
-   "originalPrice": 600,
-   "value": "$89",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-19T05:17:29.929Z",
-   "publishedAt": null
-  },
-  {
    "id": "2f8c786cf478880a2a74",
    "kind": "deal",
    "title": "Dialora: lifetime deal — $59",
@@ -344,6 +361,23 @@
    "publishedAt": null
   },
   {
+   "id": "31096ffc6468ed7901da",
+   "kind": "deal",
+   "title": "CluGTM (formerly Cleanlist AI): lifetime deal — $89",
+   "summary": "Search 1B+ profiles, enrich from 25+ providers, and research leads with AI in one GTM platform Rated 4.7/5 by 133 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/clugtm/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 89,
+   "originalPrice": 600,
+   "value": "$89",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-19T05:17:29.929Z",
+   "publishedAt": null
+  },
+  {
    "id": "3d98f81cc99415364a44",
    "kind": "deal",
    "title": "Press Ranger: lifetime deal — $74",
@@ -393,6 +427,23 @@
    "source": "Christian County Now",
    "firstSeenAt": "2026-11-20T00:23:35.390Z",
    "publishedAt": "2026-11-17T20:57:16.000Z"
+  },
+  {
+   "id": "a6159292ddf69bbf0d97",
+   "kind": "deal",
+   "title": "Rerun — AI Coworkers: lifetime deal — $119",
+   "summary": "Turn your subscription plan or AI API key into Capable Coworkers Rated 4.9/5 by 15 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/rerun/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 119,
+   "originalPrice": 348,
+   "value": "$119",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T01:26:46.541Z",
+   "publishedAt": null
   },
   {
    "id": "62450730d47c052f4272",
