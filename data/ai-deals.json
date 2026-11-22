@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-22T17:15:02.047Z",
- "contentHash": "dc5bf2da376bb5c7",
+ "updatedAt": "2026-11-22T23:15:01.999Z",
+ "contentHash": "189958b57b64e68c",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -36,6 +36,23 @@
    "source": "CNET",
    "firstSeenAt": "2026-11-09T21:21:24.943Z",
    "publishedAt": "2026-11-09T21:06:30.000Z"
+  },
+  {
+   "id": "69cd8bad58bb959f18ce",
+   "kind": "deal",
+   "title": "reap: lifetime deal — $79",
+   "summary": "Clip, caption, dub, and edit videos with an AI video editor—right from Claude, ChatGPT, or Cursor Rated 4.4/5 by 78 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/reap/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 79,
+   "originalPrice": 1740,
+   "value": "$79",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T21:37:08.137Z",
+   "publishedAt": null
   },
   {
    "id": "879111cd4a1e8489f406",
@@ -138,6 +155,23 @@
    "source": "Macworld",
    "firstSeenAt": "2026-11-09T16:18:50.162Z",
    "publishedAt": "2026-11-09T07:49:17.000Z"
+  },
+  {
+   "id": "86348e1a6215bb85258b",
+   "kind": "deal",
+   "title": "Nexter: lifetime deal — $59",
+   "summary": "Launch WordPress sites fast with 120+ AI Gutenberg blocks, 1600+ templates, and a no-code theme builder Rated 4.7/5 by 112 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/nexter/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 59,
+   "originalPrice": 299,
+   "value": "$59",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T19:36:01.222Z",
+   "publishedAt": null
   },
   {
    "id": "d5b5b4af80ca13701923",
@@ -463,6 +497,23 @@
    "publishedAt": "2026-11-17T20:57:16.000Z"
   },
   {
+   "id": "c48b2db39ded582d8830",
+   "kind": "deal",
+   "title": "Jupitrr AI: lifetime deal — $59",
+   "summary": "Automatically transform your talking head videos into social clips with AI Rated 4.4/5 by 213 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/jupitrr-alt/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 59,
+   "originalPrice": 216,
+   "value": "$59",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T18:35:35.322Z",
+   "publishedAt": null
+  },
+  {
    "id": "a6159292ddf69bbf0d97",
    "kind": "deal",
    "title": "Rerun — AI Coworkers: lifetime deal — $119",
@@ -548,6 +599,23 @@
    "source": "Social Samosa",
    "firstSeenAt": "2026-11-03T21:20:25.409Z",
    "publishedAt": "2026-11-03T10:01:28.000Z"
+  },
+  {
+   "id": "a97929153fb2b0becce8",
+   "kind": "deal",
+   "title": "UC gives students free access to ChatGPT. Faculty say OpenAI deal is ‘unwise’",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUnVjZmRnYXJRcWdVM3lrQUh3R0NDQ2hXckhkdkdiVWlTbHRIbGJ2SHNEMS1YQ2NvVEhoSUN1REpiZWRvQUFoOVVtZzVvaE9wWmo4a29VOG1WTXJ6ZENoU2t2cmFjV1hPdFpqSDlKSy1WWW5LTXdlWGVoblVMY0J5bUZXUEt2SVXSAY8BQVVfeXFMUDdMdHFOY2VaY2Rla3NjRFpyME5qRVJPUllJOWpCSWNYSWxtQ3d6SUNBZ3ZHMEg5MmZxdnpldDQtLVFaRzhicnZaN3lTY2ZqdXhncVlhVmJKU0RaaXI3TFBuenp0YS1sLWxrcTJYQkdQWFh3dS1VbHRZRHV4OVZQckZvcy05NHB5eS1xRWljNEE?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "EdSource",
+   "firstSeenAt": "2026-11-22T17:35:04.342Z",
+   "publishedAt": "2026-11-21T02:03:38.000Z"
   },
   {
    "id": "712628a97457e73d96d8",
