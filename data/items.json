@@ -3561,6 +3561,96 @@
       ]
     },
     {
+      "id": "github-actions-starter-kit",
+      "tag": "Free",
+      "free": true,
+      "title": "GitHub Actions Starter Kit",
+      "subtitle": "Five workflows you can copy into any repository, each one commented line-by-line so you understand every word you're borrowing — plus tests that prove the files actually work before you ever meet them:",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/github-actions-starter-kit",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "adhd-task-paralysis-handbook",
+      "tag": "Free",
+      "free": true,
+      "title": "The ADHD Task Paralysis Handbook",
+      "subtitle": "A gentle, low-shame manual for getting unstuck when a task will not start — the five-minute doorway trick, body doubling, timers that help (and one that hurts), visible progress cards, and AI nudges that actually help.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/adhd-task-paralysis-handbook",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "api-keys-plain-english-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "API Keys, Explained Like a Friend Would",
+      "subtitle": "A free, beginner-friendly manual about the word \"API\" and everything around it — base URLs, API keys, local Ollama, rate limits, environment variables, and reading provider documentation — written in plain English…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/api-keys-plain-english-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "free-cheap-phone-plans-directory",
+      "tag": "Free",
+      "free": true,
+      "title": "Free & Cheap Phone Plans Directory",
+      "subtitle": "A plain-English, no-affiliate directory of ways to pay less for phone service in the United States: prepaid carriers and MVNOs, Lifeline and other government programs, senior discounts, veteran and military…",
+      "meta": "Directory · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/free-cheap-phone-plans-directory",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "markdown-manual-site-template",
+      "tag": "Free",
+      "free": true,
+      "title": "markdown-manual-site-template",
+      "subtitle": "Build a beginner-book website from plain Markdown chapters — with one script, zero dependencies, and no network needed at build time.",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/markdown-manual-site-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nature-id-with-ai-guide",
+      "tag": "Free",
+      "free": true,
+      "title": "Nature ID with AI: A Friend-on-the-Porch Guide",
+      "subtitle": "A beginner-friendly, plain-English guide to identifying the plants, birds, mushrooms, and bugs you meet in your backyard using AI photo apps — without getting fooled by confident wrong answers, and without ever…",
+      "meta": "Guide · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nature-id-with-ai-guide",
+          "primary": true
+        }
+      ]
+    },
+    {
       "id": "low-energy-chore-planner",
       "tag": "Free",
       "free": true,
@@ -7485,6 +7575,334 @@
         {
           "label": "View on GitHub",
           "href": "https://github.com/OpenCode-Projects-AtlasRearden8/chess-swiss-pairings-webapp"
+        }
+      ]
+    },
+    {
+      "id": "python-cli-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "llc-cli-template",
+      "subtitle": "This repository gives you a working command-line tool (todolist, a small TODO list) written in the exact pattern every future LLC CLI should follow.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/python-cli-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "author-site-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Author Site Starter Template — zero JavaScript, buildless, GitHub Pages ready",
+      "subtitle": "A copy-ready website for authors: a landing page, a books grid with buy-link slots, a newsletter signup placeholder, about and contact pages, one shared stylesheet with a large-print-friendly default, a copy-paste…",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/author-site-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "csv-to-table-site-template",
+      "tag": "Free",
+      "free": true,
+      "title": "csv-to-table-site-template",
+      "subtitle": "Turn a plain spreadsheet (CSV) into a small, searchable, sortable website.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/csv-to-table-site-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "printables-pack-starter-template",
+      "tag": "Free",
+      "free": true,
+      "title": "Printables Pack Starter Template (free--pack pattern)",
+      "subtitle": "Copies cleanly into new free--pack repositories: rename the folder, edit pack.ini, and you have a working, tested printable pack.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/printables-pack-starter-template",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "agent-skill-starter",
+      "tag": "Free",
+      "free": true,
+      "title": "Agent Skill Starter",
+      "subtitle": "A friendly, fully offline template for building agent skills - small folders that teach an agent one job, once and well.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/agent-skill-starter",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "everyday-agent-skills-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "Everyday Agent Skills Pack",
+      "subtitle": "Six small, well-tested agent skills for daily life: weekly planning, appointments, kind letters, bills, learning, and messy folders.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/everyday-agent-skills-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-gear-planner-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "FFXIV Gear Set Planner",
+      "subtitle": "An offline, local-first web app for planning Final Fantasy XIV gear sets, one job at a time.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-gear-planner-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-hunt-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "The Huntsman's Ledger",
+      "subtitle": "An offline, single-file hunt-train tracker for Final Fantasy XIV — an unofficial fan tool with manual entries only.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-hunt-tracker-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "ffxiv-squadron-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Squadron Ledger — FFXIV Grand Company Squadron Tracker",
+      "subtitle": "An offline, single-file webapp for managing your Final Fantasy XIV adventurer squadron: recruit stat growth, training plans, squadron-mission rosters, command-mission parties, and Grand Company promotion milestones.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/ffxiv-squadron-tracker-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "folder-to-prompt-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "folder-to-prompt",
+      "subtitle": "Pack a code or notes folder into a single, token-budgeted Markdown file for pasting into any LLM.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/folder-to-prompt-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "front-matter-builder-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "front-matter-builder-cli",
+      "subtitle": "Build a book's front matter from plain options: a styled title page, a copyright page with a configurable year and contact line, a dedication, and an epigraph.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/front-matter-builder-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "game-backlog-tracker-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Pile of Shame Tracker",
+      "subtitle": "1.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/game-backlog-tracker-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "gear-serial-inventory-webapp",
+      "tag": "Free",
+      "free": true,
+      "title": "Gear & Serial Inventory",
+      "subtitle": "An offline, single-file web app for building an insurance-ready home gear inventory.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/gear-serial-inventory-webapp",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "gift-stash-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "Gift Stash Mcp Server",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/gift-stash-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "image-resize-batch-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "imgbatch — image resize + convert, batch style",
+      "subtitle": "Batch-resize and convert images for the web, KDP cover mockups, and email — in one offline command.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/image-resize-batch-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "kdp-series-audit-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "kdp-series-audit-cli",
+      "subtitle": "Audit an Amazon KDP book series from a CSV file and get a prioritized fix-list report you can work through before you publish.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/kdp-series-audit-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "llm-config-linter-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "llm-config-lint",
+      "subtitle": "Sanity-check the config files your local-AI tools share - before they waste your evening.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/llm-config-linter-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "local-llm-usage-ledger-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "usageledger — local LLM usage ledger CLI",
+      "subtitle": "A Python CLI that keeps an honest ledger of your local-AI usage.",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/local-llm-usage-ledger-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "med-math-drill-cli",
+      "tag": "Free",
+      "free": true,
+      "title": "Med Math Drill Cli",
+      "meta": "CLI · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/med-math-drill-cli",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "nursing-study-agent-skills-pack",
+      "tag": "Free",
+      "free": true,
+      "title": "nursing-study-agent-skills-pack",
+      "subtitle": "Plain-English agent skills for nursing students and studying RNs — the kind of study help a friend would give you before your dose-calc exam, not your actual clinical shift.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/nursing-study-agent-skills-pack",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "packing-list-mcp-server",
+      "tag": "Free",
+      "free": true,
+      "title": "packing-list-mcp-server",
+      "subtitle": "A small, local-first MCP (Model Context Protocol) server that keeps reusable packing lists in a plain JSON file on your own machine.",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/packing-list-mcp-server",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": "url-to-clean-text",
+      "tag": "Free",
+      "free": true,
+      "title": "url-to-clean-text",
+      "subtitle": "It is the missing bridge between \"this article is buried under cookie banners\" and \"here is exactly the content I want the model to read.\"",
+      "meta": "App · Free · Built with OpenCode",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "href": "https://github.com/OpenCode-Projects-AtlasRearden8/url-to-clean-text",
+          "primary": true
         }
       ]
     }
