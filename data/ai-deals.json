@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-22T11:15:02.248Z",
- "contentHash": "16d280f05a9c9015",
+ "updatedAt": "2026-11-22T17:15:02.047Z",
+ "contentHash": "dc5bf2da376bb5c7",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -138,6 +138,23 @@
    "source": "Macworld",
    "firstSeenAt": "2026-11-09T16:18:50.162Z",
    "publishedAt": "2026-11-09T07:49:17.000Z"
+  },
+  {
+   "id": "d5b5b4af80ca13701923",
+   "kind": "deal",
+   "title": "Mootion: lifetime deal — $79",
+   "summary": "Turn ideas, text, images, and audio into stunning videos with this user-friendly AI video generator Rated 3.8/5 by 153 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/mootion/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 79,
+   "originalPrice": 144,
+   "value": "$79",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-22T16:34:33.408Z",
+   "publishedAt": null
   },
   {
    "id": "dc26c93042e437212b86",
