@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-22T05:15:02.048Z",
- "contentHash": "c14207053b899e13",
+ "updatedAt": "2026-11-22T11:15:02.248Z",
+ "contentHash": "16d280f05a9c9015",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -53,6 +53,23 @@
    "source": "Boing Boing",
    "firstSeenAt": "2026-11-21T12:20:00.534Z",
    "publishedAt": "2026-11-19T22:00:00.000Z"
+  },
+  {
+   "id": "636b83a1772662132bcb",
+   "kind": "deal",
+   "title": "Higgsfield AI Black Friday (NOV. 2026) – 63% OFF Deals LIVE",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVDVsM21Hcy1obVBsYTNqYmhGcnpaYzluYTRaUmxpVndHWk9PZ1QwV2pFdzFESC05YS1DeUFYbDlxYk5KS3FaNHU5TWVEcEIzS1BYWmxETmJXVkpXQV9qVA?oc=5",
+   "offerType": "discount",
+   "offerTypeLabel": "Discount",
+   "price": null,
+   "originalPrice": null,
+   "value": "63% off",
+   "vendor": null,
+   "approval": null,
+   "source": "DemandSage",
+   "firstSeenAt": "2026-11-22T08:30:25.835Z",
+   "publishedAt": "2026-11-21T21:24:33.000Z"
   },
   {
    "id": "8a639848873b9d54bd9d",
