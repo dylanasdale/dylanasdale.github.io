@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-22T23:15:01.999Z",
- "contentHash": "189958b57b64e68c",
+ "updatedAt": "2026-11-23T05:15:02.507Z",
+ "contentHash": "b380c38f094a38b8",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -104,23 +104,6 @@
    "source": "Mashable",
    "firstSeenAt": "2026-11-21T13:20:35.374Z",
    "publishedAt": "2026-11-21T10:39:19.000Z"
-  },
-  {
-   "id": "d3da4df192af9b5a80ea",
-   "kind": "deal",
-   "title": "AutomateNexus CRM: lifetime deal — $49",
-   "summary": "AI CRM for small businesses and agencies, with agents that draft your follow-ups Rated 4.2/5 by 6 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/automatenexus-crm-175304e9/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 588,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-20T01:24:01.276Z",
-   "publishedAt": null
   },
   {
    "id": "e0a8f8426e3240c741ef",
@@ -293,23 +276,6 @@
    "publishedAt": null
   },
   {
-   "id": "11ce30d395fe78c5b7a2",
-   "kind": "deal",
-   "title": "Amical: lifetime deal — $49",
-   "summary": "Turn speech into polished text in any app—with local or cloud AI and support for 100+ languages Rated 4.7/5 by 115 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/amical/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 49,
-   "originalPrice": 180,
-   "value": "$49",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-20T01:24:01.276Z",
-   "publishedAt": null
-  },
-  {
    "id": "b5e828a05c28a6e2883f",
    "kind": "deal",
    "title": "DM Champ: lifetime deal — $59",
@@ -395,23 +361,6 @@
    "publishedAt": null
   },
   {
-   "id": "2d21056ed717fc37ce11",
-   "kind": "deal",
-   "title": "Lety.ai: lifetime deal — $69",
-   "summary": "Sell white-label AI agents with an agentic CRM, 900+ MCP integrations, and subscription billing Rated 5.0/5 by 1 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/lety-ai/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 69,
-   "originalPrice": 299.01,
-   "value": "$69",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-19T05:17:29.929Z",
-   "publishedAt": null
-  },
-  {
    "id": "d731b0a19f0959980326",
    "kind": "deal",
    "title": "Boost.space AgentOS: lifetime deal — $89",
@@ -422,6 +371,23 @@
    "price": 89,
    "originalPrice": 299,
    "value": "$89",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-11-19T05:17:29.929Z",
+   "publishedAt": null
+  },
+  {
+   "id": "2d21056ed717fc37ce11",
+   "kind": "deal",
+   "title": "Lety.ai: lifetime deal — $69",
+   "summary": "Sell white-label AI agents with an agentic CRM, 900+ MCP integrations, and subscription billing Rated 5.0/5 by 1 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/lety-ai/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 69,
+   "originalPrice": 299.01,
+   "value": "$69",
    "vendor": null,
    "approval": null,
    "source": "AppSumo",
@@ -446,23 +412,6 @@
    "publishedAt": null
   },
   {
-   "id": "3d98f81cc99415364a44",
-   "kind": "deal",
-   "title": "Press Ranger: lifetime deal — $74",
-   "summary": "Use AI to find and pitch journalists, publishers, and podcasts to generate good press coverage Rated 4.6/5 by 145 AppSumo reviewers.",
-   "url": "https://appsumo.com/products/press-ranger/",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": 74,
-   "originalPrice": 500,
-   "value": "$74",
-   "vendor": null,
-   "approval": null,
-   "source": "AppSumo",
-   "firstSeenAt": "2026-11-19T05:17:29.929Z",
-   "publishedAt": null
-  },
-  {
    "id": "21684173df2c89362925",
    "kind": "deal",
    "title": "Webclaw: lifetime deal — $59",
@@ -477,6 +426,23 @@
    "approval": null,
    "source": "AppSumo",
    "firstSeenAt": "2026-10-28T17:09:43.382Z",
+   "publishedAt": null
+  },
+  {
+   "id": "b9464986046457d10f6c",
+   "kind": "deal",
+   "title": "Flow AI: lifetime deal — $69",
+   "summary": "Find qualified leads, run automated LinkedIn outreach, and centralize replies in one platform Rated 4.9/5 by 103 AppSumo reviewers.",
+   "url": "https://appsumo.com/products/flow-ai/",
+   "offerType": "lifetime",
+   "offerTypeLabel": "Lifetime deal",
+   "price": 69,
+   "originalPrice": 960,
+   "value": "$69",
+   "vendor": null,
+   "approval": null,
+   "source": "AppSumo",
+   "firstSeenAt": "2026-10-22T16:36:23.183Z",
    "publishedAt": null
   },
   {
@@ -549,6 +515,23 @@
   }
  ],
  "free": [
+  {
+   "id": "38936bf06c55d9067ee2",
+   "kind": "deal",
+   "title": "Google adds GIF creation to Gemini, with free access in eight countries",
+   "summary": "",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ205RjkyckY4Tk5vNlA4M3FEUXlwVnY0VGd6dEl6a2ItWUFQa1RFR05HNGZfekR6S1BiSlJlaFg2Szd0T2hSRWkzNFJTNDRodlIzcVhQN1RFMDV5N0JBWWRjUXdNNXBaUFVWX3JQLWpEdmZFUDVkckM0Y2tlQW4yRUFmXzUwOVlka0NVZTdBbHdZSDMwNlZvYnlqS0x2cWVrNE5oYXpBcU56WmZLZkE?oc=5",
+   "offerType": "free",
+   "offerTypeLabel": "Free access",
+   "price": null,
+   "originalPrice": null,
+   "value": null,
+   "vendor": null,
+   "approval": null,
+   "source": "Business Upturn",
+   "firstSeenAt": "2026-11-23T00:38:41.139Z",
+   "publishedAt": "2026-11-22T03:29:49.000Z"
+  },
   {
    "id": "3ce07d5a174451f6b3b9",
    "kind": "deal",
