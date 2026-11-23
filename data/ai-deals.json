@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-23T05:15:02.507Z",
- "contentHash": "b380c38f094a38b8",
+ "updatedAt": "2026-11-23T11:15:01.974Z",
+ "contentHash": "ec1794eec46d314c",
  "page": "https://asdaledynamics.com/ai-deals/",
  "deals": [
   {
@@ -121,23 +121,6 @@
    "source": "Lifehacker",
    "firstSeenAt": "2026-11-17T09:35:29.105Z",
    "publishedAt": "2026-11-17T00:01:48.000Z"
-  },
-  {
-   "id": "0ee2c481f8b6d9e9fd53",
-   "kind": "deal",
-   "title": "Compare 20+ AI models side by side for $63 with this lifetime deal",
-   "summary": "",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb1luUk01eGFVbUVSaHpWTnRuM1YxWDM3T0l0SmxFZmJoTWxjU2tLUkljc2tGd2F4a2g1TzJWbE5FRktwRnRXWUpJdTloZXd0ejc2eFUyRmlBRFhkZUlYMGNvVnVvWmtLWDNtbzk4V1A4RXVnRG1Yd2FuWE04V3NhZDlNMTJMMEJkQUxCTGFYeGlNQ0M3U3FfdGNvYmZWT0Nibld6R2Y3MWIwODlIZW1R?oc=5",
-   "offerType": "lifetime",
-   "offerTypeLabel": "Lifetime deal",
-   "price": null,
-   "originalPrice": null,
-   "value": "$63",
-   "vendor": null,
-   "approval": null,
-   "source": "Macworld",
-   "firstSeenAt": "2026-11-09T16:18:50.162Z",
-   "publishedAt": "2026-11-09T07:49:17.000Z"
   },
   {
    "id": "86348e1a6215bb85258b",
